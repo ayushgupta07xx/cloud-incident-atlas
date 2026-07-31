@@ -535,7 +535,7 @@
       "stats_note": null
     }
   },
-  "generated_at": "2026-07-31T00:51:52.004685+00:00",
+  "generated_at": "2026-07-31T01:25:32.724699+00:00",
   "last_30_days": {
     "by_provider": {
       "circleci": 11,
@@ -557,11 +557,11 @@
       "sentry": 12,
       "snowflake": 4,
       "supabase": 24,
-      "twilio": 335,
+      "twilio": 334,
       "vercel": 15,
       "zoom": 38
     },
-    "incident_count": 810,
+    "incident_count": 809,
     "major_or_worse": 80,
     "window_days": 30
   },

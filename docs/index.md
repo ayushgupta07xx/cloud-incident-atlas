@@ -4,7 +4,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,284 incidents**. Updat
 
 ## Last 30 days
 
-- Incidents recorded: **810**
+- Incidents recorded: **809**
 - Major or worse: **80**
 
 ## Reliability by provider (all time)
@@ -36,10 +36,9 @@ Cross-vendor incident data for 24 providers. Corpus: **22,284 incidents**. Updat
 | Vercel | paas | 372 | 74m | 366m |
 | Zoom | comms | 128 | 229m | 5830m |
 
-## Updated since last run (2)
+## Updated since last run (1)
 
-- **Twilio** — Voice Call Failures and Dialing Delays from a Subset of Twilio Phone Numbers to Multiple Networks in Brazil → `identified`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Mobile Numbers to Claro Nework in Colombia → `identified`
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Phone Numbers to C+W LIME Cayman Islands → `identified`
 
 ---
 

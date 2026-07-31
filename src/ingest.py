@@ -26,7 +26,7 @@ import yaml
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 
-from src import health, metrics, providers
+from src import health, metrics, providers, site
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -228,6 +228,11 @@ def main() -> int:
 
     DOCS.mkdir(parents=True, exist_ok=True)
     (DOCS / "index.md").write_text(render_digest(summary, new, changed))
+
+    # Regenerate the rest of the site content too. These pages are also built
+    # during the Pages deploy, but committing them keeps the repo copy in step
+    # with the published site rather than frozen at whenever they last ran.
+    site.main()
 
     log.info("wrote corpus, summary, daily delta, digest")
     return 0
