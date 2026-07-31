@@ -1,0 +1,76 @@
+name: Daily incident ingest
+
+on:
+  schedule:
+    # 06:12 UTC = 11:42 IST. Off-the-hour on purpose: hourly cron slots are
+    # heavily contended on GitHub's shared runners and get queued or dropped.
+    - cron: "12 6 * * 1,2,3,4,5,6"
+  workflow_dispatch:
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch and normalize provider feeds
+        run: python -m src.ingest
+
+      - name: Commit if upstream data changed
+        env:
+          # These must be YOUR account identity or the commit will not appear
+          # on your contribution graph. Use the noreply alias from
+          # github.com/settings/emails to avoid publishing your real address.
+          GIT_AUTHOR_NAME: Ayush Gupta
+          GIT_AUTHOR_EMAIL: ${{ vars.COMMIT_EMAIL }}
+          GIT_COMMITTER_NAME: Ayush Gupta
+          GIT_COMMITTER_EMAIL: ${{ vars.COMMIT_EMAIL }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${GIT_AUTHOR_EMAIL}" ]; then
+            echo "::error::COMMIT_EMAIL repo variable is unset. Commits would be"
+            echo "::error::attributed to nobody and would not count. Set it at"
+            echo "::error::Settings > Secrets and variables > Actions > Variables."
+            exit 1
+          fi
+
+          git add data docs
+
+          if git diff --cached --quiet; then
+            echo "No upstream changes today. Nothing to commit."
+            exit 0
+          fi
+
+          NEW=$(python -c "
+          import json,glob,os,datetime
+          f=f\"data/daily/{datetime.date.today().isoformat()}.json\"
+          print(len(json.load(open(f))['new']) if os.path.exists(f) else 0)")
+
+          CHANGED=$(python -c "
+          import json,glob,os,datetime
+          f=f\"data/daily/{datetime.date.today().isoformat()}.json\"
+          print(len(json.load(open(f))['changed']) if os.path.exists(f) else 0)")
+
+          git commit -m "data: ingest ${NEW} new, ${CHANGED} updated incidents" \
+                     -m "Automated run of the ingest pipeline defined in this repository." \
+                     -m "Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
+                     -m "Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+
+          git push

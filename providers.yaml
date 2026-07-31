@@ -1,0 +1,42 @@
+# Provider registry for Cloud Incident Atlas.
+#
+# Most vendors run Atlassian Statuspage, which exposes a uniform v2 API.
+# Non-Statuspage vendors get a dedicated adapter (see src/providers.py).
+#
+# Adding a provider is a one-line change and is the intended contribution path.
+#
+# Deliberately NOT included:
+#   fastly  - status.fastly.com sits behind a WAF that returns
+#             403 "Invalid request blocked" to automated clients on every
+#             path. That is an intentional block, not a wrong URL. We do not
+#             attempt to evade bot detection. Verified 2026-07-31.
+
+providers:
+  # --- Atlassian Statuspage (uniform v2 JSON API) ---
+  - {id: cloudflare,   name: Cloudflare,          category: cdn,           adapter: statuspage, url: https://www.cloudflarestatus.com}
+  - {id: github,       name: GitHub,              category: devtools,      adapter: statuspage, url: https://www.githubstatus.com}
+  - {id: datadog,      name: Datadog,             category: observability, adapter: statuspage, url: https://status.datadoghq.com}
+  - {id: atlassian,    name: Atlassian,           category: devtools,      adapter: statuspage, url: https://status.atlassian.com}
+  - {id: digitalocean, name: DigitalOcean,        category: cloud,         adapter: statuspage, url: https://status.digitalocean.com}
+  - {id: npm,          name: npm,                 category: devtools,      adapter: statuspage, url: https://status.npmjs.org}
+  - {id: snowflake,    name: Snowflake,           category: data,          adapter: statuspage, url: https://status.snowflake.com}
+  - {id: hashicorp,    name: HashiCorp Cloud,     category: devtools,      adapter: statuspage, url: https://status.hashicorp.com}
+  - {id: mongodb,      name: MongoDB Atlas,       category: data,          adapter: statuspage, url: https://status.cloud.mongodb.com}
+  - {id: circleci,     name: CircleCI,            category: devtools,      adapter: statuspage, url: https://status.circleci.com}
+  - {id: confluent,    name: Confluent Cloud,     category: data,          adapter: statuspage, url: https://status.confluent.cloud}
+  - {id: elastic,      name: Elastic Cloud,       category: observability, adapter: statuspage, url: https://status.elastic.co}
+  - {id: grafana,      name: Grafana Cloud,       category: observability, adapter: statuspage, url: https://status.grafana.com}
+  - {id: newrelic,     name: New Relic,           category: observability, adapter: statuspage, url: https://status.newrelic.com}
+  - {id: sentry,       name: Sentry,              category: observability, adapter: statuspage, url: https://status.sentry.io}
+  - {id: netlify,      name: Netlify,             category: paas,          adapter: statuspage, url: https://www.netlifystatus.com}
+  - {id: vercel,       name: Vercel,              category: paas,          adapter: statuspage, url: https://www.vercel-status.com}
+  - {id: supabase,     name: Supabase,            category: paas,          adapter: statuspage, url: https://status.supabase.com}
+  - {id: openai,       name: OpenAI,              category: ai,            adapter: statuspage, url: https://status.openai.com}
+  - {id: twilio,       name: Twilio,              category: comms,         adapter: statuspage, url: https://status.twilio.com}
+  - {id: discord,      name: Discord,             category: comms,         adapter: statuspage, url: https://discordstatus.com}
+  - {id: zoom,         name: Zoom,                category: comms,         adapter: statuspage, url: https://status.zoom.us}
+
+  # --- Bespoke feeds (custom adapters) ---
+  - {id: gcp,   name: Google Cloud Platform, category: cloud, adapter: gcp,       url: https://status.cloud.google.com}
+  - {id: azure, name: Microsoft Azure,       category: cloud, adapter: azure_rss, url: https://azure.status.microsoft/en-us/status/feed/}
+  - {id: aws,   name: Amazon Web Services,   category: cloud, adapter: aws,       url: https://status.aws.amazon.com}
