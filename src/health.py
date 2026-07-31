@@ -28,9 +28,15 @@ ZERO_RUN_THRESHOLD = 3
 EXPECTED_ZERO = {"azure"}
 
 
+def _today() -> str:
+    """Date, not timestamp: a timestamp changes on every run and would make
+    baseline.json a daily diff even when no incident did."""
+    return dt.datetime.now(dt.timezone.utc).date().isoformat()
+
+
 def load_baseline() -> dict:
     if not BASELINE.exists():
-        return {"providers": {}, "updated_at": None}
+        return {"providers": {}}
     return json.loads(BASELINE.read_text())
 
 
@@ -45,15 +51,21 @@ def update(counts: dict[str, int]) -> tuple[dict, list[str]]:
             pid, {"max_seen": 0, "consecutive_zero": 0, "last_nonzero": None}
         )
 
+        if pid in EXPECTED_ZERO:
+            # Do not accumulate a counter we will never act on: it would
+            # increment forever and make baseline.json a daily diff.
+            if count > 0:
+                entry["max_seen"] = max(entry["max_seen"], count)
+                entry["last_nonzero"] = _today()
+            entry["consecutive_zero"] = 0
+            continue
+
         if count > 0:
             entry["max_seen"] = max(entry["max_seen"], count)
             entry["consecutive_zero"] = 0
-            entry["last_nonzero"] = dt.datetime.now(dt.timezone.utc).isoformat()
+            entry["last_nonzero"] = _today()
         else:
             entry["consecutive_zero"] += 1
-
-        if pid in EXPECTED_ZERO:
-            continue
 
         if (
             entry["consecutive_zero"] >= ZERO_RUN_THRESHOLD
@@ -67,7 +79,6 @@ def update(counts: dict[str, int]) -> tuple[dict, list[str]]:
             )
 
     base["providers"] = providers
-    base["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
     return base, alerts
 
 

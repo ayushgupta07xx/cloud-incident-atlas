@@ -2,129 +2,128 @@
   "providers": {
     "atlassian": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794128+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 34
     },
     "aws": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794173+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 36
     },
     "azure": {
-      "consecutive_zero": 2,
+      "consecutive_zero": 0,
       "last_nonzero": null,
       "max_seen": 0
     },
     "circleci": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794142+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "cloudflare": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794111+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "confluent": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794144+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "datadog": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794125+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "digitalocean": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794130+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "discord": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794165+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "elastic": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794146+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "gcp": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794170+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 4
     },
     "github": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794120+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "grafana": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794148+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "hashicorp": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794138+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 25
     },
     "mongodb": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794140+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "netlify": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794155+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "newrelic": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794150+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "npm": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794133+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "openai": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794161+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 25
     },
     "sentry": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794153+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "snowflake": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794135+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "supabase": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794159+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "twilio": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794163+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "vercel": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794157+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     },
     "zoom": {
       "consecutive_zero": 0,
-      "last_nonzero": "2026-07-31T00:54:33.794168+00:00",
+      "last_nonzero": "2026-07-31",
       "max_seen": 50
     }
-  },
-  "updated_at": "2026-07-31T00:54:33.794175+00:00"
+  }
 }

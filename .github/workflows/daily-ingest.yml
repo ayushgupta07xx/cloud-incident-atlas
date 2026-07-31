@@ -81,24 +81,27 @@ jobs:
             exit 1
           fi
 
-          git add data docs
+          # Stage incident data first and test *that* for changes. The
+          # baseline is bookkeeping: it must ride along with a real update,
+          # never trigger one on its own.
+          git add data/incidents data/daily docs
 
           if git diff --cached --quiet; then
             echo "No upstream changes today. Nothing to commit."
+            git checkout -- data/baseline.json 2>/dev/null || true
             exit 0
           fi
 
-          NEW=$(python -c "
-          import json,glob,os,datetime
-          f=f\"data/daily/{datetime.date.today().isoformat()}.json\"
-          print(len(json.load(open(f))['new']) if os.path.exists(f) else 0)")
+          git add data/baseline.json
 
-          CHANGED=$(python -c "
-          import json,glob,os,datetime
-          f=f\"data/daily/{datetime.date.today().isoformat()}.json\"
-          print(len(json.load(open(f))['changed']) if os.path.exists(f) else 0)")
+          # Count what THIS run staged. Reading the daily delta would report
+          # every record the file holds, including earlier runs' work.
+          STAT=$(git diff --cached --numstat -- data/incidents | \
+                 awk '{a+=$1; d+=$2} END {printf "%d %d", a+0, d+0}')
+          ADDED=$(echo "$STAT" | cut -d" " -f1)
+          FILES=$(git diff --cached --name-only -- data/incidents | wc -l)
 
-          git commit -m "data: ingest ${NEW} new, ${CHANGED} updated incidents" \
+          git commit -m "data: ingest update (${ADDED} lines across ${FILES} shard(s))" \
                      -m "Automated run of the ingest pipeline defined in this repository." \
                      -m "Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
                      -m "Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
