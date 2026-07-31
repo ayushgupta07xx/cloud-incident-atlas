@@ -8,7 +8,7 @@
     "aws": {
       "consecutive_zero": 0,
       "last_nonzero": "2026-07-31",
-      "max_seen": 36
+      "max_seen": 39
     },
     "azure": {
       "consecutive_zero": 0,
