@@ -189,23 +189,21 @@ a.append('</svg>')
 (DOCS / "architecture.svg").write_text("".join(a))
 
 # ------------------------------------------------------------------- logo
-(DOCS / "logo.svg").write_text("".join([
+# Globe graticule + cloud + incident waveform. The lower parallel arc is
+# deliberately absent: it sat within a pixel of the waveform baseline and the
+# two collided into a smudge. The waveform is the lower feature.
+LOGO_PARTS = [
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">',
-    '<defs>',
-    f'<radialGradient id="core"><stop offset="0%" stop-color="{CRIMSON}" stop-opacity="1"/><stop offset="100%" stop-color="{CRIMSON}" stop-opacity="0.35"/></radialGradient>',
-    '</defs>',
-    f'<circle cx="40" cy="40" r="36" fill="none" stroke="{MUTED}" stroke-width="1" opacity="0.28" stroke-dasharray="3 5"/>',
-    f'<circle cx="40" cy="40" r="26" fill="none" stroke="{MUTED}" stroke-width="1" opacity="0.22"/>',
-    f'<circle cx="40" cy="40" r="15" fill="none" stroke="{MUTED}" stroke-width="1" opacity="0.16"/>',
-    f'<circle cx="40" cy="4" r="3.6" fill="{CRIMSON}"/>',
-    f'<circle cx="66" cy="27" r="2.8" fill="{CRIMSON}" opacity="0.7"/>',
-    f'<circle cx="56" cy="63" r="3.1" fill="{GREEN}" opacity="0.8"/>',
-    f'<circle cx="20" cy="60" r="2.5" fill="{GREEN}" opacity="0.55"/>',
-    f'<circle cx="13" cy="28" r="2.9" fill="{AMBER}" opacity="0.6"/>',
-    '<circle cx="40" cy="40" r="9" fill="url(#core)"/>',
-    f'<circle cx="40" cy="40" r="4" fill="{INK}"/>',
+    '<title>Cloud Incident Atlas</title>',
+    '<desc>A globe of graticule lines containing a cloud above an incident spike</desc>',
+    f'<circle cx="40" cy="40" r="31" fill="none" stroke="{CRIMSON}" stroke-width="1.7"/>',
+    f'<ellipse cx="40" cy="40" rx="13" ry="31" fill="none" stroke="{MUTED}" stroke-width="0.9" opacity="0.42"/>',
+    f'<path d="M13 27 Q40 21 67 27" fill="none" stroke="{MUTED}" stroke-width="0.9" opacity="0.4"/>',
+    f'<path d="M21 34 A10.5 10.5 0 0 1 31 19 A13.5 13.5 0 0 1 55 22 A9.5 9.5 0 0 1 59 39 L23 39 A7.5 7.5 0 0 1 21 34Z" fill="{MUTED}" fill-opacity="0.16" stroke="{MUTED}" stroke-width="1.2"/>',
+    f'<polyline points="14,54 25,54 30,46 35,64 40,49 45,54 66,54" fill="none" stroke="{CRIMSON}" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>',
     '</svg>',
-]))
+]
+(DOCS / "logo.svg").write_text("".join(LOGO_PARTS))
 
 print(f"  timeline.svg   {len(keys)} months, peak {peak}")
 print(f"  mttr.svg       {len(rows)} providers")
