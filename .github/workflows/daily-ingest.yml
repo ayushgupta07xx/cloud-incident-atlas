@@ -114,8 +114,36 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
+      contents: read
     steps:
+      - name: Ensure the label exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create automated --color ededed \
+            --description "Opened automatically by a workflow" \
+            --repo "${GITHUB_REPOSITORY}" --force
+
+      - name: Skip if an alert issue is already open
+        id: dedupe
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Drift persists until the provider recovers, so this job fires on
+          # every subsequent run. Without this check a single broken feed
+          # would open one issue per run - roughly 150 over six months.
+          EXISTING=$(gh issue list --repo "${GITHUB_REPOSITORY}" \
+            --label automated --state open --limit 1 \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            echo "already tracked in #${EXISTING}; not opening a duplicate"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Open an issue so a silent break does not go unnoticed
+        if: steps.dedupe.outputs.skip == 'false' 
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DRIFT_DETAIL: ${{ needs.ingest.outputs.drift_detail }}
