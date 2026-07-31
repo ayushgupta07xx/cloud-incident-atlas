@@ -26,7 +26,7 @@ import yaml
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 
-from src import metrics, providers
+from src import health, metrics, providers
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -181,8 +181,18 @@ def main() -> int:
     log.info("existing corpus: %d incidents", len(corpus))
 
     fetched: list[dict] = []
+    counts: dict[str, int] = {}
     for cfg in load_providers():
-        fetched.extend(i.as_dict() for i in providers.fetch(cfg))
+        records = [i.as_dict() for i in providers.fetch(cfg)]
+        counts[cfg["id"]] = len(records)
+        fetched.extend(records)
+
+    baseline, alerts = health.update(counts)
+    health.write(baseline)
+    for alert in alerts:
+        log.error("DRIFT %s", alert)
+    if alerts:
+        (ROOT / "drift.txt").write_text("\n".join(alerts) + "\n")
 
     if not fetched:
         log.error("every provider failed — aborting without writes")

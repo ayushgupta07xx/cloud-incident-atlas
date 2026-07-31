@@ -36,38 +36,10 @@ Cross-vendor incident data for 24 providers. Corpus: **22,284 incidents**. Updat
 | Vercel | paas | 372 | 74m | 366m |
 | Zoom | comms | 128 | 229m | 5830m |
 
-## New since last run (36)
-
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased connectivity issues and API Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
-
 ## Updated since last run (2)
 
-- **Supabase** — Management API Performance Degradation. → `monitoring`
-- **Supabase** — Issues with Edge Function Deployment → `identified`
+- **Twilio** — Voice Call Failures and Dialing Delays from a Subset of Twilio Phone Numbers to Multiple Networks in Brazil → `identified`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Mobile Numbers to Claro Nework in Colombia → `identified`
 
 ---
 

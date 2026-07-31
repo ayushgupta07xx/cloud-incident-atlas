@@ -90740,8 +90740,8 @@
     "shortlink": "https://stspg.io/cp7q49c5bbr7",
     "status": "identified",
     "title": "Voice Call Failures from a Subset of Twilio Mobile Numbers to Claro Nework in Colombia",
-    "update_count": 4,
-    "updated_at": "2026-07-30T22:39:22.723000+00:00"
+    "update_count": 5,
+    "updated_at": "2026-07-31T00:41:24.749000+00:00"
   },
   {
     "category": "paas",
@@ -90888,8 +90888,8 @@
     "shortlink": "https://stspg.io/d23myx0ggsy0",
     "status": "identified",
     "title": "Voice Call Failures and Dialing Delays from a Subset of Twilio Phone Numbers to Multiple Networks in Brazil",
-    "update_count": 2,
-    "updated_at": "2026-07-30T23:42:35.559000+00:00"
+    "update_count": 3,
+    "updated_at": "2026-07-31T00:45:14.324000+00:00"
   },
   {
     "category": "cdn",

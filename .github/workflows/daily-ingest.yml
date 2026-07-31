@@ -25,6 +25,9 @@ jobs:
   ingest:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      drift: ${{ steps.drift.outputs.detected }}
+      drift_detail: ${{ steps.drift.outputs.detail }}
 
     steps:
       - name: Jitter
@@ -42,6 +45,22 @@ jobs:
 
       - name: Fetch and normalize provider feeds
         run: python -m src.ingest
+
+      - name: Surface provider drift
+        id: drift
+        run: |
+          if [ -f drift.txt ]; then
+            {
+              echo "detected=true"
+              echo "detail<<DRIFT_EOF"
+              cat drift.txt
+              echo "DRIFT_EOF"
+            } >> "$GITHUB_OUTPUT"
+            echo "::warning::provider drift detected"
+            cat drift.txt
+          else
+            echo "detected=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit if upstream data changed
         env:
@@ -88,7 +107,7 @@ jobs:
 
   alert:
     needs: ingest
-    if: failure()
+    if: failure() || needs.ingest.outputs.drift == 'true' 
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -96,14 +115,19 @@ jobs:
       - name: Open an issue so a silent break does not go unnoticed
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRIFT_DETAIL: ${{ needs.ingest.outputs.drift_detail }}
         run: |
           gh issue create \
             --repo "${GITHUB_REPOSITORY}" \
-            --title "Ingest failed: $(date -u +%Y-%m-%d)" \
+            --title "Ingest needs attention: $(date -u +%Y-%m-%d)" \
             --label automated \
-            --body "Run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID} failed.
+            --body "Run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
 
-          Most likely a provider changed its feed shape. Check which adapter
-          reported FAILED in the run log, then reproduce locally with:
+          \`\`\`
+          ${DRIFT_DETAIL:-The job failed outright. See the run log.}
+          \`\`\`
+
+          A provider returning zero records for several consecutive runs has
+          usually changed its feed shape. Reproduce with:
 
               python -m src.ingest --dry-run"
