@@ -238,10 +238,15 @@ def main() -> int:
     # Regenerate the README charts too. They are committed artefacts read by
     # GitHub directly, so unlike the site they do not get rebuilt on deploy -
     # without this they freeze at whenever they were last run by hand.
-    subprocess.run(
+    result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "charts.py")],
-        check=False, capture_output=True,
+        check=False, capture_output=True, text=True,
     )
+    if result.returncode != 0:
+        # Not fatal - a chart failure must not cost us an ingest - but it must
+        # not be silent either, or the charts freeze and nothing ever says so.
+        log.error("chart generation failed (rc=%s): %s",
+                  result.returncode, (result.stderr or "").strip()[:300])
 
     log.info("wrote corpus, summary, daily delta, digest")
     return 0
