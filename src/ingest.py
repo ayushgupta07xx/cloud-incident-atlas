@@ -103,11 +103,50 @@ def render_digest(summary: dict, new: list[dict], changed: list[dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def merge_daily(day: str, new: list[dict], changed: list[dict]) -> dict:
+    """Merge into an existing same-day delta rather than overwriting it.
+
+    The pipeline can run more than once a day (scheduled run, manual re-run,
+    a backfill). Each run only knows what changed since the previous run, so
+    writing its own view wholesale would erase the earlier runs' records for
+    that day. The daily file is the per-day audit trail; it must accumulate.
+
+    An incident first seen today stays in `new` even if a later run sees it
+    change - it is still new as of today.
+    """
+    path = DATA / "daily" / f"{day}.json"
+    prior = {"new": [], "changed": []}
+    if path.exists():
+        with open(path) as fh:
+            prior = json.load(fh)
+
+    def key(i: dict) -> str:
+        return f"{i['provider_id']}:{i['incident_id']}"
+
+    merged_new = {key(i): i for i in prior.get("new", [])}
+    for i in new:
+        merged_new.setdefault(key(i), i)
+
+    # later state wins for changed, but never shadow something new today
+    merged_changed = {key(i): i for i in prior.get("changed", [])}
+    for i in changed:
+        merged_changed[key(i)] = i
+    merged_changed = {k: v for k, v in merged_changed.items() if k not in merged_new}
+
+    return {
+        "date": day,
+        "runs": prior.get("runs", 0) + 1,
+        "new": sorted(merged_new.values(), key=key),
+        "changed": sorted(merged_changed.values(), key=key),
+    }
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="fetch and report, write nothing")
     args = ap.parse_args()
 
+    today = dt.date.today().isoformat()
     corpus = load_corpus()
     log.info("existing corpus: %d incidents", len(corpus))
 
@@ -145,10 +184,7 @@ def main() -> int:
 
     write_json(DATA / "incidents.json", records)
     write_json(DATA / "summary.json", summary)
-    write_json(
-        DATA / "daily" / f"{dt.date.today().isoformat()}.json",
-        {"date": dt.date.today().isoformat(), "new": new, "changed": changed},
-    )
+    write_json(DATA / "daily" / f"{today}.json", merge_daily(today, new, changed))
 
     DOCS.mkdir(parents=True, exist_ok=True)
     (DOCS / "index.md").write_text(render_digest(summary, new, changed))
