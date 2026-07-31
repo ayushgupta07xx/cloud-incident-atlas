@@ -87,7 +87,7 @@ pytest tests -q                   # 31 tests, no network
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md).
+See [ROADMAP.md](ROADMAP.md). Operational troubleshooting is in [RUNBOOK.md](RUNBOOK.md).
 
 ## License
 
