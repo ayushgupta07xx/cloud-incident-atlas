@@ -61,12 +61,12 @@ bw = plot_w / len(keys)
 parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img">',
     '<defs>',
-    f'<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">',
+    '<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">',
     f'<stop offset="0%" stop-color="{CRIMSON}" stop-opacity="0.95"/>',
     f'<stop offset="65%" stop-color="{CRIMSON}" stop-opacity="0.55"/>',
     f'<stop offset="100%" stop-color="{CRIMSON}" stop-opacity="0.18"/>',
     '</linearGradient>',
-    f'<linearGradient id="pk" x1="0" y1="0" x2="0" y2="1">',
+    '<linearGradient id="pk" x1="0" y1="0" x2="0" y2="1">',
     f'<stop offset="0%" stop-color="{AMBER}" stop-opacity="1"/>',
     f'<stop offset="100%" stop-color="{AMBER}" stop-opacity="0.25"/>',
     '</linearGradient>',
@@ -147,7 +147,10 @@ def node(x, y, w, h, title, sub=None, accent=False):
     return "".join(out)
 
 
-def link(x1, y1, x2, y2):
+def link(x1, y1, x2, y2=None):
+    """Bezier connector. Omit y2 for a straight horizontal link."""
+    if y2 is None:
+        y2 = y1
     mid = x1 + (x2 - x1) * 0.5
     return "".join([
         f'<path d="M{x1},{y1} C{mid},{y1} {mid},{y2} {x2-7},{y2}" fill="none" stroke="{MUTED}" stroke-width="1.1" opacity="0.45"/>',
@@ -206,5 +209,5 @@ a.append('</svg>')
 
 print(f"  timeline.svg   {len(keys)} months, peak {peak}")
 print(f"  mttr.svg       {len(rows)} providers")
-print(f"  architecture.svg, logo.svg")
+print("  architecture.svg, logo.svg")
 print(f"  corpus         {len(recs):,} incidents")
