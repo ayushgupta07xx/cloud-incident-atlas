@@ -36,33 +36,9 @@ Cross-vendor incident data for 24 providers. Corpus: **1,074 incidents**. Update
 | Vercel | paas | 50 | 65m | 391m |
 | Zoom | comms | 50 | 61m | 1201m |
 
-## New since last run (1074)
+## Updated since last run (1)
 
-- **Cloudflare** — Page Shield Email Notification Issues (`minor`)
-- **Cloudflare** — Possible Network Congestion in North America region (`minor`)
-- **Cloudflare** — Cloudflare Workers — Errors Deploying Workers Scripts (`major`)
-- **Cloudflare** — Sensitive Data Detection Configuration Issue (`minor`)
-- **Cloudflare** — Possible Network Congestion between Singapore and Tokyo (`minor`)
-- **Cloudflare** — Network Performance Issues in Singapore (`minor`)
-- **Cloudflare** — Cloudflare Tunnel Availability Issues (`minor`)
-- **Cloudflare** — Elevated errors for Durable Objects in WNAM region (`minor`)
-- **Cloudflare** — Network Performance Issues in Istanbul (`minor`)
-- **Cloudflare** — Increased HTTP 530 Errors in Frankfurt (`none`)
-- **Cloudflare** — Errors in Security Rules Dashboard (`minor`)
-- **Cloudflare** — Issues with Snippets API (`minor`)
-- **Cloudflare** — CSP rules not visible in dashboard (`minor`)
-- **Cloudflare** — Email Delivery Delays (`minor`)
-- **Cloudflare** — Increase errors for R2 buckets hosted in APAC region (`major`)
-- **Cloudflare** — GraphQL API rate limit errors (`minor`)
-- **Cloudflare** — Elevated number errors in APAC region (`none`)
-- **Cloudflare** — Network Performance Issues in Western North America (`minor`)
-- **Cloudflare** — Network Performance Issues in Frankfurt (FRA) (`none`)
-- **Cloudflare** — Workers AI experiencing degraded availability in some models (`minor`)
-- **Cloudflare** — Challenge data missing in Analytics (`minor`)
-- **Cloudflare** — Workers Analytics queries slowness (`minor`)
-- **Cloudflare** — Customers unable to create Access and Device Enrollment policies via the Dashboard and API (`minor`)
-- **Cloudflare** — Increase in errors from R2 in ENAM (`minor`)
-- **Cloudflare** — Network Performance Issues in Istanbul (`none`)
+- **Twilio** — SMS Delivery Delays from Twilio to Celcom Malaysia → `monitoring`
 
 ---
 

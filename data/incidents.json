@@ -21172,10 +21172,10 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/2mks4kqs6l1r",
-    "status": "investigating",
+    "status": "monitoring",
     "title": "SMS Delivery Delays from Twilio to Celcom Malaysia",
-    "update_count": 2,
-    "updated_at": "2026-07-30T23:51:18.271000+00:00"
+    "update_count": 3,
+    "updated_at": "2026-07-31T00:01:12.276000+00:00"
   },
   {
     "category": "devtools",
