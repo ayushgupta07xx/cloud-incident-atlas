@@ -114,10 +114,10 @@ CI runs both and will reject a push that fails either.
 
 ## Design decisions that should not be reversed
 
-- No fallback commit on quiet days. The history reflects real upstream
-  activity; a heartbeat commit would make it fiction.
-- No backdated commits. The API exposes authored and pushed dates separately,
-  so fabricated history does not survive inspection.
+- No fallback commit on quiet days. The daily deltas are keyed by date and
+  read as an audit trail; a synthetic entry would make them unreliable.
+- Commit dates are left alone. The deltas are indexed by commit date, so
+  rewriting author dates would desynchronise them from the data they describe.
 - No WAF evasion. A provider that blocks automated clients gets removed.
 - The automation stays documented in the README. Anyone reading the commit
   history should be able to tell which commits are machine-generated.
