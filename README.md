@@ -48,22 +48,18 @@ Schema per incident: provider, category, id, title, status, severity (normalized
 to a 0–3 ordinal across vendor vocabularies), created/updated/resolved timestamps,
 duration, affected components, update count.
 
-## Automation disclosure
+## Automation
 
 **This repository commits automatically.** A scheduled GitHub Actions workflow
 (`.github/workflows/daily-ingest.yml`) runs six days a week, fetches the provider
 feeds, and commits under my account identity when upstream data has changed.
 
-- Commits titled `data: ingest N new, M updated incidents` are machine-generated.
-  Each carries a link to the Actions run that produced it and a
+- Commits titled `data: ingest update (...)` are machine-generated. Each carries
+  a link to the Actions run that produced it and a
   `Co-authored-by: github-actions[bot]` trailer.
-- Every other commit is hand-written work: adapters, metrics, analysis, docs.
-- If no provider published anything new, the workflow commits nothing. The history
-  reflects real upstream activity, not a heartbeat.
-
-I'd rather you know this up front than discover it and wonder. The pipeline is the
-interesting part of the project; hiding that it runs would be both dishonest and
-counterproductive.
+- Every other commit is hand-written: adapters, metrics, analysis, docs.
+- When no provider has published anything new the workflow commits nothing, so
+  the history tracks real upstream activity rather than a fixed heartbeat.
 
 ## Running locally
 

@@ -119,5 +119,5 @@ CI runs both and will reject a push that fails either.
 - No backdated commits. The API exposes authored and pushed dates separately,
   so fabricated history does not survive inspection.
 - No WAF evasion. A provider that blocks automated clients gets removed.
-- Automation stays disclosed in the README. It is the disclosure that makes
-  this a pipeline rather than padding.
+- The automation stays documented in the README. Anyone reading the commit
+  history should be able to tell which commits are machine-generated.

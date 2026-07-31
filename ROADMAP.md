@@ -57,10 +57,11 @@ CONTRIBUTING, issue templates, Dependabot, CodeQL. Architecture write-up.
 
 ## Operating notes
 
-The ingest commits only when a provider published something. There is
-deliberately no fallback that commits on a quiet day — the history reflects
-real upstream activity, and the gaps are accurate.
+The ingest commits only when a provider has published something. There is
+deliberately no fallback that commits on a quiet day: the daily deltas are an
+audit trail of upstream activity, and a synthetic entry would make them
+unreliable as a record.
 
-Backdated commits are out of scope. Rewriting author dates to fabricate
-history is falsification rather than automation, and the GitHub API exposes
-authored and pushed dates separately, so it does not survive inspection.
+Timestamps throughout are the vendor's own, converted to UTC. Nothing is
+inferred or filled in with a guessed date — an unparseable timestamp yields no
+record rather than an approximate one.
