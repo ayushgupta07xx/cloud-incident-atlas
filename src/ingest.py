@@ -20,6 +20,7 @@ import datetime as dt
 import json
 import logging
 import pathlib
+import subprocess
 import sys
 
 import yaml
@@ -233,6 +234,14 @@ def main() -> int:
     # during the Pages deploy, but committing them keeps the repo copy in step
     # with the published site rather than frozen at whenever they last ran.
     site.main()
+
+    # Regenerate the README charts too. They are committed artefacts read by
+    # GitHub directly, so unlike the site they do not get rebuilt on deploy -
+    # without this they freeze at whenever they were last run by hand.
+    subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "charts.py")],
+        check=False, capture_output=True,
+    )
 
     log.info("wrote corpus, summary, daily delta, digest")
     return 0

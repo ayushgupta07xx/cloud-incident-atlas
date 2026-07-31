@@ -38,7 +38,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,284 incidents**. Updat
 
 ## Updated since last run (1)
 
-- **HashiCorp Cloud** — app.terraform.io is not loading → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Africell Angola → `investigating`
 
 ---
 

@@ -12,8 +12,8 @@
 ![MkDocs](https://img.shields.io/badge/MkDocs_Material-526CFE?logo=materialformkdocs&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-8957e5)
 
-![Incidents](https://img.shields.io/badge/incidents-22,284-2EA043)
-![Providers](https://img.shields.io/badge/providers-25-2EA043)
+[![Incidents](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ayushgupta07xx/cloud-incident-atlas/main/data/summary.json&query=%24.total_incidents&label=incidents&color=2EA043&suffix=%20tracked)](https://ayushgupta07xx.github.io/cloud-incident-atlas/)
+[![Providers](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ayushgupta07xx/cloud-incident-atlas/main/data/summary.json&query=%24.providers_tracked&label=providers&color=2EA043)](https://ayushgupta07xx.github.io/cloud-incident-atlas/providers/)
 ![Span](https://img.shields.io/badge/span-2019%E2%80%932026-2EA043)
 ![Tests](https://img.shields.io/badge/tests-38_offline-2EA043)
 
