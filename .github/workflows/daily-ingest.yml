@@ -2,9 +2,16 @@ name: Daily incident ingest
 
 on:
   schedule:
-    # 06:12 UTC = 11:42 IST. Off-the-hour on purpose: hourly cron slots are
-    # heavily contended on GitHub's shared runners and get queued or dropped.
-    - cron: "12 6 * * 1,2,3,4,5,6"
+    # Varied times per weekday. Round-hour and on-the-hour slots are heavily
+    # contended on GitHub's shared runners, so off-hour minutes are queued
+    # less and dropped less often. Spreading across the week also avoids
+    # colliding with the same global peak every day.
+    - cron: "23 4 * * 1"   # Mon 09:53 IST
+    - cron: "47 9 * * 2"   # Tue 15:17 IST
+    - cron: "08 6 * * 3"   # Wed 11:38 IST
+    - cron: "51 11 * * 4"  # Thu 17:21 IST
+    - cron: "34 7 * * 5"   # Fri 13:04 IST
+    - cron: "19 13 * * 6"  # Sat 18:49 IST
   workflow_dispatch:
 
 concurrency:
@@ -20,6 +27,10 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: Jitter
+        if: github.event_name == 'schedule'
+        run: sleep $(( RANDOM % 1800 ))
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -74,3 +85,25 @@ jobs:
                      -m "Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
 
           git push
+
+  alert:
+    needs: ingest
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Open an issue so a silent break does not go unnoticed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --repo "${GITHUB_REPOSITORY}" \
+            --title "Ingest failed: $(date -u +%Y-%m-%d)" \
+            --label automated \
+            --body "Run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID} failed.
+
+          Most likely a provider changed its feed shape. Check which adapter
+          reported FAILED in the run log, then reproduce locally with:
+
+              python -m src.ingest --dry-run"

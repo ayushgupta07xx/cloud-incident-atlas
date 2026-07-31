@@ -1,0 +1,15 @@
+site_name: Cloud Incident Atlas
+site_description: Normalized cross-vendor cloud incident data with derived reliability metrics
+repo_url: https://github.com/ayushgupta07xx/cloud-incident-atlas
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: black
+      accent: red
+  features: [navigation.sections, content.code.copy]
+nav:
+  - Overview: index.md
+  - Providers: providers.md
+  - Methodology: methodology.md
+markdown_extensions: [tables, admonition, pymdownx.details]
