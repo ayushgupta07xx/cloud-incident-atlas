@@ -5,8 +5,10 @@ with derived reliability metrics across vendors.
 
 Every major provider publishes a status page. Almost none publish machine-readable
 history in a comparable shape, and nobody publishes them side by side. This repo
-ingests 13 providers daily, normalizes them into one schema, and computes MTTR,
+ingests 25 providers daily, normalizes them into one schema, and computes MTTR,
 incident frequency, and severity distributions you can actually compare.
+
+**22,000+ incidents spanning 2019-2026**, updated six days a week.
 
 ## Why this exists
 
@@ -37,7 +39,7 @@ the run aborts without writing, so a network partition can't truncate the corpus
 
 | File | Contents |
 | --- | --- |
-| `data/incidents.json` | Canonical deduplicated corpus |
+| `data/incidents/YYYY.json` | Canonical corpus, sharded by year |
 | `data/summary.json` | Derived metrics: MTTR mean/median/p90, severity mix, category rollups |
 | `data/daily/YYYY-MM-DD.json` | That day's new and changed incidents |
 | `docs/index.md` | Human-readable digest |
@@ -66,10 +68,22 @@ counterproductive.
 ## Running locally
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt -r requirements-dev.txt
 python -m src.ingest --dry-run    # fetch and report, write nothing
 python -m src.ingest              # full run
+python backfill.py                # one-time historical backfill
+pytest tests -q                   # 31 tests, no network
 ```
+
+## Known limitations
+
+- **AWS** contributes incident counts but no MTTR. Its RSS emits one item per
+  update rather than per incident, so durations require pairing issue and
+  resolution items per service and region.
+- **Azure** publishes only currently-active incidents, so it contributes little
+  outside live outages. There is no public Azure historical feed.
+- **Fastly** is excluded: its status page returns 403 to automated clients.
+- Percentiles are suppressed below n=10 and medians below n=5.
 
 ## Roadmap
 
