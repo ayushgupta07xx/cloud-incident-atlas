@@ -12,6 +12,8 @@ on:
     - cron: "51 11 * * 4"  # Thu 17:21 IST
     - cron: "34 7 * * 5"   # Fri 13:04 IST
     - cron: "19 13 * * 6"  # Sat 18:49 IST
+    # TEMPORARY probe — remove after verifying the schedule fires (block 98)
+    - cron: "55 23 * * 5"
   workflow_dispatch:
 
 concurrency:
