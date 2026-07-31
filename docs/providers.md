@@ -25,7 +25,7 @@
 | npm | devtools | 59 | 1.8h | 5.7h | 20.9h |
 | Atlassian | devtools | 39 | 2.0h | 37.4h | 261.0h |
 | Amazon Web Services | cloud | 36 | — | — | — |
-| HashiCorp Cloud | devtools | 25 | 6.9h | 24.4h | 120.0h |
+| HashiCorp Cloud | devtools | 25 | 6.2h | 24.4h | 120.0h |
 | OpenAI | ai | 25 | 2.1h | 15.6h | 42.4h |
 | Google Cloud Platform | cloud | 4 | — | — | 516.0h |
 

@@ -23,7 +23,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,284 incidents**. Updat
 | Google Cloud Platform | cloud | 4 | — | — |
 | GitHub | devtools | 586 | 66m | 282m |
 | Grafana Cloud | observability | 726 | 91m | 1154m |
-| HashiCorp Cloud | devtools | 25 | 411m | 1465m |
+| HashiCorp Cloud | devtools | 25 | 371m | 1463m |
 | MongoDB Atlas | data | 265 | 120m | 1385m |
 | Netlify | paas | 212 | 41m | 221m |
 | New Relic | observability | 102 | 64m | 306m |
@@ -38,7 +38,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,284 incidents**. Updat
 
 ## Updated since last run (1)
 
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Phone Numbers to C+W LIME Cayman Islands → `identified`
+- **HashiCorp Cloud** — app.terraform.io is not loading → `resolved`
 
 ---
 

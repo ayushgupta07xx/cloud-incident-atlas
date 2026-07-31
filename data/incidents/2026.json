@@ -90859,18 +90859,18 @@
     "category": "devtools",
     "components": [],
     "created_at": "2026-07-30T23:06:13+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 140.7,
     "incident_id": "01KYTMEGH8061RBGTX8RJ394XJ",
     "provider_id": "hashicorp",
     "provider_name": "HashiCorp Cloud",
-    "resolved_at": null,
+    "resolved_at": "2026-07-31T01:26:52+00:00",
     "severity": "major",
     "severity_rank": 2,
     "shortlink": null,
-    "status": "monitoring",
+    "status": "resolved",
     "title": "app.terraform.io is not loading",
-    "update_count": 2,
-    "updated_at": "2026-07-30T23:47:05+00:00"
+    "update_count": 3,
+    "updated_at": "2026-07-31T01:26:52+00:00"
   },
   {
     "category": "comms",

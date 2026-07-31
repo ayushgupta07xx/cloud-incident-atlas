@@ -291,13 +291,13 @@
       "incident_count": 25,
       "longest_incident_minutes": 7202.7,
       "mean_severity_rank": 1.12,
-      "mttr_minutes_mean": 831.4,
-      "mttr_minutes_median": 411.4,
-      "mttr_minutes_p90": 1465.4,
-      "open_count": 1,
+      "mttr_minutes_mean": 803.8,
+      "mttr_minutes_median": 370.8,
+      "mttr_minutes_p90": 1463.0,
+      "open_count": 0,
       "provider_name": "HashiCorp Cloud",
-      "resolved_count": 24,
-      "resolved_with_duration": 24,
+      "resolved_count": 25,
+      "resolved_with_duration": 25,
       "severity_mix": {
         "critical": 1,
         "major": 5,
@@ -535,7 +535,7 @@
       "stats_note": null
     }
   },
-  "generated_at": "2026-07-31T01:25:32.724699+00:00",
+  "generated_at": "2026-07-31T01:28:52.599795+00:00",
   "last_30_days": {
     "by_provider": {
       "circleci": 11,
