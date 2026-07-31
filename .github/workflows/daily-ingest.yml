@@ -24,16 +24,15 @@ permissions:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # 25 rather than 10: the ingest itself takes ~30s, but a provider that
+    # hangs rather than refusing can hold a connection near the request
+    # timeout, and 25 vendors compounds that.
+    timeout-minutes: 25
     outputs:
       drift: ${{ steps.drift.outputs.detected }}
       drift_detail: ${{ steps.drift.outputs.detail }}
 
     steps:
-      - name: Jitter
-        if: github.event_name == 'schedule'
-        run: sleep $(( RANDOM % 1800 ))
-
       - uses: actions/checkout@v7
 
       - uses: actions/setup-python@v7
@@ -110,7 +109,16 @@ jobs:
 
   alert:
     needs: ingest
-    if: failure() || needs.ingest.outputs.drift == 'true' 
+    # A job killed by timeout has conclusion 'cancelled', which failure()
+    # does NOT match - the first real scheduled failure (30622505998) opened
+    # no issue because of this. always() is required or a cancelled
+    # dependency skips this job outright.
+    if: >-
+      always() && (
+        needs.ingest.result == 'failure' ||
+        needs.ingest.result == 'cancelled' ||
+        needs.ingest.outputs.drift == 'true'
+      )
     runs-on: ubuntu-latest
     permissions:
       issues: write
