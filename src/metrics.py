@@ -12,7 +12,6 @@ import statistics
 from collections import Counter, defaultdict
 from typing import Any
 
-
 # Statistical reporting thresholds. A p90 over four samples is just the
 # maximum with extra steps; publishing it next to a p90 over fifty implies a
 # comparability that isn't there. Below these counts we report None and the

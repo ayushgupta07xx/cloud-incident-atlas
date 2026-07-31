@@ -1,0 +1,649 @@
+{
+  "incidents": [
+    {
+      "id": "9tpgqq1h4bs7",
+      "name": "Copilot model Claude Fable 5 experiencing elevated errors",
+      "status": "resolved",
+      "created_at": "2026-07-30T09:07:42.419Z",
+      "updated_at": "2026-07-30T10:12:15.506Z",
+      "monitoring_at": null,
+      "resolved_at": "2026-07-30T10:12:15.489Z",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/45g8r57kv3n9",
+      "started_at": "2026-07-30T09:07:42.413Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "7f4jmtk5hldk",
+          "status": "resolved",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "incident_id": "9tpgqq1h4bs7",
+          "created_at": "2026-07-30T10:12:15.489Z",
+          "updated_at": "2026-07-30T10:12:15.489Z",
+          "display_at": "2026-07-30T10:12:15.489Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "037n83zvm9h2",
+          "status": "investigating",
+          "body": "The issues with our upstream model provider have been resolved, and Claude Fable 5 is once again available in Copilot products and IDE surfaces.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.",
+          "incident_id": "9tpgqq1h4bs7",
+          "created_at": "2026-07-30T10:11:55.043Z",
+          "updated_at": "2026-07-30T10:11:55.043Z",
+          "display_at": "2026-07-30T10:11:55.043Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "kdqcg22bx7g4",
+          "status": "investigating",
+          "body": "We are experiencing degraded availability for the Claude Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
+          "incident_id": "9tpgqq1h4bs7",
+          "created_at": "2026-07-30T09:17:26.637Z",
+          "updated_at": "2026-07-30T09:17:26.637Z",
+          "display_at": "2026-07-30T09:17:26.637Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0fwv1y51nm9q",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
+          "incident_id": "9tpgqq1h4bs7",
+          "created_at": "2026-07-30T09:07:42.478Z",
+          "updated_at": "2026-07-30T09:07:42.478Z",
+          "display_at": "2026-07-30T09:07:42.478Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "cnnb39dkkk82",
+          "name": "Copilot AI Model Providers",
+          "status": "operational",
+          "created_at": "2026-04-17T12:33:08.827Z",
+          "updated_at": "2026-07-30T10:12:15.456Z",
+          "position": 12,
+          "description": null,
+          "showcase": true,
+          "start_date": "2026-04-17",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "dsrfymph7my0",
+      "name": "Incident with Copilot AI Model Providers",
+      "status": "resolved",
+      "created_at": "2026-07-29T20:07:07.951Z",
+      "updated_at": "2026-07-29T21:51:26.821Z",
+      "monitoring_at": null,
+      "resolved_at": "2026-07-29T21:51:26.803Z",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/tdw1hjz3lj91",
+      "started_at": "2026-07-29T20:07:07.943Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "f403shx7v547",
+          "status": "resolved",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "incident_id": "dsrfymph7my0",
+          "created_at": "2026-07-29T21:51:26.803Z",
+          "updated_at": "2026-07-29T21:51:26.803Z",
+          "display_at": "2026-07-29T21:51:26.803Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7yj63qrg9n8k",
+          "status": "investigating",
+          "body": "The external ai model provider has resolved the issues, and we have verified Copilot's traffic is fully recovered.",
+          "incident_id": "dsrfymph7my0",
+          "created_at": "2026-07-29T21:51:15.966Z",
+          "updated_at": "2026-07-29T21:51:15.966Z",
+          "display_at": "2026-07-29T21:51:15.966Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "4d8b5fkkvlz6",
+          "status": "investigating",
+          "body": "The external AI model provider is continuing to investigate.",
+          "incident_id": "dsrfymph7my0",
+          "created_at": "2026-07-29T21:08:31.620Z",
+          "updated_at": "2026-07-29T21:08:31.620Z",
+          "display_at": "2026-07-29T21:08:31.620Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "vlcfp0ghjf0w",
+          "status": "investigating",
+          "body": "The external AI model provider has identified the issue and is working to resolve.",
+          "incident_id": "dsrfymph7my0",
+          "created_at": "2026-07-29T20:38:32.363Z",
+          "updated_at": "2026-07-29T20:38:32.363Z",
+          "display_at": "2026-07-29T20:38:32.363Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "bq6y57pgphv2",
+          "status": "investigating",
+          "body": "We are investigating increased error rates affecting GitHub Copilot requests to external AI model providers. Some users may experience failures or degraded performance when using Copilot features.",
+          "incident_id": "dsrfymph7my0",
+          "created_at": "2026-07-29T20:18:18.929Z",
+          "updated_at": "2026-07-29T20:18:18.929Z",
+          "display_at": "2026-07-29T20:18:18.929Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "bkltx66r5kcb",
+          "status": "investigating",
+          "body": "We are seeing increased error rates with requests to specific model providers.",
+          "incident_id": "dsrfymph7my0",
+          "created_at": "2026-07-29T20:07:43.768Z",
+          "updated_at": "2026-07-29T20:07:43.768Z",
+          "display_at": "2026-07-29T20:07:43.768Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "dmzmfzw096mt",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
+          "incident_id": "dsrfymph7my0",
+          "created_at": "2026-07-29T20:07:08.018Z",
+          "updated_at": "2026-07-29T20:07:08.018Z",
+          "display_at": "2026-07-29T20:07:08.018Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "cnnb39dkkk82",
+          "name": "Copilot AI Model Providers",
+          "status": "operational",
+          "created_at": "2026-04-17T12:33:08.827Z",
+          "updated_at": "2026-07-30T10:12:15.456Z",
+          "position": 12,
+          "description": null,
+          "showcase": true,
+          "start_date": "2026-04-17",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "75g5xmzptjqb",
+      "name": "Incident with Actions",
+      "status": "resolved",
+      "created_at": "2026-07-29T15:26:24.392Z",
+      "updated_at": "2026-07-30T01:28:07.562Z",
+      "monitoring_at": "2026-07-29T15:40:35.731Z",
+      "resolved_at": "2026-07-29T16:00:54.006Z",
+      "impact": "major",
+      "shortlink": "https://stspg.io/8nsh6820sff9",
+      "started_at": "2026-07-29T15:26:24.385Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "m2y88z0rsnrv",
+          "status": "resolved",
+          "body": "On July 29, 2026, from 14:51 UTC to 15:28 UTC, GitHub Actions experienced elevated REST API request timeouts and errors, failures registering runners, and delayed workflow run starts for customers whose traffic was served by a single infrastructure site. This was caused by an under-provisioned internal Actions service in that site: under increased load its instances ran out of memory and became unresponsive, and because Actions API requests wait synchronously on that service, requests routed through the affected site stalled and timed out. During the incident, approximately 2% of workflows were delayed. Requests served by other sites remained unaffected. Both standard and larger hosted runners routed through the affected site could see delayed job starts. <br /><br />The issue was mitigated by scaling out the runner-administration service in the affected site and increasing the replica count, which restored API availability and returned workflow run starts to normal. We are working to add horizontal autoscaling, memory-saturation alerting, and scaling-forecast monitoring for this service, along with responder playbooks, to reduce the likelihood of similar issues in the future.",
+          "incident_id": "75g5xmzptjqb",
+          "created_at": "2026-07-29T16:00:54.006Z",
+          "updated_at": "2026-07-30T01:28:07.558Z",
+          "display_at": "2026-07-29T16:00:54.006Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "htc067j9ntq0",
+          "status": "monitoring",
+          "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "75g5xmzptjqb",
+          "created_at": "2026-07-29T15:40:35.731Z",
+          "updated_at": "2026-07-29T15:40:35.731Z",
+          "display_at": "2026-07-29T15:40:35.731Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "hf2974ydyqmj",
+          "status": "investigating",
+          "body": "We are investigating an issue affecting GitHub Actions. Some customers may experience timeouts or failures with runner registration and workflow runs may be delayed during startup. Our team is actively working to mitigate the impact by scaling capacity across additional infrastructure.",
+          "incident_id": "75g5xmzptjqb",
+          "created_at": "2026-07-29T15:34:07.587Z",
+          "updated_at": "2026-07-29T15:34:07.587Z",
+          "display_at": "2026-07-29T15:34:07.587Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7yv4fy0tyr51",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded availability for Actions",
+          "incident_id": "75g5xmzptjqb",
+          "created_at": "2026-07-29T15:26:24.457Z",
+          "updated_at": "2026-07-29T15:26:24.457Z",
+          "display_at": "2026-07-29T15:26:24.457Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "operational",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2026-07-29T15:40:35.703Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "fmmsrcg5x638",
+      "name": "Incident with GraphQL API Requests",
+      "status": "resolved",
+      "created_at": "2026-07-27T03:53:19.034Z",
+      "updated_at": "2026-07-27T04:09:10.606Z",
+      "monitoring_at": "2026-07-27T04:09:01.497Z",
+      "resolved_at": "2026-07-27T04:09:10.590Z",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/vr201n49yl53",
+      "started_at": "2026-07-27T03:53:19.028Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "drfw44m9fqq4",
+          "status": "resolved",
+          "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+          "incident_id": "fmmsrcg5x638",
+          "created_at": "2026-07-27T04:09:10.590Z",
+          "updated_at": "2026-07-27T04:09:10.590Z",
+          "display_at": "2026-07-27T04:09:10.590Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "l53rsb4m6b2v",
+          "status": "monitoring",
+          "body": "The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "fmmsrcg5x638",
+          "created_at": "2026-07-27T04:09:01.497Z",
+          "updated_at": "2026-07-27T04:09:01.497Z",
+          "display_at": "2026-07-27T04:09:01.497Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "952dj9ft00hn",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for API Requests",
+          "incident_id": "fmmsrcg5x638",
+          "created_at": "2026-07-27T03:53:19.087Z",
+          "updated_at": "2026-07-27T03:53:19.087Z",
+          "display_at": "2026-07-27T03:53:19.087Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "operational",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2026-07-27T04:09:01.458Z",
+          "position": 4,
+          "description": "Requests for GitHub APIs",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "pz7g535gbs6p",
+      "name": "Actions run failures and delays",
+      "status": "resolved",
+      "created_at": "2026-07-25T12:31:50.959Z",
+      "updated_at": "2026-07-30T18:41:47.898Z",
+      "monitoring_at": "2026-07-25T12:59:58.367Z",
+      "resolved_at": "2026-07-25T13:13:21.503Z",
+      "impact": "critical",
+      "shortlink": "https://stspg.io/448g37mrq066",
+      "started_at": "2026-07-25T12:31:50.953Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "40fbrl0y9zcy",
+          "status": "resolved",
+          "body": "Please refer to the combined summary in this related incident: https://www.githubstatus.com/incidents/s65j9gslmfm8",
+          "incident_id": "pz7g535gbs6p",
+          "created_at": "2026-07-25T13:13:21.503Z",
+          "updated_at": "2026-07-30T18:41:47.893Z",
+          "display_at": "2026-07-25T13:13:21.503Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "c4tfkcrpwjbg",
+          "status": "monitoring",
+          "body": "We have seen recovery in GitHub Actions performance following our earlier mitigation. Workflow runs are processing normally, though jobs queued before 12:40 UTC may still experience failures and will need to be retried.",
+          "incident_id": "pz7g535gbs6p",
+          "created_at": "2026-07-25T13:12:41.317Z",
+          "updated_at": "2026-07-25T13:12:41.317Z",
+          "display_at": "2026-07-25T13:12:41.317Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "y86xqymm4d7m",
+          "status": "monitoring",
+          "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "pz7g535gbs6p",
+          "created_at": "2026-07-25T12:59:58.367Z",
+          "updated_at": "2026-07-25T12:59:58.367Z",
+          "display_at": "2026-07-25T12:59:58.367Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2s8j64rtkx4d",
+          "status": "investigating",
+          "body": "We have applied a mitigation for the infrastructure issue affecting GitHub Actions. Workflow run failures and delays are improving but not yet fully resolved. Our engineering team continues to work on restoring full functionality across all affected infrastructure.",
+          "incident_id": "pz7g535gbs6p",
+          "created_at": "2026-07-25T12:58:32.832Z",
+          "updated_at": "2026-07-25T12:58:32.832Z",
+          "display_at": "2026-07-25T12:58:32.832Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "yblvsfvtyyrv",
+          "status": "investigating",
+          "body": "We are experiencing issues with GitHub Actions that are causing workflow run failures and delays for some users. Our engineering team is actively investigating the infrastructure issue and working to restore full functionality.",
+          "incident_id": "pz7g535gbs6p",
+          "created_at": "2026-07-25T12:34:26.839Z",
+          "updated_at": "2026-07-25T12:34:26.839Z",
+          "display_at": "2026-07-25T12:34:26.839Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "fx4blmxlhh4y",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded availability for Actions",
+          "incident_id": "pz7g535gbs6p",
+          "created_at": "2026-07-25T12:31:51.013Z",
+          "updated_at": "2026-07-25T12:31:51.013Z",
+          "display_at": "2026-07-25T12:31:51.013Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "operational",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2026-07-29T15:40:35.703Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ]
+}

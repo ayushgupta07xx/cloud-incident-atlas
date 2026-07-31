@@ -11,8 +11,9 @@ from __future__ import annotations
 import datetime as dt
 import logging
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass, asdict, field
-from typing import Any, Callable
+from collections.abc import Callable
+from dataclasses import asdict, dataclass, field
+from typing import Any
 
 import requests
 
@@ -73,7 +74,8 @@ def _parse_ts(value: str | None) -> dt.datetime | None:
     for parser in (
         lambda s: dt.datetime.fromisoformat(s),
         lambda s: dt.datetime.strptime(s, "%a, %d %b %Y %H:%M:%S %z"),
-        lambda s: dt.datetime.strptime(s, "%a, %d %b %Y %H:%M:%S %Z"),
+        # %Z cannot recover an offset; _parse_ts assumes UTC for naive results
+        lambda s: dt.datetime.strptime(s, "%a, %d %b %Y %H:%M:%S %Z"),  # noqa: DTZ007
     ):
         try:
             parsed = parser(txt)
@@ -280,6 +282,6 @@ def fetch(cfg: dict[str, Any]) -> list[Incident]:
         incidents = adapter(cfg)
         log.info("%-14s %3d incidents", cfg["id"], len(incidents))
         return incidents
-    except Exception as exc:  # noqa: BLE001 - deliberate: isolate provider failures
+    except Exception as exc:
         log.warning("%-14s FAILED: %s", cfg["id"], exc)
         return []

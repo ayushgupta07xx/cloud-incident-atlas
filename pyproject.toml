@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "DTZ", "RUF", "ISC"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/ingest.py" = ["E402"]
+"tests/*" = ["E402"]
