@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import datetime as dt
 import logging
+import re
 import xml.etree.ElementTree as ET
 from collections.abc import Callable
 from dataclasses import asdict, dataclass, field
@@ -23,6 +24,11 @@ TIMEOUT = 25
 UA = "cloud-incident-atlas/1.0 (+https://github.com/ayushgupta07xx/cloud-incident-atlas)"
 
 # Vendor-specific severity vocabularies mapped onto one ordinal scale.
+# strptime cannot resolve these; see _parse_ts.
+NAMED_OFFSETS = {"UTC": 0, "GMT": 0, "EDT": -4, "EST": -5,
+                 "PDT": -7, "PST": -8, "CDT": -5, "CST": -6,
+                 "MDT": -6, "MST": -7}
+
 SEVERITY_MAP = {
     "none": 0,
     "maintenance": 0,
@@ -71,6 +77,23 @@ def _parse_ts(value: str | None) -> dt.datetime | None:
     if not value:
         return None
     txt = value.strip().replace("Z", "+00:00")
+
+    # strptime's %Z only accepts the *local* machine's abbreviations, so
+    # "PDT"/"PST" parse on a US box and fail everywhere else. AWS emits
+    # Pacific abbreviations; resolve them explicitly instead.
+    tz_match = re.search(r"\b([A-Z]{3,4})\s*$", txt)
+    if tz_match and tz_match.group(1) in NAMED_OFFSETS:
+        offset = NAMED_OFFSETS[tz_match.group(1)]
+        body = txt[: tz_match.start()].strip()
+        for fmt in ("%a, %d %b %Y %H:%M:%S", "%d %b %Y %H:%M:%S"):
+            try:
+                # DTZ007 false positive: tzinfo is attached on the next line
+                naive = dt.datetime.strptime(body, fmt)  # noqa: DTZ007
+            except ValueError:
+                continue
+            aware = naive.replace(tzinfo=dt.timezone(dt.timedelta(hours=offset)))
+            return aware.astimezone(dt.timezone.utc)
+
     for parser in (
         lambda s: dt.datetime.fromisoformat(s),
         lambda s: dt.datetime.strptime(s, "%a, %d %b %Y %H:%M:%S %z"),

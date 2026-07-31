@@ -1,44 +1,73 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **1,074 incidents**. Updated 2026-07-31.
+Cross-vendor incident data for 24 providers. Corpus: **22,284 incidents**. Updated 2026-07-31.
 
 ## Last 30 days
 
-- Incidents recorded: **338**
-- Major or worse: **78**
+- Incidents recorded: **810**
+- Major or worse: **80**
 
 ## Reliability by provider (all time)
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
-| Atlassian | devtools | 34 | 124m | 3265m |
+| Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 36 | — | — |
-| CircleCI | devtools | 50 | 72m | 390m |
-| Cloudflare | cdn | 50 | 74m | 262m |
-| Confluent Cloud | data | 50 | 335m | 3316m |
-| Datadog | observability | 50 | 89m | 197m |
-| DigitalOcean | cloud | 50 | 148m | 766m |
-| Discord | comms | 50 | 46m | 218m |
-| Elastic Cloud | observability | 50 | 170m | 1249m |
+| CircleCI | devtools | 295 | 66m | 491m |
+| Cloudflare | cdn | 6559 | 240m | 495m |
+| Confluent Cloud | data | 248 | 195m | 1645m |
+| Datadog | observability | 119 | 74m | 222m |
+| DigitalOcean | cloud | 494 | 144m | 571m |
+| Discord | comms | 207 | 54m | 299m |
+| Elastic Cloud | observability | 241 | 188m | 1326m |
 | Google Cloud Platform | cloud | 4 | — | — |
-| GitHub | devtools | 50 | 84m | 302m |
-| Grafana Cloud | observability | 50 | 156m | 3704m |
+| GitHub | devtools | 586 | 66m | 282m |
+| Grafana Cloud | observability | 726 | 91m | 1154m |
 | HashiCorp Cloud | devtools | 25 | 411m | 1465m |
-| MongoDB Atlas | data | 50 | 127m | 3412m |
-| Netlify | paas | 50 | 42m | 181m |
-| New Relic | observability | 50 | 95m | 406m |
-| npm | devtools | 50 | 105m | 271m |
+| MongoDB Atlas | data | 265 | 120m | 1385m |
+| Netlify | paas | 212 | 41m | 221m |
+| New Relic | observability | 102 | 64m | 306m |
+| npm | devtools | 59 | 107m | 340m |
 | OpenAI | ai | 25 | 123m | 938m |
-| Sentry | observability | 50 | 125m | 418m |
-| Snowflake | data | 50 | 136m | 877m |
-| Supabase | paas | 50 | 131m | 486m |
-| Twilio | comms | 50 | 239m | 1147m |
-| Vercel | paas | 50 | 65m | 391m |
-| Zoom | comms | 50 | 61m | 1201m |
+| Sentry | observability | 324 | 83m | 361m |
+| Snowflake | data | 183 | 122m | 599m |
+| Supabase | paas | 375 | 154m | 802m |
+| Twilio | comms | 10660 | 270m | 1056m |
+| Vercel | paas | 372 | 74m | 366m |
+| Zoom | comms | 128 | 229m | 5830m |
 
-## Updated since last run (1)
+## New since last run (36)
 
-- **Twilio** — SMS Delivery Delays from Twilio to Celcom Malaysia → `monitoring`
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity Issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased connectivity issues and API Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+
+## Updated since last run (2)
+
+- **Supabase** — Management API Performance Degradation. → `monitoring`
+- **Supabase** — Issues with Edge Function Deployment → `identified`
 
 ---
 

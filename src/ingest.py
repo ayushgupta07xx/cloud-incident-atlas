@@ -52,11 +52,27 @@ def load_providers() -> list[dict]:
 
 
 def load_corpus() -> dict[str, dict]:
-    path = DATA / "incidents.json"
-    if not path.exists():
-        return {}
-    with open(path) as fh:
-        return {f"{i['provider_id']}:{i['incident_id']}": i for i in json.load(fh)}
+    """Load the corpus from per-year shards.
+
+    Sharded rather than one file: a single 12MB blob is rewritten in full on
+    every daily run, so git stores a fresh copy per commit and the repo grows
+    without bound. Sharding means a run touches only the current year.
+    """
+    out: dict[str, dict] = {}
+    for path in sorted((DATA / "incidents").glob("*.json")):
+        with open(path) as fh:
+            for i in json.load(fh):
+                out[f"{i['provider_id']}:{i['incident_id']}"] = i
+    return out
+
+
+def write_corpus(records: list[dict]) -> None:
+    by_year: dict[str, list[dict]] = {}
+    for rec in records:
+        year = (rec.get("created_at") or "0000")[:4]
+        by_year.setdefault(year, []).append(rec)
+    for year, recs in by_year.items():
+        write_json(DATA / "incidents" / f"{year}.json", recs)
 
 
 def write_json(path: pathlib.Path, payload) -> None:
@@ -196,7 +212,7 @@ def main() -> int:
     records = sorted(corpus.values(), key=lambda i: (i["created_at"] or "", i["provider_id"]))
     summary = metrics.build_summary(records)
 
-    write_json(DATA / "incidents.json", records)
+    write_corpus(records)
     write_json(DATA / "summary.json", summary)
     write_json(DATA / "daily" / f"{today}.json", merge_daily(today, new, changed))
 

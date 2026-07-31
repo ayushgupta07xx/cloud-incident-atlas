@@ -58,3 +58,15 @@ def test_unknown_adapter_returns_empty():
 @pytest.mark.parametrize("sev,rank", [("none",0),("minor",1),("major",2),("critical",3)])
 def test_severity_scale(sev, rank):
     assert providers.SEVERITY_MAP[sev] == rank
+
+
+@pytest.mark.parametrize("raw,expect_utc_hour", [
+    ("Thu, 30 Apr 2026 00:25:54 PDT", 7),   # PDT = UTC-7
+    ("Tue, 03 Mar 2026 08:40:00 PST", 16),  # PST = UTC-8
+    ("Mon, 01 Jun 2026 12:00:00 UTC", 12),
+])
+def test_named_timezone_abbreviations(raw, expect_utc_hour):
+    """strptime %Z only handles the local machine's names; AWS sends Pacific."""
+    parsed = providers._parse_ts(raw)
+    assert parsed is not None, f"failed to parse {raw!r}"
+    assert parsed.hour == expect_utc_hour
