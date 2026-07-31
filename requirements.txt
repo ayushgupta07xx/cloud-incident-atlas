@@ -1,2 +1,5 @@
-requests>=2.32.0
-PyYAML>=6.0.2
+# Upper-bounded on purpose. This pipeline runs unattended for months at a
+# time; a breaking major release of either dependency would fail the ingest
+# with nobody watching. Bump deliberately, not by surprise.
+requests>=2.32.0,<3.0
+PyYAML>=6.0.2,<7.0

@@ -1,0 +1,35 @@
+# Scheduled workflows in public repos are disabled automatically after 60 days
+# without repository activity. Normally the daily ingest keeps the repo active,
+# but that creates a cascade: if the ingest breaks, commits stop, and 60 days
+# later the schedule is silently disabled too. Recovery then requires noticing
+# and manually re-enabling.
+#
+# This runs monthly and re-enables the schedule via the API, which resets the
+# timer. It commits nothing.
+
+name: Keepalive
+
+on:
+  schedule:
+    - cron: "41 3 1 * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Re-enable scheduled workflows
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh api "repos/${GITHUB_REPOSITORY}/actions/workflows" \
+            --jq '.workflows[] | select(.state != "active") | .id' \
+          | while read -r id; do
+              echo "re-enabling workflow ${id}"
+              gh api -X PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/${id}/enable"
+            done
+          echo "done"
