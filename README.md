@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/img/logo.svg" width="76" alt="">
+
 # Cloud Incident Atlas
 
 **Every major vendor publishes a status page. None publish them side by side.**
@@ -74,12 +76,11 @@ p90 over fifty implies a comparability that is not there.
 | `ai` | 1 | 25 | 6 |
 
 ## How it works
-providers.yaml ──▶ adapter dispatch ──▶ normalized Incident ──▶ corpus (dedup by key)
-├─ statuspage (22) │
-├─ gcp ├─▶ incidents/YYYY.json
-├─ azure_rss ├─▶ summary.json
-└─ aws ├─▶ daily/YYYY-MM-DD.json
-└─▶ docs/ (published site)
+
+<div align="center">
+<img src="docs/img/architecture.svg" width="900" alt="providers.yaml to adapters to normalize to corpus, fanning out to four outputs">
+</div>
+
 22 of 25 providers run Atlassian Statuspage, which exposes a uniform v2 JSON API —
 so one adapter covers most of the surface and the bespoke feeds get their own.
 **Adding a provider is a one-line change to `providers.yaml`.**
@@ -182,24 +183,21 @@ Found and disclosed, not discovered later.
 **Storage** Year-sharded JSON in git; no database
 
 ## Repository layout
-cloud-incident-atlas/
-├── providers.yaml # the registry — one line per provider
-├── src/
-│ ├── providers.py # adapter dispatch, normalization, severity scale
-│ ├── history.py # /history.json backfill, timestamp parsing
-│ ├── ingest.py # corpus load, dedup, delta, orchestration
-│ ├── metrics.py # MTTR, percentiles, sample-size thresholds
-│ ├── health.py # per-provider drift baseline
-│ └── site.py # generates the published pages
-├── tests/ # 38 offline tests over recorded fixtures
-├── data/
-│ ├── incidents/ # canonical corpus, sharded by year
-│ ├── daily/ # per-day deltas
-│ └── summary.json # derived metrics
-├── docs/ # MkDocs source + generated charts
-├── backfill.py # one-time historical import
-├── RUNBOOK.md # diagnosis by symptom
-└── ROADMAP.md
+
+| Path | What it does |
+|---|---|
+| `providers.yaml` | The registry — one line per provider |
+| `src/providers.py` | Adapter dispatch, normalization, severity scale |
+| `src/history.py` | `/history.json` backfill, timestamp parsing |
+| `src/ingest.py` | Corpus load, dedup, delta, orchestration |
+| `src/metrics.py` | MTTR, percentiles, sample-size thresholds |
+| `src/health.py` | Per-provider drift baseline |
+| `src/site.py` | Generates the published pages |
+| `scripts/charts.py` | Regenerates README charts from the corpus |
+| `backfill.py` | One-time historical import |
+| `tests/` | 38 offline tests over recorded fixtures |
+| `RUNBOOK.md` | Diagnosis by symptom |
+
 ---
 
 <div align="center">
