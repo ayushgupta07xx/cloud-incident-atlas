@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,301 incidents**. Updated 2026-08-01.
+Cross-vendor incident data for 24 providers. Corpus: **22,306 incidents**. Updated 2026-08-01.
 
 ## Last 30 days
 
-- Incidents recorded: **790**
-- Major or worse: **77**
+- Incidents recorded: **780**
+- Major or worse: **76**
 
 ## Reliability by provider (all time)
 
@@ -14,15 +14,15 @@ Cross-vendor incident data for 24 providers. Corpus: **22,301 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 39 | — | — |
 | CircleCI | devtools | 295 | 66m | 491m |
-| Cloudflare | cdn | 6565 | 240m | 495m |
+| Cloudflare | cdn | 6566 | 240m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 119 | 74m | 222m |
 | DigitalOcean | cloud | 494 | 144m | 571m |
 | Discord | comms | 207 | 54m | 299m |
 | Elastic Cloud | observability | 241 | 188m | 1326m |
 | Google Cloud Platform | cloud | 4 | — | — |
-| GitHub | devtools | 586 | 66m | 282m |
-| Grafana Cloud | observability | 728 | 91m | 1154m |
+| GitHub | devtools | 587 | 66m | 281m |
+| Grafana Cloud | observability | 729 | 90m | 1154m |
 | HashiCorp Cloud | devtools | 25 | 371m | 1463m |
 | MongoDB Atlas | data | 265 | 120m | 1385m |
 | Netlify | paas | 212 | 41m | 221m |
@@ -32,17 +32,23 @@ Cross-vendor incident data for 24 providers. Corpus: **22,301 incidents**. Updat
 | Sentry | observability | 324 | 83m | 361m |
 | Snowflake | data | 183 | 122m | 599m |
 | Supabase | paas | 377 | 156m | 846m |
-| Twilio | comms | 10662 | 270m | 1056m |
+| Twilio | comms | 10664 | 270m | 1057m |
 | Vercel | paas | 372 | 74m | 366m |
 | Zoom | comms | 129 | 217m | 5745m |
 
-## New since last run (1)
+## New since last run (5)
 
-- **Cloudflare** — Increased HTTP 5XX Errors in IAD (`none`)
+- **Cloudflare** — Network Performance Issues in Istanbul (`none`)
+- **GitHub** — Degraded availability GPT 5.6 Luna (`minor`)
+- **Grafana Cloud** — K6 - Cloud test-run issues (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio Phone Numbers to Globe Telecom Philippines (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in Colombia (`minor`)
 
-## Updated since last run (2)
+## Updated since last run (4)
 
-- **Supabase** — Management API Performance Degradation → `monitoring`
+- **Twilio** — SMS Delivery Delays from Twilio to Africell Angola → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Metfone Cambodia → `identified`
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Core Communications United States → `identified`
 - **Twilio** — Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala → `monitoring`
 
 ---

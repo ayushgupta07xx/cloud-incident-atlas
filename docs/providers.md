@@ -4,10 +4,10 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 10662 | 4.5h | 17.6h | 1057.6h |
-| Cloudflare | cdn | 6565 | 4.0h | 8.2h | 5350.4h |
-| Grafana Cloud | observability | 728 | 1.5h | 19.2h | 2571.2h |
-| GitHub | devtools | 586 | 1.1h | 4.7h | 62.0h |
+| Twilio | comms | 10664 | 4.5h | 17.6h | 1057.6h |
+| Cloudflare | cdn | 6566 | 4.0h | 8.2h | 5350.4h |
+| Grafana Cloud | observability | 729 | 1.5h | 19.2h | 2571.2h |
+| GitHub | devtools | 587 | 1.1h | 4.7h | 62.0h |
 | DigitalOcean | cloud | 494 | 2.4h | 9.5h | 304.2h |
 | Supabase | paas | 377 | 2.6h | 14.1h | 2129.0h |
 | Vercel | paas | 372 | 1.2h | 6.1h | 339.2h |
@@ -34,10 +34,10 @@
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
 | ai | 1 | 26 | 6 |
-| cdn | 1 | 6565 | 129 |
+| cdn | 1 | 6566 | 129 |
 | cloud | 3 | 537 | 30 |
-| comms | 3 | 10998 | 106 |
+| comms | 3 | 11000 | 106 |
 | data | 3 | 696 | 241 |
-| devtools | 5 | 1004 | 202 |
-| observability | 5 | 1514 | 532 |
+| devtools | 5 | 1005 | 202 |
+| observability | 5 | 1515 | 532 |
 | paas | 3 | 961 | 213 |

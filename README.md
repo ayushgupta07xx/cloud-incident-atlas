@@ -17,6 +17,8 @@
 ![Span](https://img.shields.io/badge/span-2019%E2%80%932026-2EA043)
 ![Tests](https://img.shields.io/badge/tests-38_offline-2EA043)
 
+[![Last commit](https://img.shields.io/github/last-commit/ayushgupta07xx/cloud-incident-atlas?label=last%20ingest&color=2EA043)](https://github.com/ayushgupta07xx/cloud-incident-atlas/commits/main)
+
 [**Live dataset →**](https://ayushgupta07xx.github.io/cloud-incident-atlas/) · [Providers](https://ayushgupta07xx.github.io/cloud-incident-atlas/providers/) · [Methodology](https://ayushgupta07xx.github.io/cloud-incident-atlas/methodology/)
 
 <br>
@@ -26,6 +28,10 @@
 </div>
 
 ---
+
+<!-- STATUS:START -->
+
+<!-- STATUS:END -->
 
 If you run on three clouds and six SaaS dependencies, *"is this vendor reliable?"*
 is answerable only by opening nine separate status pages and scrolling. Each one

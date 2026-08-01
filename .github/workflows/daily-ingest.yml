@@ -85,7 +85,7 @@ jobs:
           # Stage incident data first and test *that* for changes. The
           # baseline is bookkeeping: it must ride along with a real update,
           # never trigger one on its own.
-          git add data/incidents data/daily docs
+          git add data/incidents data/daily
 
           if git diff --cached --quiet; then
             echo "No upstream changes today. Nothing to commit."
@@ -93,7 +93,7 @@ jobs:
             exit 0
           fi
 
-          git add data/baseline.json
+          git add data/baseline.json data/summary.json
 
           # Count what THIS run staged. Reading the daily delta would report
           # every record the file holds, including earlier runs' work.
@@ -106,6 +106,17 @@ jobs:
                      -m "Automated run of the ingest pipeline defined in this repository." \
                      -m "Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
                      -m "Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+
+          # Second commit: generated documentation. Split from the data commit
+          # because they are separate concerns - the corpus is the record, the
+          # docs are a rendering of it, and either should be revertable alone.
+          git add README.md docs
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: refresh digest and charts" \
+                       -m "Regenerated from the corpus by the ingest pipeline." \
+                       -m "Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
+                       -m "Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+          fi
 
           git push
 

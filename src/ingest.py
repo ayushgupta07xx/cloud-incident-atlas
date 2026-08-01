@@ -83,6 +83,69 @@ def write_json(path: pathlib.Path, payload) -> None:
         fh.write("\n")
 
 
+def update_readme_status(new: list[dict], changed: list[dict], summary: dict) -> None:
+    """Replace the freshness block in README.md between HTML marker comments.
+
+    Written between markers rather than appended: the block replaces itself on
+    every run, so the README never grows. There is no "N hours ago" here on
+    purpose - README markdown is static, so any relative time would be a lie
+    within the hour. The absolute UTC stamp is honest; the relative badge
+    beside it is fetched live by shields.io at page load.
+    """
+    readme = ROOT / "README.md"
+    if not readme.exists():
+        return
+
+    text = readme.read_text()
+    start, end = "<!-- STATUS:START -->", "<!-- STATUS:END -->"
+    if start not in text or end not in text:
+        return
+
+    now = dt.datetime.now(dt.timezone.utc)
+    lines = [start, ""]
+
+    if new or changed:
+        bits = []
+        if new:
+            bits.append(f"**{len(new)} new**")
+        if changed:
+            bits.append(f"**{len(changed)} updated**")
+        lines.append(f"**Last ingest** &nbsp;`{now:%Y-%m-%d %H:%M} UTC`"
+                     f" &nbsp;·&nbsp; {' and '.join(bits)} incidents"
+                     f" &nbsp;·&nbsp; {summary['total_incidents']:,} total")
+        lines.append("")
+
+        by_provider: dict[str, int] = {}
+        for rec in new + changed:
+            by_provider[rec["provider_name"]] = by_provider.get(rec["provider_name"], 0) + 1
+        top = sorted(by_provider.items(), key=lambda kv: -kv[1])[:6]
+        lines.append("| Provider | Incidents |")
+        lines.append("| --- | ---: |")
+        lines += [f"| {name} | {count} |" for name, count in top]
+
+        worst = sorted(
+            (r for r in new + changed if r.get("severity_rank", 0) >= 2),
+            key=lambda r: -r["severity_rank"],
+        )[:3]
+        if worst:
+            lines.append("")
+            lines.append("Most severe this run:")
+            lines.append("")
+            for rec in worst:
+                title = rec["title"][:88]
+                lines.append(f"- `{rec['severity']}` **{rec['provider_name']}** — {title}")
+    else:
+        lines.append(f"**Last checked** &nbsp;`{now:%Y-%m-%d %H:%M} UTC`"
+                     f" &nbsp;·&nbsp; no provider published anything new"
+                     f" &nbsp;·&nbsp; {summary['total_incidents']:,} incidents tracked")
+
+    lines += ["", end]
+
+    head = text[: text.index(start)]
+    tail = text[text.index(end) + len(end):]
+    readme.write_text(head + "\n".join(lines) + tail)
+
+
 def render_digest(summary: dict, new: list[dict], changed: list[dict]) -> str:
     today = utc_today()
     lines = [
@@ -233,6 +296,7 @@ def main() -> int:
     # Regenerate the rest of the site content too. These pages are also built
     # during the Pages deploy, but committing them keeps the repo copy in step
     # with the published site rather than frozen at whenever they last ran.
+    update_readme_status(new, changed, summary)
     site.main()
 
     # Regenerate the README charts too. They are committed artefacts read by
