@@ -1,10 +1,10 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,306 incidents**. Updated 2026-08-01.
+Cross-vendor incident data for 24 providers. Corpus: **22,307 incidents**. Updated 2026-08-01.
 
 ## Last 30 days
 
-- Incidents recorded: **780**
+- Incidents recorded: **781**
 - Major or worse: **76**
 
 ## Reliability by provider (all time)
@@ -14,7 +14,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,306 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 39 | — | — |
 | CircleCI | devtools | 295 | 66m | 491m |
-| Cloudflare | cdn | 6566 | 240m | 495m |
+| Cloudflare | cdn | 6567 | 240m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 119 | 74m | 222m |
 | DigitalOcean | cloud | 494 | 144m | 571m |
@@ -36,20 +36,9 @@ Cross-vendor incident data for 24 providers. Corpus: **22,306 incidents**. Updat
 | Vercel | paas | 372 | 74m | 366m |
 | Zoom | comms | 129 | 217m | 5745m |
 
-## New since last run (5)
+## New since last run (1)
 
-- **Cloudflare** — Network Performance Issues in Istanbul (`none`)
-- **GitHub** — Degraded availability GPT 5.6 Luna (`minor`)
-- **Grafana Cloud** — K6 - Cloud test-run issues (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio Phone Numbers to Globe Telecom Philippines (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in Colombia (`minor`)
-
-## Updated since last run (4)
-
-- **Twilio** — SMS Delivery Delays from Twilio to Africell Angola → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Metfone Cambodia → `identified`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Core Communications United States → `identified`
-- **Twilio** — Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala → `monitoring`
+- **Cloudflare** — RealtimeKit socket connection slowness and failed meeting joins (`minor`)
 
 ---
 
