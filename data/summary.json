@@ -6,7 +6,7 @@
       "providers": 1
     },
     "cdn": {
-      "incident_count": 6566,
+      "incident_count": 6567,
       "major_or_worse": 129,
       "providers": 1
     },
@@ -103,21 +103,21 @@
     },
     "cloudflare": {
       "category": "cdn",
-      "incident_count": 6566,
+      "incident_count": 6567,
       "longest_incident_minutes": 321024.0,
       "mean_severity_rank": 0.32,
-      "mttr_minutes_mean": 452.1,
+      "mttr_minutes_mean": 452.0,
       "mttr_minutes_median": 240.0,
       "mttr_minutes_p90": 495.0,
       "open_count": 5,
       "provider_name": "Cloudflare",
-      "resolved_count": 6561,
-      "resolved_with_duration": 6561,
+      "resolved_count": 6562,
+      "resolved_with_duration": 6562,
       "severity_mix": {
         "critical": 27,
         "maintenance": 4243,
         "major": 102,
-        "minor": 1823,
+        "minor": 1824,
         "none": 371
       },
       "stats_note": null
@@ -535,12 +535,12 @@
       "stats_note": null
     }
   },
-  "generated_at": "2026-08-01T14:33:25.661402+00:00",
+  "generated_at": "2026-08-01T14:49:47.597962+00:00",
   "last_30_days": {
     "by_provider": {
       "aws": 3,
       "circleci": 11,
-      "cloudflare": 211,
+      "cloudflare": 212,
       "confluent": 3,
       "datadog": 6,
       "digitalocean": 14,
@@ -562,7 +562,7 @@
       "vercel": 14,
       "zoom": 34
     },
-    "incident_count": 780,
+    "incident_count": 781,
     "major_or_worse": 76,
     "window_days": 30
   },
@@ -570,7 +570,7 @@
     "by_provider": {
       "aws": 3,
       "circleci": 32,
-      "cloudflare": 542,
+      "cloudflare": 543,
       "confluent": 15,
       "datadog": 20,
       "digitalocean": 43,
@@ -592,10 +592,10 @@
       "vercel": 42,
       "zoom": 126
     },
-    "incident_count": 2174,
+    "incident_count": 2175,
     "major_or_worse": 187,
     "window_days": 90
   },
   "providers_tracked": 24,
-  "total_incidents": 22306
+  "total_incidents": 22307
 }
