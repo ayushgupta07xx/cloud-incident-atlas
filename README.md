@@ -31,6 +31,8 @@
 
 <!-- STATUS:START -->
 
+**Last checked** &nbsp;`2026-08-01 14:39 UTC` &nbsp;·&nbsp; no provider published anything new &nbsp;·&nbsp; 22,306 incidents tracked
+
 <!-- STATUS:END -->
 
 If you run on three clouds and six SaaS dependencies, *"is this vendor reliable?"*

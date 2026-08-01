@@ -276,7 +276,15 @@ def main() -> int:
     log.info("new=%d changed=%d total=%d", len(new), len(changed), len(corpus))
 
     if not new and not changed:
-        log.info("no upstream changes — nothing to commit")
+        # The freshness block must still refresh: it reports when the pipeline
+        # last *checked*, not only when it last found something. A quiet day
+        # with a stale timestamp looks identical to a dead pipeline.
+        summary = metrics.build_summary(sorted(
+            corpus.values(),
+            key=lambda i: (i["created_at"] or "", i["provider_id"]),
+        ))
+        update_readme_status([], [], summary)
+        log.info("no upstream changes — status refreshed, nothing else to commit")
         return 0
 
     if args.dry_run:
