@@ -5,7 +5,7 @@
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
 | Twilio | comms | 10662 | 4.5h | 17.6h | 1057.6h |
-| Cloudflare | cdn | 6564 | 4.0h | 8.2h | 5350.4h |
+| Cloudflare | cdn | 6565 | 4.0h | 8.2h | 5350.4h |
 | Grafana Cloud | observability | 728 | 1.5h | 19.2h | 2571.2h |
 | GitHub | devtools | 586 | 1.1h | 4.7h | 62.0h |
 | DigitalOcean | cloud | 494 | 2.4h | 9.5h | 304.2h |
@@ -34,7 +34,7 @@
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
 | ai | 1 | 26 | 6 |
-| cdn | 1 | 6564 | 129 |
+| cdn | 1 | 6565 | 129 |
 | cloud | 3 | 537 | 30 |
 | comms | 3 | 10998 | 106 |
 | data | 3 | 696 | 241 |

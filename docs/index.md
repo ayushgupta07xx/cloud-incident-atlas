@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,300 incidents**. Updated 2026-07-31.
+Cross-vendor incident data for 24 providers. Corpus: **22,301 incidents**. Updated 2026-08-01.
 
 ## Last 30 days
 
-- Incidents recorded: **795**
-- Major or worse: **78**
+- Incidents recorded: **790**
+- Major or worse: **77**
 
 ## Reliability by provider (all time)
 
@@ -14,7 +14,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,300 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 39 | — | — |
 | CircleCI | devtools | 295 | 66m | 491m |
-| Cloudflare | cdn | 6564 | 240m | 495m |
+| Cloudflare | cdn | 6565 | 240m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 119 | 74m | 222m |
 | DigitalOcean | cloud | 494 | 144m | 571m |
@@ -36,39 +36,14 @@ Cross-vendor incident data for 24 providers. Corpus: **22,300 incidents**. Updat
 | Vercel | paas | 372 | 74m | 366m |
 | Zoom | comms | 129 | 217m | 5745m |
 
-## New since last run (16)
+## New since last run (1)
 
-- **Cloudflare** — Increased HTTP Errors in London (`minor`)
-- **Cloudflare** — Network Performance Issues in Hamburg, Germany (`minor`)
-- **Cloudflare** — Cloudflare API Availability Reduced Availability (`minor`)
-- **Cloudflare** — Increased HTTP 5xx Errors for us-east-1-aws (`minor`)
-- **Cloudflare** — Email Routing Delivery Failures to Outlook (`none`)
-- **Grafana Cloud** — Partial Read Outage for Loki in prod-us-east-4 (`none`)
-- **Grafana Cloud** — Degraded Performance: Stack Provisioning Failures within certain reigons (PDC Setup) (`minor`)
-- **Supabase** — Management API Performance Degradation (`minor`)
-- **Supabase** — DNS creation delays (`minor`)
-- **OpenAI** — Enterprise & Education Chat Errors (`none`)
-- **Twilio** — Delays with Inbound and Outbound Message Delivery for RCS and WhatsApp (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Telefonica El Salvador (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Whiteboard and Task Services in US Region. (`minor`)
-- **Amazon Web Services** — Service is operating normally: [RESOLVED] Elevated Packet Loss (`minor`)
-- **Amazon Web Services** — Service impact: Elevated Packet Loss (`minor`)
-- **Amazon Web Services** — Service impact: Elevated Packet Loss (`minor`)
+- **Cloudflare** — Increased HTTP 5XX Errors in IAD (`none`)
 
-## Updated since last run (12)
+## Updated since last run (2)
 
-- **Snowflake** — INC20000106 → `postmortem`
-- **Supabase** — Issues with Edge Function Deployment → `resolved`
-- **Supabase** — Management API Performance Degradation → `resolved`
-- **OpenAI** — Elevated Error Rates → `resolved`
-- **Twilio** — Voice Call Failures and Post Dial Delay from Twilio Phone Numbers to Brazil → `resolved`
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Phone Numbers to C+W LIME Cayman Islands → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Celcom Malaysia → `resolved`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Mobile Numbers to Claro Nework in Colombia → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Africell Angola → `monitoring`
-- **Twilio** — SMS Delivery Delays from Twilio to Unitel Angola → `identified`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Metfone Cambodia → `identified`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Core Communications United States → `identified`
+- **Supabase** — Management API Performance Degradation → `monitoring`
+- **Twilio** — Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala → `monitoring`
 
 ---
 
