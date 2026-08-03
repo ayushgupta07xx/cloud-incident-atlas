@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,307 incidents**. Updated 2026-08-01.
+Cross-vendor incident data for 24 providers. Corpus: **22,315 incidents**. Updated 2026-08-03.
 
 ## Last 30 days
 
-- Incidents recorded: **781**
-- Major or worse: **76**
+- Incidents recorded: **753**
+- Major or worse: **73**
 
 ## Reliability by provider (all time)
 
@@ -21,7 +21,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,307 incidents**. Updat
 | Discord | comms | 207 | 54m | 299m |
 | Elastic Cloud | observability | 241 | 188m | 1326m |
 | Google Cloud Platform | cloud | 4 | — | — |
-| GitHub | devtools | 587 | 66m | 281m |
+| GitHub | devtools | 588 | 66m | 280m |
 | Grafana Cloud | observability | 729 | 90m | 1154m |
 | HashiCorp Cloud | devtools | 25 | 371m | 1463m |
 | MongoDB Atlas | data | 265 | 120m | 1385m |
@@ -30,15 +30,33 @@ Cross-vendor incident data for 24 providers. Corpus: **22,307 incidents**. Updat
 | npm | devtools | 59 | 107m | 340m |
 | OpenAI | ai | 26 | 111m | 926m |
 | Sentry | observability | 324 | 83m | 361m |
-| Snowflake | data | 183 | 122m | 599m |
+| Snowflake | data | 184 | 122m | 599m |
 | Supabase | paas | 377 | 156m | 846m |
-| Twilio | comms | 10664 | 270m | 1057m |
+| Twilio | comms | 10668 | 270m | 1058m |
 | Vercel | paas | 372 | 74m | 366m |
-| Zoom | comms | 129 | 217m | 5745m |
+| Zoom | comms | 131 | 192m | 5576m |
 
-## New since last run (1)
+## New since last run (8)
 
-- **Cloudflare** — RealtimeKit socket connection slowness and failed meeting joins (`minor`)
+- **GitHub** — Incident with Copilot AI Model Providers (`minor`)
+- **Snowflake** — INC20000128 (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Econet Burundi (`minor`)
+- **Twilio** — User Authentication Identity SNA Failure Increase for Indosat in Indonesia (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Safaricom Kenya (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric and Long Codes to Safaricom Kenya (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Meeting Quality in the US Region (`none`)
+- **Zoom** — Service Degradation Affecting Zoom Marketplace and AI Companion Services (`none`)
+
+## Updated since last run (8)
+
+- **Cloudflare** — Network Performance Issues in Hamburg, Germany → `resolved`
+- **Supabase** — Issues with Edge Function Deployment → `resolved`
+- **Twilio** — Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Globe Telecom Philippines → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Unitel Angola → `identified`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico → `identified`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Metfone Cambodia → `identified`
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Core Communications United States → `identified`
 
 ---
 

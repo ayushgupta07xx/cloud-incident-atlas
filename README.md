@@ -31,11 +31,20 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-01 14:49 UTC` &nbsp;·&nbsp; **1 new** incidents &nbsp;·&nbsp; 22,307 total
+**Last ingest** &nbsp;`2026-08-03 07:52 UTC` &nbsp;·&nbsp; **8 new** and **8 updated** incidents &nbsp;·&nbsp; 22,315 total
 
 | Provider | Incidents |
 | --- | ---: |
+| Twilio | 10 |
+| Zoom | 2 |
+| GitHub | 1 |
+| Snowflake | 1 |
 | Cloudflare | 1 |
+| Supabase | 1 |
+
+Most severe this run:
+
+- `major` **Supabase** — Issues with Edge Function Deployment
 
 <!-- STATUS:END -->
 

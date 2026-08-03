@@ -4,10 +4,10 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 10664 | 4.5h | 17.6h | 1057.6h |
+| Twilio | comms | 10668 | 4.5h | 17.6h | 1057.6h |
 | Cloudflare | cdn | 6567 | 4.0h | 8.2h | 5350.4h |
 | Grafana Cloud | observability | 729 | 1.5h | 19.2h | 2571.2h |
-| GitHub | devtools | 587 | 1.1h | 4.7h | 62.0h |
+| GitHub | devtools | 588 | 1.1h | 4.7h | 62.0h |
 | DigitalOcean | cloud | 494 | 2.4h | 9.5h | 304.2h |
 | Supabase | paas | 377 | 2.6h | 14.1h | 2129.0h |
 | Vercel | paas | 372 | 1.2h | 6.1h | 339.2h |
@@ -18,8 +18,8 @@
 | Elastic Cloud | observability | 241 | 3.1h | 22.1h | 364.1h |
 | Netlify | paas | 212 | 41m | 3.7h | 347.3h |
 | Discord | comms | 207 | 54m | 5.0h | 664.8h |
-| Snowflake | data | 183 | 2.0h | 10.0h | 1801.6h |
-| Zoom | comms | 129 | 3.6h | 95.8h | 1944.0h |
+| Snowflake | data | 184 | 2.0h | 10.0h | 1801.6h |
+| Zoom | comms | 131 | 3.2h | 92.9h | 1944.0h |
 | Datadog | observability | 119 | 1.2h | 3.7h | 49.9h |
 | New Relic | observability | 102 | 1.1h | 5.1h | 52.3h |
 | npm | devtools | 59 | 1.8h | 5.7h | 20.9h |
@@ -36,8 +36,8 @@
 | ai | 1 | 26 | 6 |
 | cdn | 1 | 6567 | 129 |
 | cloud | 3 | 537 | 30 |
-| comms | 3 | 11000 | 106 |
-| data | 3 | 696 | 241 |
-| devtools | 5 | 1005 | 202 |
+| comms | 3 | 11006 | 106 |
+| data | 3 | 697 | 241 |
+| devtools | 5 | 1006 | 202 |
 | observability | 5 | 1515 | 532 |
 | paas | 3 | 961 | 213 |
