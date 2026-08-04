@@ -31,20 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-03 07:52 UTC` &nbsp;·&nbsp; **8 new** and **8 updated** incidents &nbsp;·&nbsp; 22,315 total
+**Last ingest** &nbsp;`2026-08-04 11:48 UTC` &nbsp;·&nbsp; **27 new** and **9 updated** incidents &nbsp;·&nbsp; 22,342 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 10 |
-| Zoom | 2 |
-| GitHub | 1 |
-| Snowflake | 1 |
-| Cloudflare | 1 |
-| Supabase | 1 |
+| Twilio | 19 |
+| Cloudflare | 6 |
+| GitHub | 2 |
+| Snowflake | 2 |
+| Supabase | 2 |
+| DigitalOcean | 1 |
 
 Most severe this run:
 
-- `major` **Supabase** — Issues with Edge Function Deployment
+- `critical` **Snowflake** — INC20000129
+- `major` **MongoDB Atlas** — Elevated errors on VoyageAI APIs
+- `major` **Netlify** — Elevated Build Errors
 
 <!-- STATUS:END -->
 

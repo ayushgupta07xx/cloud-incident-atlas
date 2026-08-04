@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,315 incidents**. Updated 2026-08-03.
+Cross-vendor incident data for 24 providers. Corpus: **22,342 incidents**. Updated 2026-08-04.
 
 ## Last 30 days
 
-- Incidents recorded: **753**
-- Major or worse: **73**
+- Incidents recorded: **772**
+- Major or worse: **75**
 
 ## Reliability by provider (all time)
 
@@ -14,49 +14,67 @@ Cross-vendor incident data for 24 providers. Corpus: **22,315 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 39 | — | — |
 | CircleCI | devtools | 295 | 66m | 491m |
-| Cloudflare | cdn | 6567 | 240m | 495m |
+| Cloudflare | cdn | 6573 | 240m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 119 | 74m | 222m |
-| DigitalOcean | cloud | 494 | 144m | 571m |
+| DigitalOcean | cloud | 495 | 145m | 571m |
 | Discord | comms | 207 | 54m | 299m |
 | Elastic Cloud | observability | 241 | 188m | 1326m |
 | Google Cloud Platform | cloud | 4 | — | — |
-| GitHub | devtools | 588 | 66m | 280m |
-| Grafana Cloud | observability | 729 | 90m | 1154m |
+| GitHub | devtools | 589 | 66m | 279m |
+| Grafana Cloud | observability | 730 | 90m | 1154m |
 | HashiCorp Cloud | devtools | 25 | 371m | 1463m |
-| MongoDB Atlas | data | 265 | 120m | 1385m |
-| Netlify | paas | 212 | 41m | 221m |
-| New Relic | observability | 102 | 64m | 306m |
+| MongoDB Atlas | data | 266 | 120m | 1383m |
+| Netlify | paas | 213 | 41m | 219m |
+| New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
 | OpenAI | ai | 26 | 111m | 926m |
 | Sentry | observability | 324 | 83m | 361m |
-| Snowflake | data | 184 | 122m | 599m |
-| Supabase | paas | 377 | 156m | 846m |
-| Twilio | comms | 10668 | 270m | 1058m |
+| Snowflake | data | 185 | 126m | 599m |
+| Supabase | paas | 378 | 156m | 846m |
+| Twilio | comms | 10681 | 270m | 1058m |
 | Vercel | paas | 372 | 74m | 366m |
 | Zoom | comms | 131 | 192m | 5576m |
 
-## New since last run (8)
+## New since last run (27)
 
-- **GitHub** — Incident with Copilot AI Model Providers (`minor`)
-- **Snowflake** — INC20000128 (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Econet Burundi (`minor`)
-- **Twilio** — User Authentication Identity SNA Failure Increase for Indosat in Indonesia (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Safaricom Kenya (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric and Long Codes to Safaricom Kenya (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Meeting Quality in the US Region (`none`)
-- **Zoom** — Service Degradation Affecting Zoom Marketplace and AI Companion Services (`none`)
+- **Cloudflare** — Cloudflare Workers Runtime API issues (`minor`)
+- **Cloudflare** — Cloudflare Workers deployment Issues (`minor`)
+- **Cloudflare** — Network Performance Issues in Bangalore, India (`none`)
+- **Cloudflare** — Network Performance Issues in Istanbul (`none`)
+- **Cloudflare** — Cloudflare Workers build failures (`minor`)
+- **Cloudflare** — Cloudflare Dedicated Egress in London (`minor`)
+- **GitHub** — Incident with Copilot (`minor`)
+- **DigitalOcean** — Cloud Control Panel Access (`minor`)
+- **Snowflake** — INC20000129 (`critical`)
+- **MongoDB Atlas** — Elevated errors on VoyageAI APIs (`major`)
+- **Grafana Cloud** — Logs latency increase within prod-eu-west-3 (`minor`)
+- **New Relic** — Issues loading Alerts and Activity page (`minor`)
+- **Netlify** — Elevated Build Errors (`major`)
+- **Supabase** — Project Upgrade Delays (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Lancelot BV Netherlands (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in United States (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Telenor Pakistan (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Claro Brazil (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MTN Zambia (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Dish United States (`minor`)
+- **Twilio** — AI Terms Page Presented When Using Twilio Conversations (`minor`)
+- **Twilio** — Voice Call Silent and One-Way Audio from Brazil to a Subset of Twilio Brazil Phone Numbers (`minor`)
+- **Twilio** — User Authentication Identity SNA Failure Increase for Telkomsel in Indonesia (`minor`)
+- **Twilio** — SMS Delivery Delays From Twilio Short Codes, Long Codes, and Toll-Free Numbers to Bell Canada (`minor`)
+- **Twilio** — Issues using Speech-to-Text when using DeepGram for ConversationRelay (`major`)
 
-## Updated since last run (8)
+## Updated since last run (9)
 
-- **Cloudflare** — Network Performance Issues in Hamburg, Germany → `resolved`
-- **Supabase** — Issues with Edge Function Deployment → `resolved`
-- **Twilio** — Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Globe Telecom Philippines → `resolved`
+- **GitHub** — Claude Fable 5 experiencing degraded performance → `resolved`
+- **Snowflake** — INC20000128 → `resolved`
+- **Supabase** — Management API Performance Degradation → `monitoring`
+- **Twilio** — User Authentication Identity SNA Failure Increase for Indosat in Indonesia → `resolved`
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Core Communications United States → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Econet Burundi → `identified`
 - **Twilio** — SMS Delivery Delays from Twilio to Unitel Angola → `identified`
 - **Twilio** — SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico → `identified`
 - **Twilio** — SMS Delivery Delays and Failures from Twilio to Metfone Cambodia → `identified`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Core Communications United States → `identified`
 
 ---
 
