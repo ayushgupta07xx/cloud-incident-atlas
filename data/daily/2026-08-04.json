@@ -1,0 +1,699 @@
+{
+  "changed": [
+    {
+      "category": "devtools",
+      "components": [
+        "Copilot AI Model Providers"
+      ],
+      "created_at": "2026-07-16T21:05:43.275000+00:00",
+      "duration_minutes": 59.1,
+      "incident_id": "0f6hndclsk21",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-07-16T22:04:49.503000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/vgv1m8xfnz3z",
+      "status": "resolved",
+      "title": "Claude Fable 5 experiencing degraded performance",
+      "update_count": 3,
+      "updated_at": "2026-08-03T23:42:21.370000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Applications"
+      ],
+      "created_at": "2026-08-03T05:53:06.014000+00:00",
+      "duration_minutes": 142.2,
+      "incident_id": "ns7hfk8pbqfy",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": "2026-08-03T08:15:16.831000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/47d2jv4s8b94",
+      "status": "resolved",
+      "title": "INC20000128",
+      "update_count": 5,
+      "updated_at": "2026-08-03T08:15:16.847000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [
+        "Management API"
+      ],
+      "created_at": "2026-07-31T18:36:40.702000+00:00",
+      "duration_minutes": null,
+      "incident_id": "4ymz5r933c1c",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/w08jdzj4dsj0",
+      "status": "monitoring",
+      "title": "Management API Performance Degradation",
+      "update_count": 6,
+      "updated_at": "2026-08-03T22:36:38.513000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-07-29T00:06:07.826000+00:00",
+      "duration_minutes": null,
+      "incident_id": "0nyb325khwp7",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/1hp5fj1qkcc0",
+      "status": "identified",
+      "title": "SMS Delivery Delays and Failures from Twilio to Metfone Cambodia",
+      "update_count": 21,
+      "updated_at": "2026-08-04T05:29:32.899000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-07-29T22:49:22.819000+00:00",
+      "duration_minutes": null,
+      "incident_id": "4m74052kfyt1",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/22qzwrjprjc0",
+      "status": "identified",
+      "title": "SMS Delivery Delays from Twilio to Unitel Angola",
+      "update_count": 14,
+      "updated_at": "2026-08-03T21:35:34.517000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Verify Silent Network Auth"
+      ],
+      "created_at": "2026-08-03T05:48:59.779000+00:00",
+      "duration_minutes": 667.1,
+      "incident_id": "6gg1p370d475",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-03T16:56:08.051000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/xmfd70n296zj",
+      "status": "resolved",
+      "title": "User Authentication Identity SNA Failure Increase for Indosat in Indonesia",
+      "update_count": 6,
+      "updated_at": "2026-08-03T16:56:08.075000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-08-03T06:01:29.239000+00:00",
+      "duration_minutes": null,
+      "incident_id": "6w65b11rs8z7",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/lqt7nkft5ycl",
+      "status": "identified",
+      "title": "SMS Delivery Delays from Twilio to Econet Burundi",
+      "update_count": 7,
+      "updated_at": "2026-08-03T23:21:18.187000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Long Code, North America",
+        "SMS Short Code, North America",
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-07-29T19:53:19.589000+00:00",
+      "duration_minutes": null,
+      "incident_id": "8t7mrtmr6zxr",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/53wylgck4c1z",
+      "status": "identified",
+      "title": "SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico",
+      "update_count": 14,
+      "updated_at": "2026-08-04T06:45:23.325000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, North America"
+      ],
+      "created_at": "2026-07-28T03:13:22.403000+00:00",
+      "duration_minutes": 9442.9,
+      "incident_id": "yc5p3bgc2sbk",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-03T16:36:16.434000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/vhyw1rj1ckqc",
+      "status": "resolved",
+      "title": "Voice Call Failures from Twilio Phone Numbers to Core Communications United States",
+      "update_count": 21,
+      "updated_at": "2026-08-03T16:36:16.454000+00:00"
+    }
+  ],
+  "date": "2026-08-04",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [
+        "Workers"
+      ],
+      "created_at": "2026-08-03T15:13:33.256000+00:00",
+      "duration_minutes": 959.1,
+      "incident_id": "238b69fw6l55",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-04T07:12:40.794000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/m6sncw8b57f0",
+      "status": "resolved",
+      "title": "Cloudflare Workers Runtime API issues",
+      "update_count": 4,
+      "updated_at": "2026-08-04T07:12:40.817000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [],
+      "created_at": "2026-08-03T22:00:00+00:00",
+      "duration_minutes": 0.0,
+      "incident_id": "6x39thxt9ds1",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-03T22:00:00+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/b1y7y2kfc69k",
+      "status": "resolved",
+      "title": "Network Performance Issues in Istanbul",
+      "update_count": 1,
+      "updated_at": "2026-08-04T01:07:29.351000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Gateway"
+      ],
+      "created_at": "2026-08-03T11:05:13+00:00",
+      "duration_minutes": 137.8,
+      "incident_id": "7dk3g4k188ky",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-03T13:23:03.246000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/dw8pjvcw0kxt",
+      "status": "resolved",
+      "title": "Cloudflare Dedicated Egress in London",
+      "update_count": 4,
+      "updated_at": "2026-08-03T13:23:03.263000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Bangalore, India - (BLR)",
+        "Network"
+      ],
+      "created_at": "2026-08-04T00:58:39.501000+00:00",
+      "duration_minutes": 3.4,
+      "incident_id": "my9sl2rz23gn",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-04T01:02:04.570000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/c15p28n30q1b",
+      "status": "resolved",
+      "title": "Network Performance Issues in Bangalore, India",
+      "update_count": 3,
+      "updated_at": "2026-08-04T01:02:04.584000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Workers"
+      ],
+      "created_at": "2026-08-04T01:56:19.890000+00:00",
+      "duration_minutes": 66.7,
+      "incident_id": "qtn3z0pny08n",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-04T03:03:00.179000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/ktyxq0d3mghw",
+      "status": "resolved",
+      "title": "Cloudflare Workers deployment Issues",
+      "update_count": 3,
+      "updated_at": "2026-08-04T03:03:00.193000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Workers Builds"
+      ],
+      "created_at": "2026-08-03T14:20:37.314000+00:00",
+      "duration_minutes": 111.5,
+      "incident_id": "x4lf6qsl3pb9",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-03T16:12:08.894000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/m2hf75899d0n",
+      "status": "resolved",
+      "title": "Cloudflare Workers build failures",
+      "update_count": 5,
+      "updated_at": "2026-08-03T16:12:08.910000+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [
+        "Cloud Control Panel"
+      ],
+      "created_at": "2026-08-03T13:58:04.872000+00:00",
+      "duration_minutes": 241.6,
+      "incident_id": "3nt69xj3wkk9",
+      "provider_id": "digitalocean",
+      "provider_name": "DigitalOcean",
+      "resolved_at": "2026-08-03T17:59:42.943000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/045lx5xqfdns",
+      "status": "resolved",
+      "title": "Cloud Control Panel Access",
+      "update_count": 3,
+      "updated_at": "2026-08-03T17:59:42.957000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Copilot"
+      ],
+      "created_at": "2026-08-03T09:53:27.172000+00:00",
+      "duration_minutes": 91.8,
+      "incident_id": "7s119p1yxttr",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-08-03T11:25:12.371000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/y3tm8v1gmn85",
+      "status": "resolved",
+      "title": "Incident with Copilot",
+      "update_count": 5,
+      "updated_at": "2026-08-03T11:25:12.388000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "Azure Netherlands - prod-eu-west-3"
+      ],
+      "created_at": "2026-08-04T10:34:13.896000+00:00",
+      "duration_minutes": null,
+      "incident_id": "lkr5n8k0v1d7",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tf9jp15y4f5k",
+      "status": "investigating",
+      "title": "Logs latency increase within prod-eu-west-3",
+      "update_count": 1,
+      "updated_at": "2026-08-04T10:34:13.999000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "VoyageAI Embedding and Reranking Models"
+      ],
+      "created_at": "2026-08-03T18:47:47.659000+00:00",
+      "duration_minutes": 151.1,
+      "incident_id": "2zp8gbb9dtf7",
+      "provider_id": "mongodb",
+      "provider_name": "MongoDB Atlas",
+      "resolved_at": "2026-08-03T21:18:54.577000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/1d1g8p97f2g6",
+      "status": "resolved",
+      "title": "Elevated errors on VoyageAI APIs",
+      "update_count": 3,
+      "updated_at": "2026-08-03T21:18:54.591000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [
+        "Build Pipeline"
+      ],
+      "created_at": "2026-08-03T09:31:14.362000+00:00",
+      "duration_minutes": 24.7,
+      "incident_id": "bgw09y2ghbxj",
+      "provider_id": "netlify",
+      "provider_name": "Netlify",
+      "resolved_at": "2026-08-03T09:55:58.364000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/c86q300yqbcw",
+      "status": "resolved",
+      "title": "Elevated Build Errors",
+      "update_count": 4,
+      "updated_at": "2026-08-03T09:55:58.381000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [],
+      "created_at": "2026-08-03T09:58:55.261000+00:00",
+      "duration_minutes": 17.1,
+      "incident_id": "7qgzmv42jp2s",
+      "provider_id": "newrelic",
+      "provider_name": "New Relic",
+      "resolved_at": "2026-08-03T10:15:58.690000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/8qbr0x5pcxnx",
+      "status": "resolved",
+      "title": "Issues loading Alerts and Activity page",
+      "update_count": 2,
+      "updated_at": "2026-08-03T10:15:58.713000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Virtual Warehouses"
+      ],
+      "created_at": "2026-08-03T14:11:39+00:00",
+      "duration_minutes": 407.1,
+      "incident_id": "xfv4kdj30rcb",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": "2026-08-03T20:58:46.049000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/x023s6yf3mb7",
+      "status": "resolved",
+      "title": "INC20000129",
+      "update_count": 8,
+      "updated_at": "2026-08-03T20:58:46.069000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [
+        "Database"
+      ],
+      "created_at": "2026-08-03T15:28:10.640000+00:00",
+      "duration_minutes": null,
+      "incident_id": "2vt3m1qjsf29",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/db35bb4v7l92",
+      "status": "identified",
+      "title": "Project Upgrade Delays",
+      "update_count": 5,
+      "updated_at": "2026-08-03T22:46:03.914000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Conversation Orchestrator",
+        "Conversation Intelligence",
+        "Conversation Intelligence (classic)",
+        "Conversation Memory",
+        "Enterprise Knowledge"
+      ],
+      "created_at": "2026-08-03T22:02:09+00:00",
+      "duration_minutes": 102.1,
+      "incident_id": "1kc7ykjynf85",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-03T23:44:15.512000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/r8m6566wkzjs",
+      "status": "resolved",
+      "title": "AI Terms Page Presented When Using Twilio Conversations",
+      "update_count": 2,
+      "updated_at": "2026-08-03T23:44:15.530000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Short Code, North America"
+      ],
+      "created_at": "2026-08-03T14:40:13.087000+00:00",
+      "duration_minutes": 564.2,
+      "incident_id": "318q69l49lgc",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-04T00:04:24.558000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/05tgnks8dng2",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Dish United States",
+      "update_count": 6,
+      "updated_at": "2026-08-04T00:04:24.571000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Short Code, North America"
+      ],
+      "created_at": "2026-08-03T14:01:03.363000+00:00",
+      "duration_minutes": 59.4,
+      "incident_id": "5lsynghjx05c",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-03T15:00:25.881000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/y7pxjhwkdj5z",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Google Voice United States",
+      "update_count": 4,
+      "updated_at": "2026-08-03T15:00:25.894000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-08-04T03:30:53.886000+00:00",
+      "duration_minutes": 307.6,
+      "incident_id": "827cqlzyqdvm",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-04T08:38:29.331000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/fcj7mpxbfph5",
+      "status": "resolved",
+      "title": "SMS Delivery Delays and Failures from Twilio to Lancelot BV Netherlands",
+      "update_count": 6,
+      "updated_at": "2026-08-04T08:38:29.356000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-08-03T16:29:17.833000+00:00",
+      "duration_minutes": 149.6,
+      "incident_id": "8dv5932z0wb2",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-03T18:58:54.221000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/mgnc0kcg04dh",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio Phone Numbers to Ooredoo Kuwait",
+      "update_count": 4,
+      "updated_at": "2026-08-03T18:58:54.237000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-08-04T06:32:09.916000+00:00",
+      "duration_minutes": null,
+      "incident_id": "d9b8b2mtkghs",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/vd0v99lzpdyk",
+      "status": "identified",
+      "title": "SMS Delivery Delays from Twilio to Telenor Pakistan",
+      "update_count": 3,
+      "updated_at": "2026-08-04T09:34:07.177000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Short Code, North America"
+      ],
+      "created_at": "2026-08-03T23:56:32.690000+00:00",
+      "duration_minutes": 397.4,
+      "incident_id": "jzmny86q8wvk",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-04T06:33:57.146000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/z5ngxh59frmb",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in United States",
+      "update_count": 6,
+      "updated_at": "2026-08-04T06:33:57.159000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-08-03T18:52:29.776000+00:00",
+      "duration_minutes": 620.9,
+      "incident_id": "lv552hh824n1",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-04T05:13:21.105000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/g1v50gbfnp44",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MTN Zambia",
+      "update_count": 8,
+      "updated_at": "2026-08-04T05:13:21.121000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-04T00:05:40.375000+00:00",
+      "duration_minutes": 315.4,
+      "incident_id": "p49tj2rtg4jj",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-04T05:21:05.584000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/gm3plxkzxlxx",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Claro Brazil",
+      "update_count": 6,
+      "updated_at": "2026-08-04T05:21:05.605000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-08-03T14:15:35.934000+00:00",
+      "duration_minutes": 521.0,
+      "incident_id": "pw2ddc2328bj",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-03T22:56:33.538000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/prt4f2y48s2t",
+      "status": "resolved",
+      "title": "Voice Call Silent and One-Way Audio from Brazil to a Subset of Twilio Brazil Phone Numbers",
+      "update_count": 7,
+      "updated_at": "2026-08-03T22:56:33.554000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "ConversationRelay US1"
+      ],
+      "created_at": "2026-08-03T16:47:26+00:00",
+      "duration_minutes": 163.6,
+      "incident_id": "r1sv7wjc2vq0",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-03T19:30:59.164000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/5vf029lnslxq",
+      "status": "resolved",
+      "title": "Issues using Speech-to-Text when using DeepGram for ConversationRelay",
+      "update_count": 7,
+      "updated_at": "2026-08-03T19:30:59.180000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Long Code, North America",
+        "SMS Long Code, North America",
+        "SMS Short Code, North America",
+        "SMS Toll-Free, North America",
+        "SMS Toll-Free, North America"
+      ],
+      "created_at": "2026-08-03T19:32:24.607000+00:00",
+      "duration_minutes": null,
+      "incident_id": "rt2rvh5t5y3l",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/fsm5jq3vf9v4",
+      "status": "identified",
+      "title": "SMS Delivery Delays From Twilio Short Codes, Long Codes, and Toll-Free Numbers to Bell Canada",
+      "update_count": 7,
+      "updated_at": "2026-08-04T11:00:55.922000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Verify Silent Network Auth"
+      ],
+      "created_at": "2026-08-03T13:32:15.337000+00:00",
+      "duration_minutes": 388.8,
+      "incident_id": "yj7xzby95nbj",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-03T20:01:01.247000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/qhq57znf0mwk",
+      "status": "resolved",
+      "title": "User Authentication Identity SNA Failure Increase for Telkomsel in Indonesia",
+      "update_count": 6,
+      "updated_at": "2026-08-03T20:01:01.266000+00:00"
+    }
+  ],
+  "runs": 1
+}
