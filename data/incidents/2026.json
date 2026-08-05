@@ -85102,7 +85102,7 @@
     "status": "resolved",
     "title": "Image generation unavailable in ChatGPT",
     "update_count": 15,
-    "updated_at": "2026-07-27T19:04:42+00:00"
+    "updated_at": "2026-08-04T20:53:33+00:00"
   },
   {
     "category": "observability",
@@ -89957,8 +89957,8 @@
     "shortlink": "https://stspg.io/53wylgck4c1z",
     "status": "identified",
     "title": "SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico",
-    "update_count": 14,
-    "updated_at": "2026-08-04T06:45:23.325000+00:00"
+    "update_count": 15,
+    "updated_at": "2026-08-05T06:48:20.181000+00:00"
   },
   {
     "category": "cdn",
@@ -90133,18 +90133,18 @@
       "SMS, Middle East & Africa"
     ],
     "created_at": "2026-07-29T22:49:22.819000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 9122.5,
     "incident_id": "4m74052kfyt1",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-08-05T06:51:55.418000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/22qzwrjprjc0",
-    "status": "identified",
-    "title": "SMS Delivery Delays from Twilio to Unitel Angola",
-    "update_count": 14,
-    "updated_at": "2026-08-03T21:35:34.517000+00:00"
+    "status": "resolved",
+    "title": "SMS Delivery Delays and Failures from Twilio to Unitel Angola",
+    "update_count": 18,
+    "updated_at": "2026-08-05T06:51:55.434000+00:00"
   },
   {
     "category": "cdn",
@@ -90431,7 +90431,7 @@
     "status": "resolved",
     "title": "Copilot model Claude Fable 5 experiencing elevated errors",
     "update_count": 4,
-    "updated_at": "2026-07-30T10:12:15.506000+00:00"
+    "updated_at": "2026-08-04T16:34:28.851000+00:00"
   },
   {
     "category": "cdn",
@@ -91163,18 +91163,18 @@
       "Management API"
     ],
     "created_at": "2026-07-31T18:36:40.702000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 5843.4,
     "incident_id": "4ymz5r933c1c",
     "provider_id": "supabase",
     "provider_name": "Supabase",
-    "resolved_at": null,
+    "resolved_at": "2026-08-04T20:00:04.081000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/w08jdzj4dsj0",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "Management API Performance Degradation",
-    "update_count": 6,
-    "updated_at": "2026-08-03T22:36:38.513000+00:00"
+    "update_count": 7,
+    "updated_at": "2026-08-04T20:00:04.102000+00:00"
   },
   {
     "category": "cloud",
@@ -91490,8 +91490,8 @@
     "shortlink": "https://stspg.io/lqt7nkft5ycl",
     "status": "identified",
     "title": "SMS Delivery Delays from Twilio to Econet Burundi",
-    "update_count": 7,
-    "updated_at": "2026-08-03T23:21:18.187000+00:00"
+    "update_count": 8,
+    "updated_at": "2026-08-04T15:21:34.405000+00:00"
   },
   {
     "category": "paas",
@@ -91735,8 +91735,8 @@
     "shortlink": "https://stspg.io/db35bb4v7l92",
     "status": "identified",
     "title": "Project Upgrade Delays",
-    "update_count": 5,
-    "updated_at": "2026-08-03T22:46:03.914000+00:00"
+    "update_count": 7,
+    "updated_at": "2026-08-04T23:38:20.426000+00:00"
   },
   {
     "category": "comms",
@@ -91824,18 +91824,18 @@
       "SMS Toll-Free, North America"
     ],
     "created_at": "2026-08-03T19:32:24.607000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1514.0,
     "incident_id": "rt2rvh5t5y3l",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-08-04T20:46:27.385000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/fsm5jq3vf9v4",
-    "status": "identified",
+    "status": "resolved",
     "title": "SMS Delivery Delays From Twilio Short Codes, Long Codes, and Toll-Free Numbers to Bell Canada",
-    "update_count": 7,
-    "updated_at": "2026-08-04T11:00:55.922000+00:00"
+    "update_count": 9,
+    "updated_at": "2026-08-04T20:46:27.402000+00:00"
   },
   {
     "category": "cdn",
@@ -91979,18 +91979,18 @@
       "SMS, APAC"
     ],
     "created_at": "2026-08-04T06:32:09.916000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 808.3,
     "incident_id": "d9b8b2mtkghs",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-08-04T20:00:27.437000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/vd0v99lzpdyk",
-    "status": "identified",
+    "status": "resolved",
     "title": "SMS Delivery Delays from Twilio to Telenor Pakistan",
-    "update_count": 3,
-    "updated_at": "2026-08-04T09:34:07.177000+00:00"
+    "update_count": 7,
+    "updated_at": "2026-08-04T20:00:27.456000+00:00"
   },
   {
     "category": "observability",
@@ -91998,17 +91998,357 @@
       "Azure Netherlands - prod-eu-west-3"
     ],
     "created_at": "2026-08-04T10:34:13.896000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 194.8,
     "incident_id": "lkr5n8k0v1d7",
     "provider_id": "grafana",
     "provider_name": "Grafana Cloud",
-    "resolved_at": null,
+    "resolved_at": "2026-08-04T13:49:00.593000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/tf9jp15y4f5k",
-    "status": "investigating",
+    "status": "resolved",
     "title": "Logs latency increase within prod-eu-west-3",
+    "update_count": 3,
+    "updated_at": "2026-08-04T13:49:00.610000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-08-04T12:43:44+00:00",
+    "duration_minutes": 161.8,
+    "incident_id": "01KZ6CT9K9Q52S3707W75MNBGB",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-08-04T15:25:30+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Elevated ChatGPT conversation errors affecting Plus, Pro, Business, and Edu users",
+    "update_count": 3,
+    "updated_at": "2026-08-04T15:25:30+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-08-04T15:36:38.866000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "m1jt8fbshdhx",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-04T15:36:38.900000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/mkd6zw49nmnr",
+    "status": "resolved",
+    "title": "Retroactive Incident: Deepgram connection Timeouts Impacting Speech to Text",
     "update_count": 1,
-    "updated_at": "2026-08-04T10:34:13.999000+00:00"
+    "updated_at": "2026-08-04T15:36:38.906000+00:00"
+  },
+  {
+    "category": "cloud",
+    "components": [
+      "Global",
+      "Billing"
+    ],
+    "created_at": "2026-08-04T16:13:35.593000+00:00",
+    "duration_minutes": 329.1,
+    "incident_id": "l20hw5cfhksw",
+    "provider_id": "digitalocean",
+    "provider_name": "DigitalOcean",
+    "resolved_at": "2026-08-04T21:42:43.197000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/qb6zv0kdjy50",
+    "status": "resolved",
+    "title": "Spaces Cold Storage Billing",
+    "update_count": 4,
+    "updated_at": "2026-08-04T21:42:43.212000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Programmable Messaging API"
+    ],
+    "created_at": "2026-08-04T16:45:48.240000+00:00",
+    "duration_minutes": null,
+    "incident_id": "3gd6hwhz94q9",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/0xl8dk7qcl65",
+    "status": "investigating",
+    "title": "Elevated 500 Errors on Multiple Twilio APIs",
+    "update_count": 2,
+    "updated_at": "2026-08-04T17:02:28.652000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-08-04T18:00:02+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "18tgvg90gg6h",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-04T18:00:02+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/f5yg4tvdtvsz",
+    "status": "resolved",
+    "title": "Retroactive Incident - Legacy Marketing Campaign Delays",
+    "update_count": 1,
+    "updated_at": "2026-08-04T18:07:18.987000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-08-04T18:15:16.179000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "g3cwz0zp465b",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-04T18:15:16.230000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/s0x99k6mrf1h",
+    "status": "resolved",
+    "title": "Retroactive Incident: Verify Settings in Twilio Console Degraded",
+    "update_count": 1,
+    "updated_at": "2026-08-04T18:15:16.241000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "CDN/Cache"
+    ],
+    "created_at": "2026-08-04T18:38:43.889000+00:00",
+    "duration_minutes": 74.3,
+    "incident_id": "2fqjvjdq32dy",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-08-04T19:53:00.756000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/q4r3bkj9nht9",
+    "status": "resolved",
+    "title": "502 errors observed around Singapore, Jakarta and Bangkok",
+    "update_count": 4,
+    "updated_at": "2026-08-04T19:53:00.772000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "API"
+    ],
+    "created_at": "2026-08-04T18:49:50+00:00",
+    "duration_minutes": 87.4,
+    "incident_id": "73wgk29dznv4",
+    "provider_id": "discord",
+    "provider_name": "Discord",
+    "resolved_at": "2026-08-04T20:17:15.330000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/wlryy8d8r7wf",
+    "status": "resolved",
+    "title": "Messaging failures",
+    "update_count": 6,
+    "updated_at": "2026-08-04T20:17:15.345000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "GCP US Central - prod-us-central-0",
+      "GCP US Central - prod-us-central-3",
+      "GCP US Central - prod-us-central-4"
+    ],
+    "created_at": "2026-08-04T19:11:09.140000+00:00",
+    "duration_minutes": 380.9,
+    "incident_id": "1bswvkrhnmls",
+    "provider_id": "grafana",
+    "provider_name": "Grafana Cloud",
+    "resolved_at": "2026-08-05T01:32:01.644000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/4jyq27wvr4kk",
+    "status": "resolved",
+    "title": "Some Grafana Instances Unavailable",
+    "update_count": 5,
+    "updated_at": "2026-08-05T01:32:01.656000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Machine Jobs",
+      "Windows Jobs"
+    ],
+    "created_at": "2026-08-04T19:27:28+00:00",
+    "duration_minutes": 252.9,
+    "incident_id": "n8p81wk9xjrz",
+    "provider_id": "circleci",
+    "provider_name": "CircleCI",
+    "resolved_at": "2026-08-04T23:40:23.795000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/525771jb0gj4",
+    "status": "resolved",
+    "title": "Increased Job Queue Times: Windows, Android, and GPU",
+    "update_count": 7,
+    "updated_at": "2026-08-04T23:40:23.814000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "R2"
+    ],
+    "created_at": "2026-08-04T20:51:47.734000+00:00",
+    "duration_minutes": 126.9,
+    "incident_id": "fkpqy4zrm28t",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-08-04T22:58:39.914000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/8gy533wz2slr",
+    "status": "resolved",
+    "title": "Elevated R2 error rates and latency",
+    "update_count": 3,
+    "updated_at": "2026-08-04T22:58:39.930000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, APAC"
+    ],
+    "created_at": "2026-08-04T21:45:08.702000+00:00",
+    "duration_minutes": 168.0,
+    "incident_id": "44nj9dqjqwh9",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-05T00:33:09.900000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/b329s3nr991p",
+    "status": "resolved",
+    "title": "SMS Delivery Failures from a Subset of Twilio Long Codes to One NZ New Zealand",
+    "update_count": 4,
+    "updated_at": "2026-08-05T00:33:09.922000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [],
+    "created_at": "2026-08-05T00:05:09+00:00",
+    "duration_minutes": 114.3,
+    "incident_id": "01KZ7KT06KN9ZZFGWN3RXFV9WR",
+    "provider_id": "hashicorp",
+    "provider_name": "HashiCorp Cloud",
+    "resolved_at": "2026-08-05T01:59:29+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "HCP Terraform UI Not Loading",
+    "update_count": 3,
+    "updated_at": "2026-08-05T01:59:29+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-08-05T00:59:13.070000+00:00",
+    "duration_minutes": null,
+    "incident_id": "13pnklm9gf62",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/3llwjrv5j8sz",
+    "status": "identified",
+    "title": "SMS Delivery Delays and Failures from Twilio to C+W Sure UK",
+    "update_count": 4,
+    "updated_at": "2026-08-05T04:58:02.443000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Challenge Platform",
+      "Firewall"
+    ],
+    "created_at": "2026-08-05T04:17:11+00:00",
+    "duration_minutes": 109.0,
+    "incident_id": "56mr50t39z2g",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-08-05T06:06:08.484000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/dm9r3cwr9vth",
+    "status": "resolved",
+    "title": "Managed Challenge Issues for China Network",
+    "update_count": 5,
+    "updated_at": "2026-08-05T06:06:08.510000+00:00"
+  },
+  {
+    "category": "data",
+    "components": [
+      "MongoDB Cloud"
+    ],
+    "created_at": "2026-08-05T05:17:26.232000+00:00",
+    "duration_minutes": null,
+    "incident_id": "f90g1tjzpdy2",
+    "provider_id": "mongodb",
+    "provider_name": "MongoDB Atlas",
+    "resolved_at": null,
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/5skglmlv07mf",
+    "status": "investigating",
+    "title": "GCP capacity constraints affecting Atlas deployments",
+    "update_count": 1,
+    "updated_at": "2026-08-05T05:59:58.117000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Group Rooms",
+      "Peer-to-Peer Rooms",
+      "Go Rooms"
+    ],
+    "created_at": "2026-08-05T06:22:38.272000+00:00",
+    "duration_minutes": null,
+    "incident_id": "xzps8r06btt0",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/gl049y27p64t",
+    "status": "investigating",
+    "title": "Issues Connecting to Video Rooms in in1 region",
+    "update_count": 3,
+    "updated_at": "2026-08-05T07:35:56.291000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Pages",
+      "Workers Assets"
+    ],
+    "created_at": "2026-08-05T08:02:34.213000+00:00",
+    "duration_minutes": 39.7,
+    "incident_id": "3n74c5yh817r",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-08-05T08:42:17.010000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/jkgwlm2szdhg",
+    "status": "resolved",
+    "title": "Cloudflare Workers and Pages Assets Uploads issues",
+    "update_count": 4,
+    "updated_at": "2026-08-05T08:42:17.036000+00:00"
   }
 ]
