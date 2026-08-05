@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-04 11:48 UTC` &nbsp;·&nbsp; **27 new** and **9 updated** incidents &nbsp;·&nbsp; 22,342 total
+**Last ingest** &nbsp;`2026-08-05 08:49 UTC` &nbsp;·&nbsp; **18 new** and **10 updated** incidents &nbsp;·&nbsp; 22,360 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 19 |
-| Cloudflare | 6 |
-| GitHub | 2 |
-| Snowflake | 2 |
+| Twilio | 12 |
+| Cloudflare | 4 |
+| Grafana Cloud | 2 |
+| OpenAI | 2 |
 | Supabase | 2 |
 | DigitalOcean | 1 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000129
-- `major` **MongoDB Atlas** — Elevated errors on VoyageAI APIs
-- `major` **Netlify** — Elevated Build Errors
+- `critical` **Grafana Cloud** — Some Grafana Instances Unavailable
+- `critical` **Discord** — Messaging failures
+- `major` **HashiCorp Cloud** — HCP Terraform UI Not Loading
 
 <!-- STATUS:END -->
 
