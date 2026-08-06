@@ -4,40 +4,40 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 10688 | 4.5h | 17.6h | 1057.6h |
-| Cloudflare | cdn | 6577 | 4.0h | 8.2h | 5350.4h |
-| Grafana Cloud | observability | 731 | 1.5h | 19.2h | 2571.2h |
-| GitHub | devtools | 589 | 1.1h | 4.6h | 62.0h |
+| Twilio | comms | 10695 | 4.5h | 17.6h | 1057.6h |
+| Cloudflare | cdn | 6579 | 4.0h | 8.2h | 5350.4h |
+| Grafana Cloud | observability | 733 | 1.5h | 19.2h | 2571.2h |
+| GitHub | devtools | 590 | 1.1h | 4.6h | 62.0h |
 | DigitalOcean | cloud | 496 | 2.4h | 9.5h | 304.2h |
-| Supabase | paas | 378 | 2.6h | 14.8h | 2129.0h |
+| Supabase | paas | 378 | 2.6h | 15.1h | 2129.0h |
 | Vercel | paas | 372 | 1.2h | 6.1h | 339.2h |
-| Sentry | observability | 324 | 1.4h | 6.0h | 668.4h |
-| CircleCI | devtools | 296 | 1.1h | 8.2h | 96.0h |
+| Sentry | observability | 325 | 1.4h | 6.0h | 668.4h |
+| CircleCI | devtools | 298 | 1.1h | 8.1h | 96.0h |
 | MongoDB Atlas | data | 267 | 2.0h | 23.0h | 308.9h |
 | Confluent Cloud | data | 248 | 3.3h | 27.4h | 2821.4h |
-| Elastic Cloud | observability | 241 | 3.1h | 22.1h | 364.1h |
+| Elastic Cloud | observability | 242 | 3.1h | 22.1h | 364.1h |
 | Netlify | paas | 213 | 41m | 3.6h | 347.3h |
 | Discord | comms | 208 | 55m | 5.0h | 664.8h |
-| Snowflake | data | 185 | 2.1h | 10.0h | 1801.6h |
-| Zoom | comms | 131 | 3.2h | 92.9h | 1944.0h |
+| Snowflake | data | 186 | 2.1h | 10.0h | 1801.6h |
+| Zoom | comms | 133 | 3.0h | 87.2h | 1944.0h |
 | Datadog | observability | 119 | 1.2h | 3.7h | 49.9h |
 | New Relic | observability | 103 | 1.1h | 5.0h | 52.3h |
 | npm | devtools | 59 | 1.8h | 5.7h | 20.9h |
 | Atlassian | devtools | 39 | 2.0h | 37.4h | 261.0h |
 | Amazon Web Services | cloud | 39 | — | — | — |
-| OpenAI | ai | 27 | 2.1h | 15.2h | 42.4h |
-| HashiCorp Cloud | devtools | 26 | 4.7h | 24.3h | 120.0h |
+| HashiCorp Cloud | devtools | 30 | 2.7h | 24.2h | 120.0h |
+| OpenAI | ai | 30 | 2.7h | 14.6h | 42.4h |
 | Google Cloud Platform | cloud | 4 | — | — | 516.0h |
 
 ## By category
 
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
-| ai | 1 | 27 | 6 |
-| cdn | 1 | 6577 | 129 |
+| ai | 1 | 30 | 6 |
+| cdn | 1 | 6579 | 129 |
 | cloud | 3 | 539 | 30 |
-| comms | 3 | 11027 | 108 |
-| data | 3 | 700 | 244 |
-| devtools | 5 | 1009 | 203 |
-| observability | 5 | 1518 | 533 |
+| comms | 3 | 11036 | 108 |
+| data | 3 | 701 | 244 |
+| devtools | 5 | 1016 | 205 |
+| observability | 5 | 1522 | 535 |
 | paas | 3 | 963 | 214 |
