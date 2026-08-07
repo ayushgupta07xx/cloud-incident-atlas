@@ -83492,21 +83492,22 @@
   },
   {
     "category": "comms",
-    "components": [],
-    "created_at": "2026-07-17T15:54:00+00:00",
-    "duration_minutes": null,
+    "components": [
+      "Voice, APAC"
+    ],
+    "created_at": "2026-07-17T15:54:34.721000+00:00",
+    "duration_minutes": 29285.0,
     "incident_id": "220yx5739dhm",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-08-06T23:59:37.674000+00:00",
     "severity": "minor",
     "severity_rank": 1,
-    "shortlink": null,
-    "source": "history",
-    "status": "unknown",
+    "shortlink": "https://stspg.io/skxcgxz16mzh",
+    "status": "resolved",
     "title": "Voice Call Failures from Twilio Phone Numbers to Reliance Jio India",
-    "update_count": 0,
-    "updated_at": "2026-07-17T15:54:00+00:00"
+    "update_count": 28,
+    "updated_at": "2026-08-06T23:59:37.691000+00:00"
   },
   {
     "category": "data",
@@ -92366,7 +92367,7 @@
     "status": "resolved",
     "title": "Some Copilot Cloud Agent jobs not starting",
     "update_count": 4,
-    "updated_at": "2026-08-05T13:00:25.873000+00:00"
+    "updated_at": "2026-08-06T14:38:40.197000+00:00"
   },
   {
     "category": "observability",
@@ -92423,10 +92424,10 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/x95w9p0mdl4g",
-    "status": "identified",
-    "title": "SMS Delivery Receipt Failures from Twilio to Robi/Axoata Bangladesh",
-    "update_count": 6,
-    "updated_at": "2026-08-06T05:43:04.006000+00:00"
+    "status": "monitoring",
+    "title": "SMS Delivery Failures from Twilio to Robi/Axoata Bangladesh",
+    "update_count": 8,
+    "updated_at": "2026-08-07T06:39:50.540000+00:00"
   },
   {
     "category": "cdn",
@@ -92665,18 +92666,18 @@
     "category": "devtools",
     "components": [],
     "created_at": "2026-08-05T19:08:01+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1525.2,
     "incident_id": "01KZ9N6MT7JM1Y4GGHJP14K0TG",
     "provider_id": "hashicorp",
     "provider_name": "HashiCorp Cloud",
-    "resolved_at": null,
+    "resolved_at": "2026-08-06T20:33:13+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": null,
-    "status": "monitoring",
+    "status": "resolved",
     "title": "HCP Terraform is unable to communicate with VCS endpoints using certain IP addresses.",
-    "update_count": 3,
-    "updated_at": "2026-08-05T20:46:52+00:00"
+    "update_count": 4,
+    "updated_at": "2026-08-06T20:33:13+00:00"
   },
   {
     "category": "devtools",
@@ -92809,17 +92810,254 @@
       "CircleCI API"
     ],
     "created_at": "2026-08-06T13:06:17.519000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 408.1,
     "incident_id": "7l9wg4375jr4",
     "provider_id": "circleci",
     "provider_name": "CircleCI",
+    "resolved_at": "2026-08-06T19:54:25.375000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/kntq9cf4jgpk",
+    "status": "resolved",
+    "title": "Usage API data delayed for 8/5",
+    "update_count": 4,
+    "updated_at": "2026-08-06T19:54:25.388000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, APAC",
+      "SMS, Middle East & Africa"
+    ],
+    "created_at": "2026-08-06T13:29:08.767000+00:00",
+    "duration_minutes": 52.3,
+    "incident_id": "3vfkkjzj3ctc",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-06T14:21:28.534000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/ky0skmxksdht",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Multiple Networks in Malaysia and Multiple Countries in Africa",
+    "update_count": 3,
+    "updated_at": "2026-08-06T14:21:28.555000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-08-06T14:34:14.435000+00:00",
+    "duration_minutes": 363.9,
+    "incident_id": "6j49hvfdxr47",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-06T20:38:07.234000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/qtkh6zjrr7qx",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Tigo Honduras",
+    "update_count": 4,
+    "updated_at": "2026-08-06T20:38:07.248000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Verify Silent Network Auth"
+    ],
+    "created_at": "2026-08-06T14:58:23.393000+00:00",
+    "duration_minutes": 10.3,
+    "incident_id": "xksxfs85vhxm",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-06T15:08:41.846000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/w380nmtzf1vc",
+    "status": "resolved",
+    "title": "User Authentication Identity SNA Missing Redirects for Three in United Kingdom",
+    "update_count": 3,
+    "updated_at": "2026-08-06T15:08:41.866000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Pages"
+    ],
+    "created_at": "2026-08-06T15:03:55.182000+00:00",
+    "duration_minutes": 79.1,
+    "incident_id": "1xqvzyv99skw",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-08-06T16:22:59.638000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/b0n00sx9z3ht",
+    "status": "resolved",
+    "title": "Incident with Pages - Deployment Lag",
+    "update_count": 3,
+    "updated_at": "2026-08-06T16:22:59.656000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Actions",
+      "Pages"
+    ],
+    "created_at": "2026-08-06T15:22:49.029000+00:00",
+    "duration_minutes": 641.9,
+    "incident_id": "qcvjkzcs7j74",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-08-07T02:04:44.460000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/rcz3fcm83sff",
+    "status": "resolved",
+    "title": "Incident with Actions",
+    "update_count": 24,
+    "updated_at": "2026-08-07T02:04:44.474000+00:00"
+  },
+  {
+    "category": "cloud",
+    "components": [
+      "Global",
+      "Global",
+      "Global",
+      "Global",
+      "Global",
+      "Cloud Firewall",
+      "DNS"
+    ],
+    "created_at": "2026-08-06T16:33:14.787000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "vjm8qnbt45tb",
+    "provider_id": "digitalocean",
+    "provider_name": "DigitalOcean",
+    "resolved_at": "2026-08-06T16:33:14.860000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/zscj6w048lfx",
+    "status": "resolved",
+    "title": "Multiple Services Availability",
+    "update_count": 1,
+    "updated_at": "2026-08-06T16:33:14.872000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [
+      "Drains"
+    ],
+    "created_at": "2026-08-06T16:37:10.291000+00:00",
+    "duration_minutes": 112.6,
+    "incident_id": "vbxl834x9l7q",
+    "provider_id": "vercel",
+    "provider_name": "Vercel",
+    "resolved_at": "2026-08-06T18:29:45.219000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/jygyd62lmmdx",
+    "status": "resolved",
+    "title": "Delays delivering log drains",
+    "update_count": 6,
+    "updated_at": "2026-08-06T18:29:45.239000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-08-06T16:52:38.640000+00:00",
+    "duration_minutes": 158.2,
+    "incident_id": "5128mj7z1nq8",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-06T19:30:53.406000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/p493x5bx0dgk",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Lycamobile United Kingdom",
+    "update_count": 4,
+    "updated_at": "2026-08-06T19:30:53.418000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "Elasticsearch connectivity: GCP asia-south1"
+    ],
+    "created_at": "2026-08-06T17:41:39.595000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "7txc3s7gq26n",
+    "provider_id": "elastic",
+    "provider_name": "Elastic Cloud",
+    "resolved_at": "2026-08-06T17:41:39.699000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/fg0zhd3pvnbn",
+    "status": "resolved",
+    "title": "GCP asia-south1 high latency",
+    "update_count": 1,
+    "updated_at": "2026-08-06T17:41:39.708000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "Monitors"
+    ],
+    "created_at": "2026-08-06T18:51:32.514000+00:00",
+    "duration_minutes": 46.0,
+    "incident_id": "0yvjrwkfc2np",
+    "provider_id": "datadog",
+    "provider_name": "Datadog",
+    "resolved_at": "2026-08-06T19:37:32.874000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/g6k608nzbbtm",
+    "status": "resolved",
+    "title": "Delayed Processes data",
+    "update_count": 4,
+    "updated_at": "2026-08-06T19:37:32.887000+00:00"
+  },
+  {
+    "category": "cloud",
+    "components": [
+      "Global",
+      "Global"
+    ],
+    "created_at": "2026-08-06T19:01:27.576000+00:00",
+    "duration_minutes": 123.6,
+    "incident_id": "cg3q7h89dbnq",
+    "provider_id": "digitalocean",
+    "provider_name": "DigitalOcean",
+    "resolved_at": "2026-08-06T21:05:05.672000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/7pm9l1jwpkr6",
+    "status": "resolved",
+    "title": "Functions on App Platform",
+    "update_count": 3,
+    "updated_at": "2026-08-06T21:05:05.690000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice, Latin America"
+    ],
+    "created_at": "2026-08-06T20:09:15.267000+00:00",
+    "duration_minutes": null,
+    "incident_id": "w34tk74chrgp",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
     "resolved_at": null,
     "severity": "minor",
     "severity_rank": 1,
-    "shortlink": "https://stspg.io/kntq9cf4jgpk",
-    "status": "investigating",
-    "title": "Usage API data delayed for 8/5",
-    "update_count": 1,
-    "updated_at": "2026-08-06T13:06:17.609000+00:00"
+    "shortlink": "https://stspg.io/7h38c1nz3by0",
+    "status": "identified",
+    "title": "Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Numbers",
+    "update_count": 5,
+    "updated_at": "2026-08-07T03:17:27.760000+00:00"
   }
 ]
