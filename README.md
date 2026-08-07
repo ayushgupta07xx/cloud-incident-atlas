@@ -31,22 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-06 13:24 UTC` &nbsp;·&nbsp; **26 new** and **6 updated** incidents &nbsp;·&nbsp; 22,386 total
+**Last ingest** &nbsp;`2026-08-07 08:35 UTC` &nbsp;·&nbsp; **12 new** and **5 updated** incidents &nbsp;·&nbsp; 22,398 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 11 |
-| HashiCorp Cloud | 4 |
-| OpenAI | 3 |
-| Cloudflare | 2 |
-| CircleCI | 2 |
-| Grafana Cloud | 2 |
+| Twilio | 7 |
+| GitHub | 3 |
+| DigitalOcean | 2 |
+| Datadog | 1 |
+| Elastic Cloud | 1 |
+| Vercel | 1 |
 
 Most severe this run:
 
-- `critical` **HashiCorp Cloud** — Infragraph Service and UI down
-- `major` **HashiCorp Cloud** — Infragraph Snapshot are stuck
-- `major` **Elastic Cloud** — Elasticsearch 9.5.0 contains a query-correctness defect
+- `critical` **GitHub** — Incident with Actions
+- `major` **Elastic Cloud** — GCP asia-south1 high latency
 
 <!-- STATUS:END -->
 
