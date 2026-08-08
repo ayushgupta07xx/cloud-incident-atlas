@@ -31,21 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-07 08:35 UTC` &nbsp;·&nbsp; **12 new** and **5 updated** incidents &nbsp;·&nbsp; 22,398 total
+**Last ingest** &nbsp;`2026-08-08 14:00 UTC` &nbsp;·&nbsp; **11 new** and **12 updated** incidents &nbsp;·&nbsp; 22,409 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 7 |
-| GitHub | 3 |
-| DigitalOcean | 2 |
-| Datadog | 1 |
-| Elastic Cloud | 1 |
-| Vercel | 1 |
+| Twilio | 8 |
+| Zoom | 8 |
+| Cloudflare | 4 |
+| Sentry | 1 |
+| Discord | 1 |
+| OpenAI | 1 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Incident with Actions
-- `major` **Elastic Cloud** — GCP asia-south1 high latency
+- `critical` **Sentry** — Spans, crons, logs ingestion delayed in US region
+- `critical` **Discord** — Issues sending messages for bots and users
 
 <!-- STATUS:END -->
 
