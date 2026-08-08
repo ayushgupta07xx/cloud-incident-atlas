@@ -1,0 +1,450 @@
+{
+  "changed": [
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-07-30T14:35:41+00:00",
+      "duration_minutes": 85.5,
+      "incident_id": "01KYSQ7PC81PV3PZE3ZEVFK6K5",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-07-30T16:01:11+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Elevated errors affecting ChatGPT conversations",
+      "update_count": 4,
+      "updated_at": "2026-08-07T15:26:31+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Programmable Messaging API"
+      ],
+      "created_at": "2026-08-04T16:45:48.240000+00:00",
+      "duration_minutes": 3975.6,
+      "incident_id": "3gd6hwhz94q9",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-07T11:01:24.117000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/0xl8dk7qcl65",
+      "status": "resolved",
+      "title": "Elevated 500 Errors on Multiple Twilio APIs",
+      "update_count": 3,
+      "updated_at": "2026-08-07T11:01:24.137000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-08-05T14:21:55.884000+00:00",
+      "duration_minutes": 2692.9,
+      "incident_id": "rmlhhky2gk0z",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-07T11:14:50.351000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/x95w9p0mdl4g",
+      "status": "resolved",
+      "title": "SMS Delivery Failures from Twilio to Robi/Axoata Bangladesh",
+      "update_count": 10,
+      "updated_at": "2026-08-07T11:14:50.370000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-08-06T20:09:15.267000+00:00",
+      "duration_minutes": null,
+      "incident_id": "w34tk74chrgp",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/7h38c1nz3by0",
+      "status": "identified",
+      "title": "Voice Call Audio Quality Degradation from Callers to Twilio Colombia Landline Numbers",
+      "update_count": 7,
+      "updated_at": "2026-08-08T03:19:48.130000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "My Notes",
+        "Zoom AI"
+      ],
+      "created_at": "2026-07-27T09:08:58.437000+00:00",
+      "duration_minutes": 506.2,
+      "incident_id": "8jpstr4zml14",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-07-27T17:35:13.425000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/5bwhcxdf3rjm",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Offline Meeting transcription in US Region.",
+      "update_count": 6,
+      "updated_at": "2026-07-27T17:35:13.444000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom AI"
+      ],
+      "created_at": "2026-07-02T10:23:36.547000+00:00",
+      "duration_minutes": 52.4,
+      "incident_id": "dnx4v772fw50",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-07-02T11:15:58.563000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/crhm4ymv67qs",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom AI Services in Japan.",
+      "update_count": 4,
+      "updated_at": "2026-07-02T11:15:58.584000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Rooms",
+        "Zoom Workspace Reservation",
+        "Zoom Tasks",
+        "Zoom Node",
+        "Zoom Whiteboard"
+      ],
+      "created_at": "2026-07-24T02:11:19+00:00",
+      "duration_minutes": 38.1,
+      "incident_id": "j9hr88z476ym",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-07-24T02:49:22.268000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/2f96hw8qrqxx",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Multiple Zoom Services in Europe and India Region.",
+      "update_count": 2,
+      "updated_at": "2026-07-24T03:07:34.662000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom AI"
+      ],
+      "created_at": "2026-07-10T06:03:55.239000+00:00",
+      "duration_minutes": 30.3,
+      "incident_id": "l4pfzs5h4kvg",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-07-10T06:34:15.123000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/ljx6qmf1tlfx",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Meeting Summaries for Hebrew language in Europe and US Region",
+      "update_count": 3,
+      "updated_at": "2026-07-10T06:34:15.148000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Rooms",
+        "Zoom Contact Center",
+        "Zoom Contact Center",
+        "Zoom AI",
+        "Zoom Workforce Management"
+      ],
+      "created_at": "2026-07-22T13:12:14.531000+00:00",
+      "duration_minutes": 11.1,
+      "incident_id": "llq0w65q0jps",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-07-22T13:23:22.408000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/3z5y12fkgh7w",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Multiple Services in US and Europe",
+      "update_count": 2,
+      "updated_at": "2026-07-22T13:23:22.422000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Tasks",
+        "Zoom Whiteboard"
+      ],
+      "created_at": "2026-07-31T12:09:51.900000+00:00",
+      "duration_minutes": 178.9,
+      "incident_id": "my4rs36dn5tf",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-07-31T15:08:45.952000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/q5vq1sq9c9v5",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Whiteboard and Task Services in US Region.",
+      "update_count": 7,
+      "updated_at": "2026-07-31T15:08:45.972000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Marketplace",
+        "Zoom AI"
+      ],
+      "created_at": "2026-08-02T01:45:25.321000+00:00",
+      "duration_minutes": 15.7,
+      "incident_id": "qv99nxm59x8x",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-08-02T02:01:09.888000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/gmbjxpfn2hq7",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Marketplace and AI Companion Services",
+      "update_count": 2,
+      "updated_at": "2026-08-02T02:01:09.905000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom AIC",
+        "Zoom AI",
+        "ZoomMate"
+      ],
+      "created_at": "2026-06-22T16:31:52.756000+00:00",
+      "duration_minutes": 61.6,
+      "incident_id": "zht2q38n9rz2",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-06-22T17:33:31.169000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/kfk0nm53gxgw",
+      "status": "resolved",
+      "title": "Service Degradation Affecting ZoomMate and Zoom AI services in US Region.",
+      "update_count": 4,
+      "updated_at": "2026-06-22T17:33:31.184000+00:00"
+    }
+  ],
+  "date": "2026-08-08",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [
+        "R2"
+      ],
+      "created_at": "2026-08-07T18:42:26.220000+00:00",
+      "duration_minutes": null,
+      "incident_id": "9fzfjzc5ms0h",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/f1bfmypj1dnh",
+      "status": "identified",
+      "title": "R2 Availability Issues",
+      "update_count": 4,
+      "updated_at": "2026-08-08T10:52:56.051000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Workers Observability"
+      ],
+      "created_at": "2026-08-07T16:04:27.278000+00:00",
+      "duration_minutes": 97.8,
+      "incident_id": "mxlpy0nnr2j8",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-07T17:42:14.668000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rbdqkkfkyb6d",
+      "status": "resolved",
+      "title": "Worker's Observarbility Issues",
+      "update_count": 3,
+      "updated_at": "2026-08-07T17:42:14.687000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Network"
+      ],
+      "created_at": "2026-08-08T08:25:15.136000+00:00",
+      "duration_minutes": null,
+      "incident_id": "x44ny80374v7",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/k1vk98lctqtm",
+      "status": "investigating",
+      "title": "Network Performance Issues in Istanbul",
+      "update_count": 1,
+      "updated_at": "2026-08-08T08:25:15.225000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [],
+      "created_at": "2026-08-07T13:13:06.781000+00:00",
+      "duration_minutes": 50.6,
+      "incident_id": "x6fmvws5z368",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-07T14:03:40.704000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/3plfwsnk8vg0",
+      "status": "resolved",
+      "title": "Network Performance Issues in Chicago (ORD)",
+      "update_count": 2,
+      "updated_at": "2026-08-07T14:03:40.723000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "API"
+      ],
+      "created_at": "2026-08-07T22:21:42+00:00",
+      "duration_minutes": 40.6,
+      "incident_id": "pcg3nsfq6l2y",
+      "provider_id": "discord",
+      "provider_name": "Discord",
+      "resolved_at": "2026-08-07T23:02:18.715000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/9y6394dfz8kw",
+      "status": "resolved",
+      "title": "Issues sending messages for bots and users",
+      "update_count": 4,
+      "updated_at": "2026-08-07T23:02:18.735000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [],
+      "created_at": "2026-08-07T16:21:05.759000+00:00",
+      "duration_minutes": 47.3,
+      "incident_id": "mw9jgw0v6z65",
+      "provider_id": "sentry",
+      "provider_name": "Sentry",
+      "resolved_at": "2026-08-07T17:08:22.375000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/hm0ff1mzq3vl",
+      "status": "resolved",
+      "title": "Spans, crons, logs ingestion delayed in US region",
+      "update_count": 4,
+      "updated_at": "2026-08-07T17:08:22.390000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Long Code, North America"
+      ],
+      "created_at": "2026-08-08T11:29:26.195000+00:00",
+      "duration_minutes": null,
+      "incident_id": "0klphbzhvr7y",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/48d8ckvxpf1t",
+      "status": "investigating",
+      "title": "SMS Delivery Delays and Failures from Twilio Long Codes to Cellularone NE Arizona United States",
+      "update_count": 2,
+      "updated_at": "2026-08-08T12:29:55.342000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [],
+      "created_at": "2026-08-07T14:54:14.652000+00:00",
+      "duration_minutes": 71.5,
+      "incident_id": "25qgkbhhn3br",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-07T16:05:46.440000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/jn5jnr69308g",
+      "status": "resolved",
+      "title": "On Call Engineers are Investigating",
+      "update_count": 2,
+      "updated_at": "2026-08-07T16:05:46.457000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-08-07T16:17:09.958000+00:00",
+      "duration_minutes": 349.3,
+      "incident_id": "3tg6gtmmvcdd",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-07T22:06:27.568000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tztsnnj3wd4c",
+      "status": "resolved",
+      "title": "Voice Call Failures from Twilio Phone Numbers to Chile",
+      "update_count": 6,
+      "updated_at": "2026-08-07T22:06:27.586000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-08-08T10:47:21.322000+00:00",
+      "duration_minutes": null,
+      "incident_id": "nmctrdly3syc",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/jbn6v2dlqyk3",
+      "status": "identified",
+      "title": "SMS Delivery Delays and Failures from Twilio Phone Numbers to Multiple Networks in Portugal",
+      "update_count": 4,
+      "updated_at": "2026-08-08T13:24:30.959000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-08-07T17:02:07.321000+00:00",
+      "duration_minutes": 310.7,
+      "incident_id": "y0pvd1p6hfqg",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-07T22:12:51.706000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/yzq7jnwm518f",
+      "status": "resolved",
+      "title": "SMS Delivery Failures from a Subset of Twilio Alphanumeric Senders and Long Codes to Orange Guinea",
+      "update_count": 6,
+      "updated_at": "2026-08-07T22:12:51.724000+00:00"
+    }
+  ],
+  "runs": 1
+}
