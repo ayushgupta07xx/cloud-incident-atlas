@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,409 incidents**. Updated 2026-08-08.
+Cross-vendor incident data for 24 providers. Corpus: **22,418 incidents**. Updated 2026-08-10.
 
 ## Last 30 days
 
-- Incidents recorded: **737**
-- Major or worse: **83**
+- Incidents recorded: **706**
+- Major or worse: **78**
 
 ## Reliability by provider (all time)
 
@@ -14,15 +14,15 @@ Cross-vendor incident data for 24 providers. Corpus: **22,409 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 39 | — | — |
 | CircleCI | devtools | 298 | 69m | 487m |
-| Cloudflare | cdn | 6583 | 239m | 495m |
+| Cloudflare | cdn | 6584 | 240m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 120 | 74m | 221m |
-| DigitalOcean | cloud | 498 | 144m | 571m |
+| DigitalOcean | cloud | 499 | 145m | 571m |
 | Discord | comms | 209 | 54m | 297m |
 | Elastic Cloud | observability | 243 | 184m | 1326m |
 | Google Cloud Platform | cloud | 4 | — | — |
 | GitHub | devtools | 592 | 66m | 285m |
-| Grafana Cloud | observability | 733 | 90m | 1154m |
+| Grafana Cloud | observability | 734 | 90m | 1154m |
 | HashiCorp Cloud | devtools | 30 | 178m | 1478m |
 | MongoDB Atlas | data | 267 | 120m | 1381m |
 | Netlify | paas | 213 | 41m | 219m |
@@ -32,38 +32,31 @@ Cross-vendor incident data for 24 providers. Corpus: **22,409 incidents**. Updat
 | Sentry | observability | 326 | 83m | 360m |
 | Snowflake | data | 186 | 124m | 598m |
 | Supabase | paas | 378 | 158m | 903m |
-| Twilio | comms | 10705 | 270m | 1060m |
+| Twilio | comms | 10711 | 270m | 1060m |
 | Vercel | paas | 373 | 74m | 365m |
 | Zoom | comms | 133 | 180m | 5230m |
 
-## New since last run (11)
+## New since last run (9)
 
-- **Cloudflare** — Network Performance Issues in Istanbul (`minor`)
-- **Cloudflare** — R2 Availability Issues (`minor`)
-- **Cloudflare** — Worker's Observarbility Issues (`minor`)
-- **Cloudflare** — Network Performance Issues in Chicago (ORD) (`minor`)
-- **Sentry** — Spans, crons, logs ingestion delayed in US region (`critical`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio Long Codes to Cellularone NE Arizona United States (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio Phone Numbers to Multiple Networks in Portugal (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Senders and Long Codes to Orange Guinea (`minor`)
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Chile (`minor`)
-- **Twilio** — On Call Engineers are Investigating (`none`)
-- **Discord** — Issues sending messages for bots and users (`critical`)
+- **Cloudflare** — Connectivity issues affecting access to some website from certain networks in Egypt (`minor`)
+- **DigitalOcean** — Account Registration, Droplets, and Related Services (`minor`)
+- **Grafana Cloud** — Alerting expressions pipeline failing when recovery settings (`minor`)
+- **Twilio** — Voice Call Failures from Network Subscribers to a Subset of Twilio United States Phone Numbers (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio Long Codes to Multiple Networks in South Africa (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Rakuten Japan (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Airtel India (`minor`)
+- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Verizon United States (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Phone Numbers to Tigo and Empresa de Telecomunicaciones de Bogota Colombia (`minor`)
 
-## Updated since last run (12)
+## Updated since last run (7)
 
-- **OpenAI** — Elevated errors affecting ChatGPT conversations → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio to Robi/Axoata Bangladesh → `resolved`
-- **Twilio** — Elevated 500 Errors on Multiple Twilio APIs → `resolved`
-- **Twilio** — Voice Call Audio Quality Degradation from Callers to Twilio Colombia Landline Numbers → `identified`
-- **Zoom** — Service Degradation Affecting Zoom Marketplace and AI Companion Services → `resolved`
-- **Zoom** — Service Degradation Affecting Zoom Whiteboard and Task Services in US Region. → `resolved`
-- **Zoom** — Service Degradation Affecting Offline Meeting transcription in US Region. → `resolved`
-- **Zoom** — Service Degradation Affecting Multiple Zoom Services in Europe and India Region. → `resolved`
-- **Zoom** — Service Degradation Affecting Multiple Services in US and Europe → `resolved`
-- **Zoom** — Service Degradation Affecting Zoom Meeting Summaries for Hebrew language in Europe and US Region → `resolved`
-- **Zoom** — Service Degradation Affecting Zoom AI Services in Japan. → `resolved`
-- **Zoom** — Service Degradation Affecting ZoomMate and Zoom AI services in US Region. → `resolved`
+- **Cloudflare** — R2 Availability Issues → `resolved`
+- **Cloudflare** — Network Performance Issues in Istanbul → `resolved`
+- **Snowflake** — INC20000115 → `postmortem`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Multiple Networks in Portugal → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio Long Codes to Cellularone NE Arizona United States → `resolved`
+- **Twilio** — Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Numbers → `identified`
 
 ---
 

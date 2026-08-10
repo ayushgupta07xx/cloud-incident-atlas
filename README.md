@@ -31,21 +31,19 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-08 14:00 UTC` &nbsp;·&nbsp; **11 new** and **12 updated** incidents &nbsp;·&nbsp; 22,409 total
+**Last ingest** &nbsp;`2026-08-10 05:49 UTC` &nbsp;·&nbsp; **9 new** and **7 updated** incidents &nbsp;·&nbsp; 22,418 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 8 |
-| Zoom | 8 |
-| Cloudflare | 4 |
-| Sentry | 1 |
-| Discord | 1 |
-| OpenAI | 1 |
+| Twilio | 10 |
+| Cloudflare | 3 |
+| DigitalOcean | 1 |
+| Grafana Cloud | 1 |
+| Snowflake | 1 |
 
 Most severe this run:
 
-- `critical` **Sentry** — Spans, crons, logs ingestion delayed in US region
-- `critical` **Discord** — Issues sending messages for bots and users
+- `critical` **Snowflake** — INC20000115
 
 <!-- STATUS:END -->
 
