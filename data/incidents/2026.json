@@ -25908,8 +25908,8 @@
     "shortlink": "https://stspg.io/w6dmrtc20hz7",
     "status": "identified",
     "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
-    "update_count": 13,
-    "updated_at": "2026-07-13T16:42:13.882000+00:00"
+    "update_count": 14,
+    "updated_at": "2026-08-10T16:46:19.746000+00:00"
   },
   {
     "category": "observability",
@@ -91301,7 +91301,7 @@
     "status": "resolved",
     "title": "Degraded availability GPT 5.6 Luna",
     "update_count": 5,
-    "updated_at": "2026-08-01T12:30:21.792000+00:00"
+    "updated_at": "2026-08-11T06:56:18.813000+00:00"
   },
   {
     "category": "comms",
@@ -91468,10 +91468,10 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/47d2jv4s8b94",
-    "status": "resolved",
+    "status": "postmortem",
     "title": "INC20000128",
-    "update_count": 5,
-    "updated_at": "2026-08-03T08:15:16.847000+00:00"
+    "update_count": 6,
+    "updated_at": "2026-08-11T02:01:21.052000+00:00"
   },
   {
     "category": "comms",
@@ -91637,10 +91637,10 @@
     "severity": "critical",
     "severity_rank": 3,
     "shortlink": "https://stspg.io/x023s6yf3mb7",
-    "status": "resolved",
+    "status": "postmortem",
     "title": "INC20000129",
-    "update_count": 8,
-    "updated_at": "2026-08-03T20:58:46.069000+00:00"
+    "update_count": 9,
+    "updated_at": "2026-08-11T01:02:53.097000+00:00"
   },
   {
     "category": "comms",
@@ -92896,7 +92896,7 @@
     "status": "resolved",
     "title": "Incident with Pages - Deployment Lag",
     "update_count": 3,
-    "updated_at": "2026-08-06T16:22:59.656000+00:00"
+    "updated_at": "2026-08-10T21:16:18.256000+00:00"
   },
   {
     "category": "devtools",
@@ -92916,7 +92916,7 @@
     "status": "resolved",
     "title": "Incident with Actions",
     "update_count": 24,
-    "updated_at": "2026-08-07T02:04:44.474000+00:00"
+    "updated_at": "2026-08-11T02:05:24.924000+00:00"
   },
   {
     "category": "cloud",
@@ -93054,9 +93054,9 @@
     "severity_rank": 1,
     "shortlink": "https://stspg.io/7h38c1nz3by0",
     "status": "identified",
-    "title": "Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Numbers",
-    "update_count": 9,
-    "updated_at": "2026-08-10T03:23:11.528000+00:00"
+    "title": "Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Phone Numbers",
+    "update_count": 17,
+    "updated_at": "2026-08-11T06:35:34.698000+00:00"
   },
   {
     "category": "cdn",
@@ -93494,5 +93494,275 @@
     "title": "Voice Call Failures from Network Subscribers to a Subset of Twilio United States Phone Numbers",
     "update_count": 5,
     "updated_at": "2026-08-09T20:18:24.576000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-08-10T07:21:42+00:00",
+    "duration_minutes": 47.6,
+    "incident_id": "01KZN8RYNZY8T4QQGB3JWMPYRW",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-08-10T08:09:19+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Increased errors for some ChatGPT users",
+    "update_count": 3,
+    "updated_at": "2026-08-10T08:09:19+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-08-10T09:07:00+00:00",
+    "duration_minutes": 120.0,
+    "incident_id": "d9l78m4jbtrv",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-08-10T11:07:00+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/9bcq899tfsny",
+    "status": "resolved",
+    "title": "Cloudflare Realtimekit API had reduced availability",
+    "update_count": 1,
+    "updated_at": "2026-08-10T11:40:32.999000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Recursive DNS"
+    ],
+    "created_at": "2026-08-10T10:15:40.164000+00:00",
+    "duration_minutes": 123.4,
+    "incident_id": "32jmvvgg7wj9",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-08-10T12:19:06.029000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/ylw7b8q7xzjn",
+    "status": "resolved",
+    "title": "Issues with 1.1.1.1 public resolver in Tel Aviv (TLV)",
+    "update_count": 4,
+    "updated_at": "2026-08-10T12:19:06.052000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [],
+    "created_at": "2026-08-10T13:30:09.017000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "4d2yvpdh9v3n",
+    "provider_id": "grafana",
+    "provider_name": "Grafana Cloud",
+    "resolved_at": "2026-08-10T13:30:09.083000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/0svqkyqmlzxl",
+    "status": "resolved",
+    "title": "Metrics: Elevated Error Rates Reads/Writes",
+    "update_count": 1,
+    "updated_at": "2026-08-10T13:30:52.347000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-08-10T14:04:37+00:00",
+    "duration_minutes": 763.7,
+    "incident_id": "01KZNZTPWMV06Z6TQNMY1R1QDR",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-08-11T02:48:20+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Increased error rates",
+    "update_count": 3,
+    "updated_at": "2026-08-11T02:48:20+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-08-10T16:21:12+00:00",
+    "duration_minutes": 84.5,
+    "incident_id": "5xq8sct98dhc",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-10T17:45:40.330000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/b60yknnh3dbv",
+    "status": "resolved",
+    "title": "400 Error on Plan Downgrades and Cancellations for Accounts with Dedicated IPs",
+    "update_count": 3,
+    "updated_at": "2026-08-10T17:45:40.346000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Dialogflow US1"
+    ],
+    "created_at": "2026-08-10T17:59:28.468000+00:00",
+    "duration_minutes": 191.2,
+    "incident_id": "m9qjjjgywpzy",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-10T21:10:39.431000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/jg703pv3mtzy",
+    "status": "resolved",
+    "title": "Dialogflow Virtual Agent Degraded",
+    "update_count": 5,
+    "updated_at": "2026-08-10T21:10:39.451000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [],
+    "created_at": "2026-08-10T18:02:04.368000+00:00",
+    "duration_minutes": 44.3,
+    "incident_id": "s19bth7wzkf7",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-08-10T18:46:22.280000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/tjf46x5zq25c",
+    "status": "resolved",
+    "title": "Disruption with creation of fine grained personal access tokens",
+    "update_count": 5,
+    "updated_at": "2026-08-10T18:46:22.301000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SendGrid API"
+    ],
+    "created_at": "2026-08-10T18:32:41.940000+00:00",
+    "duration_minutes": null,
+    "incident_id": "hdk26lbkmyjc",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/7j53lfp62pph",
+    "status": "investigating",
+    "title": "IP Retrieval Failing for EU Regional Customers",
+    "update_count": 2,
+    "updated_at": "2026-08-10T18:37:38.119000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, APAC"
+    ],
+    "created_at": "2026-08-10T18:45:47.324000+00:00",
+    "duration_minutes": 314.6,
+    "incident_id": "1v4367vswsrm",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-11T00:00:26.146000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/tpbvtybr3vkw",
+    "status": "resolved",
+    "title": "SMS Delivery Delays and Failures from Twilio Phone Numbers to National Telecom and True Thailand",
+    "update_count": 5,
+    "updated_at": "2026-08-11T00:00:26.163000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [],
+    "created_at": "2026-08-10T20:27:19.712000+00:00",
+    "duration_minutes": 83.4,
+    "incident_id": "1t7x65n7kvt1",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-08-10T21:50:43.756000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/4x5bd0ghzy0x",
+    "status": "resolved",
+    "title": "Disruption with Copilot for access to some models",
+    "update_count": 6,
+    "updated_at": "2026-08-10T21:50:43.772000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "MMS Long Code, North America"
+    ],
+    "created_at": "2026-08-10T23:45:45.414000+00:00",
+    "duration_minutes": 350.0,
+    "incident_id": "mmszj6tbnpzc",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-11T05:35:42.894000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/ycc3ng9k1hxc",
+    "status": "resolved",
+    "title": "MMS Delivery Receipt Delays from a Subset of Twilio Long Codes to AT&T United States",
+    "update_count": 6,
+    "updated_at": "2026-08-11T05:35:42.912000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-08-11T03:30:00+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "49gpcftwfkwr",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-08-11T03:30:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/6rzvfc6tf0qg",
+    "status": "resolved",
+    "title": "Retro - Increased HTTP 5xx Errors in Singapore",
+    "update_count": 1,
+    "updated_at": "2026-08-11T04:16:07.202000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Foshan, China - (FUO)",
+      "Fuzhou, China - (FOC)"
+    ],
+    "created_at": "2026-08-11T05:22:21.796000+00:00",
+    "duration_minutes": 9.9,
+    "incident_id": "3f0150102wdw",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-08-11T05:32:15.865000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/5v28wn4mj0rm",
+    "status": "resolved",
+    "title": "Elevated Errors in Fuzhou and Foshan",
+    "update_count": 4,
+    "updated_at": "2026-08-11T05:32:15.878000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-08-11T06:26:08.690000+00:00",
+    "duration_minutes": null,
+    "incident_id": "9g143y4mpvcq",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/zp7745q4dnlf",
+    "status": "identified",
+    "title": "SMS Delivery Delays from Twilio to Claro Dominican Republic",
+    "update_count": 3,
+    "updated_at": "2026-08-11T09:35:09.737000+00:00"
   }
 ]
