@@ -31,22 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-11 10:33 UTC` &nbsp;·&nbsp; **15 new** and **7 updated** incidents &nbsp;·&nbsp; 22,433 total
+**Last ingest** &nbsp;`2026-08-12 07:47 UTC` &nbsp;·&nbsp; **15 new** and **51 updated** incidents &nbsp;·&nbsp; 22,448 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 7 |
-| GitHub | 5 |
-| Cloudflare | 4 |
-| OpenAI | 2 |
-| Snowflake | 2 |
-| Grafana Cloud | 1 |
+| Cloudflare | 50 |
+| Twilio | 6 |
+| OpenAI | 4 |
+| GitHub | 2 |
+| Zoom | 2 |
+| CircleCI | 1 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Incident with Actions
-- `critical` **Snowflake** — INC20000129
-- `major` **Elastic Cloud** — Connectivity disruption for AWS Bahrain (me-south-1)
+- `major` **Cloudflare** — Cloudflare Workers — Errors Deploying Workers Scripts
+- `major` **Cloudflare** — Increase errors for R2 buckets hosted in APAC region
 
 <!-- STATUS:END -->
 

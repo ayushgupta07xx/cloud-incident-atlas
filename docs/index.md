@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,433 incidents**. Updated 2026-08-11.
+Cross-vendor incident data for 24 providers. Corpus: **22,448 incidents**. Updated 2026-08-12.
 
 ## Last 30 days
 
-- Incidents recorded: **710**
-- Major or worse: **78**
+- Incidents recorded: **719**
+- Major or worse: **77**
 
 ## Reliability by provider (all time)
 
@@ -13,56 +13,74 @@ Cross-vendor incident data for 24 providers. Corpus: **22,433 incidents**. Updat
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 39 | — | — |
-| CircleCI | devtools | 298 | 69m | 487m |
-| Cloudflare | cdn | 6588 | 239m | 495m |
+| CircleCI | devtools | 299 | 69m | 486m |
+| Cloudflare | cdn | 6590 | 239m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 120 | 74m | 221m |
 | DigitalOcean | cloud | 499 | 145m | 571m |
 | Discord | comms | 209 | 54m | 297m |
 | Elastic Cloud | observability | 243 | 184m | 1326m |
 | Google Cloud Platform | cloud | 4 | — | — |
-| GitHub | devtools | 594 | 66m | 283m |
+| GitHub | devtools | 595 | 67m | 287m |
 | Grafana Cloud | observability | 735 | 90m | 1153m |
 | HashiCorp Cloud | devtools | 30 | 178m | 1478m |
 | MongoDB Atlas | data | 267 | 120m | 1381m |
 | Netlify | paas | 213 | 41m | 219m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
-| OpenAI | ai | 32 | 162m | 853m |
+| OpenAI | ai | 36 | 127m | 817m |
 | Sentry | observability | 326 | 83m | 360m |
 | Snowflake | data | 186 | 124m | 598m |
-| Supabase | paas | 378 | 158m | 903m |
-| Twilio | comms | 10717 | 270m | 1060m |
+| Supabase | paas | 379 | 158m | 900m |
+| Twilio | comms | 10721 | 270m | 1060m |
 | Vercel | paas | 373 | 74m | 365m |
-| Zoom | comms | 133 | 180m | 5230m |
+| Zoom | comms | 135 | 180m | 4708m |
 
 ## New since last run (15)
 
-- **Cloudflare** — Elevated Errors in Fuzhou and Foshan (`minor`)
-- **Cloudflare** — Retro - Increased HTTP 5xx Errors in Singapore (`none`)
-- **Cloudflare** — Issues with 1.1.1.1 public resolver in Tel Aviv (TLV) (`minor`)
-- **Cloudflare** — Cloudflare Realtimekit API had reduced availability (`minor`)
-- **GitHub** — Disruption with Copilot for access to some models (`minor`)
-- **GitHub** — Disruption with creation of fine grained personal access tokens (`minor`)
-- **Grafana Cloud** — Metrics: Elevated Error Rates Reads/Writes (`minor`)
+- **Cloudflare** — Cloudflare Analytics Delays (`minor`)
+- **Cloudflare** — Increase in Connectivity errors in London, UK (`none`)
+- **GitHub** — Incident with GraphQL API Requests (`minor`)
+- **CircleCI** — Delayed pipeline updates and pipeline processing failures (`none`)
+- **Supabase** — MCP connection error to branch environments (`none`)
+- **OpenAI** — Increase in errors on API, Codex and Work Mode (`none`)
+- **OpenAI** — Users unable to login to ads manager (`minor`)
 - **OpenAI** — Increased error rates (`minor`)
-- **OpenAI** — Increased errors for some ChatGPT users (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Claro Dominican Republic (`minor`)
-- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Long Codes to AT&T United States (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio Phone Numbers to National Telecom and True Thailand (`minor`)
-- **Twilio** — Dialogflow Virtual Agent Degraded (`minor`)
-- **Twilio** — IP Retrieval Failing for EU Regional Customers (`minor`)
-- **Twilio** — 400 Error on Plan Downgrades and Cancellations for Accounts with Dedicated IPs (`minor`)
+- **OpenAI** — Elevated errors affecting ChatGPT Go conversations (`minor`)
+- **Twilio** — User Authentication Identity Gateway API Failure Increase for Three in United Kingdom (`minor`)
+- **Twilio** — Voice Call Audio Quality Degradation From a Subset of Twilio Phone Numbers to Multiple Countries in Europe (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Germany (`minor`)
+- **Twilio** — SMS Delivery Delays From a Subset of Twilio Long Codes to Lebara France (`minor`)
+- **Zoom** — Service Degradation Affecting CX Analytics (`minor`)
+- **Zoom** — Service degradation with Zoom Contact Center smart note generation impacting a subset of users. (`none`)
 
-## Updated since last run (7)
+## Updated since last run (51)
 
-- **GitHub** — Incident with Actions → `resolved`
-- **GitHub** — Incident with Pages - Deployment Lag → `resolved`
-- **GitHub** — Degraded availability GPT 5.6 Luna → `resolved`
-- **Snowflake** — INC20000129 → `postmortem`
-- **Snowflake** — INC20000128 → `postmortem`
-- **Elastic Cloud** — Connectivity disruption for AWS Bahrain (me-south-1) → `identified`
-- **Twilio** — Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Phone Numbers → `identified`
+- **Cloudflare** — Elevated Errors in Fuzhou and Foshan → `resolved`
+- **Cloudflare** — Retro - Increased HTTP 5xx Errors in Singapore → `resolved`
+- **Cloudflare** — Issues with 1.1.1.1 public resolver in Tel Aviv (TLV) → `resolved`
+- **Cloudflare** — Cloudflare Realtimekit API had reduced availability → `resolved`
+- **Cloudflare** — R2 Availability Issues → `resolved`
+- **Cloudflare** — Network Performance Issues in Istanbul → `resolved`
+- **Cloudflare** — Connectivity issues affecting access to some website from certain networks in Egypt → `resolved`
+- **Cloudflare** — Worker's Observarbility Issues → `resolved`
+- **Cloudflare** — Network Performance Issues in Chicago (ORD) → `resolved`
+- **Cloudflare** — Web Analytics Configuration issues → `resolved`
+- **Cloudflare** — Cloudflare Gateway Email List policy issues → `resolved`
+- **Cloudflare** — Cloudflare Workers and Pages Assets Uploads issues → `resolved`
+- **Cloudflare** — Managed Challenge Issues for China Network → `resolved`
+- **Cloudflare** — Elevated R2 error rates and latency → `resolved`
+- **Cloudflare** — 502 errors observed around Singapore, Jakarta and Bangkok → `resolved`
+- **Cloudflare** — Cloudflare Workers Runtime API issues → `resolved`
+- **Cloudflare** — Cloudflare Workers deployment Issues → `resolved`
+- **Cloudflare** — Network Performance Issues in Bangalore, India → `resolved`
+- **Cloudflare** — Network Performance Issues in Istanbul → `resolved`
+- **Cloudflare** — Cloudflare Workers build failures → `resolved`
+- **Cloudflare** — Cloudflare Dedicated Egress in London → `resolved`
+- **Cloudflare** — Network Performance Issues in Hamburg, Germany → `resolved`
+- **Cloudflare** — RealtimeKit socket connection slowness and failed meeting joins → `resolved`
+- **Cloudflare** — Network Performance Issues in Istanbul → `resolved`
+- **Cloudflare** — Increased HTTP 5XX Errors in IAD → `resolved`
 
 ---
 
