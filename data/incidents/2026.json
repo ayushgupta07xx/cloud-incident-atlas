@@ -90049,7 +90049,7 @@
     "status": "resolved",
     "title": "Incident with Copilot AI Model Providers",
     "update_count": 7,
-    "updated_at": "2026-07-29T21:51:26.821000+00:00"
+    "updated_at": "2026-08-12T17:25:01.834000+00:00"
   },
   {
     "category": "comms",
@@ -91356,7 +91356,7 @@
     "status": "resolved",
     "title": "Incident with Copilot AI Model Providers",
     "update_count": 6,
-    "updated_at": "2026-08-01T18:44:28.748000+00:00"
+    "updated_at": "2026-08-12T16:18:09.791000+00:00"
   },
   {
     "category": "comms",
@@ -91528,7 +91528,7 @@
     "status": "resolved",
     "title": "Incident with Copilot",
     "update_count": 5,
-    "updated_at": "2026-08-03T11:25:12.388000+00:00"
+    "updated_at": "2026-08-12T15:00:05.157000+00:00"
   },
   {
     "category": "observability",
@@ -92698,18 +92698,18 @@
     "category": "observability",
     "components": [],
     "created_at": "2026-08-05T22:59:15.267000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 9240.0,
     "incident_id": "2w8qm3hz2z5z",
     "provider_id": "elastic",
     "provider_name": "Elastic Cloud",
-    "resolved_at": null,
+    "resolved_at": "2026-08-12T08:59:15.843000+00:00",
     "severity": "major",
     "severity_rank": 2,
     "shortlink": "https://stspg.io/21ysb6fmlb1g",
-    "status": "identified",
+    "status": "resolved",
     "title": "Elasticsearch 9.5.0 contains a query-correctness defect",
-    "update_count": 3,
-    "updated_at": "2026-08-06T12:12:42.075000+00:00"
+    "update_count": 4,
+    "updated_at": "2026-08-12T08:59:15.863000+00:00"
   },
   {
     "category": "comms",
@@ -93066,14 +93066,14 @@
     "incident_id": "x6fmvws5z368",
     "provider_id": "cloudflare",
     "provider_name": "Cloudflare",
-    "resolved_at": "2026-08-07T14:03:40.704000+00:00",
+    "resolved_at": "2026-08-07T14:03:40+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://www.cloudflarestatus.com/incidents/x6fmvws5z368",
     "status": "resolved",
     "title": "Network Performance Issues in Chicago (ORD)",
     "update_count": 2,
-    "updated_at": "2026-08-07T14:03:40.723000+00:00"
+    "updated_at": "2026-08-13T03:44:50.725000+00:00"
   },
   {
     "category": "comms",
@@ -93945,7 +93945,7 @@
     "status": "resolved",
     "title": "Incident with GraphQL API Requests",
     "update_count": 6,
-    "updated_at": "2026-08-11T20:06:56.594000+00:00"
+    "updated_at": "2026-08-12T19:30:45.958000+00:00"
   },
   {
     "category": "ai",
@@ -94023,17 +94023,369 @@
       "Lookup SIM Swap"
     ],
     "created_at": "2026-08-12T00:44:34.897000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 435.4,
     "incident_id": "1sbtd0qtkpfk",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-12T08:00:00.056000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/lmn060zpgkm7",
+    "status": "resolved",
+    "title": "User Authentication Identity Gateway API Failure Increase for Three in United Kingdom",
+    "update_count": 5,
+    "updated_at": "2026-08-12T08:00:00.073000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [],
+    "created_at": "2026-08-12T11:45:45.665000+00:00",
+    "duration_minutes": 182.7,
+    "incident_id": "1vb2qjjjm88k",
+    "provider_id": "sentry",
+    "provider_name": "Sentry",
+    "resolved_at": "2026-08-12T14:48:25.691000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/tcdgnyx93p0q",
+    "status": "resolved",
+    "title": "Delayed Error ingestion in our US region",
+    "update_count": 5,
+    "updated_at": "2026-08-12T14:48:25.712000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [],
+    "created_at": "2026-08-12T12:58:45+00:00",
+    "duration_minutes": 86.1,
+    "incident_id": "mc7gkgm6sprn",
+    "provider_id": "sentry",
+    "provider_name": "Sentry",
+    "resolved_at": "2026-08-12T14:24:49.273000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/g39d36y8ptjn",
+    "status": "resolved",
+    "title": "Sentry API timeouts (US)",
+    "update_count": 3,
+    "updated_at": "2026-08-12T14:24:49.287000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, APAC"
+    ],
+    "created_at": "2026-08-12T13:38:28.269000+00:00",
+    "duration_minutes": 648.3,
+    "incident_id": "3cffmcp6hnrz",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-13T00:26:47.264000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/3n06j4fjgbff",
+    "status": "resolved",
+    "title": "SMS Delivery Failures from Twilio to Zong Pakistan",
+    "update_count": 7,
+    "updated_at": "2026-08-13T00:26:47.277000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-08-12T14:00:00+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "5pgtb5qnfg8t",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-12T14:00:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/x8wvvcz1wf49",
+    "status": "resolved",
+    "title": "Twilio Flex Affected",
+    "update_count": 1,
+    "updated_at": "2026-08-12T14:14:15.767000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice, Latin America"
+    ],
+    "created_at": "2026-08-12T14:56:17.714000+00:00",
+    "duration_minutes": null,
+    "incident_id": "c43qy8xqstjz",
     "provider_id": "twilio",
     "provider_name": "Twilio",
     "resolved_at": null,
     "severity": "minor",
     "severity_rank": 1,
-    "shortlink": "https://stspg.io/lmn060zpgkm7",
+    "shortlink": "https://stspg.io/347ldjf3f7kl",
     "status": "monitoring",
-    "title": "User Authentication Identity Gateway API Failure Increase for Three in United Kingdom",
+    "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Peru",
+    "update_count": 7,
+    "updated_at": "2026-08-13T07:10:56.857000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Email Security (Area1)",
+      "Email Security (Zero Trust)"
+    ],
+    "created_at": "2026-08-12T15:04:14+00:00",
+    "duration_minutes": 139.5,
+    "incident_id": "fdyjr0t87mrb",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-08-12T17:23:45.617000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/fdyjr0t87mrb",
+    "status": "resolved",
+    "title": "Email Security delivery impacted by Spamhaus listing",
+    "update_count": 5,
+    "updated_at": "2026-08-12T17:23:45.635000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Client Mobile US1"
+    ],
+    "created_at": "2026-08-12T16:08:38.974000+00:00",
+    "duration_minutes": 162.9,
+    "incident_id": "mszff4pbzmjq",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-12T18:51:35+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/z9cfzlp57bd5",
+    "status": "resolved",
+    "title": "Voice Caller ID Verification Failures",
+    "update_count": 3,
+    "updated_at": "2026-08-12T18:57:22.082000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "PHONE NUMBERS"
+    ],
+    "created_at": "2026-08-12T16:10:43+00:00",
+    "duration_minutes": 253.5,
+    "incident_id": "358nbbp7zs3l",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-12T20:24:14.959000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/9kkftzgbmzmy",
+    "status": "resolved",
+    "title": "Phone Number Configuration Failures",
+    "update_count": 6,
+    "updated_at": "2026-08-12T20:24:14.974000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Issues",
+      "Pull Requests"
+    ],
+    "created_at": "2026-08-12T16:16:18.003000+00:00",
+    "duration_minutes": 25.0,
+    "incident_id": "76t89hbfb09h",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-08-12T16:41:18.768000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/ssd9z8l2g46v",
+    "status": "resolved",
+    "title": "Incident with Pull Requests and Issues",
+    "update_count": 5,
+    "updated_at": "2026-08-12T16:41:18.786000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Pipelines & Workflows"
+    ],
+    "created_at": "2026-08-12T16:33:41.163000+00:00",
+    "duration_minutes": 9.9,
+    "incident_id": "ljvrkzc9pdfr",
+    "provider_id": "circleci",
+    "provider_name": "CircleCI",
+    "resolved_at": "2026-08-12T16:43:37.854000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/5n5fpq53kkhh",
+    "status": "resolved",
+    "title": "GitHub service degradation may impact customers using GitHub",
+    "update_count": 2,
+    "updated_at": "2026-08-12T16:43:37.870000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [],
+    "created_at": "2026-08-12T21:28:31+00:00",
+    "duration_minutes": 105.6,
+    "incident_id": "01KZVY0YK6JMVA2RR6EX18WHYW",
+    "provider_id": "hashicorp",
+    "provider_name": "HashiCorp Cloud",
+    "resolved_at": "2026-08-12T23:14:06+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Issues When Downloading Terraform Providers",
     "update_count": 4,
-    "updated_at": "2026-08-12T06:03:51.178000+00:00"
+    "updated_at": "2026-08-12T23:14:06+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [],
+    "created_at": "2026-08-12T21:39:05.231000+00:00",
+    "duration_minutes": 77.6,
+    "incident_id": "lsvy8xsf0gxv",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-08-12T22:56:39.025000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/xp36nwz4rrh1",
+    "status": "resolved",
+    "title": "Disruption with Login and Release Asset downloads",
+    "update_count": 4,
+    "updated_at": "2026-08-12T22:56:39.040000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [],
+    "created_at": "2026-08-12T21:58:59.139000+00:00",
+    "duration_minutes": 54.0,
+    "incident_id": "8mmq3ykdqwvz",
+    "provider_id": "sentry",
+    "provider_name": "Sentry",
+    "resolved_at": "2026-08-12T22:52:59.753000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/qh9kqp474lw2",
+    "status": "resolved",
+    "title": "Error ingestion delays in US",
+    "update_count": 3,
+    "updated_at": "2026-08-12T22:52:59.767000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS Toll-Free, North America",
+      "SMS Toll-Free, North America"
+    ],
+    "created_at": "2026-08-12T22:19:44.356000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "w6rkh4c9k12h",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-12T22:19:44.408000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/dhzhtytgmh07",
+    "status": "resolved",
+    "title": "SMS Delivery Failures from a Subset of Toll Free Numbers to AT&T Network in the United States",
+    "update_count": 1,
+    "updated_at": "2026-08-12T22:19:44.417000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS Long Code, North America"
+    ],
+    "created_at": "2026-08-12T22:55:17.806000+00:00",
+    "duration_minutes": 401.0,
+    "incident_id": "b098v1vd33sy",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-13T05:36:17.721000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/l7wykn73qk1w",
+    "status": "resolved",
+    "title": "User Authentication Identity Gateway API Failure Increase for Bell in Canada",
+    "update_count": 7,
+    "updated_at": "2026-08-13T05:36:17.747000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "Elastic Cloud Serverless"
+    ],
+    "created_at": "2026-08-13T03:57:56.259000+00:00",
+    "duration_minutes": 282.7,
+    "incident_id": "9g96qk8lb64c",
+    "provider_id": "elastic",
+    "provider_name": "Elastic Cloud",
+    "resolved_at": "2026-08-13T08:40:40.934000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/yzl6213q1h2x",
+    "status": "resolved",
+    "title": "Serverless project creation delayed or failing",
+    "update_count": 4,
+    "updated_at": "2026-08-13T08:40:40.967000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS Short Code, North America",
+      "SMS Toll-Free, North America",
+      "SMS Toll-Free, North America"
+    ],
+    "created_at": "2026-08-13T04:32:20.014000+00:00",
+    "duration_minutes": 192.3,
+    "incident_id": "4qs7x4lhfmg0",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-13T07:44:35.353000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/tm8j7fbz9y1z",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from a Subset of Twilio Short Codes and Toll-Free Numbers to Verizon United States",
+    "update_count": 4,
+    "updated_at": "2026-08-13T07:44:35.372000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice, North America"
+    ],
+    "created_at": "2026-08-13T05:25:38.685000+00:00",
+    "duration_minutes": 28.8,
+    "incident_id": "531lfqsm9zk3",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-08-13T05:54:26.775000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/5p4lzrhv92zf",
+    "status": "resolved",
+    "title": "Voice Call Post Dial Delay and Failures From a Subset of Twilio Phone Numbers to Verizon United States",
+    "update_count": 3,
+    "updated_at": "2026-08-13T05:54:26.792000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [],
+    "created_at": "2026-08-13T08:32:50.464000+00:00",
+    "duration_minutes": null,
+    "incident_id": "rwgd4sknzdcb",
+    "provider_id": "elastic",
+    "provider_name": "Elastic Cloud",
+    "resolved_at": null,
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/gwddkvwr42lr",
+    "status": "investigating",
+    "title": "Increased error rates for microsoft-multilingual-e5-large",
+    "update_count": 1,
+    "updated_at": "2026-08-13T08:32:50.561000+00:00"
   }
 ]
