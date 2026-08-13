@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,448 incidents**. Updated 2026-08-12.
+Cross-vendor incident data for 24 providers. Corpus: **22,467 incidents**. Updated 2026-08-13.
 
 ## Last 30 days
 
-- Incidents recorded: **719**
-- Major or worse: **77**
+- Incidents recorded: **697**
+- Major or worse: **82**
 
 ## Reliability by provider (all time)
 
@@ -13,74 +13,60 @@ Cross-vendor incident data for 24 providers. Corpus: **22,448 incidents**. Updat
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 39 | — | — |
-| CircleCI | devtools | 299 | 69m | 486m |
-| Cloudflare | cdn | 6590 | 239m | 495m |
+| CircleCI | devtools | 300 | 67m | 484m |
+| Cloudflare | cdn | 6591 | 239m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 120 | 74m | 221m |
 | DigitalOcean | cloud | 499 | 145m | 571m |
 | Discord | comms | 209 | 54m | 297m |
-| Elastic Cloud | observability | 243 | 184m | 1326m |
+| Elastic Cloud | observability | 245 | 191m | 1330m |
 | Google Cloud Platform | cloud | 4 | — | — |
-| GitHub | devtools | 595 | 67m | 287m |
+| GitHub | devtools | 597 | 67m | 286m |
 | Grafana Cloud | observability | 735 | 90m | 1153m |
-| HashiCorp Cloud | devtools | 30 | 178m | 1478m |
+| HashiCorp Cloud | devtools | 31 | 160m | 1473m |
 | MongoDB Atlas | data | 267 | 120m | 1381m |
 | Netlify | paas | 213 | 41m | 219m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
 | OpenAI | ai | 36 | 127m | 817m |
-| Sentry | observability | 326 | 83m | 360m |
+| Sentry | observability | 329 | 84m | 357m |
 | Snowflake | data | 186 | 124m | 598m |
 | Supabase | paas | 379 | 158m | 900m |
-| Twilio | comms | 10721 | 270m | 1060m |
+| Twilio | comms | 10730 | 270m | 1060m |
 | Vercel | paas | 373 | 74m | 365m |
 | Zoom | comms | 135 | 180m | 4708m |
 
-## New since last run (15)
+## New since last run (19)
 
-- **Cloudflare** — Cloudflare Analytics Delays (`minor`)
-- **Cloudflare** — Increase in Connectivity errors in London, UK (`none`)
-- **GitHub** — Incident with GraphQL API Requests (`minor`)
-- **CircleCI** — Delayed pipeline updates and pipeline processing failures (`none`)
-- **Supabase** — MCP connection error to branch environments (`none`)
-- **OpenAI** — Increase in errors on API, Codex and Work Mode (`none`)
-- **OpenAI** — Users unable to login to ads manager (`minor`)
-- **OpenAI** — Increased error rates (`minor`)
-- **OpenAI** — Elevated errors affecting ChatGPT Go conversations (`minor`)
-- **Twilio** — User Authentication Identity Gateway API Failure Increase for Three in United Kingdom (`minor`)
-- **Twilio** — Voice Call Audio Quality Degradation From a Subset of Twilio Phone Numbers to Multiple Countries in Europe (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Germany (`minor`)
-- **Twilio** — SMS Delivery Delays From a Subset of Twilio Long Codes to Lebara France (`minor`)
-- **Zoom** — Service Degradation Affecting CX Analytics (`minor`)
-- **Zoom** — Service degradation with Zoom Contact Center smart note generation impacting a subset of users. (`none`)
+- **Cloudflare** — Email Security delivery impacted by Spamhaus listing (`major`)
+- **GitHub** — Disruption with Login and Release Asset downloads (`major`)
+- **GitHub** — Incident with Pull Requests and Issues (`minor`)
+- **HashiCorp Cloud** — Issues When Downloading Terraform Providers (`minor`)
+- **CircleCI** — GitHub service degradation may impact customers using GitHub (`minor`)
+- **Elastic Cloud** — Serverless project creation delayed or failing (`major`)
+- **Elastic Cloud** — Increased error rates for microsoft-multilingual-e5-large (`major`)
+- **Sentry** — Error ingestion delays in US (`major`)
+- **Sentry** — Delayed Error ingestion in our US region (`major`)
+- **Sentry** — Sentry API timeouts (US) (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes and Toll-Free Numbers to Verizon United States (`minor`)
+- **Twilio** — Voice Call Post Dial Delay and Failures From a Subset of Twilio Phone Numbers to Verizon United States (`minor`)
+- **Twilio** — User Authentication Identity Gateway API Failure Increase for Bell in Canada (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Zong Pakistan (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Toll Free Numbers to AT&T Network in the United States (`none`)
+- **Twilio** — Phone Number Configuration Failures (`minor`)
+- **Twilio** — Voice Caller ID Verification Failures (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Peru (`minor`)
+- **Twilio** — Twilio Flex Affected (`none`)
 
-## Updated since last run (51)
+## Updated since last run (7)
 
-- **Cloudflare** — Elevated Errors in Fuzhou and Foshan → `resolved`
-- **Cloudflare** — Retro - Increased HTTP 5xx Errors in Singapore → `resolved`
-- **Cloudflare** — Issues with 1.1.1.1 public resolver in Tel Aviv (TLV) → `resolved`
-- **Cloudflare** — Cloudflare Realtimekit API had reduced availability → `resolved`
-- **Cloudflare** — R2 Availability Issues → `resolved`
-- **Cloudflare** — Network Performance Issues in Istanbul → `resolved`
-- **Cloudflare** — Connectivity issues affecting access to some website from certain networks in Egypt → `resolved`
-- **Cloudflare** — Worker's Observarbility Issues → `resolved`
 - **Cloudflare** — Network Performance Issues in Chicago (ORD) → `resolved`
-- **Cloudflare** — Web Analytics Configuration issues → `resolved`
-- **Cloudflare** — Cloudflare Gateway Email List policy issues → `resolved`
-- **Cloudflare** — Cloudflare Workers and Pages Assets Uploads issues → `resolved`
-- **Cloudflare** — Managed Challenge Issues for China Network → `resolved`
-- **Cloudflare** — Elevated R2 error rates and latency → `resolved`
-- **Cloudflare** — 502 errors observed around Singapore, Jakarta and Bangkok → `resolved`
-- **Cloudflare** — Cloudflare Workers Runtime API issues → `resolved`
-- **Cloudflare** — Cloudflare Workers deployment Issues → `resolved`
-- **Cloudflare** — Network Performance Issues in Bangalore, India → `resolved`
-- **Cloudflare** — Network Performance Issues in Istanbul → `resolved`
-- **Cloudflare** — Cloudflare Workers build failures → `resolved`
-- **Cloudflare** — Cloudflare Dedicated Egress in London → `resolved`
-- **Cloudflare** — Network Performance Issues in Hamburg, Germany → `resolved`
-- **Cloudflare** — RealtimeKit socket connection slowness and failed meeting joins → `resolved`
-- **Cloudflare** — Network Performance Issues in Istanbul → `resolved`
-- **Cloudflare** — Increased HTTP 5XX Errors in IAD → `resolved`
+- **GitHub** — Incident with GraphQL API Requests → `resolved`
+- **GitHub** — Incident with Copilot → `resolved`
+- **GitHub** — Incident with Copilot AI Model Providers → `resolved`
+- **GitHub** — Incident with Copilot AI Model Providers → `resolved`
+- **Elastic Cloud** — Elasticsearch 9.5.0 contains a query-correctness defect → `resolved`
+- **Twilio** — User Authentication Identity Gateway API Failure Increase for Three in United Kingdom → `resolved`
 
 ---
 

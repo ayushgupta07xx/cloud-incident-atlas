@@ -31,21 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-12 07:47 UTC` &nbsp;·&nbsp; **15 new** and **51 updated** incidents &nbsp;·&nbsp; 22,448 total
+**Last ingest** &nbsp;`2026-08-13 12:35 UTC` &nbsp;·&nbsp; **19 new** and **7 updated** incidents &nbsp;·&nbsp; 22,467 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Cloudflare | 50 |
-| Twilio | 6 |
-| OpenAI | 4 |
-| GitHub | 2 |
-| Zoom | 2 |
-| CircleCI | 1 |
+| Twilio | 10 |
+| GitHub | 6 |
+| Elastic Cloud | 3 |
+| Sentry | 3 |
+| Cloudflare | 2 |
+| HashiCorp Cloud | 1 |
 
 Most severe this run:
 
-- `major` **Cloudflare** — Cloudflare Workers — Errors Deploying Workers Scripts
-- `major` **Cloudflare** — Increase errors for R2 buckets hosted in APAC region
+- `major` **Cloudflare** — Email Security delivery impacted by Spamhaus listing
+- `major` **GitHub** — Disruption with Login and Release Asset downloads
+- `major` **Elastic Cloud** — Serverless project creation delayed or failing
 
 <!-- STATUS:END -->
 
