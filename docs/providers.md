@@ -4,40 +4,40 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 10730 | 4.5h | 17.7h | 1057.6h |
-| Cloudflare | cdn | 6591 | 4.0h | 8.2h | 5350.4h |
-| Grafana Cloud | observability | 735 | 1.5h | 19.2h | 2571.2h |
-| GitHub | devtools | 597 | 1.1h | 4.8h | 62.0h |
-| DigitalOcean | cloud | 499 | 2.4h | 9.5h | 304.2h |
-| Supabase | paas | 379 | 2.6h | 15.0h | 2129.0h |
+| Twilio | comms | 10738 | 4.5h | 17.7h | 1057.6h |
+| Cloudflare | cdn | 6597 | 4.0h | 8.2h | 5350.4h |
+| Grafana Cloud | observability | 736 | 1.5h | 19.2h | 2571.2h |
+| GitHub | devtools | 600 | 1.1h | 4.8h | 62.0h |
+| DigitalOcean | cloud | 500 | 2.4h | 9.5h | 304.2h |
+| Supabase | paas | 380 | 2.6h | 15.0h | 2129.0h |
 | Vercel | paas | 373 | 1.2h | 6.1h | 339.2h |
-| Sentry | observability | 329 | 1.4h | 6.0h | 668.4h |
+| Sentry | observability | 330 | 1.4h | 5.9h | 668.4h |
 | CircleCI | devtools | 300 | 1.1h | 8.1h | 96.0h |
 | MongoDB Atlas | data | 267 | 2.0h | 23.0h | 308.9h |
 | Confluent Cloud | data | 248 | 3.3h | 27.4h | 2821.4h |
 | Elastic Cloud | observability | 245 | 3.2h | 22.2h | 364.1h |
 | Netlify | paas | 213 | 41m | 3.6h | 347.3h |
-| Discord | comms | 209 | 54m | 5.0h | 664.8h |
+| Discord | comms | 210 | 52m | 4.9h | 664.8h |
 | Snowflake | data | 186 | 2.1h | 10.0h | 1801.6h |
-| Zoom | comms | 135 | 3.0h | 78.5h | 1944.0h |
+| Zoom | comms | 136 | 3.0h | 74.1h | 1944.0h |
 | Datadog | observability | 120 | 1.2h | 3.7h | 49.9h |
 | New Relic | observability | 103 | 1.1h | 5.0h | 52.3h |
 | npm | devtools | 59 | 1.8h | 5.7h | 20.9h |
 | Atlassian | devtools | 39 | 2.0h | 37.4h | 261.0h |
 | Amazon Web Services | cloud | 39 | — | — | — |
-| OpenAI | ai | 36 | 2.1h | 13.6h | 42.4h |
-| HashiCorp Cloud | devtools | 31 | 2.7h | 24.5h | 120.0h |
+| OpenAI | ai | 38 | 2.3h | 13.3h | 42.4h |
+| HashiCorp Cloud | devtools | 32 | 2.5h | 24.5h | 120.0h |
 | Google Cloud Platform | cloud | 4 | — | — | 516.0h |
 
 ## By category
 
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
-| ai | 1 | 36 | 6 |
-| cdn | 1 | 6591 | 130 |
-| cloud | 3 | 542 | 30 |
-| comms | 3 | 11074 | 109 |
+| ai | 1 | 38 | 6 |
+| cdn | 1 | 6597 | 130 |
+| cloud | 3 | 543 | 30 |
+| comms | 3 | 11084 | 110 |
 | data | 3 | 701 | 244 |
-| devtools | 5 | 1026 | 207 |
-| observability | 5 | 1532 | 541 |
-| paas | 3 | 965 | 214 |
+| devtools | 5 | 1030 | 207 |
+| observability | 5 | 1534 | 543 |
+| paas | 3 | 966 | 214 |

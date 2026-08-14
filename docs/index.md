@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,467 incidents**. Updated 2026-08-13.
+Cross-vendor incident data for 24 providers. Corpus: **22,493 incidents**. Updated 2026-08-14.
 
 ## Last 30 days
 
-- Incidents recorded: **697**
-- Major or worse: **82**
+- Incidents recorded: **692**
+- Major or worse: **80**
 
 ## Reliability by provider (all time)
 
@@ -14,59 +14,62 @@ Cross-vendor incident data for 24 providers. Corpus: **22,467 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 39 | — | — |
 | CircleCI | devtools | 300 | 67m | 484m |
-| Cloudflare | cdn | 6591 | 239m | 495m |
+| Cloudflare | cdn | 6597 | 239m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 120 | 74m | 221m |
-| DigitalOcean | cloud | 499 | 145m | 571m |
-| Discord | comms | 209 | 54m | 297m |
+| DigitalOcean | cloud | 500 | 144m | 571m |
+| Discord | comms | 210 | 52m | 297m |
 | Elastic Cloud | observability | 245 | 191m | 1330m |
 | Google Cloud Platform | cloud | 4 | — | — |
-| GitHub | devtools | 597 | 67m | 286m |
-| Grafana Cloud | observability | 735 | 90m | 1153m |
-| HashiCorp Cloud | devtools | 31 | 160m | 1473m |
+| GitHub | devtools | 600 | 66m | 286m |
+| Grafana Cloud | observability | 736 | 90m | 1153m |
+| HashiCorp Cloud | devtools | 32 | 150m | 1470m |
 | MongoDB Atlas | data | 267 | 120m | 1381m |
 | Netlify | paas | 213 | 41m | 219m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
-| OpenAI | ai | 36 | 127m | 817m |
-| Sentry | observability | 329 | 84m | 357m |
+| OpenAI | ai | 38 | 135m | 799m |
+| Sentry | observability | 330 | 84m | 357m |
 | Snowflake | data | 186 | 124m | 598m |
-| Supabase | paas | 379 | 158m | 900m |
-| Twilio | comms | 10730 | 270m | 1060m |
+| Supabase | paas | 380 | 158m | 900m |
+| Twilio | comms | 10738 | 270m | 1060m |
 | Vercel | paas | 373 | 74m | 365m |
-| Zoom | comms | 135 | 180m | 4708m |
+| Zoom | comms | 136 | 180m | 4447m |
 
-## New since last run (19)
+## New since last run (26)
 
-- **Cloudflare** — Email Security delivery impacted by Spamhaus listing (`major`)
-- **GitHub** — Disruption with Login and Release Asset downloads (`major`)
-- **GitHub** — Incident with Pull Requests and Issues (`minor`)
-- **HashiCorp Cloud** — Issues When Downloading Terraform Providers (`minor`)
-- **CircleCI** — GitHub service degradation may impact customers using GitHub (`minor`)
-- **Elastic Cloud** — Serverless project creation delayed or failing (`major`)
-- **Elastic Cloud** — Increased error rates for microsoft-multilingual-e5-large (`major`)
-- **Sentry** — Error ingestion delays in US (`major`)
-- **Sentry** — Delayed Error ingestion in our US region (`major`)
-- **Sentry** — Sentry API timeouts (US) (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes and Toll-Free Numbers to Verizon United States (`minor`)
-- **Twilio** — Voice Call Post Dial Delay and Failures From a Subset of Twilio Phone Numbers to Verizon United States (`minor`)
-- **Twilio** — User Authentication Identity Gateway API Failure Increase for Bell in Canada (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Zong Pakistan (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Toll Free Numbers to AT&T Network in the United States (`none`)
-- **Twilio** — Phone Number Configuration Failures (`minor`)
-- **Twilio** — Voice Caller ID Verification Failures (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Peru (`minor`)
-- **Twilio** — Twilio Flex Affected (`none`)
+- **Cloudflare** — Increased HTTP 5xx Errors in Kuwait, Bangkok, Jakarta and Dammam (`minor`)
+- **Cloudflare** — Network Performance Issues in Querétaro, Mexico (`minor`)
+- **Cloudflare** — Increased 503s when making changes to Cloudflare dash and API for Magic Transit and Cloudflare WAN and CF1 Appliance (`minor`)
+- **Cloudflare** — Increased  errors for Workers KV requests (`minor`)
+- **Cloudflare** — MCP Server Portal experiencing intermittent issues with user authentication (`minor`)
+- **Cloudflare** — Cloudflare Workers AI errors with Specific models (`minor`)
+- **GitHub** — Disruption with GHEC Team Sync (`minor`)
+- **GitHub** — Errors with the Fable 5 Model in Copilot (`minor`)
+- **GitHub** — Incident with Webhooks (`minor`)
+- **DigitalOcean** — Volume Attach/Detach events in FRA1 (`none`)
+- **HashiCorp Cloud** — Terraform AWS Provider v6.59.0 — errors during plan for aws_network_acl_rule resources (`minor`)
+- **Grafana Cloud** — K6 Test Outage (`critical`)
+- **Sentry** — Span & Transaction ingestion delayed in DE (`major`)
+- **Supabase** — 401 errors due to JWT rejections (`minor`)
+- **OpenAI** — Elevated errors in ChatGPT conversations for Free users (`minor`)
+- **OpenAI** — Error while creating custom RBAC roles for Enterprise users (`none`)
+- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Colombia (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to DiGi Malaysia (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Colombia (`minor`)
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Sky United Kingdom (`minor`)
+- **Twilio** — SendGrid product switcher signup unavailable (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Sky United Kingdom (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Aliv Bahamas (`minor`)
+- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States (`minor`)
+- **Discord** — Issue with establishing a call (`major`)
 
-## Updated since last run (7)
+## Updated since last run (4)
 
-- **Cloudflare** — Network Performance Issues in Chicago (ORD) → `resolved`
-- **GitHub** — Incident with GraphQL API Requests → `resolved`
-- **GitHub** — Incident with Copilot → `resolved`
-- **GitHub** — Incident with Copilot AI Model Providers → `resolved`
-- **GitHub** — Incident with Copilot AI Model Providers → `resolved`
-- **Elastic Cloud** — Elasticsearch 9.5.0 contains a query-correctness defect → `resolved`
-- **Twilio** — User Authentication Identity Gateway API Failure Increase for Three in United Kingdom → `resolved`
+- **GitHub** — Disruption with creation of fine grained personal access tokens → `resolved`
+- **Snowflake** — INC20000139 → `postmortem`
+- **Elastic Cloud** — Increased error rates for microsoft-multilingual-e5-large → `monitoring`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Peru → `resolved`
 
 ---
 

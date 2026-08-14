@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-13 12:35 UTC` &nbsp;·&nbsp; **19 new** and **7 updated** incidents &nbsp;·&nbsp; 22,467 total
+**Last ingest** &nbsp;`2026-08-14 08:46 UTC` &nbsp;·&nbsp; **26 new** and **4 updated** incidents &nbsp;·&nbsp; 22,493 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 10 |
-| GitHub | 6 |
-| Elastic Cloud | 3 |
-| Sentry | 3 |
-| Cloudflare | 2 |
+| Twilio | 9 |
+| Cloudflare | 6 |
+| GitHub | 4 |
+| OpenAI | 2 |
+| DigitalOcean | 1 |
 | HashiCorp Cloud | 1 |
 
 Most severe this run:
 
-- `major` **Cloudflare** — Email Security delivery impacted by Spamhaus listing
-- `major` **GitHub** — Disruption with Login and Release Asset downloads
-- `major` **Elastic Cloud** — Serverless project creation delayed or failing
+- `critical` **Grafana Cloud** — K6 Test Outage
+- `major` **Sentry** — Span & Transaction ingestion delayed in DE
+- `major` **Discord** — Issue with establishing a call
 
 <!-- STATUS:END -->
 
