@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-14 08:46 UTC` &nbsp;·&nbsp; **26 new** and **4 updated** incidents &nbsp;·&nbsp; 22,493 total
+**Last ingest** &nbsp;`2026-08-15 13:46 UTC` &nbsp;·&nbsp; **22 new** and **5 updated** incidents &nbsp;·&nbsp; 22,515 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 9 |
-| Cloudflare | 6 |
-| GitHub | 4 |
-| OpenAI | 2 |
-| DigitalOcean | 1 |
-| HashiCorp Cloud | 1 |
+| Twilio | 13 |
+| Amazon Web Services | 7 |
+| Cloudflare | 2 |
+| Snowflake | 2 |
+| Elastic Cloud | 1 |
+| Vercel | 1 |
 
 Most severe this run:
 
-- `critical` **Grafana Cloud** — K6 Test Outage
-- `major` **Sentry** — Span & Transaction ingestion delayed in DE
-- `major` **Discord** — Issue with establishing a call
+- `critical` **Snowflake** — INC20000158
+- `critical` **Snowflake** — INC20000157
+- `critical` **Supabase** — Project access, updating and creation impacted in us-east-2
 
 <!-- STATUS:END -->
 

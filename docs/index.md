@@ -1,25 +1,25 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,493 incidents**. Updated 2026-08-14.
+Cross-vendor incident data for 24 providers. Corpus: **22,515 incidents**. Updated 2026-08-15.
 
 ## Last 30 days
 
-- Incidents recorded: **692**
-- Major or worse: **80**
+- Incidents recorded: **666**
+- Major or worse: **78**
 
 ## Reliability by provider (all time)
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
-| Amazon Web Services | cloud | 39 | — | — |
+| Amazon Web Services | cloud | 46 | — | — |
 | CircleCI | devtools | 300 | 67m | 484m |
-| Cloudflare | cdn | 6597 | 239m | 495m |
+| Cloudflare | cdn | 6599 | 239m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 120 | 74m | 221m |
 | DigitalOcean | cloud | 500 | 144m | 571m |
 | Discord | comms | 210 | 52m | 297m |
-| Elastic Cloud | observability | 245 | 191m | 1330m |
+| Elastic Cloud | observability | 246 | 191m | 1330m |
 | Google Cloud Platform | cloud | 4 | — | — |
 | GitHub | devtools | 600 | 66m | 286m |
 | Grafana Cloud | observability | 736 | 90m | 1153m |
@@ -30,46 +30,44 @@ Cross-vendor incident data for 24 providers. Corpus: **22,493 incidents**. Updat
 | npm | devtools | 59 | 107m | 340m |
 | OpenAI | ai | 38 | 135m | 799m |
 | Sentry | observability | 330 | 84m | 357m |
-| Snowflake | data | 186 | 124m | 598m |
-| Supabase | paas | 380 | 158m | 900m |
-| Twilio | comms | 10738 | 270m | 1060m |
-| Vercel | paas | 373 | 74m | 365m |
+| Snowflake | data | 188 | 124m | 598m |
+| Supabase | paas | 381 | 158m | 896m |
+| Twilio | comms | 10746 | 270m | 1061m |
+| Vercel | paas | 374 | 74m | 364m |
 | Zoom | comms | 136 | 180m | 4447m |
 
-## New since last run (26)
+## New since last run (22)
 
-- **Cloudflare** — Increased HTTP 5xx Errors in Kuwait, Bangkok, Jakarta and Dammam (`minor`)
-- **Cloudflare** — Network Performance Issues in Querétaro, Mexico (`minor`)
-- **Cloudflare** — Increased 503s when making changes to Cloudflare dash and API for Magic Transit and Cloudflare WAN and CF1 Appliance (`minor`)
-- **Cloudflare** — Increased  errors for Workers KV requests (`minor`)
-- **Cloudflare** — MCP Server Portal experiencing intermittent issues with user authentication (`minor`)
-- **Cloudflare** — Cloudflare Workers AI errors with Specific models (`minor`)
-- **GitHub** — Disruption with GHEC Team Sync (`minor`)
-- **GitHub** — Errors with the Fable 5 Model in Copilot (`minor`)
-- **GitHub** — Incident with Webhooks (`minor`)
-- **DigitalOcean** — Volume Attach/Detach events in FRA1 (`none`)
-- **HashiCorp Cloud** — Terraform AWS Provider v6.59.0 — errors during plan for aws_network_acl_rule resources (`minor`)
-- **Grafana Cloud** — K6 Test Outage (`critical`)
-- **Sentry** — Span & Transaction ingestion delayed in DE (`major`)
-- **Supabase** — 401 errors due to JWT rejections (`minor`)
-- **OpenAI** — Elevated errors in ChatGPT conversations for Free users (`minor`)
-- **OpenAI** — Error while creating custom RBAC roles for Enterprise users (`none`)
-- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Colombia (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to DiGi Malaysia (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Colombia (`minor`)
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Sky United Kingdom (`minor`)
-- **Twilio** — SendGrid product switcher signup unavailable (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Sky United Kingdom (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Aliv Bahamas (`minor`)
-- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States (`minor`)
-- **Discord** — Issue with establishing a call (`major`)
+- **Cloudflare** — Durable Objects and Cloudflare Workflows availability drop (`minor`)
+- **Cloudflare** — Increased network congestion in the Eastern US (`minor`)
+- **Snowflake** — INC20000158 (`critical`)
+- **Snowflake** — INC20000157 (`critical`)
+- **Elastic Cloud** — Elasticsearch 9.5.1: false-positive matches in certain boolean queries (`major`)
+- **Vercel** — Dynamic API routes returned 404 errors for some deployments (`none`)
+- **Supabase** — Project access, updating and creation impacted in us-east-2 (`critical`)
+- **Twilio** — SMS Delivery Delays from Twilio to Telemat Cel Brazil (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Orange/Soci Madagascar (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Malitel Mali (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to MEGACOM Kyrgyzstan (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to KDDI Corporation Japan (`minor`)
+- **Twilio** — Elevated errors impacting Interconnect in Frankfurt Edge (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Multiple Networks in Middle East & African Countries (`minor`)
+- **Twilio** — Widespread Microsoft 365 IP Block Causing Delivery Failures for Multiple Users (`none`)
+- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
+- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
+- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
+- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
+- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
+- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
+- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
 
-## Updated since last run (4)
+## Updated since last run (5)
 
-- **GitHub** — Disruption with creation of fine grained personal access tokens → `resolved`
-- **Snowflake** — INC20000139 → `postmortem`
-- **Elastic Cloud** — Increased error rates for microsoft-multilingual-e5-large → `monitoring`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Peru → `resolved`
+- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States → `resolved`
+- **Twilio** — IP Retrieval Failing for EU Regional Customers → `resolved`
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to United Kingdom → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Sky United Kingdom → `resolved`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Colombia → `monitoring`
 
 ---
 
