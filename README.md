@@ -31,22 +31,15 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-15 13:46 UTC` &nbsp;·&nbsp; **22 new** and **5 updated** incidents &nbsp;·&nbsp; 22,515 total
+**Last ingest** &nbsp;`2026-08-17 05:02 UTC` &nbsp;·&nbsp; **13 new** and **6 updated** incidents &nbsp;·&nbsp; 22,528 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 13 |
-| Amazon Web Services | 7 |
-| Cloudflare | 2 |
-| Snowflake | 2 |
-| Elastic Cloud | 1 |
-| Vercel | 1 |
-
-Most severe this run:
-
-- `critical` **Snowflake** — INC20000158
-- `critical` **Snowflake** — INC20000157
-- `critical` **Supabase** — Project access, updating and creation impacted in us-east-2
+| Twilio | 10 |
+| Amazon Web Services | 6 |
+| HashiCorp Cloud | 1 |
+| CircleCI | 1 |
+| Supabase | 1 |
 
 <!-- STATUS:END -->
 

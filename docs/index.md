@@ -1,19 +1,19 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,515 incidents**. Updated 2026-08-15.
+Cross-vendor incident data for 24 providers. Corpus: **22,528 incidents**. Updated 2026-08-17.
 
 ## Last 30 days
 
-- Incidents recorded: **666**
-- Major or worse: **78**
+- Incidents recorded: **624**
+- Major or worse: **73**
 
 ## Reliability by provider (all time)
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
-| Amazon Web Services | cloud | 46 | — | — |
-| CircleCI | devtools | 300 | 67m | 484m |
+| Amazon Web Services | cloud | 52 | — | — |
+| CircleCI | devtools | 301 | 69m | 483m |
 | Cloudflare | cdn | 6599 | 239m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 120 | 74m | 221m |
@@ -23,7 +23,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,515 incidents**. Updat
 | Google Cloud Platform | cloud | 4 | — | — |
 | GitHub | devtools | 600 | 66m | 286m |
 | Grafana Cloud | observability | 736 | 90m | 1153m |
-| HashiCorp Cloud | devtools | 32 | 150m | 1470m |
+| HashiCorp Cloud | devtools | 33 | 150m | 1470m |
 | MongoDB Atlas | data | 267 | 120m | 1381m |
 | Netlify | paas | 213 | 41m | 219m |
 | New Relic | observability | 103 | 63m | 303m |
@@ -31,29 +31,20 @@ Cross-vendor incident data for 24 providers. Corpus: **22,515 incidents**. Updat
 | OpenAI | ai | 38 | 135m | 799m |
 | Sentry | observability | 330 | 84m | 357m |
 | Snowflake | data | 188 | 124m | 598m |
-| Supabase | paas | 381 | 158m | 896m |
-| Twilio | comms | 10746 | 270m | 1061m |
+| Supabase | paas | 382 | 158m | 892m |
+| Twilio | comms | 10750 | 270m | 1072m |
 | Vercel | paas | 374 | 74m | 364m |
 | Zoom | comms | 136 | 180m | 4447m |
 
-## New since last run (22)
+## New since last run (13)
 
-- **Cloudflare** — Durable Objects and Cloudflare Workflows availability drop (`minor`)
-- **Cloudflare** — Increased network congestion in the Eastern US (`minor`)
-- **Snowflake** — INC20000158 (`critical`)
-- **Snowflake** — INC20000157 (`critical`)
-- **Elastic Cloud** — Elasticsearch 9.5.1: false-positive matches in certain boolean queries (`major`)
-- **Vercel** — Dynamic API routes returned 404 errors for some deployments (`none`)
-- **Supabase** — Project access, updating and creation impacted in us-east-2 (`critical`)
-- **Twilio** — SMS Delivery Delays from Twilio to Telemat Cel Brazil (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Orange/Soci Madagascar (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Malitel Mali (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to MEGACOM Kyrgyzstan (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to KDDI Corporation Japan (`minor`)
+- **HashiCorp Cloud** — Delayed HCP Terraform Runs (`minor`)
+- **CircleCI** — Delays starting jobs following planned maintenance (`none`)
+- **Supabase** — Project creation failing in selected regions (`minor`)
+- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Mobile Numbers to Iraq (`minor`)
 - **Twilio** — Elevated errors impacting Interconnect in Frankfurt Edge (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Multiple Networks in Middle East & African Countries (`minor`)
-- **Twilio** — Widespread Microsoft 365 IP Block Causing Delivery Failures for Multiple Users (`none`)
-- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Liberty Mobile Puerto Rico (`minor`)
+- **Twilio** — Elevated Microsoft 365 IP Blocks Causing Delivery Failures for Multiple Users (`none`)
 - **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
 - **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
 - **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
@@ -61,13 +52,14 @@ Cross-vendor incident data for 24 providers. Corpus: **22,515 incidents**. Updat
 - **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
 - **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
 
-## Updated since last run (5)
+## Updated since last run (6)
 
-- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States → `resolved`
-- **Twilio** — IP Retrieval Failing for EU Regional Customers → `resolved`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to United Kingdom → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Sky United Kingdom → `resolved`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Colombia → `monitoring`
+- **Twilio** — SMS Delivery Delays from Twilio to Orange/Soci Madagascar → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio to Multiple Networks in Multiple Countries across the Middle East and Africa → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to KDDI Corporation Japan → `resolved`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Colombia → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio to Malitel Mali → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Telemat Cel and Algar Telecom Brazil → `identified`
 
 ---
 
