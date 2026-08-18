@@ -31,15 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-17 05:02 UTC` &nbsp;·&nbsp; **13 new** and **6 updated** incidents &nbsp;·&nbsp; 22,528 total
+**Last ingest** &nbsp;`2026-08-18 10:03 UTC` &nbsp;·&nbsp; **27 new** and **6 updated** incidents &nbsp;·&nbsp; 22,555 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 10 |
-| Amazon Web Services | 6 |
-| HashiCorp Cloud | 1 |
-| CircleCI | 1 |
-| Supabase | 1 |
+| Twilio | 13 |
+| Amazon Web Services | 7 |
+| Cloudflare | 5 |
+| GitHub | 3 |
+| CircleCI | 2 |
+| Vercel | 1 |
+
+Most severe this run:
+
+- `critical` **GitHub** — Incident with GitHub.com
+- `major` **GitHub** — Incident with Actions
+- `major` **CircleCI** — GitHub Incidents impacting CircleCI functionality
 
 <!-- STATUS:END -->
 
