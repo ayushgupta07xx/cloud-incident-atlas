@@ -1,10 +1,10 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,555 incidents**. Updated 2026-08-18.
+Cross-vendor incident data for 24 providers. Corpus: **22,572 incidents**. Updated 2026-08-19.
 
 ## Last 30 days
 
-- Incidents recorded: **633**
+- Incidents recorded: **637**
 - Major or worse: **76**
 
 ## Reliability by provider (all time)
@@ -14,7 +14,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,555 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 59 | — | — |
 | CircleCI | devtools | 303 | 69m | 483m |
-| Cloudflare | cdn | 6604 | 239m | 495m |
+| Cloudflare | cdn | 6606 | 239m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 120 | 74m | 221m |
 | DigitalOcean | cloud | 500 | 144m | 571m |
@@ -22,56 +22,50 @@ Cross-vendor incident data for 24 providers. Corpus: **22,555 incidents**. Updat
 | Elastic Cloud | observability | 246 | 191m | 1382m |
 | Google Cloud Platform | cloud | 4 | — | — |
 | GitHub | devtools | 603 | 67m | 287m |
-| Grafana Cloud | observability | 736 | 90m | 1153m |
-| HashiCorp Cloud | devtools | 33 | 150m | 1470m |
-| MongoDB Atlas | data | 267 | 120m | 1381m |
-| Netlify | paas | 213 | 41m | 219m |
+| Grafana Cloud | observability | 737 | 90m | 1153m |
+| HashiCorp Cloud | devtools | 33 | 160m | 1515m |
+| MongoDB Atlas | data | 268 | 120m | 1378m |
+| Netlify | paas | 214 | 40m | 216m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
-| OpenAI | ai | 38 | 135m | 799m |
-| Sentry | observability | 330 | 84m | 357m |
-| Snowflake | data | 188 | 124m | 598m |
+| OpenAI | ai | 39 | 131m | 790m |
+| Sentry | observability | 331 | 84m | 356m |
+| Snowflake | data | 189 | 122m | 598m |
 | Supabase | paas | 382 | 158m | 892m |
-| Twilio | comms | 10758 | 270m | 1079m |
-| Vercel | paas | 375 | 74m | 371m |
-| Zoom | comms | 137 | 179m | 4186m |
+| Twilio | comms | 10765 | 270m | 1079m |
+| Vercel | paas | 376 | 74m | 370m |
+| Zoom | comms | 138 | 179m | 3924m |
 
-## New since last run (27)
+## New since last run (17)
 
-- **Cloudflare** — Lists Service Degraded (`minor`)
-- **Cloudflare** — Network Performance Issues in Phoenix, Los Angeles (`minor`)
-- **Cloudflare** — Cloudflare Dashboard Issues (`minor`)
-- **Cloudflare** — Cloudflare Lists Bulk Actions failing (`minor`)
-- **Cloudflare** — Increased Errors for Durable Objects (`minor`)
-- **GitHub** — Incident with Actions (`major`)
-- **GitHub** — Intermittent failures in runner group and runner-related permissions pages (`minor`)
-- **GitHub** — Incident with GitHub.com (`critical`)
-- **CircleCI** — Insight data is currently delayed (`minor`)
-- **CircleCI** — GitHub Incidents impacting CircleCI functionality (`major`)
-- **Vercel** — Partial disruption of Observability, Analytics, Firewall, Usage, and Login in Dashboard (`minor`)
-- **Twilio** — Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Turkey (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Free Caraibe France (`minor`)
-- **Twilio** — Minority of Delivery Receipts Lost for Conversations Messages (`none`)
-- **Twilio** — User Authentication Identity SNA Failure Increase for AT&T in United States (`minor`)
-- **Twilio** — Elevated Rate of Http 503s When Sending Messages Using the Programmable Messaging Api (`minor`)
-- **Twilio** — Delay with transcript availability in Twilio Console (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to DiGi Malaysia (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Claro Colombia (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Virtual Agent (`none`)
-- **Amazon Web Services** — Service is operating normally: [RESOLVED] Increased Packet loss (`minor`)
-- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
-- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
-- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
-- **Amazon Web Services** — Service impact: Increased Packet loss (`minor`)
+- **Cloudflare** — Increased Errors for Durable Objects in the Hong Kong region (`minor`)
+- **Cloudflare** — CDNJS Elevated Errors (`none`)
+- **Snowflake** — INC20000163 (`major`)
+- **MongoDB Atlas** — Atlas UI and API Periodic Unavailability (`minor`)
+- **Grafana Cloud** — Cloud Logs read path outage on eu-west-2 (`critical`)
+- **Sentry** — Alert backlogs in US (`minor`)
+- **Netlify** — Elevated HTTP 500 errors serving sites and the Netlify UI (`critical`)
+- **Vercel** — Elevated errors for Workflow streams (`none`)
+- **OpenAI** — Elevated errors deploying Sites (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Telecall Brazil (`minor`)
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio Phone Numbers to Claro Brazil (`minor`)
+- **Twilio** — Flex login errors with SSOv2 (`minor`)
+- **Twilio** — 1Console Login Unavailable (`minor`)
+- **Twilio** — Voice Call Failures from T-Mobile United States to a Subset of Twilio United States Phone Numbers (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Lycamobile United Kingdom (`minor`)
+- **Zoom** — Service Degradation Affecting File Uploads In Zoom Chat (`none`)
 
-## Updated since last run (6)
+## Updated since last run (8)
 
-- **Elastic Cloud** — Increased error rates for microsoft-multilingual-e5-large → `resolved`
-- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Iraq → `resolved`
-- **Twilio** — Service Disruption: Inbound Voice Calls to France Numbers and Frankfurt Interconnect → `resolved`
-- **Twilio** — Elevated Microsoft 365 IP Blocks Causing Delivery Failures for Multiple Users → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Liberty Mobile Puerto Rico → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio to Telemat Cel Brazil → `monitoring`
+- **GitHub** — Intermittent failures in runner group and runner-related permissions pages → `resolved`
+- **GitHub** — Incident with Actions → `resolved`
+- **GitHub** — Incident with GitHub.com → `resolved`
+- **GitHub** — Incident with Pull Requests and Issues → `resolved`
+- **HashiCorp Cloud** — Delayed HCP Terraform Runs → `resolved`
+- **Supabase** — 401 errors due to JWT rejections → `identified`
+- **Twilio** — SMS Delivery Delays from Twilio to Free Caraibe France → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio to Telemat Cel Brazil → `resolved`
 
 ---
 

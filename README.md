@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-18 10:03 UTC` &nbsp;·&nbsp; **27 new** and **6 updated** incidents &nbsp;·&nbsp; 22,555 total
+**Last ingest** &nbsp;`2026-08-19 07:01 UTC` &nbsp;·&nbsp; **17 new** and **8 updated** incidents &nbsp;·&nbsp; 22,572 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 13 |
-| Amazon Web Services | 7 |
-| Cloudflare | 5 |
-| GitHub | 3 |
-| CircleCI | 2 |
-| Vercel | 1 |
+| Twilio | 9 |
+| GitHub | 4 |
+| Cloudflare | 2 |
+| Snowflake | 1 |
+| MongoDB Atlas | 1 |
+| Grafana Cloud | 1 |
 
 Most severe this run:
 
+- `critical` **Grafana Cloud** — Cloud Logs read path outage on eu-west-2
+- `critical` **Netlify** — Elevated HTTP 500 errors serving sites and the Netlify UI
 - `critical` **GitHub** — Incident with GitHub.com
-- `major` **GitHub** — Incident with Actions
-- `major` **CircleCI** — GitHub Incidents impacting CircleCI functionality
 
 <!-- STATUS:END -->
 
