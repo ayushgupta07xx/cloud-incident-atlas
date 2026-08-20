@@ -1,71 +1,69 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,572 incidents**. Updated 2026-08-19.
+Cross-vendor incident data for 24 providers. Corpus: **22,593 incidents**. Updated 2026-08-20.
 
 ## Last 30 days
 
-- Incidents recorded: **637**
-- Major or worse: **76**
+- Incidents recorded: **617**
+- Major or worse: **74**
 
 ## Reliability by provider (all time)
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
-| Amazon Web Services | cloud | 59 | — | — |
+| Amazon Web Services | cloud | 62 | — | — |
 | CircleCI | devtools | 303 | 69m | 483m |
-| Cloudflare | cdn | 6606 | 239m | 495m |
+| Cloudflare | cdn | 6610 | 239m | 495m |
 | Confluent Cloud | data | 248 | 195m | 1645m |
 | Datadog | observability | 120 | 74m | 221m |
-| DigitalOcean | cloud | 500 | 144m | 571m |
+| DigitalOcean | cloud | 501 | 145m | 571m |
 | Discord | comms | 210 | 52m | 297m |
 | Elastic Cloud | observability | 246 | 191m | 1382m |
 | Google Cloud Platform | cloud | 4 | — | — |
 | GitHub | devtools | 603 | 67m | 287m |
 | Grafana Cloud | observability | 737 | 90m | 1153m |
 | HashiCorp Cloud | devtools | 33 | 160m | 1515m |
-| MongoDB Atlas | data | 268 | 120m | 1378m |
+| MongoDB Atlas | data | 269 | 120m | 1378m |
 | Netlify | paas | 214 | 40m | 216m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
-| OpenAI | ai | 39 | 131m | 790m |
+| OpenAI | ai | 40 | 127m | 782m |
 | Sentry | observability | 331 | 84m | 356m |
 | Snowflake | data | 189 | 122m | 598m |
-| Supabase | paas | 382 | 158m | 892m |
-| Twilio | comms | 10765 | 270m | 1079m |
-| Vercel | paas | 376 | 74m | 370m |
+| Supabase | paas | 384 | 158m | 892m |
+| Twilio | comms | 10773 | 270m | 1079m |
+| Vercel | paas | 377 | 74m | 369m |
 | Zoom | comms | 138 | 179m | 3924m |
 
-## New since last run (17)
+## New since last run (21)
 
-- **Cloudflare** — Increased Errors for Durable Objects in the Hong Kong region (`minor`)
-- **Cloudflare** — CDNJS Elevated Errors (`none`)
-- **Snowflake** — INC20000163 (`major`)
-- **MongoDB Atlas** — Atlas UI and API Periodic Unavailability (`minor`)
-- **Grafana Cloud** — Cloud Logs read path outage on eu-west-2 (`critical`)
-- **Sentry** — Alert backlogs in US (`minor`)
-- **Netlify** — Elevated HTTP 500 errors serving sites and the Netlify UI (`critical`)
-- **Vercel** — Elevated errors for Workflow streams (`none`)
-- **OpenAI** — Elevated errors deploying Sites (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Telecall Brazil (`minor`)
-- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio Phone Numbers to Claro Brazil (`minor`)
-- **Twilio** — Flex login errors with SSOv2 (`minor`)
-- **Twilio** — 1Console Login Unavailable (`minor`)
-- **Twilio** — Voice Call Failures from T-Mobile United States to a Subset of Twilio United States Phone Numbers (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Lycamobile United Kingdom (`minor`)
-- **Zoom** — Service Degradation Affecting File Uploads In Zoom Chat (`none`)
+- **Cloudflare** — Network Performance Issues in India (`minor`)
+- **Cloudflare** — Network performance issue in Singapore (`minor`)
+- **Cloudflare** — Elevated error rates in Chicago (ORD) region. (`minor`)
+- **Cloudflare** — Workers AI GLM 5.2 is unavailable (`minor`)
+- **DigitalOcean** — Major Service Interruption in MKC1 (`critical`)
+- **MongoDB Atlas** — Issues rotating certificates for projects containing only Atlas Free and Flex clusters (`none`)
+- **Vercel** — Logs unavailable to query in Dashboard (`major`)
+- **Supabase** — Sign-in failures for `signInWithIdToken` (OIDC) logins on free-tier projects (`minor`)
+- **Supabase** — Network access issues affecting a limited number of users in Myanmar (`none`)
+- **OpenAI** — Chatgpt.com is down - all signups and logins are down as of right now (`minor`)
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in United States (`minor`)
+- **Twilio** — Event Streams Delivery Stopped (`major`)
+- **Twilio** — Increased Latency and Failures on Porting APIs (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to T-Mobile Germany (`minor`)
+- **Twilio** — Caller ID Name Failures (`minor`)
+- **Twilio** — IncomingPhoneNumbers API Failures (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Bell Aliant Canada (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Telenet BidCo NV and Base Networks in Belgium (`minor`)
+- **Amazon Web Services** — Service is operating normally: [RESOLVED] Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service impact: Increased Error Rates (`minor`)
 
-## Updated since last run (8)
+## Updated since last run (2)
 
-- **GitHub** — Intermittent failures in runner group and runner-related permissions pages → `resolved`
-- **GitHub** — Incident with Actions → `resolved`
-- **GitHub** — Incident with GitHub.com → `resolved`
-- **GitHub** — Incident with Pull Requests and Issues → `resolved`
-- **HashiCorp Cloud** — Delayed HCP Terraform Runs → `resolved`
-- **Supabase** — 401 errors due to JWT rejections → `identified`
-- **Twilio** — SMS Delivery Delays from Twilio to Free Caraibe France → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio to Telemat Cel Brazil → `resolved`
+- **Cloudflare** — Increased Errors for Durable Objects in the Hong Kong region → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Telecall Brazil → `resolved`
 
 ---
 

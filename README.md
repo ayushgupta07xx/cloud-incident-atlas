@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-19 07:01 UTC` &nbsp;·&nbsp; **17 new** and **8 updated** incidents &nbsp;·&nbsp; 22,572 total
+**Last ingest** &nbsp;`2026-08-20 12:17 UTC` &nbsp;·&nbsp; **21 new** and **2 updated** incidents &nbsp;·&nbsp; 22,593 total
 
 | Provider | Incidents |
 | --- | ---: |
 | Twilio | 9 |
-| GitHub | 4 |
-| Cloudflare | 2 |
-| Snowflake | 1 |
+| Cloudflare | 5 |
+| Amazon Web Services | 3 |
+| Supabase | 2 |
+| DigitalOcean | 1 |
 | MongoDB Atlas | 1 |
-| Grafana Cloud | 1 |
 
 Most severe this run:
 
-- `critical` **Grafana Cloud** — Cloud Logs read path outage on eu-west-2
-- `critical` **Netlify** — Elevated HTTP 500 errors serving sites and the Netlify UI
-- `critical` **GitHub** — Incident with GitHub.com
+- `critical` **DigitalOcean** — Major Service Interruption in MKC1
+- `major` **Vercel** — Logs unavailable to query in Dashboard
+- `major` **Twilio** — Event Streams Delivery Stopped
 
 <!-- STATUS:END -->
 
