@@ -1,69 +1,75 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,593 incidents**. Updated 2026-08-20.
+Cross-vendor incident data for 24 providers. Corpus: **22,617 incidents**. Updated 2026-08-21.
 
 ## Last 30 days
 
-- Incidents recorded: **617**
-- Major or worse: **74**
+- Incidents recorded: **602**
+- Major or worse: **75**
 
 ## Reliability by provider (all time)
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
-| Amazon Web Services | cloud | 62 | — | — |
+| Amazon Web Services | cloud | 64 | — | — |
 | CircleCI | devtools | 303 | 69m | 483m |
-| Cloudflare | cdn | 6610 | 239m | 495m |
-| Confluent Cloud | data | 248 | 195m | 1645m |
+| Cloudflare | cdn | 6617 | 239m | 495m |
+| Confluent Cloud | data | 249 | 195m | 1643m |
 | Datadog | observability | 120 | 74m | 221m |
 | DigitalOcean | cloud | 501 | 145m | 571m |
 | Discord | comms | 210 | 52m | 297m |
-| Elastic Cloud | observability | 246 | 191m | 1382m |
-| Google Cloud Platform | cloud | 4 | — | — |
-| GitHub | devtools | 603 | 67m | 287m |
+| Elastic Cloud | observability | 248 | 191m | 1437m |
+| Google Cloud Platform | cloud | 5 | 640m | — |
+| GitHub | devtools | 604 | 67m | 287m |
 | Grafana Cloud | observability | 737 | 90m | 1153m |
 | HashiCorp Cloud | devtools | 33 | 160m | 1515m |
-| MongoDB Atlas | data | 269 | 120m | 1378m |
+| MongoDB Atlas | data | 269 | 120m | 1403m |
 | Netlify | paas | 214 | 40m | 216m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
-| OpenAI | ai | 40 | 127m | 782m |
+| OpenAI | ai | 42 | 127m | 764m |
 | Sentry | observability | 331 | 84m | 356m |
-| Snowflake | data | 189 | 122m | 598m |
+| Snowflake | data | 190 | 121m | 598m |
 | Supabase | paas | 384 | 158m | 892m |
-| Twilio | comms | 10773 | 270m | 1079m |
-| Vercel | paas | 377 | 74m | 369m |
+| Twilio | comms | 10779 | 270m | 1079m |
+| Vercel | paas | 378 | 74m | 369m |
 | Zoom | comms | 138 | 179m | 3924m |
 
-## New since last run (21)
+## New since last run (24)
 
-- **Cloudflare** — Network Performance Issues in India (`minor`)
-- **Cloudflare** — Network performance issue in Singapore (`minor`)
-- **Cloudflare** — Elevated error rates in Chicago (ORD) region. (`minor`)
-- **Cloudflare** — Workers AI GLM 5.2 is unavailable (`minor`)
-- **DigitalOcean** — Major Service Interruption in MKC1 (`critical`)
-- **MongoDB Atlas** — Issues rotating certificates for projects containing only Atlas Free and Flex clusters (`none`)
-- **Vercel** — Logs unavailable to query in Dashboard (`major`)
-- **Supabase** — Sign-in failures for `signInWithIdToken` (OIDC) logins on free-tier projects (`minor`)
-- **Supabase** — Network access issues affecting a limited number of users in Myanmar (`none`)
-- **OpenAI** — Chatgpt.com is down - all signups and logins are down as of right now (`minor`)
-- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in United States (`minor`)
-- **Twilio** — Event Streams Delivery Stopped (`major`)
-- **Twilio** — Increased Latency and Failures on Porting APIs (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to T-Mobile Germany (`minor`)
-- **Twilio** — Caller ID Name Failures (`minor`)
-- **Twilio** — IncomingPhoneNumbers API Failures (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Bell Aliant Canada (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Telenet BidCo NV and Base Networks in Belgium (`minor`)
+- **Cloudflare** — Cloudflare Access Browser-based RDP Issue (`minor`)
+- **Cloudflare** — Network performance issue in Mumbai (`minor`)
+- **Cloudflare** — MTLS Validation issues (`none`)
+- **Cloudflare** — Missing R2 Audit Logs (`none`)
+- **Cloudflare** — Elevated Errors R2 and Durable Objects (`minor`)
+- **Cloudflare** — Durable Objects and Downstream Service Errors (`minor`)
+- **Cloudflare** — Increased Errors for Durable Objects and Downstream Services in Indonesia (`minor`)
+- **GitHub** — Intermittent failures creating agent tasks (`critical`)
+- **Snowflake** — INC20000168 (`major`)
+- **Confluent Cloud** — Elevated error rates and latency in GCP us-west1 (`major`)
+- **Elastic Cloud** — Elevated Error Rates Affecting Managed OTLP (`minor`)
+- **Elastic Cloud** — Issue when creating Serverless projects in Azure eastus region (`major`)
+- **Vercel** — New container functions are failing (`major`)
+- **OpenAI** — Elevated Codex API authentication errors (`minor`)
+- **OpenAI** — Elevated Errors for Thinking mode in ChatGPT (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs to Altan Redes Mexico (`minor`)
+- **Twilio** — Voice Call Failures Between a Subset of Twilio Phone Numbers and Multiple Networks in Japan (`minor`)
+- **Twilio** — Voice Call Failures Between a Subset of Twilio Phone Numbers and Multiple Networks in Japan (`minor`)
+- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Mexico (`minor`)
+- **Twilio** — SMS Delivery Delays From a Subset of Twilio Short Codes to T-Mobile United States (`minor`)
+- **Twilio** — Elastic SIP Trunking Link Not Available in Console Sidebar (`none`)
+- **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradations, errors, and elevated latencies across multiple products in the us-west1 region. (`high`)
 - **Amazon Web Services** — Service is operating normally: [RESOLVED] Increased Error Rates (`minor`)
 - **Amazon Web Services** — Service impact: Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Error Rates (`minor`)
 
-## Updated since last run (2)
+## Updated since last run (5)
 
-- **Cloudflare** — Increased Errors for Durable Objects in the Hong Kong region → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Telecall Brazil → `resolved`
+- **Cloudflare** — Network Performance Issues in India → `resolved`
+- **MongoDB Atlas** — Issues rotating certificates for projects containing only Atlas Free and Flex clusters → `resolved`
+- **Elastic Cloud** — Elasticsearch 9.5.1: false-positive matches in certain boolean queries → `resolved`
+- **Supabase** — Network access issues affecting a limited number of users in Myanmar → `identified`
+- **Supabase** — 401 errors due to JWT rejections → `identified`
 
 ---
 

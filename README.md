@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-20 12:17 UTC` &nbsp;·&nbsp; **21 new** and **2 updated** incidents &nbsp;·&nbsp; 22,593 total
+**Last ingest** &nbsp;`2026-08-21 08:08 UTC` &nbsp;·&nbsp; **24 new** and **5 updated** incidents &nbsp;·&nbsp; 22,617 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 9 |
-| Cloudflare | 5 |
-| Amazon Web Services | 3 |
+| Cloudflare | 8 |
+| Twilio | 6 |
+| Elastic Cloud | 3 |
+| OpenAI | 2 |
+| Amazon Web Services | 2 |
 | Supabase | 2 |
-| DigitalOcean | 1 |
-| MongoDB Atlas | 1 |
 
 Most severe this run:
 
-- `critical` **DigitalOcean** — Major Service Interruption in MKC1
-- `major` **Vercel** — Logs unavailable to query in Dashboard
-- `major` **Twilio** — Event Streams Delivery Stopped
+- `critical` **GitHub** — Intermittent failures creating agent tasks
+- `high` **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradati
+- `major` **Snowflake** — INC20000168
 
 <!-- STATUS:END -->
 
