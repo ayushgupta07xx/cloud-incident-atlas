@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,617 incidents**. Updated 2026-08-21.
+Cross-vendor incident data for 24 providers. Corpus: **22,635 incidents**. Updated 2026-08-22.
 
 ## Last 30 days
 
-- Incidents recorded: **602**
-- Major or worse: **75**
+- Incidents recorded: **573**
+- Major or worse: **70**
 
 ## Reliability by provider (all time)
 
@@ -14,10 +14,10 @@ Cross-vendor incident data for 24 providers. Corpus: **22,617 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 64 | — | — |
 | CircleCI | devtools | 303 | 69m | 483m |
-| Cloudflare | cdn | 6617 | 239m | 495m |
+| Cloudflare | cdn | 6621 | 239m | 495m |
 | Confluent Cloud | data | 249 | 195m | 1643m |
 | Datadog | observability | 120 | 74m | 221m |
-| DigitalOcean | cloud | 501 | 145m | 571m |
+| DigitalOcean | cloud | 502 | 144m | 570m |
 | Discord | comms | 210 | 52m | 297m |
 | Elastic Cloud | observability | 248 | 191m | 1437m |
 | Google Cloud Platform | cloud | 5 | 640m | — |
@@ -28,48 +28,44 @@ Cross-vendor incident data for 24 providers. Corpus: **22,617 incidents**. Updat
 | Netlify | paas | 214 | 40m | 216m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
-| OpenAI | ai | 42 | 127m | 764m |
+| OpenAI | ai | 43 | 131m | 739m |
 | Sentry | observability | 331 | 84m | 356m |
 | Snowflake | data | 190 | 121m | 598m |
-| Supabase | paas | 384 | 158m | 892m |
-| Twilio | comms | 10779 | 270m | 1079m |
+| Supabase | paas | 385 | 158m | 892m |
+| Twilio | comms | 10787 | 270m | 1076m |
 | Vercel | paas | 378 | 74m | 369m |
-| Zoom | comms | 138 | 179m | 3924m |
+| Zoom | comms | 141 | 178m | 3141m |
 
-## New since last run (24)
+## New since last run (18)
 
-- **Cloudflare** — Cloudflare Access Browser-based RDP Issue (`minor`)
-- **Cloudflare** — Network performance issue in Mumbai (`minor`)
-- **Cloudflare** — MTLS Validation issues (`none`)
-- **Cloudflare** — Missing R2 Audit Logs (`none`)
-- **Cloudflare** — Elevated Errors R2 and Durable Objects (`minor`)
-- **Cloudflare** — Durable Objects and Downstream Service Errors (`minor`)
-- **Cloudflare** — Increased Errors for Durable Objects and Downstream Services in Indonesia (`minor`)
-- **GitHub** — Intermittent failures creating agent tasks (`critical`)
-- **Snowflake** — INC20000168 (`major`)
-- **Confluent Cloud** — Elevated error rates and latency in GCP us-west1 (`major`)
-- **Elastic Cloud** — Elevated Error Rates Affecting Managed OTLP (`minor`)
-- **Elastic Cloud** — Issue when creating Serverless projects in Azure eastus region (`major`)
-- **Vercel** — New container functions are failing (`major`)
-- **OpenAI** — Elevated Codex API authentication errors (`minor`)
-- **OpenAI** — Elevated Errors for Thinking mode in ChatGPT (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs to Altan Redes Mexico (`minor`)
-- **Twilio** — Voice Call Failures Between a Subset of Twilio Phone Numbers and Multiple Networks in Japan (`minor`)
-- **Twilio** — Voice Call Failures Between a Subset of Twilio Phone Numbers and Multiple Networks in Japan (`minor`)
-- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Mexico (`minor`)
-- **Twilio** — SMS Delivery Delays From a Subset of Twilio Short Codes to T-Mobile United States (`minor`)
-- **Twilio** — Elastic SIP Trunking Link Not Available in Console Sidebar (`none`)
-- **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradations, errors, and elevated latencies across multiple products in the us-west1 region. (`high`)
-- **Amazon Web Services** — Service is operating normally: [RESOLVED] Increased Error Rates (`minor`)
-- **Amazon Web Services** — Service impact: Increased Error Rates (`minor`)
+- **Cloudflare** — Network connectivity issues in Dubai (DXB) (`minor`)
+- **Cloudflare** — Zero Trust Client Posture Failures (`minor`)
+- **Cloudflare** — Network Performance Issues in Asia Pacific Region (`none`)
+- **Cloudflare** — Increased Errors for Durable Objects in the Hong Kong region (`minor`)
+- **DigitalOcean** — Container Registry and Spaces Accessibility (`minor`)
+- **Supabase** — Delays in project provisioning (`none`)
+- **OpenAI** — Unexpected logouts for some ChatGPT web users (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Mobile Oman (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio International Pre-Registered Sender IDs to Vinaphone Vietnam (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Viva Dominican Republic (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Dukagjini Kosovo (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Viva Dominican Republic (`minor`)
+- **Twilio** — SMS Delivery Delays From a Subset of Twilio Phone Numbers to Telefonica El Salvador (`minor`)
+- **Twilio** — Programmable Messaging API Affected (`none`)
+- **Twilio** — SMS Delivery Failures from Twilio to Dukagjjni Kosovo (`minor`)
+- **Zoom** — Service Degradation Affecting File Search in Zoom Hub (`minor`)
+- **Zoom** — Service Degradation Affecting Meta integration for Zoom. (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Canvas in US Region. (`none`)
 
-## Updated since last run (5)
+## Updated since last run (7)
 
-- **Cloudflare** — Network Performance Issues in India → `resolved`
-- **MongoDB Atlas** — Issues rotating certificates for projects containing only Atlas Free and Flex clusters → `resolved`
-- **Elastic Cloud** — Elasticsearch 9.5.1: false-positive matches in certain boolean queries → `resolved`
-- **Supabase** — Network access issues affecting a limited number of users in Myanmar → `identified`
+- **Cloudflare** — Cloudflare Access Browser-based RDP Issue → `resolved`
+- **GitHub** — Intermittent failures in runner group and runner-related permissions pages → `resolved`
+- **GitHub** — Incident with Actions → `resolved`
+- **Snowflake** — INC20000158 → `postmortem`
+- **Snowflake** — INC20000157 → `postmortem`
 - **Supabase** — 401 errors due to JWT rejections → `identified`
+- **Twilio** — Voice Call Failures Between a Subset of Twilio Phone Numbers and Multiple Networks in Japan → `resolved`
 
 ---
 

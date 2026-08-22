@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-21 08:08 UTC` &nbsp;·&nbsp; **24 new** and **5 updated** incidents &nbsp;·&nbsp; 22,617 total
+**Last ingest** &nbsp;`2026-08-22 13:47 UTC` &nbsp;·&nbsp; **18 new** and **7 updated** incidents &nbsp;·&nbsp; 22,635 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Cloudflare | 8 |
-| Twilio | 6 |
-| Elastic Cloud | 3 |
-| OpenAI | 2 |
-| Amazon Web Services | 2 |
+| Twilio | 9 |
+| Cloudflare | 5 |
+| Zoom | 3 |
 | Supabase | 2 |
+| GitHub | 2 |
+| Snowflake | 2 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Intermittent failures creating agent tasks
-- `high` **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradati
-- `major` **Snowflake** — INC20000168
+- `critical` **Snowflake** — INC20000158
+- `critical` **Snowflake** — INC20000157
+- `major` **GitHub** — Incident with Actions
 
 <!-- STATUS:END -->
 
