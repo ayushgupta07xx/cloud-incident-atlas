@@ -1,0 +1,477 @@
+{
+  "changed": [
+    {
+      "category": "cdn",
+      "components": [
+        "Access"
+      ],
+      "created_at": "2026-08-21T06:40:44+00:00",
+      "duration_minutes": 101.8,
+      "incident_id": "k6v45x988py7",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-21T08:22:29.569000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/k6v45x988py7",
+      "status": "resolved",
+      "title": "Cloudflare Access Browser-based RDP Issue",
+      "update_count": 3,
+      "updated_at": "2026-08-21T08:22:29.585000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-08-18T07:40:35.676000+00:00",
+      "duration_minutes": 242.4,
+      "incident_id": "bmpybhnrky3x",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-08-18T11:42:59.304000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/98zqb1k9jh0x",
+      "status": "resolved",
+      "title": "Intermittent failures in runner group and runner-related permissions pages",
+      "update_count": 5,
+      "updated_at": "2026-08-21T22:46:07.004000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-08-18T09:36:40.322000+00:00",
+      "duration_minutes": 46.7,
+      "incident_id": "gx7js8bd0jpz",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-08-18T10:23:23+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/q3ck88mqw08z",
+      "status": "resolved",
+      "title": "Incident with Actions",
+      "update_count": 2,
+      "updated_at": "2026-08-21T22:46:26.189000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Applications"
+      ],
+      "created_at": "2026-08-14T17:29:49.607000+00:00",
+      "duration_minutes": 125.7,
+      "incident_id": "v8nyb5fhd95v",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": "2026-08-14T19:35:34.064000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/4pz2gky6fxgz",
+      "status": "postmortem",
+      "title": "INC20000158",
+      "update_count": 5,
+      "updated_at": "2026-08-21T21:47:41.817000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Applications"
+      ],
+      "created_at": "2026-08-14T15:19:47.767000+00:00",
+      "duration_minutes": 68.9,
+      "incident_id": "ylfhrtlppdlt",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": "2026-08-14T16:28:44.337000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/3pb443b8r648",
+      "status": "postmortem",
+      "title": "INC20000157",
+      "update_count": 3,
+      "updated_at": "2026-08-22T02:38:37.034000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [
+        "API Gateway"
+      ],
+      "created_at": "2026-08-14T02:23:18.370000+00:00",
+      "duration_minutes": null,
+      "incident_id": "6q5902p2xd9f",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/18v97b9scdh2",
+      "status": "identified",
+      "title": "401 errors due to JWT rejections",
+      "update_count": 5,
+      "updated_at": "2026-08-21T17:21:47.793000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-08-21T07:09:04.956000+00:00",
+      "duration_minutes": 175.1,
+      "incident_id": "b6kcz5pplnqf",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-21T10:04:07.988000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/wdhdprnwcmnz",
+      "status": "resolved",
+      "title": "Voice Call Failures Between a Subset of Twilio Phone Numbers and Multiple Networks in Japan",
+      "update_count": 3,
+      "updated_at": "2026-08-21T10:04:08.009000+00:00"
+    }
+  ],
+  "date": "2026-08-22",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [
+        "Hong Kong - (HKG)",
+        "Durable Objects",
+        "R2",
+        "RealtimeKit"
+      ],
+      "created_at": "2026-08-21T14:59:50+00:00",
+      "duration_minutes": 20.1,
+      "incident_id": "14kntn62njng",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-21T15:19:56.036000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/14kntn62njng",
+      "status": "resolved",
+      "title": "Increased Errors for Durable Objects in the Hong Kong region",
+      "update_count": 3,
+      "updated_at": "2026-08-21T15:19:56.053000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Zero Trust"
+      ],
+      "created_at": "2026-08-21T20:43:30+00:00",
+      "duration_minutes": 50.5,
+      "incident_id": "mts6889b2wcx",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-21T21:33:58.790000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/mts6889b2wcx",
+      "status": "resolved",
+      "title": "Zero Trust Client Posture Failures",
+      "update_count": 3,
+      "updated_at": "2026-08-21T21:33:58.803000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "R2"
+      ],
+      "created_at": "2026-08-22T02:31:34+00:00",
+      "duration_minutes": 26.4,
+      "incident_id": "xdzz2t911t1w",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-22T02:57:56.480000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/xdzz2t911t1w",
+      "status": "resolved",
+      "title": "Network connectivity issues in Dubai (DXB)",
+      "update_count": 2,
+      "updated_at": "2026-08-22T05:13:46.023000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Network"
+      ],
+      "created_at": "2026-08-21T17:39:20+00:00",
+      "duration_minutes": 120.6,
+      "incident_id": "xl112dfsfz6q",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-21T19:39:57.951000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/xl112dfsfz6q",
+      "status": "resolved",
+      "title": "Network Performance Issues in Asia Pacific Region",
+      "update_count": 3,
+      "updated_at": "2026-08-21T19:39:57.969000+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [
+        "Global",
+        "Global"
+      ],
+      "created_at": "2026-08-21T12:59:42.692000+00:00",
+      "duration_minutes": 113.0,
+      "incident_id": "s0dyq97c5v72",
+      "provider_id": "digitalocean",
+      "provider_name": "DigitalOcean",
+      "resolved_at": "2026-08-21T14:52:40.373000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/2b4phnbmtm49",
+      "status": "resolved",
+      "title": "Container Registry and Spaces Accessibility",
+      "update_count": 3,
+      "updated_at": "2026-08-21T14:52:40.389000+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-08-21T19:48:34+00:00",
+      "duration_minutes": 206.6,
+      "incident_id": "01M0JXWD740S0Y50DWJZS7SH75",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-08-21T23:15:09+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Unexpected logouts for some ChatGPT web users",
+      "update_count": 3,
+      "updated_at": "2026-08-21T23:15:09+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [],
+      "created_at": "2026-08-21T10:26:19.317000+00:00",
+      "duration_minutes": 108.9,
+      "incident_id": "lpyc4sbm44cz",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": "2026-08-21T12:15:15.093000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/nstzvzjfq4bm",
+      "status": "resolved",
+      "title": "Delays in project provisioning",
+      "update_count": 4,
+      "updated_at": "2026-08-21T12:15:15.109000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-08-21T16:15:44.882000+00:00",
+      "duration_minutes": null,
+      "incident_id": "06l7ygn0yv6k",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/0sghg98q9527",
+      "status": "investigating",
+      "title": "SMS Delivery Failures from Twilio to Dukagjjni Kosovo",
+      "update_count": 1,
+      "updated_at": "2026-08-21T16:15:44.998000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-21T21:20:12.716000+00:00",
+      "duration_minutes": null,
+      "incident_id": "16s1650c3kxf",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/n6p28xgp24v9",
+      "status": "identified",
+      "title": "SMS Delivery Delays From a Subset of Twilio Phone Numbers to Telefonica El Salvador",
+      "update_count": 9,
+      "updated_at": "2026-08-22T10:00:11.805000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-08-21T16:48:41.164000+00:00",
+      "duration_minutes": 624.9,
+      "incident_id": "1p0389r8f5f2",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-22T03:13:37.999000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/fgkqjvj9zbyn",
+      "status": "resolved",
+      "title": "SMS Delivery Failures from Twilio to Dukagjini Kosovo",
+      "update_count": 6,
+      "updated_at": "2026-08-22T03:13:38.015000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-21T19:39:27.263000+00:00",
+      "duration_minutes": 600.9,
+      "incident_id": "4xc060jmvmzc",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-22T05:40:21.336000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/116knpc2ws15",
+      "status": "resolved",
+      "title": "SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Viva Dominican Republic",
+      "update_count": 7,
+      "updated_at": "2026-08-22T05:40:21.354000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-21T21:40:38.508000+00:00",
+      "duration_minutes": 20.2,
+      "incident_id": "8j1s3d6l5zyn",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-21T22:00:49.306000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/v5p5n52tq252",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Viva Dominican Republic",
+      "update_count": 3,
+      "updated_at": "2026-08-21T22:00:49.320000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-08-22T03:43:46.924000+00:00",
+      "duration_minutes": 203.7,
+      "incident_id": "9m158lwkpd6z",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-22T07:07:27.980000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/761q0x590qlz",
+      "status": "resolved",
+      "title": "SMS Delivery Receipt Delays from a Subset of Twilio International Pre-Registered Sender IDs to Vinaphone Vietnam",
+      "update_count": 5,
+      "updated_at": "2026-08-22T07:07:27.994000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-08-22T05:15:25.041000+00:00",
+      "duration_minutes": 196.5,
+      "incident_id": "9n0v2370n3gg",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-22T08:31:55.660000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/9gkvd4kzmgkm",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Mobile Oman",
+      "update_count": 4,
+      "updated_at": "2026-08-22T08:31:55.676000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [],
+      "created_at": "2026-08-21T19:44:57.616000+00:00",
+      "duration_minutes": 0.0,
+      "incident_id": "tg9jb3982kw9",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-21T19:44:57.666000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/gm511r0194lc",
+      "status": "resolved",
+      "title": "Programmable Messaging API Affected",
+      "update_count": 1,
+      "updated_at": "2026-08-21T19:44:57.676000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "3rd Party Integration Clients (e.g. Salesforce, ServiceNow, Zendesk, Meta)"
+      ],
+      "created_at": "2026-08-21T11:04:49.975000+00:00",
+      "duration_minutes": 536.5,
+      "incident_id": "3fqk6345gq7b",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-08-21T20:01:17.111000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/9kkbbmvqq8ph",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Meta integration for Zoom.",
+      "update_count": 6,
+      "updated_at": "2026-08-21T20:01:17.126000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Canvas"
+      ],
+      "created_at": "2026-08-21T09:59:18.932000+00:00",
+      "duration_minutes": 27.4,
+      "incident_id": "ct6281f8f6c7",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-08-21T10:26:43.320000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/fn01mkhwpqdx",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Canvas in US Region.",
+      "update_count": 2,
+      "updated_at": "2026-08-21T10:26:43.337000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Hub"
+      ],
+      "created_at": "2026-08-22T09:04:19.656000+00:00",
+      "duration_minutes": 48.4,
+      "incident_id": "dqk9m17ljn7x",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-08-22T09:52:46.202000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/7p3h41h68p77",
+      "status": "resolved",
+      "title": "Service Degradation Affecting File Search in Zoom Hub",
+      "update_count": 4,
+      "updated_at": "2026-08-22T09:52:46.217000+00:00"
+    }
+  ],
+  "runs": 1
+}
