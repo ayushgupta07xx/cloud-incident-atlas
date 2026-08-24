@@ -1,0 +1,144 @@
+{
+  "changed": [
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-21T21:20:12.716000+00:00",
+      "duration_minutes": null,
+      "incident_id": "16s1650c3kxf",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/n6p28xgp24v9",
+      "status": "identified",
+      "title": "SMS Delivery Delays from a Subset of Twilio Phone Numbers to Telefonica El Salvador",
+      "update_count": 12,
+      "updated_at": "2026-08-23T14:10:45.975000+00:00"
+    }
+  ],
+  "date": "2026-08-24",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [],
+      "created_at": "2026-08-23T02:00:00+00:00",
+      "duration_minutes": 0.0,
+      "incident_id": "1wwc0f6m1c21",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-23T02:00:00+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/1wwc0f6m1c21",
+      "status": "resolved",
+      "title": "Elevated network errors for traffic routed between North America origins and SIN (Singapore) colo",
+      "update_count": 1,
+      "updated_at": "2026-08-23T02:30:06.879000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Hong Kong - (HKG)",
+        "D1",
+        "Durable Objects",
+        "Singapore, Singapore - (SIN)",
+        "R2"
+      ],
+      "created_at": "2026-08-24T03:53:58+00:00",
+      "duration_minutes": null,
+      "incident_id": "ksy4vxmbkfdk",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/ksy4vxmbkfdk",
+      "status": "investigating",
+      "title": "DO and D1 are degraded in Hong Kong and Singapore",
+      "update_count": 1,
+      "updated_at": "2026-08-24T03:53:58+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [
+        "NYC1",
+        "NYC3"
+      ],
+      "created_at": "2026-08-23T05:11:37+00:00",
+      "duration_minutes": 561.9,
+      "incident_id": "r96y45y5sx59",
+      "provider_id": "digitalocean",
+      "provider_name": "DigitalOcean",
+      "resolved_at": "2026-08-23T14:33:31.719000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/8ld5fpw01tg4",
+      "status": "resolved",
+      "title": "Managed Databases Creation",
+      "update_count": 4,
+      "updated_at": "2026-08-23T14:33:31.735000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-22T18:01:44.039000+00:00",
+      "duration_minutes": null,
+      "incident_id": "2gt97flg6pg9",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/1vclptbfg1yz",
+      "status": "monitoring",
+      "title": "SMS Delivery Receipt Delays from Twilio to ICE Costa Rica",
+      "update_count": 12,
+      "updated_at": "2026-08-24T04:53:49.694000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-08-22T14:38:17.622000+00:00",
+      "duration_minutes": null,
+      "incident_id": "k4f2dk5v0ldm",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/6fjpp2vc7lm0",
+      "status": "identified",
+      "title": "SMS Delivery Failures from Twilio to Dukagjini Kosovo",
+      "update_count": 6,
+      "updated_at": "2026-08-23T21:58:55.023000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-08-22T15:20:32.953000+00:00",
+      "duration_minutes": 275.3,
+      "incident_id": "kld3sb19sdhj",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-22T19:55:50.931000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/5qlxlly97rt8",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Vivacom Bulgaria",
+      "update_count": 5,
+      "updated_at": "2026-08-22T19:55:50.948000+00:00"
+    }
+  ],
+  "runs": 1
+}
