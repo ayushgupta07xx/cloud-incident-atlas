@@ -31,22 +31,13 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-22 13:47 UTC` &nbsp;·&nbsp; **18 new** and **7 updated** incidents &nbsp;·&nbsp; 22,635 total
+**Last ingest** &nbsp;`2026-08-24 05:06 UTC` &nbsp;·&nbsp; **6 new** and **1 updated** incidents &nbsp;·&nbsp; 22,641 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 9 |
-| Cloudflare | 5 |
-| Zoom | 3 |
-| Supabase | 2 |
-| GitHub | 2 |
-| Snowflake | 2 |
-
-Most severe this run:
-
-- `critical` **Snowflake** — INC20000158
-- `critical` **Snowflake** — INC20000157
-- `major` **GitHub** — Incident with Actions
+| Twilio | 4 |
+| Cloudflare | 2 |
+| DigitalOcean | 1 |
 
 <!-- STATUS:END -->
 

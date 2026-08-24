@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,635 incidents**. Updated 2026-08-22.
+Cross-vendor incident data for 24 providers. Corpus: **22,641 incidents**. Updated 2026-08-24.
 
 ## Last 30 days
 
-- Incidents recorded: **573**
-- Major or worse: **70**
+- Incidents recorded: **527**
+- Major or worse: **61**
 
 ## Reliability by provider (all time)
 
@@ -14,10 +14,10 @@ Cross-vendor incident data for 24 providers. Corpus: **22,635 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 64 | — | — |
 | CircleCI | devtools | 303 | 69m | 483m |
-| Cloudflare | cdn | 6621 | 239m | 495m |
+| Cloudflare | cdn | 6623 | 239m | 495m |
 | Confluent Cloud | data | 249 | 195m | 1643m |
 | Datadog | observability | 120 | 74m | 221m |
-| DigitalOcean | cloud | 502 | 144m | 570m |
+| DigitalOcean | cloud | 503 | 145m | 570m |
 | Discord | comms | 210 | 52m | 297m |
 | Elastic Cloud | observability | 248 | 191m | 1437m |
 | Google Cloud Platform | cloud | 5 | 640m | — |
@@ -32,40 +32,22 @@ Cross-vendor incident data for 24 providers. Corpus: **22,635 incidents**. Updat
 | Sentry | observability | 331 | 84m | 356m |
 | Snowflake | data | 190 | 121m | 598m |
 | Supabase | paas | 385 | 158m | 892m |
-| Twilio | comms | 10787 | 270m | 1076m |
+| Twilio | comms | 10790 | 270m | 1075m |
 | Vercel | paas | 378 | 74m | 369m |
 | Zoom | comms | 141 | 178m | 3141m |
 
-## New since last run (18)
+## New since last run (6)
 
-- **Cloudflare** — Network connectivity issues in Dubai (DXB) (`minor`)
-- **Cloudflare** — Zero Trust Client Posture Failures (`minor`)
-- **Cloudflare** — Network Performance Issues in Asia Pacific Region (`none`)
-- **Cloudflare** — Increased Errors for Durable Objects in the Hong Kong region (`minor`)
-- **DigitalOcean** — Container Registry and Spaces Accessibility (`minor`)
-- **Supabase** — Delays in project provisioning (`none`)
-- **OpenAI** — Unexpected logouts for some ChatGPT web users (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Mobile Oman (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio International Pre-Registered Sender IDs to Vinaphone Vietnam (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Viva Dominican Republic (`minor`)
+- **Cloudflare** — DO and D1 are degraded in Hong Kong and Singapore (`minor`)
+- **Cloudflare** — Elevated network errors for traffic routed between North America origins and SIN (Singapore) colo (`none`)
+- **DigitalOcean** — Managed Databases Creation (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Vivacom Bulgaria (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to ICE Costa Rica (`minor`)
 - **Twilio** — SMS Delivery Failures from Twilio to Dukagjini Kosovo (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Viva Dominican Republic (`minor`)
-- **Twilio** — SMS Delivery Delays From a Subset of Twilio Phone Numbers to Telefonica El Salvador (`minor`)
-- **Twilio** — Programmable Messaging API Affected (`none`)
-- **Twilio** — SMS Delivery Failures from Twilio to Dukagjjni Kosovo (`minor`)
-- **Zoom** — Service Degradation Affecting File Search in Zoom Hub (`minor`)
-- **Zoom** — Service Degradation Affecting Meta integration for Zoom. (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Canvas in US Region. (`none`)
 
-## Updated since last run (7)
+## Updated since last run (1)
 
-- **Cloudflare** — Cloudflare Access Browser-based RDP Issue → `resolved`
-- **GitHub** — Intermittent failures in runner group and runner-related permissions pages → `resolved`
-- **GitHub** — Incident with Actions → `resolved`
-- **Snowflake** — INC20000158 → `postmortem`
-- **Snowflake** — INC20000157 → `postmortem`
-- **Supabase** — 401 errors due to JWT rejections → `identified`
-- **Twilio** — Voice Call Failures Between a Subset of Twilio Phone Numbers and Multiple Networks in Japan → `resolved`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Phone Numbers to Telefonica El Salvador → `identified`
 
 ---
 
