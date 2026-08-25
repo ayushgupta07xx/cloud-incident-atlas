@@ -31,13 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-24 05:06 UTC` &nbsp;·&nbsp; **6 new** and **1 updated** incidents &nbsp;·&nbsp; 22,641 total
+**Last ingest** &nbsp;`2026-08-25 10:06 UTC` &nbsp;·&nbsp; **25 new** and **9 updated** incidents &nbsp;·&nbsp; 22,666 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 4 |
-| Cloudflare | 2 |
-| DigitalOcean | 1 |
+| Twilio | 11 |
+| GitHub | 7 |
+| Supabase | 4 |
+| Cloudflare | 3 |
+| Snowflake | 2 |
+| Confluent Cloud | 2 |
+
+Most severe this run:
+
+- `critical` **DigitalOcean** — Cloud Control Panel and API
+- `critical` **Snowflake** — INC20000175
+- `high` **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradati
 
 <!-- STATUS:END -->
 

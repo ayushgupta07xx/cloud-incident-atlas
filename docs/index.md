@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,641 incidents**. Updated 2026-08-24.
+Cross-vendor incident data for 24 providers. Corpus: **22,666 incidents**. Updated 2026-08-25.
 
 ## Last 30 days
 
-- Incidents recorded: **527**
-- Major or worse: **61**
+- Incidents recorded: **537**
+- Major or worse: **65**
 
 ## Reliability by provider (all time)
 
@@ -14,14 +14,14 @@ Cross-vendor incident data for 24 providers. Corpus: **22,641 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 64 | — | — |
 | CircleCI | devtools | 303 | 69m | 483m |
-| Cloudflare | cdn | 6623 | 239m | 495m |
-| Confluent Cloud | data | 249 | 195m | 1643m |
+| Cloudflare | cdn | 6625 | 239m | 495m |
+| Confluent Cloud | data | 251 | 193m | 1640m |
 | Datadog | observability | 120 | 74m | 221m |
-| DigitalOcean | cloud | 503 | 145m | 570m |
+| DigitalOcean | cloud | 504 | 145m | 570m |
 | Discord | comms | 210 | 52m | 297m |
 | Elastic Cloud | observability | 248 | 191m | 1437m |
 | Google Cloud Platform | cloud | 5 | 640m | — |
-| GitHub | devtools | 604 | 67m | 287m |
+| GitHub | devtools | 607 | 66m | 287m |
 | Grafana Cloud | observability | 737 | 90m | 1153m |
 | HashiCorp Cloud | devtools | 33 | 160m | 1515m |
 | MongoDB Atlas | data | 269 | 120m | 1403m |
@@ -29,25 +29,52 @@ Cross-vendor incident data for 24 providers. Corpus: **22,641 incidents**. Updat
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
 | OpenAI | ai | 43 | 131m | 739m |
-| Sentry | observability | 331 | 84m | 356m |
-| Snowflake | data | 190 | 121m | 598m |
-| Supabase | paas | 385 | 158m | 892m |
-| Twilio | comms | 10790 | 270m | 1075m |
+| Sentry | observability | 332 | 84m | 356m |
+| Snowflake | data | 192 | 119m | 597m |
+| Supabase | paas | 389 | 154m | 891m |
+| Twilio | comms | 10798 | 270m | 1073m |
 | Vercel | paas | 378 | 74m | 369m |
-| Zoom | comms | 141 | 178m | 3141m |
+| Zoom | comms | 143 | 167m | 2790m |
 
-## New since last run (6)
+## New since last run (25)
 
-- **Cloudflare** — DO and D1 are degraded in Hong Kong and Singapore (`minor`)
-- **Cloudflare** — Elevated network errors for traffic routed between North America origins and SIN (Singapore) colo (`none`)
-- **DigitalOcean** — Managed Databases Creation (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Vivacom Bulgaria (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to ICE Costa Rica (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Dukagjini Kosovo (`minor`)
+- **Cloudflare** — Increased Latency (`minor`)
+- **Cloudflare** — Increased HTTP 5xx Errors in Chicago (`minor`)
+- **GitHub** — Actions delays in starting runs (`minor`)
+- **GitHub** — Elevated errors on Fable 5 due to upstream provider (`major`)
+- **GitHub** — Degraded Git Operations over SSH (`none`)
+- **DigitalOcean** — Cloud Control Panel and API (`critical`)
+- **Snowflake** — INC20000175 (`critical`)
+- **Snowflake** — INC20000173 (`major`)
+- **Confluent Cloud** — Elevated error rates and latencies in Azure Southeast Asia region (`major`)
+- **Confluent Cloud** — Confluent Cloud logging degradation - Connect and Flink (`none`)
+- **Sentry** — Errors alerting degraded in US region (`minor`)
+- **Supabase** — Increased rates of Pooler connection timeouts in us-east-1 (`none`)
+- **Supabase** — Issues affecting automatic disk resizing (`major`)
+- **Supabase** — Error spikes in one of the ap-northeast-2 Supavisor clusters (`minor`)
+- **Supabase** — Error spikes in one of the eu-east-1 Supavisor clusters (`none`)
+- **Twilio** — Voice Call Failures, Post Dial Delay, and Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Multiple Networks in Brazil (`minor`)
+- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Verizon United States (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Claro Dominican Republic (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Small Carriers United States (`minor`)
+- **Twilio** — WhatsApp Business API and RCS Send Failures (`minor`)
+- **Twilio** — Upgraded Accounts Retaining Trial Status Restrictions (`minor`)
+- **Twilio** — Flex Orchestration Service Disruption (`minor`)
+- **Twilio** — Users Faced a Generic Error "Can Not Be the Same as Your Last Password." When Attempting to Reset Their Password. (`none`)
+- **Zoom** — Service Degradation Affecting Subset of Users using Zoom AI API Service in US Region (`none`)
+- **Zoom** — Service Degradation Affecting Meeting Chat Services (`minor`)
 
-## Updated since last run (1)
+## Updated since last run (9)
 
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Phone Numbers to Telefonica El Salvador → `identified`
+- **Cloudflare** — DO and D1 are degraded in Hong Kong and Singapore → `resolved`
+- **GitHub** — Intermittent failures in runner group and runner-related permissions pages → `resolved`
+- **GitHub** — Incident with Actions → `resolved`
+- **GitHub** — Disruption with GHEC Team Sync → `resolved`
+- **GitHub** — Incident with Webhooks → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to I.C.E Costa Rica → `identified`
+- **Twilio** — SMS Delivery Failures from Twilio to Dukagjini Kosovo → `identified`
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Phone Numbers to Telefonica El Salvador → `identified`
+- **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradations, errors, and elevated latencies across multiple products in the us-west1 region. → `resolved`
 
 ---
 
