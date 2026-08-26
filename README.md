@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-25 10:06 UTC` &nbsp;·&nbsp; **25 new** and **9 updated** incidents &nbsp;·&nbsp; 22,666 total
+**Last ingest** &nbsp;`2026-08-26 07:05 UTC` &nbsp;·&nbsp; **19 new** and **16 updated** incidents &nbsp;·&nbsp; 22,685 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 11 |
-| GitHub | 7 |
-| Supabase | 4 |
-| Cloudflare | 3 |
-| Snowflake | 2 |
-| Confluent Cloud | 2 |
+| Twilio | 20 |
+| GitHub | 4 |
+| Cloudflare | 2 |
+| Vercel | 2 |
+| Supabase | 2 |
+| CircleCI | 1 |
 
 Most severe this run:
 
+- `critical` **GitHub** — Intermittent failures creating agent tasks
 - `critical` **DigitalOcean** — Cloud Control Panel and API
-- `critical` **Snowflake** — INC20000175
-- `high` **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradati
+- `major` **Vercel** — Failures logging in with Vercel CLI
 
 <!-- STATUS:END -->
 
