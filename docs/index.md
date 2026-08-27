@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,685 incidents**. Updated 2026-08-26.
+Cross-vendor incident data for 24 providers. Corpus: **22,718 incidents**. Updated 2026-08-27.
 
 ## Last 30 days
 
-- Incidents recorded: **549**
-- Major or worse: **66**
+- Incidents recorded: **517**
+- Major or worse: **65**
 
 ## Reliability by provider (all time)
 
@@ -13,68 +13,68 @@ Cross-vendor incident data for 24 providers. Corpus: **22,685 incidents**. Updat
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 64 | — | — |
-| CircleCI | devtools | 304 | 67m | 482m |
-| Cloudflare | cdn | 6626 | 239m | 495m |
+| CircleCI | devtools | 305 | 66m | 482m |
+| Cloudflare | cdn | 6631 | 239m | 495m |
 | Confluent Cloud | data | 251 | 193m | 1640m |
 | Datadog | observability | 120 | 74m | 221m |
 | DigitalOcean | cloud | 504 | 145m | 571m |
 | Discord | comms | 210 | 52m | 297m |
-| Elastic Cloud | observability | 248 | 191m | 1437m |
+| Elastic Cloud | observability | 249 | 191m | 1429m |
 | Google Cloud Platform | cloud | 5 | 640m | — |
-| GitHub | devtools | 607 | 66m | 287m |
-| Grafana Cloud | observability | 738 | 90m | 1153m |
+| GitHub | devtools | 612 | 67m | 287m |
+| Grafana Cloud | observability | 740 | 90m | 1152m |
 | HashiCorp Cloud | devtools | 33 | 160m | 1515m |
 | MongoDB Atlas | data | 269 | 120m | 1403m |
 | Netlify | paas | 214 | 40m | 216m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
-| OpenAI | ai | 43 | 131m | 739m |
-| Sentry | observability | 332 | 84m | 355m |
-| Snowflake | data | 192 | 119m | 597m |
-| Supabase | paas | 389 | 154m | 891m |
-| Twilio | comms | 10812 | 270m | 1077m |
+| OpenAI | ai | 44 | 131m | 739m |
+| Sentry | observability | 334 | 85m | 361m |
+| Snowflake | data | 193 | 118m | 597m |
+| Supabase | paas | 391 | 156m | 903m |
+| Twilio | comms | 10824 | 270m | 1075m |
 | Vercel | paas | 380 | 74m | 368m |
-| Zoom | comms | 143 | 167m | 2790m |
+| Zoom | comms | 144 | 167m | 2790m |
 
-## New since last run (19)
+## New since last run (33)
 
-- **Cloudflare** — Network performance issues in Los Angeles (`none`)
-- **CircleCI** — GitHub Login Disruption (`minor`)
-- **Grafana Cloud** — Incident Management unavailable in US Central (`minor`)
-- **Vercel** — Failures logging in with Vercel CLI (`major`)
-- **Vercel** — Elevated build initialization times (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Phone Numbers to Ufone Pakistan (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Telefonica Chile (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio Phone Numbers to MTN Zambia (`minor`)
-- **Twilio** — Minor Issue Impacting Some Parts of Twilio Console Functionality. (`minor`)
-- **Twilio** — SMS and MMS Delivery Delays From a Subset of Twilio Long Codes to Multiple Networks in Australia (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Multiple Networks in Brazil (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Phone Numbers to Drillisch 1&1 Germany (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Globe Philippines (`minor`)
-- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to Videotron Canada (`minor`)
-- **Twilio** — Voice Call Failures from Network Subscribers to a Subset of Twilio Portugal Phone Numbers (`minor`)
-- **Twilio** — Retroactive Incident: Elevated Latencies on Messaging Logs API (`none`)
-- **Twilio** — SMS Delivery Receipt Delays From a Subset of Twilio Long Codes to Multiple Networks in Mexico (`minor`)
-- **Twilio** — Missing or Delayed Alert Notifications for Messaging Traffic Anomalies (`minor`)
-- **Twilio** — Voice Call Failures, Post Dial Delay, and Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Multiple Networks in Brazil (`minor`)
+- **Cloudflare** — Turnstile Challenge Issues (`minor`)
+- **Cloudflare** — Incorrect geo location for some Cloudflare WARP users (`minor`)
+- **Cloudflare** — Realtimekit APIs failing due to breakage in DB connectivity (`minor`)
+- **Cloudflare** — Durable Objects and Downstream Service Errors (`minor`)
+- **Cloudflare** — Cloudflare MCP Portal tool invocation logging instability (`minor`)
+- **GitHub** — Disruption with GitHub Billing (`minor`)
+- **GitHub** — Incident with Copilot AI Model Providers (`critical`)
+- **GitHub** — Incident with Actions and Pull Requests (`minor`)
+- **GitHub** — Incident with Actions (`critical`)
+- **GitHub** — Disruption with some GitHub services (`minor`)
+- **Snowflake** — INC20000182 (`major`)
+- **CircleCI** — Intermittent errors when viewing plan usage UIs or calling plan usage APIs (`minor`)
+- **Elastic Cloud** — [RESOLVED - 2026-08-26] APM endpoints for serverless projects not available (`major`)
+- **Grafana Cloud** — Elevated error rates affecting metrics writes in prod-us-central-0 (`minor`)
+- **Grafana Cloud** — Mimir Writes Incident in prod-us-central-0 (`none`)
+- **Sentry** — sentry.io is not available (`major`)
+- **Sentry** — Issues performance is degraded in the US (`minor`)
+- **Supabase** — pgBouncer issues on some older projects (`minor`)
+- **Supabase** — Increased response times for requests (`major`)
+- **OpenAI** — Users may experience an increase in error rates in Workspace Agents and ChatGPT Work on Web and Mobile (`minor`)
+- **Twilio** — Delivery Failures From Verify to China (`none`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Sweden (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Malitel Mali (`minor`)
+- **Twilio** — Voice Call Failures and Post Dial Delay from a Subset of Twilio Phone Numbers to United Kingdom (`minor`)
+- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Verizon and T-Mobile United States (`minor`)
 
-## Updated since last run (16)
+## Updated since last run (10)
 
-- **Cloudflare** — Increased Latency → `resolved`
-- **GitHub** — Intermittent failures creating agent tasks → `resolved`
-- **GitHub** — Errors with the Fable 5 Model in Copilot → `resolved`
-- **GitHub** — Disruption with Login and Release Asset downloads → `resolved`
-- **GitHub** — Disruption with Copilot for access to some models → `resolved`
-- **DigitalOcean** — Cloud Control Panel and API → `resolved`
-- **Snowflake** — INC20000163 → `postmortem`
-- **Sentry** — Errors alerting degraded in US region → `resolved`
-- **Supabase** — Network access issues affecting a limited number of users in Myanmar → `identified`
+- **GitHub** — Elevated errors on Fable 5 due to upstream provider → `resolved`
 - **Supabase** — 401 errors due to JWT rejections → `identified`
-- **Twilio** — SMS Delivery Delays from Twilio Phone Numbers to Claro Dominican Republic → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio to Dukagjini Kosovo → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in United States → `resolved`
-- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Verizon United States → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to ICE Costa Rica → `identified`
+- **OpenAI** — Chatgpt.com is down - all signups and logins are down as of right now → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Multiple Networks in Brazil → `resolved`
+- **Twilio** — SMS and MMS Delivery Delays From a Subset of Twilio Long Codes to Multiple Networks in Australia → `resolved`
+- **Twilio** — Minor Issue Impacting Some Parts of Twilio Console Functionality. → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Globe Philippines → `resolved`
+- **Twilio** — Voice Call Failures, Post Dial Delay, and Silent and One-Way Audio between a Subset of Twilio Phone Numbers and Brazil → `monitoring`
+- **Twilio** — SMS Delivery Delays from Twilio to I.C.E Costa Rica → `identified`
 - **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Phone Numbers to Telefonica El Salvador → `identified`
 
 ---

@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-26 07:05 UTC` &nbsp;·&nbsp; **19 new** and **16 updated** incidents &nbsp;·&nbsp; 22,685 total
+**Last ingest** &nbsp;`2026-08-27 21:20 UTC` &nbsp;·&nbsp; **33 new** and **10 updated** incidents &nbsp;·&nbsp; 22,718 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 20 |
-| GitHub | 4 |
-| Cloudflare | 2 |
-| Vercel | 2 |
-| Supabase | 2 |
-| CircleCI | 1 |
+| Twilio | 19 |
+| GitHub | 6 |
+| Cloudflare | 5 |
+| Supabase | 3 |
+| Grafana Cloud | 2 |
+| Sentry | 2 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Intermittent failures creating agent tasks
-- `critical` **DigitalOcean** — Cloud Control Panel and API
-- `major` **Vercel** — Failures logging in with Vercel CLI
+- `critical` **GitHub** — Incident with Copilot AI Model Providers
+- `critical` **GitHub** — Incident with Actions
+- `major` **Snowflake** — INC20000182
 
 <!-- STATUS:END -->
 
