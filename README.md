@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-27 21:20 UTC` &nbsp;·&nbsp; **33 new** and **10 updated** incidents &nbsp;·&nbsp; 22,718 total
+**Last ingest** &nbsp;`2026-08-28 19:33 UTC` &nbsp;·&nbsp; **17 new** and **11 updated** incidents &nbsp;·&nbsp; 22,735 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 19 |
-| GitHub | 6 |
-| Cloudflare | 5 |
+| Twilio | 15 |
+| Cloudflare | 3 |
 | Supabase | 3 |
 | Grafana Cloud | 2 |
-| Sentry | 2 |
+| Snowflake | 1 |
+| MongoDB Atlas | 1 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Incident with Copilot AI Model Providers
-- `critical` **GitHub** — Incident with Actions
-- `major` **Snowflake** — INC20000182
+- `high` **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradati
+- `major` **Grafana Cloud** — Partial Logs Write Outage
+- `major` **Supabase** — Projects failing to load Supautils in multiple regions
 
 <!-- STATUS:END -->
 
