@@ -1,0 +1,447 @@
+{
+  "changed": [
+    {
+      "category": "cdn",
+      "components": [
+        "Singapore, Singapore - (SIN)"
+      ],
+      "created_at": "2026-08-28T17:36:54+00:00",
+      "duration_minutes": 427.0,
+      "incident_id": "7rlsppn13h62",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-29T00:43:53.498000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/7rlsppn13h62",
+      "status": "resolved",
+      "title": "Increased HTTP 5xx Errors in Singapore",
+      "update_count": 5,
+      "updated_at": "2026-08-29T00:43:53.516000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "WARP"
+      ],
+      "created_at": "2026-08-27T18:46:19+00:00",
+      "duration_minutes": null,
+      "incident_id": "9g65dxfbcjln",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/9g65dxfbcjln",
+      "status": "identified",
+      "title": "Incorrect geo location for some Cloudflare WARP users",
+      "update_count": 5,
+      "updated_at": "2026-08-29T15:31:17+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Pull Requests",
+        "Actions"
+      ],
+      "created_at": "2026-08-26T22:56:31.800000+00:00",
+      "duration_minutes": 90.2,
+      "incident_id": "kfspvrz14xr0",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-08-27T00:26:44.772000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/nrbwjftcz72d",
+      "status": "resolved",
+      "title": "Incident with Actions and Pull Requests",
+      "update_count": 6,
+      "updated_at": "2026-08-28T22:10:28.404000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Snowpark Container Services"
+      ],
+      "created_at": "2026-08-28T00:07:42.677000+00:00",
+      "duration_minutes": null,
+      "incident_id": "9p16kxkml7v2",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/2tmfhlrz2yz5",
+      "status": "identified",
+      "title": "INC20000150",
+      "update_count": 2,
+      "updated_at": "2026-08-28T23:16:26.463000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [
+        "API Gateway"
+      ],
+      "created_at": "2026-08-14T02:23:18.370000+00:00",
+      "duration_minutes": null,
+      "incident_id": "6q5902p2xd9f",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/18v97b9scdh2",
+      "status": "identified",
+      "title": "401 errors due to JWT rejections",
+      "update_count": 8,
+      "updated_at": "2026-08-28T23:44:41.278000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [],
+      "created_at": "2026-08-27T17:20:43.863000+00:00",
+      "duration_minutes": null,
+      "incident_id": "bv4ntm4x0btf",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": null,
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/tql268ymyfqj",
+      "status": "monitoring",
+      "title": "Increased response times for requests",
+      "update_count": 10,
+      "updated_at": "2026-08-29T01:25:00.858000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-08-28T07:00:05.133000+00:00",
+      "duration_minutes": null,
+      "incident_id": "4q6yh327b9v7",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/9cdwwszbl32l",
+      "status": "identified",
+      "title": "SMS Delivery Delays and Failures from Twilio to Megafon Tajikistan",
+      "update_count": 10,
+      "updated_at": "2026-08-29T08:34:09.122000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-08-28T10:33:05.744000+00:00",
+      "duration_minutes": null,
+      "incident_id": "94bxf8qbp9c5",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/3ld790kq3b5n",
+      "status": "identified",
+      "title": "Voice Call Failures and Audio Quality Degradation Between a Subset of Twilio Phone Numbers and Multiple Networks in Hong Kong",
+      "update_count": 8,
+      "updated_at": "2026-08-29T06:53:53.489000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Messaging Insights"
+      ],
+      "created_at": "2026-08-28T18:35:21+00:00",
+      "duration_minutes": null,
+      "incident_id": "crhjsf12p6f2",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/5lgl8pl2l6dl",
+      "status": "monitoring",
+      "title": "Message Logs Performance Issues",
+      "update_count": 1,
+      "updated_at": "2026-08-28T20:25:45.047000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Short Code, North America",
+        "SMS Toll-Free, North America",
+        "SMS Toll-Free, North America"
+      ],
+      "created_at": "2026-08-28T16:42:14.403000+00:00",
+      "duration_minutes": 361.3,
+      "incident_id": "djggkszwsvsw",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-28T22:43:30.910000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/l0pwlxx2yc17",
+      "status": "resolved",
+      "title": "SMS Delivery Delays and Failures from a Subset of Twilio Short Codes and Toll-Free Numbers to Altice (CSC Wireless) United States",
+      "update_count": 6,
+      "updated_at": "2026-08-28T22:43:30.932000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-27T22:17:37.955000+00:00",
+      "duration_minutes": null,
+      "incident_id": "gxqpf0nds3f5",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/vq57cf2w71ds",
+      "status": "identified",
+      "title": "SMS Delivery Receipt Delays from Twilio Long Codes to Liberty Puerto Rico",
+      "update_count": 13,
+      "updated_at": "2026-08-29T12:53:58.202000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-28T18:54:34.899000+00:00",
+      "duration_minutes": null,
+      "incident_id": "kj5grh9nsnbj",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/6bd4n62h7566",
+      "status": "identified",
+      "title": "SMS Delivery Failures from Twilio to Datora Brazil",
+      "update_count": 10,
+      "updated_at": "2026-08-29T13:07:59.623000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "MMS Long Code, North America"
+      ],
+      "created_at": "2026-08-26T14:48:57.936000+00:00",
+      "duration_minutes": null,
+      "incident_id": "n9yz4c5sy82v",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/ybxz6nw6c0jt",
+      "status": "identified",
+      "title": "MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States",
+      "update_count": 9,
+      "updated_at": "2026-08-28T23:38:34.823000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Europe"
+      ],
+      "created_at": "2026-08-27T11:43:30.375000+00:00",
+      "duration_minutes": null,
+      "incident_id": "wlx2rc0dm0w2",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/0q7b0b824l6s",
+      "status": "monitoring",
+      "title": "Voice Call Post Dial Delay and Failures From a Subset of Twilio Phone Numbers to United Kingdom",
+      "update_count": 11,
+      "updated_at": "2026-08-29T08:46:08.398000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice REST API US1"
+      ],
+      "created_at": "2026-08-28T17:31:04+00:00",
+      "duration_minutes": 312.9,
+      "incident_id": "ysyjhrfhgx53",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-28T22:43:55.932000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rfjl1wlyb0n1",
+      "status": "resolved",
+      "title": "Intermittent Failures to Update Call Recordings",
+      "update_count": 6,
+      "updated_at": "2026-08-28T22:43:55.953000+00:00"
+    }
+  ],
+  "date": "2026-08-29",
+  "new": [
+    {
+      "category": "comms",
+      "components": [
+        "Console"
+      ],
+      "created_at": "2026-08-28T21:50:58+00:00",
+      "duration_minutes": 83.8,
+      "incident_id": "2f70djp3ryqq",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-28T23:14:48.787000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/dcdm00576b2m",
+      "status": "resolved",
+      "title": "Increased Latency In Console",
+      "update_count": 3,
+      "updated_at": "2026-08-28T23:14:48.805000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Short Code, North America"
+      ],
+      "created_at": "2026-08-28T22:38:02.630000+00:00",
+      "duration_minutes": 537.7,
+      "incident_id": "6f04t6c4my3v",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-29T07:35:46.331000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/v4lh3pd9pnhk",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in United States",
+      "update_count": 7,
+      "updated_at": "2026-08-29T07:35:46.346000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-08-29T04:09:47.895000+00:00",
+      "duration_minutes": 262.0,
+      "incident_id": "cmtwzbdhm62k",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-29T08:31:48.317000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/9rg4wmdpdwns",
+      "status": "resolved",
+      "title": "SMS Delivery Receipt Delays from Twilio to Globe Telecom Philippines",
+      "update_count": 5,
+      "updated_at": "2026-08-29T08:31:48.333000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-08-28T21:56:19.061000+00:00",
+      "duration_minutes": null,
+      "incident_id": "dkhm08jprydw",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/h7s9tss81d6f",
+      "status": "identified",
+      "title": "SMS Delivery Delays from Twilio to Ooredoo Kuwait",
+      "update_count": 7,
+      "updated_at": "2026-08-29T14:52:33.913000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-28T20:40:52.317000+00:00",
+      "duration_minutes": 654.2,
+      "incident_id": "h5plqr8v17xn",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-29T07:35:06.927000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/x90x4ffc8dr9",
+      "status": "resolved",
+      "title": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Tigo Colombia",
+      "update_count": 8,
+      "updated_at": "2026-08-29T07:35:06.940000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Europe"
+      ],
+      "created_at": "2026-08-28T23:36:52.859000+00:00",
+      "duration_minutes": null,
+      "incident_id": "hgm5thrflpll",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rtlhyssbpjm5",
+      "status": "identified",
+      "title": "Voice Call Failures from Twilio Phone Numbers to Bulgaria",
+      "update_count": 6,
+      "updated_at": "2026-08-29T14:45:25.889000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-08-28T21:38:56.882000+00:00",
+      "duration_minutes": null,
+      "incident_id": "vckgmmsz2yzz",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/mb2hwpnfbxr8",
+      "status": "identified",
+      "title": "SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to LIME Cayman Islands",
+      "update_count": 6,
+      "updated_at": "2026-08-29T12:46:08.945000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Toll-Free, North America",
+        "SMS Toll-Free, North America"
+      ],
+      "created_at": "2026-08-29T05:50:51.460000+00:00",
+      "duration_minutes": 310.4,
+      "incident_id": "wg2nhdnq3vkh",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-08-29T11:01:14.818000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/yj4w5cvm9rcx",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Toll-Free Numbers to Bell Mobility Canada",
+      "update_count": 5,
+      "updated_at": "2026-08-29T11:01:14.837000+00:00"
+    }
+  ],
+  "runs": 1
+}
