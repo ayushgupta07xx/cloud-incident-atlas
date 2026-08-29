@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,735 incidents**. Updated 2026-08-28.
+Cross-vendor incident data for 24 providers. Corpus: **22,743 incidents**. Updated 2026-08-29.
 
 ## Last 30 days
 
-- Incidents recorded: **499**
-- Major or worse: **65**
+- Incidents recorded: **471**
+- Major or worse: **61**
 
 ## Reliability by provider (all time)
 
@@ -32,43 +32,38 @@ Cross-vendor incident data for 24 providers. Corpus: **22,735 incidents**. Updat
 | Sentry | observability | 334 | 85m | 361m |
 | Snowflake | data | 194 | 118m | 597m |
 | Supabase | paas | 392 | 154m | 900m |
-| Twilio | comms | 10834 | 270m | 1078m |
+| Twilio | comms | 10842 | 270m | 1074m |
 | Vercel | paas | 380 | 74m | 368m |
 | Zoom | comms | 144 | 178m | 2700m |
 
-## New since last run (17)
+## New since last run (8)
 
-- **Cloudflare** — Increased HTTP 5xx Errors in Singapore (`minor`)
-- **Cloudflare** — Workers Builds are Degraded (`minor`)
-- **Snowflake** — INC20000150 (`minor`)
-- **MongoDB Atlas** — MongoDB Atlas Log Integration service degraded (`minor`)
-- **Grafana Cloud** — Partial Logs Write Outage (`major`)
-- **Grafana Cloud** — Some Grafana UI features may be unavailable or reverting to legacy behaviour (`minor`)
-- **Supabase** — Projects failing to load Supautils in multiple regions (`major`)
-- **Twilio** — SMS Delivery Failures from Twilio to Datora Brazil (`minor`)
-- **Twilio** — Message Logs Performance Issues (`none`)
-- **Twilio** — On Call Engineers are Investigating (`none`)
-- **Twilio** — Intermittent Failures to Update Call Recordings (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Short Codes and Toll-Free Numbers to Altice (CSC Wireless) United States (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Toll-Free Numbers to Bell Mobility Canada (`minor`)
 - **Twilio** — SMS Delivery Receipt Delays from Twilio to Globe Telecom Philippines (`minor`)
-- **Twilio** — Voice Call Failures and Audio Quality Degradation Between a Subset of Twilio Hong Kong Phone Numbers and Multiple Networks in Hong Kong (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Megafon Tajikistan (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Evatis Djibouti (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio Long Codes to Liberty Puerto Rico (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in United States (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Tigo Colombia (`minor`)
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Bulgaria (`minor`)
+- **Twilio** — Increased Latency In Console (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Ooredoo Kuwait (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to LIME Cayman Islands (`minor`)
 
-## Updated since last run (11)
+## Updated since last run (15)
 
 - **Cloudflare** — Incorrect geo location for some Cloudflare WARP users → `identified`
-- **Supabase** — Increased response times for requests → `identified`
-- **Supabase** — Increased rates of Pooler connection timeouts in us-east-1 → `resolved`
-- **OpenAI** — Users may experience an increase in error rates in Workspace Agents and ChatGPT Work on Web and Mobile → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Malitel Mali → `resolved`
-- **Twilio** — Voice Call Failures, Post Dial Delay, and Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Multiple Networks in Brazil → `resolved`
-- **Twilio** — Voice Call Failures and Post Dial Delay from a Subset of Twilio Phone Numbers to United Kingdom → `monitoring`
+- **Cloudflare** — Increased HTTP 5xx Errors in Singapore → `resolved`
+- **GitHub** — Incident with Actions and Pull Requests → `resolved`
+- **Snowflake** — INC20000150 → `identified`
+- **Supabase** — Increased response times for requests → `monitoring`
+- **Supabase** — 401 errors due to JWT rejections → `identified`
+- **Twilio** — Intermittent Failures to Update Call Recordings → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Short Codes and Toll-Free Numbers to Altice (CSC Wireless) United States → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio to Datora Brazil → `identified`
+- **Twilio** — Message Logs Performance Issues → `monitoring`
+- **Twilio** — Voice Call Failures and Audio Quality Degradation Between a Subset of Twilio Phone Numbers and Multiple Networks in Hong Kong → `identified`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Megafon Tajikistan → `identified`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio Long Codes to Liberty Puerto Rico → `identified`
+- **Twilio** — Voice Call Post Dial Delay and Failures From a Subset of Twilio Phone Numbers to United Kingdom → `monitoring`
 - **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States → `identified`
-- **Twilio** — SMS Delivery Delays from Twilio to ICE Costa Rica → `identified`
-- **Zoom** — Service Degradation Affecting Zoom Services in Hong Kong → `resolved`
-- **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradations, errors, and elevated latencies across multiple products in the us-west1 region. → `resolved`
 
 ---
 

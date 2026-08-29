@@ -31,22 +31,19 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-28 19:33 UTC` &nbsp;·&nbsp; **17 new** and **11 updated** incidents &nbsp;·&nbsp; 22,735 total
+**Last ingest** &nbsp;`2026-08-29 17:12 UTC` &nbsp;·&nbsp; **8 new** and **15 updated** incidents &nbsp;·&nbsp; 22,743 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 15 |
-| Cloudflare | 3 |
-| Supabase | 3 |
-| Grafana Cloud | 2 |
+| Twilio | 17 |
+| Cloudflare | 2 |
+| Supabase | 2 |
+| GitHub | 1 |
 | Snowflake | 1 |
-| MongoDB Atlas | 1 |
 
 Most severe this run:
 
-- `high` **Google Cloud Platform** — We are investigating an issue where customers may experience timeouts, service degradati
-- `major` **Grafana Cloud** — Partial Logs Write Outage
-- `major` **Supabase** — Projects failing to load Supautils in multiple regions
+- `major` **Supabase** — Increased response times for requests
 
 <!-- STATUS:END -->
 
