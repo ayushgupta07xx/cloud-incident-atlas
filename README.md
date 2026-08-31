@@ -31,19 +31,14 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-29 17:12 UTC` &nbsp;·&nbsp; **8 new** and **15 updated** incidents &nbsp;·&nbsp; 22,743 total
+**Last ingest** &nbsp;`2026-08-31 10:57 UTC` &nbsp;·&nbsp; **9 new** and **11 updated** incidents &nbsp;·&nbsp; 22,752 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 17 |
+| Twilio | 16 |
 | Cloudflare | 2 |
-| Supabase | 2 |
 | GitHub | 1 |
-| Snowflake | 1 |
-
-Most severe this run:
-
-- `major` **Supabase** — Increased response times for requests
+| Zoom | 1 |
 
 <!-- STATUS:END -->
 

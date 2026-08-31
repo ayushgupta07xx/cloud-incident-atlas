@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,743 incidents**. Updated 2026-08-29.
+Cross-vendor incident data for 24 providers. Corpus: **22,752 incidents**. Updated 2026-08-31.
 
 ## Last 30 days
 
-- Incidents recorded: **471**
-- Major or worse: **61**
+- Incidents recorded: **448**
+- Major or worse: **59**
 
 ## Reliability by provider (all time)
 
@@ -14,14 +14,14 @@ Cross-vendor incident data for 24 providers. Corpus: **22,743 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 64 | — | — |
 | CircleCI | devtools | 305 | 66m | 482m |
-| Cloudflare | cdn | 6633 | 239m | 495m |
+| Cloudflare | cdn | 6634 | 239m | 495m |
 | Confluent Cloud | data | 251 | 193m | 1640m |
 | Datadog | observability | 120 | 74m | 221m |
 | DigitalOcean | cloud | 504 | 145m | 571m |
 | Discord | comms | 210 | 52m | 297m |
 | Elastic Cloud | observability | 249 | 191m | 1429m |
 | Google Cloud Platform | cloud | 5 | 640m | — |
-| GitHub | devtools | 612 | 67m | 287m |
+| GitHub | devtools | 613 | 67m | 287m |
 | Grafana Cloud | observability | 742 | 90m | 1152m |
 | HashiCorp Cloud | devtools | 33 | 160m | 1515m |
 | MongoDB Atlas | data | 270 | 120m | 1400m |
@@ -32,37 +32,34 @@ Cross-vendor incident data for 24 providers. Corpus: **22,743 incidents**. Updat
 | Sentry | observability | 334 | 85m | 361m |
 | Snowflake | data | 194 | 118m | 597m |
 | Supabase | paas | 392 | 154m | 900m |
-| Twilio | comms | 10842 | 270m | 1074m |
+| Twilio | comms | 10848 | 270m | 1080m |
 | Vercel | paas | 380 | 74m | 368m |
-| Zoom | comms | 144 | 178m | 2700m |
+| Zoom | comms | 145 | 167m | 2610m |
 
-## New since last run (8)
+## New since last run (9)
 
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Toll-Free Numbers to Bell Mobility Canada (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Globe Telecom Philippines (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in United States (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Tigo Colombia (`minor`)
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Bulgaria (`minor`)
-- **Twilio** — Increased Latency In Console (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Ooredoo Kuwait (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to LIME Cayman Islands (`minor`)
+- **Cloudflare** — Network Issues in Montréal (`none`)
+- **GitHub** — Elevated rate of errors for OpenAI models provided by Copilot (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Cellcom Israel (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Telma Madagascar (`minor`)
+- **Twilio** — User Authentication Identity Gateway API Failure Increase for XL Axiata in Indonesia (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to DiGi Malaysia (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Algar Telecom Brazil (`minor`)
+- **Twilio** — SMS Delivery Receipt Failures from Twilio to Multiple Networks in Brazil (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Contact Center Billing and Reporting Service in EU (`minor`)
 
-## Updated since last run (15)
+## Updated since last run (11)
 
 - **Cloudflare** — Incorrect geo location for some Cloudflare WARP users → `identified`
-- **Cloudflare** — Increased HTTP 5xx Errors in Singapore → `resolved`
-- **GitHub** — Incident with Actions and Pull Requests → `resolved`
-- **Snowflake** — INC20000150 → `identified`
-- **Supabase** — Increased response times for requests → `monitoring`
-- **Supabase** — 401 errors due to JWT rejections → `identified`
-- **Twilio** — Intermittent Failures to Update Call Recordings → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Short Codes and Toll-Free Numbers to Altice (CSC Wireless) United States → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio to Datora Brazil → `identified`
+- **Twilio** — SMS Delivery Delays from Twilio to Ooredoo Kuwait → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio to Datora Brazil → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio Long Codes to Liberty Puerto Rico → `resolved`
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Senders and Long Codes to LIME Cayman Islands → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Megafon Tajikistan → `resolved`
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Bulgaria → `resolved`
 - **Twilio** — Message Logs Performance Issues → `monitoring`
-- **Twilio** — Voice Call Failures and Audio Quality Degradation Between a Subset of Twilio Phone Numbers and Multiple Networks in Hong Kong → `identified`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Megafon Tajikistan → `identified`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio Long Codes to Liberty Puerto Rico → `identified`
-- **Twilio** — Voice Call Post Dial Delay and Failures From a Subset of Twilio Phone Numbers to United Kingdom → `monitoring`
+- **Twilio** — Voice Call Failures and Audio Quality Degradation between a Subset of Twilio Phone Numbers and Multiple Networks in Hong Kong → `monitoring`
+- **Twilio** — Voice Call Failures and Post Dial Delay from a Subset of Twilio Phone Numbers to United Kingdom → `monitoring`
 - **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States → `identified`
 
 ---
