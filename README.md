@@ -31,14 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-08-31 10:57 UTC` &nbsp;·&nbsp; **9 new** and **11 updated** incidents &nbsp;·&nbsp; 22,752 total
+**Last ingest** &nbsp;`2026-09-01 14:18 UTC` &nbsp;·&nbsp; **34 new** and **14 updated** incidents &nbsp;·&nbsp; 22,786 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 16 |
-| Cloudflare | 2 |
-| GitHub | 1 |
-| Zoom | 1 |
+| Twilio | 20 |
+| Cloudflare | 6 |
+| Snowflake | 4 |
+| Supabase | 4 |
+| GitHub | 4 |
+| Sentry | 3 |
+
+Most severe this run:
+
+- `critical` **Snowflake** — INC20000188
+- `critical` **Supabase** — User unable to log in to Supabase Dashboard
+- `critical` **GitHub** — Incident with Copilot AI Model Providers
 
 <!-- STATUS:END -->
 
