@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-01 14:18 UTC` &nbsp;·&nbsp; **34 new** and **14 updated** incidents &nbsp;·&nbsp; 22,786 total
+**Last ingest** &nbsp;`2026-09-02 11:11 UTC` &nbsp;·&nbsp; **20 new** and **14 updated** incidents &nbsp;·&nbsp; 22,806 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 20 |
+| Twilio | 16 |
 | Cloudflare | 6 |
-| Snowflake | 4 |
-| Supabase | 4 |
-| GitHub | 4 |
-| Sentry | 3 |
+| Elastic Cloud | 3 |
+| GitHub | 1 |
+| Datadog | 1 |
+| Confluent Cloud | 1 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000188
-- `critical` **Supabase** — User unable to log in to Supabase Dashboard
-- `critical` **GitHub** — Incident with Copilot AI Model Providers
+- `major` **Cloudflare** — Network Route Leak in Palmas, Brazil
+- `major` **Elastic Cloud** — Elevated Error Rates for Specific Models Impacting Elastic Inference Service in EU Regio
+- `major` **Elastic Cloud** — Issue impacting services running in GCP us-central1
 
 <!-- STATUS:END -->
 

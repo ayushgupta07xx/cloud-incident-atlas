@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,786 incidents**. Updated 2026-09-01.
+Cross-vendor incident data for 24 providers. Corpus: **22,806 incidents**. Updated 2026-09-02.
 
 ## Last 30 days
 
-- Incidents recorded: **476**
-- Major or worse: **67**
+- Incidents recorded: **487**
+- Major or worse: **71**
 
 ## Reliability by provider (all time)
 
@@ -14,71 +14,66 @@ Cross-vendor incident data for 24 providers. Corpus: **22,786 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 64 | — | — |
 | CircleCI | devtools | 305 | 66m | 482m |
-| Cloudflare | cdn | 6639 | 239m | 495m |
-| Confluent Cloud | data | 251 | 193m | 1640m |
-| Datadog | observability | 120 | 74m | 221m |
+| Cloudflare | cdn | 6644 | 239m | 495m |
+| Confluent Cloud | data | 252 | 193m | 1633m |
+| Datadog | observability | 121 | 73m | 219m |
 | DigitalOcean | cloud | 504 | 145m | 571m |
 | Discord | comms | 211 | 54m | 296m |
-| Elastic Cloud | observability | 250 | 191m | 1429m |
-| Google Cloud Platform | cloud | 5 | 640m | — |
-| GitHub | devtools | 613 | 67m | 287m |
-| Grafana Cloud | observability | 742 | 90m | 1152m |
+| Elastic Cloud | observability | 252 | 191m | 1412m |
+| Google Cloud Platform | cloud | 6 | 444m | — |
+| GitHub | devtools | 614 | 66m | 287m |
+| Grafana Cloud | observability | 743 | 90m | 1150m |
 | HashiCorp Cloud | devtools | 33 | 160m | 1515m |
 | MongoDB Atlas | data | 270 | 120m | 1400m |
 | Netlify | paas | 215 | 41m | 213m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 59 | 107m | 340m |
-| OpenAI | ai | 47 | 135m | 666m |
-| Sentry | observability | 337 | 86m | 360m |
+| OpenAI | ai | 47 | 149m | 808m |
+| Sentry | observability | 337 | 89m | 365m |
 | Snowflake | data | 196 | 120m | 596m |
 | Supabase | paas | 394 | 156m | 926m |
-| Twilio | comms | 10863 | 270m | 1080m |
-| Vercel | paas | 380 | 74m | 368m |
-| Zoom | comms | 146 | 178m | 2520m |
+| Twilio | comms | 10869 | 270m | 1080m |
+| Vercel | paas | 381 | 73m | 367m |
+| Zoom | comms | 147 | 167m | 2430m |
 
-## New since last run (34)
+## New since last run (20)
 
-- **Cloudflare** — Requests from wrangler or other OAuth clients may experience elevated errors (`minor`)
+- **Cloudflare** — Increased latency in Taipei (`minor`)
+- **Cloudflare** — Pipelines Creation Issue (`minor`)
 - **Cloudflare** — Cloudflare Access one-time PIN emails blocked by certain email security gateways, including Proofpoint (`minor`)
-- **Cloudflare** — HTTP/3 issue affecting R2 custom domains (`minor`)
-- **Cloudflare** — Workers KV experiencing elevated error rates in Western Europe Region (`minor`)
-- **Cloudflare** — Cloudflare Access bypass IP service experiencing availability issues (`minor`)
-- **Snowflake** — INC20000190 (`major`)
-- **Snowflake** — INC20000188 (`critical`)
-- **Elastic Cloud** — Replication bug causing slow recoveries (`major`)
-- **Sentry** — Span ingestion is degraded in US (`minor`)
-- **Sentry** — Sentry requests timing out / 504's (`major`)
-- **Sentry** — Ingestion backlog (`minor`)
-- **Netlify** — Increased Latency in IAD Region on Global Network (`minor`)
-- **Supabase** — User unable to log in to Supabase Dashboard (`critical`)
-- **Supabase** — Project Creation Failures (`major`)
-- **OpenAI** — Elevated latency in the Responses API (`minor`)
-- **OpenAI** — Elevated errors in ChatGPT conversations for Free and Go plans (`minor`)
-- **OpenAI** — ChatGPT Work seeing elevated errors and latency (`major`)
-- **Twilio** — SMS Delivery Delays from Twilio to Orange Democratic Republic of the Congo (`minor`)
-- **Twilio** — User Authentication Identity SNA Failure Increase and SNA Missing Redirects for Globe Telecom in Philippines (`minor`)
-- **Twilio** — Firebase Outage Impacting Notification Delivery for Twilio Customers (`minor`)
-- **Twilio** — MMS Delivery Delays and Failures from AT&T United States to Twilio Toll-Free Numbers (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio Long Codes to Multiple Networks in Netherlands (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to H3G United Kingdom (`minor`)
-- **Twilio** — SMS Delivery Delays From a Subset of Twilio Short Codes to Multiple Networks in United States (`minor`)
-- **Twilio** — Voice Call Failures between Twilio and Multiple Networks in Malaysia and Thailand (`minor`)
+- **Cloudflare** — Cloudflare Workers Issues in Narita (`minor`)
+- **Cloudflare** — Network Route Leak in Palmas, Brazil (`major`)
+- **GitHub** — Delays in commit processing (`minor`)
+- **Datadog** — Delayed DBM Monitor Evaluation (`minor`)
+- **Confluent Cloud** — Investigating Elevated Errors in GCP us-central1 (`minor`)
+- **Elastic Cloud** — Elevated Error Rates for Specific Models Impacting Elastic Inference Service in EU Regions (`major`)
+- **Elastic Cloud** — Issue impacting services running in GCP us-central1 (`major`)
+- **Grafana Cloud** — Investigating issues in US Central (prod-us-central-0, prod-us-central-5) (`minor`)
+- **Vercel** — Increased deployment failures (`major`)
+- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Spain (`minor`)
+- **Twilio** — SMS Delivery Delays From a Subset of Twilio Short Codes to Multiple Networks in Brazil (`minor`)
+- **Twilio** — User Authentication Identity SNA Missing Redirects for Three in United Kingdom (`minor`)
+- **Twilio** — Live Chat Support Failing for Customers (`minor`)
+- **Twilio** — Increase in 502 HTTP Responses for REST API and Console (`minor`)
+- **Twilio** — Voice E2E Test failures (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom for Google Workspace add-on (`minor`)
+- **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation. (`medium`)
 
 ## Updated since last run (14)
 
-- **Cloudflare** — Incorrect geo location for some Cloudflare WARP users → `identified`
-- **GitHub** — Disruption with GitHub Billing → `resolved`
-- **GitHub** — Incident with Copilot AI Model Providers → `resolved`
-- **GitHub** — Disruption with some GitHub services → `resolved`
-- **GitHub** — Incident with Webhooks → `resolved`
-- **Snowflake** — INC20000150 → `identified`
-- **Snowflake** — INC20000173 → `postmortem`
-- **Supabase** — Increased response times for requests → `resolved`
-- **Supabase** — 401 errors due to JWT rejections → `identified`
-- **Twilio** — SMS Delivery Delays from Twilio to I.C.E Costa Rica → `resolved`
-- **Twilio** — Voice Call Failures and Audio Quality Degradation Between a Subset of Twilio Hong Kong Phone Numbers and Multiple Networks in Hong Kong → `resolved`
-- **Twilio** — Voice Call Failures and Post Dial Delay from a Subset of Twilio Phone Numbers to United Kingdom → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio to Telma Madagascar → `identified`
+- **Cloudflare** — HTTP/3 issue affecting R2 custom domains → `identified`
+- **Elastic Cloud** — Replication bug causing slow recoveries → `identified`
+- **Sentry** — Span ingestion is degraded in US → `resolved`
+- **OpenAI** — Elevated latency in the Responses API → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio to Telma Madagascar → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to H3G United Kingdom → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio to Dukagjjni Kosovo → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Orange Democratic Republic of the Congo → `resolved`
+- **Twilio** — User Authentication Identity SNA Failure Increase and SNA Missing Redirects for Globe Telecom in Philippines → `resolved`
+- **Twilio** — Inconsistencies with Suppressions - Block Lists → `resolved`
+- **Twilio** — Voice Call Failures between Twilio and Multiple Networks in Malaysia and Thailand → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio Long Codes to Multiple Networks in Netherlands → `identified`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to C-Spire and Dish United States → `monitoring`
 - **Twilio** — Message Logs Performance Issues → `monitoring`
 
 ---
