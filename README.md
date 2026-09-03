@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-02 11:11 UTC` &nbsp;·&nbsp; **20 new** and **14 updated** incidents &nbsp;·&nbsp; 22,806 total
+**Last ingest** &nbsp;`2026-09-03 15:14 UTC` &nbsp;·&nbsp; **24 new** and **9 updated** incidents &nbsp;·&nbsp; 22,830 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 16 |
-| Cloudflare | 6 |
-| Elastic Cloud | 3 |
-| GitHub | 1 |
-| Datadog | 1 |
-| Confluent Cloud | 1 |
+| Twilio | 13 |
+| Cloudflare | 4 |
+| OpenAI | 3 |
+| Discord | 3 |
+| Zoom | 3 |
+| Grafana Cloud | 2 |
 
 Most severe this run:
 
-- `major` **Cloudflare** — Network Route Leak in Palmas, Brazil
-- `major` **Elastic Cloud** — Elevated Error Rates for Specific Models Impacting Elastic Inference Service in EU Regio
-- `major` **Elastic Cloud** — Issue impacting services running in GCP us-central1
+- `critical` **Snowflake** — INC20000175
+- `major` **Grafana Cloud** — High Latency in prod-ap-south-1
+- `major` **OpenAI** — ChatGPT Work Mode High Error Rates
 
 <!-- STATUS:END -->
 
