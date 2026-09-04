@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-03 15:14 UTC` &nbsp;·&nbsp; **24 new** and **9 updated** incidents &nbsp;·&nbsp; 22,830 total
+**Last ingest** &nbsp;`2026-09-04 12:14 UTC` &nbsp;·&nbsp; **27 new** and **16 updated** incidents &nbsp;·&nbsp; 22,857 total
 
 | Provider | Incidents |
 | --- | ---: |
 | Twilio | 13 |
 | Cloudflare | 4 |
-| OpenAI | 3 |
-| Discord | 3 |
-| Zoom | 3 |
-| Grafana Cloud | 2 |
+| Amazon Web Services | 4 |
+| Snowflake | 3 |
+| npm | 2 |
+| MongoDB Atlas | 2 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000175
-- `major` **Grafana Cloud** — High Latency in prod-ap-south-1
-- `major` **OpenAI** — ChatGPT Work Mode High Error Rates
+- `critical` **Snowflake** — INC20000199
+- `critical` **Supabase** — Project Lifecycle Actions Showing increased error rates across all regions
+- `major` **MongoDB Atlas** — Impaired Cluster operations in AWS me-central-1 and AWS me-south-1
 
 <!-- STATUS:END -->
 
