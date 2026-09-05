@@ -1,0 +1,489 @@
+{
+  "changed": [
+    {
+      "category": "devtools",
+      "components": [
+        "Security Audit"
+      ],
+      "created_at": "2026-09-04T11:29:00.252000+00:00",
+      "duration_minutes": 139.6,
+      "incident_id": "l4f53bbr9200",
+      "provider_id": "npm",
+      "provider_name": "npm",
+      "resolved_at": "2026-09-04T13:48:36.503000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/hv9b8g0tycq7",
+      "status": "resolved",
+      "title": "npm audits endpoint is having issues",
+      "update_count": 3,
+      "updated_at": "2026-09-04T13:48:36.528000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-09-04T03:35:16.336000+00:00",
+      "duration_minutes": null,
+      "incident_id": "186xqtw7p2m6",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tkxm5kj3cf5g",
+      "status": "monitoring",
+      "title": "SMS Delivery Delays and Failures from Twilio to Qcell Gambia",
+      "update_count": 15,
+      "updated_at": "2026-09-05T14:42:42.535000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "MMS Long Code, North America"
+      ],
+      "created_at": "2026-09-03T00:54:56.504000+00:00",
+      "duration_minutes": null,
+      "incident_id": "5x10w2kkgqyg",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/h9dxg79d435f",
+      "status": "identified",
+      "title": "MMS Delivery Receipt Delays from a Subset of Twilio Long Codes to GCI United States",
+      "update_count": 19,
+      "updated_at": "2026-09-05T11:37:05.649000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-09-04T06:40:40.752000+00:00",
+      "duration_minutes": 563.1,
+      "incident_id": "kpgkz0t9tnqn",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-04T16:03:44.199000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/2g6ndxvhpf2b",
+      "status": "resolved",
+      "title": "SMS Delivery Delays and Failures From a Subset of Twilio Long Codes to Vivo and Claro Brazil",
+      "update_count": 6,
+      "updated_at": "2026-09-04T16:03:44.214000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "MMS Long Code, North America"
+      ],
+      "created_at": "2026-08-26T14:48:57.936000+00:00",
+      "duration_minutes": 13416.3,
+      "incident_id": "n9yz4c5sy82v",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-04T22:25:16.267000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/ybxz6nw6c0jt",
+      "status": "resolved",
+      "title": "MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States",
+      "update_count": 19,
+      "updated_at": "2026-09-04T22:25:16.285000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "MMS, APAC"
+      ],
+      "created_at": "2026-09-04T09:43:59.602000+00:00",
+      "duration_minutes": null,
+      "incident_id": "s8jpzd7tz8zq",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/8fp59sj5vkgh",
+      "status": "identified",
+      "title": "MMS Delivery Delays from a Subset of Australia Subscribers to Twilio Australia Phone Numbers",
+      "update_count": 5,
+      "updated_at": "2026-09-05T02:20:06.071000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-09-02T11:58:01.558000+00:00",
+      "duration_minutes": 3092.8,
+      "incident_id": "tqj9nhd8x3ls",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-04T15:30:50.360000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/y3fltv825g53",
+      "status": "resolved",
+      "title": "SMS Delivery Receipt Delays from Twilio to Three United Kingdom",
+      "update_count": 17,
+      "updated_at": "2026-09-04T15:30:50.377000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "API v3"
+      ],
+      "created_at": "2026-09-04T11:40:07.319000+00:00",
+      "duration_minutes": 436.0,
+      "incident_id": "v0xwp70fbfrf",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-04T18:56:09.312000+00:00",
+      "severity": "maintenance",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/rwbjsyvfgn05",
+      "status": "resolved",
+      "title": "Multiple delivery failures when sending emails to Microsoft or MS based recipients",
+      "update_count": 6,
+      "updated_at": "2026-09-04T18:56:09.327000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-09-04T09:57:15.578000+00:00",
+      "duration_minutes": 298.2,
+      "incident_id": "vwckyprf2nj0",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-04T14:55:25.393000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/cgl73d7bx2h9",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to MobiFone Vietnam",
+      "update_count": 4,
+      "updated_at": "2026-09-04T14:55:25.407000+00:00"
+    }
+  ],
+  "date": "2026-09-05",
+  "new": [
+    {
+      "category": "devtools",
+      "components": [
+        "macOS Jobs"
+      ],
+      "created_at": "2026-09-04T15:16:02.197000+00:00",
+      "duration_minutes": 99.7,
+      "incident_id": "wl4yqd96zl2h",
+      "provider_id": "circleci",
+      "provider_name": "CircleCI",
+      "resolved_at": "2026-09-04T16:55:41.439000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/l8rtj1qhr625",
+      "status": "resolved",
+      "title": "macOS Job Delays",
+      "update_count": 4,
+      "updated_at": "2026-09-04T16:55:41.455000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Zero Trust Dashboard"
+      ],
+      "created_at": "2026-09-04T19:55:49+00:00",
+      "duration_minutes": 12.1,
+      "incident_id": "6ztvhhp2ll11",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-09-04T20:07:56.872000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/6ztvhhp2ll11",
+      "status": "resolved",
+      "title": "Zero Trust Dashboard - Posture Check Visibility Issue",
+      "update_count": 2,
+      "updated_at": "2026-09-04T20:07:56.885000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "CDN Cache Purge"
+      ],
+      "created_at": "2026-09-04T14:51:45+00:00",
+      "duration_minutes": 127.0,
+      "incident_id": "ff0yvx1d6tby",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-09-04T16:58:46.511000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/ff0yvx1d6tby",
+      "status": "resolved",
+      "title": "Cache Purging Errors",
+      "update_count": 3,
+      "updated_at": "2026-09-04T16:58:46.528000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "R2"
+      ],
+      "created_at": "2026-09-04T21:10:29+00:00",
+      "duration_minutes": 211.6,
+      "incident_id": "ftvf8c3m4mv5",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-09-05T00:42:07.623000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/ftvf8c3m4mv5",
+      "status": "resolved",
+      "title": "Elevated number of R2 503 errors in Eastern North America region",
+      "update_count": 4,
+      "updated_at": "2026-09-05T00:42:07.639000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [],
+      "created_at": "2026-08-30T05:00:00+00:00",
+      "duration_minutes": 60.0,
+      "incident_id": "jdx9c2cfkfdh",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-08-30T06:00:00+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/jdx9c2cfkfdh",
+      "status": "resolved",
+      "title": "Degradation Impacting Turnstile and Challenge Pages for AS15924",
+      "update_count": 1,
+      "updated_at": "2026-09-04T15:13:04.182000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-09-04T22:02:15.790000+00:00",
+      "duration_minutes": 21.3,
+      "incident_id": "r05vk75c594j",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-09-04T22:23:34.887000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/vhmsw2rhdcgv",
+      "status": "resolved",
+      "title": "Degradation in repos contents API",
+      "update_count": 2,
+      "updated_at": "2026-09-04T22:23:34.900000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-09-04T20:39:03.203000+00:00",
+      "duration_minutes": 107.7,
+      "incident_id": "zw1hbx2yyhvr",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-09-04T22:26:46.740000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/dddfhld6fj0z",
+      "status": "resolved",
+      "title": "Disruption with Copilot Code Review",
+      "update_count": 5,
+      "updated_at": "2026-09-04T22:26:46.758000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "AWS US East - prod-us-east-0: Alertmanager and Rules Configuration API",
+        "AWS US East - prod-us-east-0: Alertmanager"
+      ],
+      "created_at": "2026-09-04T13:36:42.294000+00:00",
+      "duration_minutes": 176.1,
+      "incident_id": "5847d1tvtkdd",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-09-04T16:32:48.288000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/8gw4nt4mmp09",
+      "status": "resolved",
+      "title": "Alert rule creation, deletion, and update degradation in prod-us-east-2",
+      "update_count": 2,
+      "updated_at": "2026-09-04T16:32:48.303000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "GCP US Central - prod-us-central-0: Querying",
+        "GCP US Central - prod-us-central-0: Ingestion",
+        "GCP US Central - prod-us-central-5: Querying",
+        "GCP US Central - prod-us-central-5: Ingestion",
+        "GCP US Central - prod-us-central-0: Querying",
+        "GCP US Central - prod-us-central-0: Ingestion",
+        "GCP US Central - prod-us-central-0: Metrics Generator",
+        "GCP US Central - prod-us-central-5: Querying",
+        "GCP US Central - prod-us-central-5: Ingestion"
+      ],
+      "created_at": "2026-09-04T16:45:57.447000+00:00",
+      "duration_minutes": 374.5,
+      "incident_id": "k5c91vq67f8f",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-09-04T23:00:28.417000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/b3b4ppnkx23p",
+      "status": "resolved",
+      "title": "US Central Region Instability",
+      "update_count": 3,
+      "updated_at": "2026-09-04T23:00:28.430000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "GCP US Central - prod-us-central-0",
+        "GCP US Central - prod-us-central-3",
+        "GCP US Central - prod-us-central-4"
+      ],
+      "created_at": "2026-09-04T17:03:17.236000+00:00",
+      "duration_minutes": 219.1,
+      "incident_id": "w1c8md3mnthx",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-09-04T20:42:21.213000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/7n6x5qw9x9d5",
+      "status": "resolved",
+      "title": "Degradation of Hosted Grafana in US Central Region",
+      "update_count": 3,
+      "updated_at": "2026-09-04T20:42:21.230000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-09-04T17:51:59+00:00",
+      "duration_minutes": 234.2,
+      "incident_id": "01M1PRS06XEYC48D769GDVZ0YW",
+      "provider_id": "hashicorp",
+      "provider_name": "HashiCorp Cloud",
+      "resolved_at": "2026-09-04T21:46:08+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Errors creating new VCS workspaces with Bitbucket cloud provider",
+      "update_count": 4,
+      "updated_at": "2026-09-04T21:46:08+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Short Code, North America"
+      ],
+      "created_at": "2026-09-04T13:27:19.978000+00:00",
+      "duration_minutes": 230.3,
+      "incident_id": "0rp55rxt5l1r",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-04T17:17:37.421000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/3h104vn9x26y",
+      "status": "resolved",
+      "title": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States",
+      "update_count": 4,
+      "updated_at": "2026-09-04T17:17:37.438000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Europe"
+      ],
+      "created_at": "2026-09-04T20:55:02.954000+00:00",
+      "duration_minutes": null,
+      "incident_id": "8hs11dfv54st",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/8dmk6mw2yw7k",
+      "status": "monitoring",
+      "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Switzerland",
+      "update_count": 9,
+      "updated_at": "2026-09-05T15:28:36.177000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Lookup Identity Match",
+        "Legacy Identity MatchAndAttributes"
+      ],
+      "created_at": "2026-09-05T09:46:14.751000+00:00",
+      "duration_minutes": 280.8,
+      "incident_id": "n1xfq9n27wrs",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-05T14:27:01.378000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/bnps82301v7z",
+      "status": "resolved",
+      "title": "User Authentication Identity Gateway API Failure Increase for Pacificeast in United States",
+      "update_count": 4,
+      "updated_at": "2026-09-05T14:27:01.395000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [
+        "Blob",
+        "Sandbox"
+      ],
+      "created_at": "2026-09-04T19:11:44+00:00",
+      "duration_minutes": 75.7,
+      "incident_id": "b6s5qz7tj35w",
+      "provider_id": "vercel",
+      "provider_name": "Vercel",
+      "resolved_at": "2026-09-04T20:27:26+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/qjy1j78m6ssc",
+      "status": "resolved",
+      "title": "Elevated latency in VCR, Blob, and Sandbox API",
+      "update_count": 7,
+      "updated_at": "2026-09-04T20:29:40.486000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Contact Center",
+        "Email (Inbound/Outbound)"
+      ],
+      "created_at": "2026-09-04T17:46:02.165000+00:00",
+      "duration_minutes": 9.0,
+      "incident_id": "vltmv6hrt53l",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-09-04T17:55:04.068000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/56nv5j3rgzfn",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Email in Zoom Contact Center Services in North America",
+      "update_count": 2,
+      "updated_at": "2026-09-04T17:55:04.084000+00:00"
+    }
+  ],
+  "runs": 1
+}
