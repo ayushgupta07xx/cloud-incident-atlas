@@ -31,22 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-04 12:14 UTC` &nbsp;·&nbsp; **27 new** and **16 updated** incidents &nbsp;·&nbsp; 22,857 total
+**Last ingest** &nbsp;`2026-09-05 16:07 UTC` &nbsp;·&nbsp; **16 new** and **9 updated** incidents &nbsp;·&nbsp; 22,873 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 13 |
+| Twilio | 11 |
 | Cloudflare | 4 |
-| Amazon Web Services | 4 |
-| Snowflake | 3 |
-| npm | 2 |
-| MongoDB Atlas | 2 |
+| Grafana Cloud | 3 |
+| GitHub | 2 |
+| HashiCorp Cloud | 1 |
+| CircleCI | 1 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000199
-- `critical` **Supabase** — Project Lifecycle Actions Showing increased error rates across all regions
-- `major` **MongoDB Atlas** — Impaired Cluster operations in AWS me-central-1 and AWS me-south-1
+- `major` **GitHub** — Disruption with Copilot Code Review
+- `major` **Grafana Cloud** — Degradation of Hosted Grafana in US Central Region
 
 <!-- STATUS:END -->
 
