@@ -4,8 +4,8 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 10888 | 4.5h | 18.1h | 1057.6h |
-| Cloudflare | cdn | 6655 | 4.0h | 8.2h | 5350.4h |
+| Twilio | comms | 10894 | 4.5h | 18.1h | 1057.6h |
+| Cloudflare | cdn | 6658 | 4.0h | 8.2h | 5350.4h |
 | Grafana Cloud | observability | 749 | 1.5h | 19.0h | 2571.2h |
 | GitHub | devtools | 617 | 1.1h | 4.8h | 62.0h |
 | DigitalOcean | cloud | 504 | 2.4h | 9.5h | 304.2h |
@@ -19,7 +19,7 @@
 | Netlify | paas | 216 | 40m | 3.5h | 347.3h |
 | Discord | comms | 215 | 56m | 4.9h | 664.8h |
 | Snowflake | data | 197 | 2.0h | 9.9h | 1801.6h |
-| Zoom | comms | 153 | 2.1h | 33.0h | 1944.0h |
+| Zoom | comms | 154 | 2.1h | 33.0h | 1944.0h |
 | Datadog | observability | 122 | 1.2h | 3.9h | 49.9h |
 | New Relic | observability | 103 | 1.1h | 5.0h | 52.3h |
 | Amazon Web Services | cloud | 68 | — | — | — |
@@ -34,9 +34,9 @@
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
 | ai | 1 | 51 | 8 |
-| cdn | 1 | 6655 | 131 |
+| cdn | 1 | 6658 | 131 |
 | cloud | 3 | 578 | 34 |
-| comms | 3 | 11256 | 115 |
+| comms | 3 | 11263 | 115 |
 | data | 3 | 720 | 257 |
 | devtools | 5 | 1057 | 215 |
 | observability | 5 | 1563 | 555 |

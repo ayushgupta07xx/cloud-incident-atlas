@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,873 incidents**. Updated 2026-09-05.
+Cross-vendor incident data for 24 providers. Corpus: **22,883 incidents**. Updated 2026-09-07.
 
 ## Last 30 days
 
-- Incidents recorded: **482**
-- Major or worse: **69**
+- Incidents recorded: **476**
+- Major or worse: **66**
 
 ## Reliability by provider (all time)
 
@@ -14,7 +14,7 @@ Cross-vendor incident data for 24 providers. Corpus: **22,873 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 68 | — | — |
 | CircleCI | devtools | 306 | 67m | 482m |
-| Cloudflare | cdn | 6655 | 239m | 495m |
+| Cloudflare | cdn | 6658 | 239m | 495m |
 | Confluent Cloud | data | 252 | 193m | 1633m |
 | Datadog | observability | 122 | 74m | 234m |
 | DigitalOcean | cloud | 504 | 145m | 571m |
@@ -32,40 +32,29 @@ Cross-vendor incident data for 24 providers. Corpus: **22,873 incidents**. Updat
 | Sentry | observability | 337 | 89m | 365m |
 | Snowflake | data | 197 | 121m | 595m |
 | Supabase | paas | 395 | 158m | 922m |
-| Twilio | comms | 10888 | 270m | 1085m |
+| Twilio | comms | 10894 | 270m | 1087m |
 | Vercel | paas | 382 | 74m | 366m |
-| Zoom | comms | 153 | 124m | 1980m |
+| Zoom | comms | 154 | 124m | 1980m |
 
-## New since last run (16)
+## New since last run (10)
 
-- **Cloudflare** — Elevated number of R2 503 errors in Eastern North America region (`minor`)
-- **Cloudflare** — Zero Trust Dashboard - Posture Check Visibility Issue (`minor`)
-- **Cloudflare** — Cache Purging Errors (`minor`)
-- **Cloudflare** — Degradation Impacting Turnstile and Challenge Pages for AS15924 (`minor`)
-- **GitHub** — Disruption with Copilot Code Review (`major`)
-- **GitHub** — Degradation in repos contents API (`minor`)
-- **HashiCorp Cloud** — Errors creating new VCS workspaces with Bitbucket cloud provider (`minor`)
-- **CircleCI** — macOS Job Delays (`minor`)
-- **Grafana Cloud** — US Central Region Instability (`minor`)
-- **Grafana Cloud** — Degradation of Hosted Grafana in US Central Region (`major`)
-- **Grafana Cloud** — Alert rule creation, deletion, and update degradation in prod-us-east-2 (`minor`)
-- **Vercel** — Elevated latency in VCR, Blob, and Sandbox API (`minor`)
-- **Twilio** — User Authentication Identity Gateway API Failure Increase for Pacificeast in United States (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Switzerland (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States (`minor`)
-- **Zoom** — Service Degradation Affecting Email in Zoom Contact Center Services in North America (`none`)
+- **Cloudflare** — Increased Workflow Instance Creation Errors (`minor`)
+- **Cloudflare** — Purchased domains from registrar not appearing in Cloudflare Dashboard (`minor`)
+- **Cloudflare** — Service Connectivity Issues in Canberra (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Robi Bangladesh (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Telefonica Spain (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to MTN Congo (`minor`)
+- **Twilio** — MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Multiple Networks in United States (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Mauritel Mauritania (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Short Codes to Multiple Networks in India (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom AI Companion in US Region (`minor`)
 
-## Updated since last run (9)
+## Updated since last run (4)
 
-- **npm** — npm audits endpoint is having issues → `resolved`
-- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States → `resolved`
-- **Twilio** — Multiple delivery failures when sending emails to Microsoft or MS based recipients → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures From a Subset of Twilio Long Codes to Vivo and Claro Brazil → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Three United Kingdom → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to MobiFone Vietnam → `resolved`
-- **Twilio** — MMS Delivery Delays from a Subset of Australia Subscribers to Twilio Australia Phone Numbers → `identified`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Qcell Gambia → `monitoring`
-- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Long Codes to GCI United States → `identified`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Switzerland → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Africell and Qcell Gambia → `resolved`
+- **Twilio** — MMS Delivery Failures from Telstra Australia to a Subset of Twilio Australia Phone Numbers → `investigating`
+- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Long Codes to GCI United States → `monitoring`
 
 ---
 

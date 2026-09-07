@@ -31,21 +31,13 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-05 16:07 UTC` &nbsp;·&nbsp; **16 new** and **9 updated** incidents &nbsp;·&nbsp; 22,873 total
+**Last ingest** &nbsp;`2026-09-07 09:27 UTC` &nbsp;·&nbsp; **10 new** and **4 updated** incidents &nbsp;·&nbsp; 22,883 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 11 |
-| Cloudflare | 4 |
-| Grafana Cloud | 3 |
-| GitHub | 2 |
-| HashiCorp Cloud | 1 |
-| CircleCI | 1 |
-
-Most severe this run:
-
-- `major` **GitHub** — Disruption with Copilot Code Review
-- `major` **Grafana Cloud** — Degradation of Hosted Grafana in US Central Region
+| Twilio | 10 |
+| Cloudflare | 3 |
+| Zoom | 1 |
 
 <!-- STATUS:END -->
 
