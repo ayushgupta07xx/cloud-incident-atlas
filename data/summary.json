@@ -6,7 +6,7 @@
       "providers": 1
     },
     "cdn": {
-      "incident_count": 6658,
+      "incident_count": 6663,
       "major_or_worse": 131,
       "providers": 1
     },
@@ -16,12 +16,12 @@
       "providers": 3
     },
     "comms": {
-      "incident_count": 11263,
+      "incident_count": 11269,
       "major_or_worse": 115,
       "providers": 3
     },
     "data": {
-      "incident_count": 720,
+      "incident_count": 721,
       "major_or_worse": 257,
       "providers": 3
     },
@@ -103,34 +103,34 @@
     },
     "cloudflare": {
       "category": "cdn",
-      "incident_count": 6658,
+      "incident_count": 6663,
       "longest_incident_minutes": 321024.0,
       "mean_severity_rank": 0.33,
-      "mttr_minutes_mean": 448.8,
+      "mttr_minutes_mean": 448.6,
       "mttr_minutes_median": 239.0,
       "mttr_minutes_p90": 495.0,
       "open_count": 5,
       "provider_name": "Cloudflare",
-      "resolved_count": 6653,
-      "resolved_with_duration": 6651,
+      "resolved_count": 6658,
+      "resolved_with_duration": 6656,
       "severity_mix": {
         "critical": 27,
         "maintenance": 4243,
         "major": 104,
-        "minor": 1902,
+        "minor": 1907,
         "none": 382
       },
       "stats_note": null
     },
     "confluent": {
       "category": "data",
-      "incident_count": 252,
+      "incident_count": 253,
       "longest_incident_minutes": 169283.5,
       "mean_severity_rank": 1.23,
       "mttr_minutes_mean": 1915.5,
       "mttr_minutes_median": 193.0,
       "mttr_minutes_p90": 1633.1,
-      "open_count": 0,
+      "open_count": 1,
       "provider_name": "Confluent Cloud",
       "resolved_count": 252,
       "resolved_with_duration": 252,
@@ -138,7 +138,7 @@
         "critical": 11,
         "maintenance": 8,
         "major": 89,
-        "minor": 98,
+        "minor": 99,
         "none": 46
       },
       "stats_note": null
@@ -476,22 +476,22 @@
     },
     "twilio": {
       "category": "comms",
-      "incident_count": 10894,
+      "incident_count": 10900,
       "longest_incident_minutes": 63457.0,
       "mean_severity_rank": 0.5,
-      "mttr_minutes_mean": 789.4,
+      "mttr_minutes_mean": 789.8,
       "mttr_minutes_median": 270.0,
       "mttr_minutes_p90": 1087.0,
-      "open_count": 85,
+      "open_count": 83,
       "provider_name": "Twilio",
-      "resolved_count": 10809,
-      "resolved_with_duration": 10809,
+      "resolved_count": 10817,
+      "resolved_with_duration": 10817,
       "severity_mix": {
         "critical": 4,
         "maintenance": 4719,
         "major": 40,
-        "minor": 5370,
-        "none": 761
+        "minor": 5375,
+        "none": 762
       },
       "stats_note": null
     },
@@ -536,20 +536,20 @@
       "stats_note": null
     }
   },
-  "generated_at": "2026-09-07T09:27:30.604688+00:00",
+  "generated_at": "2026-09-08T13:52:41.123996+00:00",
   "last_30_days": {
     "by_provider": {
       "aws": 29,
       "circleci": 8,
-      "cloudflare": 75,
-      "confluent": 4,
+      "cloudflare": 79,
+      "confluent": 5,
       "datadog": 2,
-      "digitalocean": 6,
+      "digitalocean": 5,
       "discord": 6,
       "elastic": 9,
       "gcp": 2,
       "github": 25,
-      "grafana": 16,
+      "grafana": 15,
       "hashicorp": 4,
       "mongodb": 4,
       "netlify": 3,
@@ -558,44 +558,44 @@
       "sentry": 11,
       "snowflake": 11,
       "supabase": 17,
-      "twilio": 191,
+      "twilio": 190,
       "vercel": 9,
       "zoom": 21
     },
-    "incident_count": 476,
+    "incident_count": 478,
     "major_or_worse": 66,
     "window_days": 30
   },
   "last_90_days": {
     "by_provider": {
       "aws": 32,
-      "circleci": 32,
-      "cloudflare": 425,
-      "confluent": 14,
+      "circleci": 31,
+      "cloudflare": 419,
+      "confluent": 15,
       "datadog": 17,
       "digitalocean": 36,
-      "discord": 15,
+      "discord": 14,
       "elastic": 27,
       "gcp": 4,
       "github": 70,
-      "grafana": 75,
+      "grafana": 73,
       "hashicorp": 24,
       "mongodb": 20,
       "netlify": 8,
       "newrelic": 4,
       "npm": 6,
       "openai": 51,
-      "sentry": 30,
+      "sentry": 29,
       "snowflake": 27,
-      "supabase": 61,
-      "twilio": 771,
-      "vercel": 32,
+      "supabase": 59,
+      "twilio": 761,
+      "vercel": 31,
       "zoom": 95
     },
-    "incident_count": 1876,
-    "major_or_worse": 201,
+    "incident_count": 1853,
+    "major_or_worse": 197,
     "window_days": 90
   },
   "providers_tracked": 24,
-  "total_incidents": 22883
+  "total_incidents": 22895
 }

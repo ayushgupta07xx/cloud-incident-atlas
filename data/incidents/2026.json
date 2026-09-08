@@ -94798,8 +94798,8 @@
     "shortlink": "https://stspg.io/18v97b9scdh2",
     "status": "identified",
     "title": "401 errors due to JWT rejections",
-    "update_count": 10,
-    "updated_at": "2026-09-02T19:38:53.490000+00:00"
+    "update_count": 11,
+    "updated_at": "2026-09-07T09:49:15.986000+00:00"
   },
   {
     "category": "cdn",
@@ -99190,8 +99190,8 @@
     "shortlink": "https://stspg.io/2tmfhlrz2yz5",
     "status": "identified",
     "title": "INC20000150",
-    "update_count": 3,
-    "updated_at": "2026-08-31T23:36:34.525000+00:00"
+    "update_count": 4,
+    "updated_at": "2026-09-07T23:50:29.696000+00:00"
   },
   {
     "category": "observability",
@@ -101062,18 +101062,18 @@
       "MMS Long Code, North America"
     ],
     "created_at": "2026-09-03T00:54:56.504000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 7024.9,
     "incident_id": "5x10w2kkgqyg",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-07T21:59:53.370000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/h9dxg79d435f",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "MMS Delivery Receipt Delays from a Subset of Twilio Long Codes to GCI United States",
-    "update_count": 24,
-    "updated_at": "2026-09-07T04:11:26.461000+00:00"
+    "update_count": 25,
+    "updated_at": "2026-09-07T21:59:53.391000+00:00"
   },
   {
     "category": "comms",
@@ -101745,9 +101745,9 @@
     "severity_rank": 1,
     "shortlink": "https://stspg.io/8fp59sj5vkgh",
     "status": "investigating",
-    "title": "MMS Delivery Failures from Telstra Australia to a Subset of Twilio Australia Phone Numbers",
-    "update_count": 7,
-    "updated_at": "2026-09-06T18:24:05.986000+00:00"
+    "title": "MMS Delivery Delays from a Subset of Australia Subscribers to Twilio Australia Phone Numbers",
+    "update_count": 8,
+    "updated_at": "2026-09-07T19:09:22.153000+00:00"
   },
   {
     "category": "comms",
@@ -102238,18 +102238,18 @@
       "MMS Short Code, North America"
     ],
     "created_at": "2026-09-07T05:55:02.583000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1032.5,
     "incident_id": "hpn7w7x03s56",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-07T23:07:30.275000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/fp77r2fzkvw0",
-    "status": "investigating",
+    "status": "resolved",
     "title": "MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Multiple Networks in United States",
-    "update_count": 3,
-    "updated_at": "2026-09-07T09:01:36.108000+00:00"
+    "update_count": 9,
+    "updated_at": "2026-09-07T23:07:30.298000+00:00"
   },
   {
     "category": "comms",
@@ -102257,18 +102257,18 @@
       "SMS, Middle East & Africa"
     ],
     "created_at": "2026-09-07T06:35:39.593000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 403.2,
     "incident_id": "ff14gbnhhwpc",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-07T13:18:48.614000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/rs1x159791fg",
-    "status": "investigating",
+    "status": "resolved",
     "title": "SMS Delivery Delays from Twilio to MTN Congo",
-    "update_count": 2,
-    "updated_at": "2026-09-07T07:36:07.590000+00:00"
+    "update_count": 6,
+    "updated_at": "2026-09-07T13:18:48.629000+00:00"
   },
   {
     "category": "comms",
@@ -102276,18 +102276,18 @@
       "SMS, Europe"
     ],
     "created_at": "2026-09-07T07:34:08.504000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 155.0,
     "incident_id": "jmqsbt8y26n2",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-07T10:09:08.894000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/3wzt5ms4hgt2",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "SMS Delivery Delays and Failures from Twilio to Telefonica Spain",
-    "update_count": 2,
-    "updated_at": "2026-09-07T08:03:15.976000+00:00"
+    "update_count": 3,
+    "updated_at": "2026-09-07T10:09:08.909000+00:00"
   },
   {
     "category": "comms",
@@ -102295,17 +102295,247 @@
       "SMS, APAC"
     ],
     "created_at": "2026-09-07T08:53:02.610000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 644.1,
     "incident_id": "21spnnlkg69h",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-07T19:37:08.519000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/1w46mvr0sqr5",
+    "status": "resolved",
+    "title": "SMS Delivery Delays and Failures from Twilio Phone Numbers to Robi Bangladesh",
+    "update_count": 6,
+    "updated_at": "2026-09-07T19:37:08.535000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Realtime TURN Service"
+    ],
+    "created_at": "2026-09-07T13:02:52+00:00",
+    "duration_minutes": 49.9,
+    "incident_id": "pgn7y7hgd25l",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-07T13:52:48.345000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/pgn7y7hgd25l",
+    "status": "resolved",
+    "title": "Performance degradation affecting TURN service",
+    "update_count": 3,
+    "updated_at": "2026-09-07T13:52:48.361000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Browser Isolation",
+      "Gateway"
+    ],
+    "created_at": "2026-09-07T14:25:18+00:00",
+    "duration_minutes": 289.2,
+    "incident_id": "z16209cfb1xv",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-07T19:14:29.265000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/z16209cfb1xv",
+    "status": "resolved",
+    "title": "Browser Isolation Session Initialization Failures",
+    "update_count": 4,
+    "updated_at": "2026-09-07T19:14:29.286000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Dashboard"
+    ],
+    "created_at": "2026-09-07T15:32:27+00:00",
+    "duration_minutes": 100.1,
+    "incident_id": "kjfs3vqkxkgs",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-07T17:12:30.142000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/kjfs3vqkxkgs",
+    "status": "resolved",
+    "title": "Issues rendering route configuration table in Networking > Routes UI",
+    "update_count": 5,
+    "updated_at": "2026-09-07T17:12:30.163000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-09-07T19:56:19.298000+00:00",
+    "duration_minutes": 26.6,
+    "incident_id": "cb7hgnld7n6l",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-07T20:22:56.400000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/cvxwnkhd9wxc",
+    "status": "resolved",
+    "title": "Automated Alert: No Customer Impact",
+    "update_count": 2,
+    "updated_at": "2026-09-07T20:23:08.787000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS Long Code, North America",
+      "SMS Long Code, North America",
+      "SMS Toll-Free, North America"
+    ],
+    "created_at": "2026-09-07T22:19:46.563000+00:00",
+    "duration_minutes": null,
+    "incident_id": "2mrcvlktjh2b",
     "provider_id": "twilio",
     "provider_name": "Twilio",
     "resolved_at": null,
     "severity": "minor",
     "severity_rank": 1,
-    "shortlink": "https://stspg.io/1w46mvr0sqr5",
+    "shortlink": "https://stspg.io/z79xc4gr373d",
+    "status": "identified",
+    "title": "SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Nex-Tech Wireless LLC United States",
+    "update_count": 7,
+    "updated_at": "2026-09-08T12:02:31.604000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Account Management"
+    ],
+    "created_at": "2026-09-08T00:35:28+00:00",
+    "duration_minutes": 67.2,
+    "incident_id": "pjr4m9q1xxb1",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-08T01:42:38.512000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/pjr4m9q1xxb1",
+    "status": "resolved",
+    "title": "Cloudflare Account Member Invite Issue",
+    "update_count": 3,
+    "updated_at": "2026-09-08T01:42:38.530000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-09-08T00:54:30.680000+00:00",
+    "duration_minutes": 389.9,
+    "incident_id": "2bkdcnm2qtc0",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-08T07:24:22.490000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/06g9f3mrj9p1",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to AT&T Mexico",
+    "update_count": 7,
+    "updated_at": "2026-09-08T07:24:22.510000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Cache Reserve",
+      "Paris, France - (CDG)"
+    ],
+    "created_at": "2026-09-08T03:25:59+00:00",
+    "duration_minutes": 116.7,
+    "incident_id": "qz292kvy220g",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-08T05:22:41.128000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/qz292kvy220g",
+    "status": "resolved",
+    "title": "Cache Reserve Issue in Paris",
+    "update_count": 3,
+    "updated_at": "2026-09-08T05:22:41.145000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-09-08T07:36:29.835000+00:00",
+    "duration_minutes": 41.8,
+    "incident_id": "nm1ys5ph45pr",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-08T08:18:17.692000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/tsc479rzf9t4",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Tigo Honduras",
+    "update_count": 4,
+    "updated_at": "2026-09-08T08:18:17.710000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, APAC"
+    ],
+    "created_at": "2026-09-08T08:40:51.562000+00:00",
+    "duration_minutes": null,
+    "incident_id": "cwbk3h0kscj9",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/d6k6v6yqtx16",
+    "status": "identified",
+    "title": "SMS Delivery Delays from Twilio to Megafon Tajikistan",
+    "update_count": 4,
+    "updated_at": "2026-09-08T12:49:26.713000+00:00"
+  },
+  {
+    "category": "data",
+    "components": [
+      "Confluent Cloud"
+    ],
+    "created_at": "2026-09-08T09:17:37.373000+00:00",
+    "duration_minutes": null,
+    "incident_id": "4qs2w3mq2241",
+    "provider_id": "confluent",
+    "provider_name": "Confluent Cloud",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/kqjcc6c3r8qf",
     "status": "investigating",
-    "title": "SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Robi Bangladesh",
-    "update_count": 1,
-    "updated_at": "2026-09-07T08:53:02.726000+00:00"
+    "title": "Experiencing Outage in AWS us-east-1",
+    "update_count": 3,
+    "updated_at": "2026-09-08T11:38:27.670000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice, Europe"
+    ],
+    "created_at": "2026-09-08T10:08:59.803000+00:00",
+    "duration_minutes": null,
+    "incident_id": "wl0tnh2yf0bm",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/my2r6j6wcb66",
+    "status": "monitoring",
+    "title": "Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Germany",
+    "update_count": 3,
+    "updated_at": "2026-09-08T12:36:04.366000+00:00"
   }
 ]
