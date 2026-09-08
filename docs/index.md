@@ -1,10 +1,10 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,883 incidents**. Updated 2026-09-07.
+Cross-vendor incident data for 24 providers. Corpus: **22,895 incidents**. Updated 2026-09-08.
 
 ## Last 30 days
 
-- Incidents recorded: **476**
+- Incidents recorded: **478**
 - Major or worse: **66**
 
 ## Reliability by provider (all time)
@@ -14,8 +14,8 @@ Cross-vendor incident data for 24 providers. Corpus: **22,883 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 68 | — | — |
 | CircleCI | devtools | 306 | 67m | 482m |
-| Cloudflare | cdn | 6658 | 239m | 495m |
-| Confluent Cloud | data | 252 | 193m | 1633m |
+| Cloudflare | cdn | 6663 | 239m | 495m |
+| Confluent Cloud | data | 253 | 193m | 1633m |
 | Datadog | observability | 122 | 74m | 234m |
 | DigitalOcean | cloud | 504 | 145m | 571m |
 | Discord | comms | 215 | 56m | 296m |
@@ -32,29 +32,35 @@ Cross-vendor incident data for 24 providers. Corpus: **22,883 incidents**. Updat
 | Sentry | observability | 337 | 89m | 365m |
 | Snowflake | data | 197 | 121m | 595m |
 | Supabase | paas | 395 | 158m | 922m |
-| Twilio | comms | 10894 | 270m | 1087m |
+| Twilio | comms | 10900 | 270m | 1087m |
 | Vercel | paas | 382 | 74m | 366m |
 | Zoom | comms | 154 | 124m | 1980m |
 
-## New since last run (10)
+## New since last run (12)
 
-- **Cloudflare** — Increased Workflow Instance Creation Errors (`minor`)
-- **Cloudflare** — Purchased domains from registrar not appearing in Cloudflare Dashboard (`minor`)
-- **Cloudflare** — Service Connectivity Issues in Canberra (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Robi Bangladesh (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Telefonica Spain (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to MTN Congo (`minor`)
-- **Twilio** — MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Multiple Networks in United States (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Mauritel Mauritania (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Short Codes to Multiple Networks in India (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom AI Companion in US Region (`minor`)
+- **Cloudflare** — Cache Reserve Issue in Paris (`minor`)
+- **Cloudflare** — Cloudflare Account Member Invite Issue (`minor`)
+- **Cloudflare** — Browser Isolation Session Initialization Failures (`minor`)
+- **Cloudflare** — Issues rendering route configuration table in Networking > Routes UI (`minor`)
+- **Cloudflare** — Performance degradation affecting TURN service (`minor`)
+- **Confluent Cloud** — Experiencing Outage in AWS us-east-1 (`minor`)
+- **Twilio** — Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Germany (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Megafon Tajikistan (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Tigo Honduras (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to AT&T Mexico (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Nex-Tech Wireless LLC United States (`minor`)
+- **Twilio** — Automated Alert: No Customer Impact (`none`)
 
-## Updated since last run (4)
+## Updated since last run (8)
 
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Switzerland → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Africell and Qcell Gambia → `resolved`
-- **Twilio** — MMS Delivery Failures from Telstra Australia to a Subset of Twilio Australia Phone Numbers → `investigating`
-- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Long Codes to GCI United States → `monitoring`
+- **Snowflake** — INC20000150 → `identified`
+- **Supabase** — 401 errors due to JWT rejections → `identified`
+- **Twilio** — MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Multiple Networks in United States → `resolved`
+- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Long Codes to GCI United States → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio Phone Numbers to Robi Bangladesh → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to MTN Congo → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Telefonica Spain → `resolved`
+- **Twilio** — MMS Delivery Delays from a Subset of Australia Subscribers to Twilio Australia Phone Numbers → `investigating`
 
 ---
 

@@ -31,13 +31,15 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-07 09:27 UTC` &nbsp;·&nbsp; **10 new** and **4 updated** incidents &nbsp;·&nbsp; 22,883 total
+**Last ingest** &nbsp;`2026-09-08 13:52 UTC` &nbsp;·&nbsp; **12 new** and **8 updated** incidents &nbsp;·&nbsp; 22,895 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 10 |
-| Cloudflare | 3 |
-| Zoom | 1 |
+| Twilio | 12 |
+| Cloudflare | 5 |
+| Confluent Cloud | 1 |
+| Snowflake | 1 |
+| Supabase | 1 |
 
 <!-- STATUS:END -->
 
