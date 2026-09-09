@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,895 incidents**. Updated 2026-09-08.
+Cross-vendor incident data for 24 providers. Corpus: **22,913 incidents**. Updated 2026-09-09.
 
 ## Last 30 days
 
-- Incidents recorded: **478**
-- Major or worse: **66**
+- Incidents recorded: **492**
+- Major or worse: **67**
 
 ## Reliability by provider (all time)
 
@@ -14,53 +14,57 @@ Cross-vendor incident data for 24 providers. Corpus: **22,895 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 68 | — | — |
 | CircleCI | devtools | 306 | 67m | 482m |
-| Cloudflare | cdn | 6663 | 239m | 495m |
-| Confluent Cloud | data | 253 | 193m | 1633m |
+| Cloudflare | cdn | 6665 | 239m | 495m |
+| Confluent Cloud | data | 254 | 193m | 1633m |
 | Datadog | observability | 122 | 74m | 234m |
-| DigitalOcean | cloud | 504 | 145m | 571m |
+| DigitalOcean | cloud | 505 | 145m | 571m |
 | Discord | comms | 215 | 56m | 296m |
 | Elastic Cloud | observability | 252 | 191m | 1412m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
 | GitHub | devtools | 617 | 67m | 287m |
-| Grafana Cloud | observability | 749 | 90m | 1142m |
+| Grafana Cloud | observability | 751 | 90m | 1138m |
 | HashiCorp Cloud | devtools | 34 | 178m | 1509m |
 | MongoDB Atlas | data | 271 | 120m | 1449m |
-| Netlify | paas | 216 | 40m | 210m |
+| Netlify | paas | 217 | 39m | 208m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 61 | 107m | 337m |
-| OpenAI | ai | 51 | 131m | 773m |
+| OpenAI | ai | 53 | 149m | 739m |
 | Sentry | observability | 337 | 89m | 365m |
 | Snowflake | data | 197 | 121m | 595m |
-| Supabase | paas | 395 | 158m | 922m |
-| Twilio | comms | 10900 | 270m | 1087m |
+| Supabase | paas | 396 | 156m | 919m |
+| Twilio | comms | 10907 | 270m | 1087m |
 | Vercel | paas | 382 | 74m | 366m |
-| Zoom | comms | 154 | 124m | 1980m |
+| Zoom | comms | 155 | 124m | 1980m |
 
-## New since last run (12)
+## New since last run (18)
 
-- **Cloudflare** — Cache Reserve Issue in Paris (`minor`)
-- **Cloudflare** — Cloudflare Account Member Invite Issue (`minor`)
-- **Cloudflare** — Browser Isolation Session Initialization Failures (`minor`)
-- **Cloudflare** — Issues rendering route configuration table in Networking > Routes UI (`minor`)
-- **Cloudflare** — Performance degradation affecting TURN service (`minor`)
-- **Confluent Cloud** — Experiencing Outage in AWS us-east-1 (`minor`)
-- **Twilio** — Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Germany (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Megafon Tajikistan (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Tigo Honduras (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to AT&T Mexico (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Nex-Tech Wireless LLC United States (`minor`)
-- **Twilio** — Automated Alert: No Customer Impact (`none`)
+- **Cloudflare** — Intermittent issues accessing the Dashboard on Firefox and Safari (`minor`)
+- **Cloudflare** — Errors in Unified Billing for some requests OpenAI models (`none`)
+- **DigitalOcean** — Power Degradation impacting GPU Performance in ATL1 (`minor`)
+- **Confluent Cloud** — Connectivity degradation - AWS us-east-1 (`major`)
+- **Grafana Cloud** — Issues with Geomap Tiles (`minor`)
+- **Grafana Cloud** — High Latency in prod-us-east-2 (`minor`)
+- **Netlify** — Elevated Errors and Latency in IAD Region (`none`)
+- **Supabase** — Brief connection disruptions in us-east-1 (N. Virginia) (`minor`)
+- **OpenAI** — Elevated errors for image generation (`minor`)
+- **OpenAI** — File uploads are delayed or failing (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Pelephone Israel (`minor`)
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Argentina (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to C-spire and Dish United States (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Safaricom Kenya (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Multiple Networks in France (`minor`)
+- **Twilio** — Twilio Messaging Services Was Degraded (`none`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs and Short Codes to Vodafone Italy (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Services (`none`)
 
-## Updated since last run (8)
+## Updated since last run (6)
 
-- **Snowflake** — INC20000150 → `identified`
-- **Supabase** — 401 errors due to JWT rejections → `identified`
-- **Twilio** — MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Multiple Networks in United States → `resolved`
-- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Long Codes to GCI United States → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio Phone Numbers to Robi Bangladesh → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to MTN Congo → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Telefonica Spain → `resolved`
-- **Twilio** — MMS Delivery Delays from a Subset of Australia Subscribers to Twilio Australia Phone Numbers → `investigating`
+- **Confluent Cloud** — Service Disruption affecting Authentication, Schema Registry, ksqlDB, and Flink in AWS us-east-1 → `monitoring`
+- **OpenAI** — Elevated errors in ChatGPT conversations for Free and Go plans → `resolved`
+- **OpenAI** — ChatGPT Work seeing elevated errors and latency → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Nex-Tech Wireless United States → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Megafon Tajikistan → `resolved`
+- **Twilio** — Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Germany → `resolved`
 
 ---
 

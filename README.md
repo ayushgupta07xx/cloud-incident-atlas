@@ -31,15 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-08 13:52 UTC` &nbsp;·&nbsp; **12 new** and **8 updated** incidents &nbsp;·&nbsp; 22,895 total
+**Last ingest** &nbsp;`2026-09-09 11:15 UTC` &nbsp;·&nbsp; **18 new** and **6 updated** incidents &nbsp;·&nbsp; 22,913 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 12 |
-| Cloudflare | 5 |
-| Confluent Cloud | 1 |
-| Snowflake | 1 |
-| Supabase | 1 |
+| Twilio | 10 |
+| OpenAI | 4 |
+| Cloudflare | 2 |
+| Confluent Cloud | 2 |
+| Grafana Cloud | 2 |
+| DigitalOcean | 1 |
+
+Most severe this run:
+
+- `major` **Confluent Cloud** — Connectivity degradation - AWS us-east-1
+- `major` **OpenAI** — ChatGPT Work seeing elevated errors and latency
 
 <!-- STATUS:END -->
 
