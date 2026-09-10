@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,913 incidents**. Updated 2026-09-09.
+Cross-vendor incident data for 24 providers. Corpus: **22,935 incidents**. Updated 2026-09-10.
 
 ## Last 30 days
 
 - Incidents recorded: **492**
-- Major or worse: **67**
+- Major or worse: **71**
 
 ## Reliability by provider (all time)
 
@@ -14,57 +14,66 @@ Cross-vendor incident data for 24 providers. Corpus: **22,913 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 68 | — | — |
 | CircleCI | devtools | 306 | 67m | 482m |
-| Cloudflare | cdn | 6665 | 239m | 495m |
-| Confluent Cloud | data | 254 | 193m | 1633m |
+| Cloudflare | cdn | 6669 | 239m | 495m |
+| Confluent Cloud | data | 254 | 194m | 1652m |
 | Datadog | observability | 122 | 74m | 234m |
 | DigitalOcean | cloud | 505 | 145m | 571m |
 | Discord | comms | 215 | 56m | 296m |
-| Elastic Cloud | observability | 252 | 191m | 1412m |
+| Elastic Cloud | observability | 254 | 191m | 1412m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
 | GitHub | devtools | 617 | 67m | 287m |
-| Grafana Cloud | observability | 751 | 90m | 1138m |
-| HashiCorp Cloud | devtools | 34 | 178m | 1509m |
+| Grafana Cloud | observability | 752 | 91m | 1137m |
+| HashiCorp Cloud | devtools | 35 | 178m | 1509m |
 | MongoDB Atlas | data | 271 | 120m | 1449m |
 | Netlify | paas | 217 | 39m | 208m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 61 | 107m | 337m |
-| OpenAI | ai | 53 | 149m | 739m |
+| OpenAI | ai | 56 | 135m | 749m |
 | Sentry | observability | 337 | 89m | 365m |
-| Snowflake | data | 197 | 121m | 595m |
+| Snowflake | data | 198 | 120m | 595m |
 | Supabase | paas | 396 | 156m | 919m |
-| Twilio | comms | 10907 | 270m | 1087m |
+| Twilio | comms | 10917 | 270m | 1087m |
 | Vercel | paas | 382 | 74m | 366m |
 | Zoom | comms | 155 | 124m | 1980m |
 
-## New since last run (18)
+## New since last run (22)
 
-- **Cloudflare** — Intermittent issues accessing the Dashboard on Firefox and Safari (`minor`)
-- **Cloudflare** — Errors in Unified Billing for some requests OpenAI models (`none`)
-- **DigitalOcean** — Power Degradation impacting GPU Performance in ATL1 (`minor`)
-- **Confluent Cloud** — Connectivity degradation - AWS us-east-1 (`major`)
-- **Grafana Cloud** — Issues with Geomap Tiles (`minor`)
-- **Grafana Cloud** — High Latency in prod-us-east-2 (`minor`)
-- **Netlify** — Elevated Errors and Latency in IAD Region (`none`)
-- **Supabase** — Brief connection disruptions in us-east-1 (N. Virginia) (`minor`)
-- **OpenAI** — Elevated errors for image generation (`minor`)
-- **OpenAI** — File uploads are delayed or failing (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Pelephone Israel (`minor`)
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Argentina (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to C-spire and Dish United States (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Safaricom Kenya (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Multiple Networks in France (`minor`)
-- **Twilio** — Twilio Messaging Services Was Degraded (`none`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs and Short Codes to Vodafone Italy (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Services (`none`)
+- **Cloudflare** — DNS Update Delays (`minor`)
+- **Cloudflare** — Cloudflare Workers AI increased errors (`minor`)
+- **Cloudflare** — Workers Cron Triggers degraded (`minor`)
+- **Cloudflare** — Increased HTTP Errors (`none`)
+- **Snowflake** — INC20000211 (`critical`)
+- **HashiCorp Cloud** — Hashicorp Linux packages GPG key rotation (`major`)
+- **Elastic Cloud** — Kibana access restored for UI-assigned Organization Owners on Hosted deployments (`major`)
+- **Elastic Cloud** — Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output (`major`)
+- **Grafana Cloud** — Investigating elevated database load in AWS Germany (`minor`)
+- **OpenAI** — Unable to open shared ChatGPT Project using direct link (`minor`)
+- **OpenAI** — Investigating unexpected usage limit resets (`none`)
+- **OpenAI** — Increased Error Rate For Pro and Plus Plan Conversations (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Iliad Italy (`minor`)
+- **Twilio** — Console Page Loading Failures from Singapore to Twilio (`none`)
+- **Twilio** — Automated Alert: No Customer Impact (`none`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to AT&T United States (`minor`)
+- **Twilio** — Provisioning Status Not Being Available for Branded Calling (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Verizon United States (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to Claro Brazil (`minor`)
+- **Twilio** — Messaging Services Message Send Failures (`none`)
+- **Twilio** — SMS Delivery Delays from Twilio Short Codes to Multiple Networks in United States (`minor`)
+- **Twilio** — New Twilio Console – Voice 'Try It Out' Service Interruption (`minor`)
 
-## Updated since last run (6)
+## Updated since last run (11)
 
-- **Confluent Cloud** — Service Disruption affecting Authentication, Schema Registry, ksqlDB, and Flink in AWS us-east-1 → `monitoring`
-- **OpenAI** — Elevated errors in ChatGPT conversations for Free and Go plans → `resolved`
-- **OpenAI** — ChatGPT Work seeing elevated errors and latency → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Nex-Tech Wireless United States → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Megafon Tajikistan → `resolved`
-- **Twilio** — Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Germany → `resolved`
+- **GitHub** — Disruption with Copilot Code Review → `resolved`
+- **GitHub** — Incident with Grok Copilot AI Model Provider → `resolved`
+- **GitHub** — Delays in commit processing → `resolved`
+- **DigitalOcean** — Power Degradation impacting GPU Performance in ATL1 → `resolved`
+- **Snowflake** — INC20000190 → `postmortem`
+- **Snowflake** — INC20000188 → `postmortem`
+- **Confluent Cloud** — Service Disruption affecting Authentication, Schema Registry, ksqlDB, and Flink in AWS us-east-1 → `resolved`
+- **Confluent Cloud** — Connectivity degradation - AWS us-east-1 → `resolved`
+- **Supabase** — Network access issues affecting a limited number of users in Myanmar → `monitoring`
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs and Short Codes to Vodafone Italy → `resolved`
+- **Zoom** — Service Degradation Affecting Zoom Services → `resolved`
 
 ---
 

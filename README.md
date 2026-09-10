@@ -31,21 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-09 11:15 UTC` &nbsp;·&nbsp; **18 new** and **6 updated** incidents &nbsp;·&nbsp; 22,913 total
+**Last ingest** &nbsp;`2026-09-10 15:13 UTC` &nbsp;·&nbsp; **22 new** and **11 updated** incidents &nbsp;·&nbsp; 22,935 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 10 |
-| OpenAI | 4 |
-| Cloudflare | 2 |
-| Confluent Cloud | 2 |
-| Grafana Cloud | 2 |
-| DigitalOcean | 1 |
+| Twilio | 11 |
+| Cloudflare | 4 |
+| Snowflake | 3 |
+| OpenAI | 3 |
+| GitHub | 3 |
+| Elastic Cloud | 2 |
 
 Most severe this run:
 
-- `major` **Confluent Cloud** — Connectivity degradation - AWS us-east-1
-- `major` **OpenAI** — ChatGPT Work seeing elevated errors and latency
+- `critical` **Snowflake** — INC20000211
+- `critical` **Snowflake** — INC20000188
+- `major` **HashiCorp Cloud** — Hashicorp Linux packages GPG key rotation
 
 <!-- STATUS:END -->
 
