@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-10 15:13 UTC` &nbsp;·&nbsp; **22 new** and **11 updated** incidents &nbsp;·&nbsp; 22,935 total
+**Last ingest** &nbsp;`2026-09-11 12:19 UTC` &nbsp;·&nbsp; **22 new** and **10 updated** incidents &nbsp;·&nbsp; 22,957 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 11 |
+| OpenAI | 7 |
+| Twilio | 6 |
 | Cloudflare | 4 |
-| Snowflake | 3 |
-| OpenAI | 3 |
-| GitHub | 3 |
-| Elastic Cloud | 2 |
+| Zoom | 3 |
+| Snowflake | 2 |
+| Sentry | 2 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000211
-- `critical` **Snowflake** — INC20000188
-- `major` **HashiCorp Cloud** — Hashicorp Linux packages GPG key rotation
+- `critical` **Snowflake** — INC20000213
+- `major` **Sentry** — Sentry.io elevated number of 500 errors
+- `major` **Vercel** — Elevated error rate on Connect and Passport
 
 <!-- STATUS:END -->
 

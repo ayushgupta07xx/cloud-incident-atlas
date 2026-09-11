@@ -4,40 +4,40 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 10917 | 4.5h | 18.1h | 1057.6h |
-| Cloudflare | cdn | 6669 | 4.0h | 8.2h | 5350.4h |
+| Twilio | comms | 10921 | 4.5h | 18.1h | 1057.6h |
+| Cloudflare | cdn | 6672 | 4.0h | 8.2h | 5350.4h |
 | Grafana Cloud | observability | 752 | 1.5h | 18.9h | 2571.2h |
 | GitHub | devtools | 617 | 1.1h | 4.8h | 62.0h |
 | DigitalOcean | cloud | 505 | 2.4h | 9.5h | 304.2h |
-| Supabase | paas | 396 | 2.6h | 15.3h | 2129.0h |
-| Vercel | paas | 382 | 1.2h | 6.1h | 339.2h |
-| Sentry | observability | 337 | 1.5h | 6.1h | 668.4h |
-| CircleCI | devtools | 306 | 1.1h | 8.0h | 96.0h |
-| MongoDB Atlas | data | 271 | 2.0h | 24.2h | 4467.0h |
+| Supabase | paas | 397 | 2.6h | 15.3h | 2129.0h |
+| Vercel | paas | 383 | 1.2h | 6.1h | 339.2h |
+| Sentry | observability | 339 | 1.4h | 6.1h | 668.4h |
+| CircleCI | devtools | 307 | 1.1h | 8.0h | 96.0h |
+| MongoDB Atlas | data | 272 | 2.0h | 24.0h | 4467.0h |
 | Confluent Cloud | data | 254 | 3.2h | 27.5h | 2821.4h |
-| Elastic Cloud | observability | 254 | 3.2h | 23.5h | 364.1h |
+| Elastic Cloud | observability | 254 | 3.2h | 23.4h | 364.1h |
 | Netlify | paas | 217 | 39m | 3.5h | 347.3h |
-| Discord | comms | 215 | 56m | 4.9h | 664.8h |
-| Snowflake | data | 198 | 2.0h | 9.9h | 1801.6h |
-| Zoom | comms | 155 | 2.1h | 33.0h | 1944.0h |
+| Discord | comms | 216 | 56m | 4.9h | 664.8h |
+| Snowflake | data | 199 | 2.0h | 9.9h | 1801.6h |
+| Zoom | comms | 158 | 2.1h | 33.0h | 1944.0h |
 | Datadog | observability | 122 | 1.2h | 3.9h | 49.9h |
 | New Relic | observability | 103 | 1.1h | 5.0h | 52.3h |
 | Amazon Web Services | cloud | 68 | — | — | — |
 | npm | devtools | 61 | 1.8h | 5.6h | 20.9h |
-| OpenAI | ai | 56 | 2.3h | 12.5h | 42.4h |
+| OpenAI | ai | 60 | 2.2h | 12.2h | 42.4h |
 | Atlassian | devtools | 39 | 2.0h | 37.4h | 261.0h |
-| HashiCorp Cloud | devtools | 35 | 3.0h | 25.2h | 120.0h |
+| HashiCorp Cloud | devtools | 35 | 3.3h | 25.1h | 120.0h |
 | Google Cloud Platform | cloud | 6 | 7.4h | — | 516.0h |
 
 ## By category
 
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
-| ai | 1 | 56 | 8 |
-| cdn | 1 | 6669 | 131 |
+| ai | 1 | 60 | 8 |
+| cdn | 1 | 6672 | 131 |
 | cloud | 3 | 579 | 34 |
-| comms | 3 | 11287 | 115 |
-| data | 3 | 723 | 259 |
-| devtools | 5 | 1058 | 216 |
-| observability | 5 | 1568 | 557 |
-| paas | 3 | 995 | 226 |
+| comms | 3 | 11295 | 116 |
+| data | 3 | 725 | 260 |
+| devtools | 5 | 1059 | 216 |
+| observability | 5 | 1570 | 558 |
+| paas | 3 | 997 | 228 |
