@@ -94798,8 +94798,8 @@
     "shortlink": "https://stspg.io/18v97b9scdh2",
     "status": "identified",
     "title": "401 errors due to JWT rejections",
-    "update_count": 11,
-    "updated_at": "2026-09-07T09:49:15.986000+00:00"
+    "update_count": 12,
+    "updated_at": "2026-09-11T23:41:53.555000+00:00"
   },
   {
     "category": "cdn",
@@ -101747,8 +101747,8 @@
     "shortlink": "https://stspg.io/8fp59sj5vkgh",
     "status": "investigating",
     "title": "MMS Delivery Failures From A Subset Of Network Subscribers In Australia To Twilio Australia Phone Numbers.",
-    "update_count": 12,
-    "updated_at": "2026-09-11T09:12:14.898000+00:00"
+    "update_count": 18,
+    "updated_at": "2026-09-12T10:11:53.658000+00:00"
   },
   {
     "category": "comms",
@@ -103129,18 +103129,18 @@
       "Workers"
     ],
     "created_at": "2026-09-09T19:17:26+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 3376.8,
     "incident_id": "sjs8s0q2x4hw",
     "provider_id": "cloudflare",
     "provider_name": "Cloudflare",
-    "resolved_at": null,
+    "resolved_at": "2026-09-12T03:34:16.759000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw",
-    "status": "identified",
+    "status": "resolved",
     "title": "Workers Cron Triggers degraded",
-    "update_count": 2,
-    "updated_at": "2026-09-09T19:18:25+00:00"
+    "update_count": 4,
+    "updated_at": "2026-09-12T03:34:16.782000+00:00"
   },
   {
     "category": "observability",
@@ -103156,8 +103156,8 @@
     "shortlink": "https://stspg.io/jfmrn98pwf2h",
     "status": "identified",
     "title": "Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output",
-    "update_count": 1,
-    "updated_at": "2026-09-09T20:44:36.018000+00:00"
+    "update_count": 3,
+    "updated_at": "2026-09-11T16:00:29.495000+00:00"
   },
   {
     "category": "data",
@@ -103262,18 +103262,18 @@
       "SMS, Europe"
     ],
     "created_at": "2026-09-10T12:32:08.666000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1726.7,
     "incident_id": "wgfhcrd9b47c",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-11T17:18:53.291000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/sd6b10564qr7",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "SMS Delivery Failures from a Subset of Twilio Long Codes to Iliad Italy",
-    "update_count": 10,
-    "updated_at": "2026-09-11T11:13:05.015000+00:00"
+    "update_count": 11,
+    "updated_at": "2026-09-11T17:18:53.311000+00:00"
   },
   {
     "category": "devtools",
@@ -103334,18 +103334,18 @@
       "Database"
     ],
     "created_at": "2026-09-10T15:26:19.844000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1660.3,
     "incident_id": "4mkcsnlf6p5x",
     "provider_id": "supabase",
     "provider_name": "Supabase",
-    "resolved_at": null,
+    "resolved_at": "2026-09-11T19:06:34.963000+00:00",
     "severity": "major",
     "severity_rank": 2,
     "shortlink": "https://stspg.io/jqy7hh45k7l1",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "Unresponsive Projects",
-    "update_count": 7,
-    "updated_at": "2026-09-11T06:19:34.106000+00:00"
+    "update_count": 8,
+    "updated_at": "2026-09-11T19:06:34.982000+00:00"
   },
   {
     "category": "cdn",
@@ -103651,18 +103651,18 @@
       "Databases, Tables, and Views"
     ],
     "created_at": "2026-09-11T07:18:27.811000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 360.6,
     "incident_id": "x3f2pxm6l9zw",
     "provider_id": "snowflake",
     "provider_name": "Snowflake",
-    "resolved_at": null,
+    "resolved_at": "2026-09-11T13:19:06.222000+00:00",
     "severity": "critical",
     "severity_rank": 3,
     "shortlink": "https://stspg.io/d1yv4p6mnjrh",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "INC20000213",
-    "update_count": 6,
-    "updated_at": "2026-09-11T11:24:34.840000+00:00"
+    "update_count": 7,
+    "updated_at": "2026-09-11T13:19:06.237000+00:00"
   },
   {
     "category": "ai",
@@ -103704,17 +103704,206 @@
       "SMS, Europe"
     ],
     "created_at": "2026-09-11T10:13:41.428000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 281.8,
     "incident_id": "q0pdtb7j7jht",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-11T14:55:31.479000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/hm6b3sh2g9m8",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Multiple Networks in Ireland",
+    "update_count": 6,
+    "updated_at": "2026-09-11T14:55:31.497000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe",
+      "SMS, Middle East & Africa"
+    ],
+    "created_at": "2026-09-11T12:53:19.757000+00:00",
+    "duration_minutes": 370.3,
+    "incident_id": "yx9nh7z8jzgw",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-11T19:03:35.627000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/g3sc3zvs75t1",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries Across Europe and the Middle East",
+    "update_count": 6,
+    "updated_at": "2026-09-11T19:03:35.640000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "TwiML Bins"
+    ],
+    "created_at": "2026-09-11T13:39:45+00:00",
+    "duration_minutes": 123.0,
+    "incident_id": "0vx51bx3b5cf",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-11T15:42:46.665000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/ggtrmk478t0g",
+    "status": "resolved",
+    "title": "TwiML Bins \u2013 Service Failures",
+    "update_count": 7,
+    "updated_at": "2026-09-11T15:42:46.679000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-09-11T16:22:49+00:00",
+    "duration_minutes": 574.8,
+    "incident_id": "01M28MEQWTQJDRCRPFD9FWQ0H3",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-09-12T01:57:37+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "1% of ChatGPT Work (mobile/web) turns are failing for existing threads",
+    "update_count": 6,
+    "updated_at": "2026-09-12T01:57:37+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Media Proxy"
+    ],
+    "created_at": "2026-09-11T16:24:46.890000+00:00",
+    "duration_minutes": 81.5,
+    "incident_id": "5sp34swnxkh0",
+    "provider_id": "discord",
+    "provider_name": "Discord",
+    "resolved_at": "2026-09-11T17:46:19.597000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/mpwbwtx3wm5q",
+    "status": "resolved",
+    "title": "Media Proxy Latency High",
+    "update_count": 4,
+    "updated_at": "2026-09-11T17:46:19.613000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice Insights IE1"
+    ],
+    "created_at": "2026-09-11T17:02:54+00:00",
+    "duration_minutes": 105.5,
+    "incident_id": "9m56wjrs00p8",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-11T18:48:23.340000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/4xjcnpvhb6ls",
+    "status": "resolved",
+    "title": "Voice Insights Console Dashboard Error",
+    "update_count": 3,
+    "updated_at": "2026-09-11T18:48:23.361000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Network"
+    ],
+    "created_at": "2026-09-11T19:35:42+00:00",
+    "duration_minutes": 148.2,
+    "incident_id": "2njywrxj8qjf",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-11T22:03:51.999000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/2njywrxj8qjf",
+    "status": "resolved",
+    "title": "Network Performance Issues with Taiwan datacenter (TPE)",
+    "update_count": 2,
+    "updated_at": "2026-09-11T22:03:52.019000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-09-11T20:37:18.135000+00:00",
+    "duration_minutes": 581.6,
+    "incident_id": "5knm25n68x9x",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-12T06:18:56.854000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/2nj5bc42dxqh",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio Short Codes and Long Codes to Liberty Puerto Rico",
+    "update_count": 8,
+    "updated_at": "2026-09-12T06:18:56.867000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Tunnel"
+    ],
+    "created_at": "2026-09-11T21:55:52+00:00",
+    "duration_minutes": 661.2,
+    "incident_id": "k7l4hzmthl3k",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-12T08:57:03.058000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/k7l4hzmthl3k",
+    "status": "resolved",
+    "title": "Cloudflare Tunnel Availability Issues",
+    "update_count": 5,
+    "updated_at": "2026-09-12T08:57:03.078000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice, APAC"
+    ],
+    "created_at": "2026-09-12T00:16:43.291000+00:00",
+    "duration_minutes": null,
+    "incident_id": "yr85fb7343g8",
     "provider_id": "twilio",
     "provider_name": "Twilio",
     "resolved_at": null,
     "severity": "minor",
     "severity_rank": 1,
-    "shortlink": "https://stspg.io/hm6b3sh2g9m8",
-    "status": "investigating",
-    "title": "SMS Delivery Delays from Twilio to Multiple Networks in Ireland",
-    "update_count": 2,
-    "updated_at": "2026-09-11T11:14:08.668000+00:00"
+    "shortlink": "https://stspg.io/f1bm42826lvv",
+    "status": "identified",
+    "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong",
+    "update_count": 6,
+    "updated_at": "2026-09-12T15:31:17.403000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Cloud Connector"
+    ],
+    "created_at": "2026-09-12T08:06:38+00:00",
+    "duration_minutes": 156.2,
+    "incident_id": "t4gby3dqzbg1",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-12T10:42:51.140000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/t4gby3dqzbg1",
+    "status": "resolved",
+    "title": "Issues creating and updating Cloud Connector Rules",
+    "update_count": 4,
+    "updated_at": "2026-09-12T10:42:51.163000+00:00"
   }
 ]
