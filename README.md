@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-11 12:19 UTC` &nbsp;·&nbsp; **22 new** and **10 updated** incidents &nbsp;·&nbsp; 22,957 total
+**Last ingest** &nbsp;`2026-09-12 16:22 UTC` &nbsp;·&nbsp; **10 new** and **8 updated** incidents &nbsp;·&nbsp; 22,967 total
 
 | Provider | Incidents |
 | --- | ---: |
-| OpenAI | 7 |
-| Twilio | 6 |
+| Twilio | 8 |
 | Cloudflare | 4 |
-| Zoom | 3 |
-| Snowflake | 2 |
-| Sentry | 2 |
+| Supabase | 2 |
+| OpenAI | 1 |
+| Discord | 1 |
+| Snowflake | 1 |
 
 Most severe this run:
 
 - `critical` **Snowflake** — INC20000213
-- `major` **Sentry** — Sentry.io elevated number of 500 errors
-- `major` **Vercel** — Elevated error rate on Connect and Passport
+- `major` **Elastic Cloud** — Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasti
+- `major` **Supabase** — Unresponsive Projects
 
 <!-- STATUS:END -->
 

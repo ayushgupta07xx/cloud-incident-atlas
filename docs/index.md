@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,957 incidents**. Updated 2026-09-11.
+Cross-vendor incident data for 24 providers. Corpus: **22,967 incidents**. Updated 2026-09-12.
 
 ## Last 30 days
 
-- Incidents recorded: **508**
-- Major or worse: **75**
+- Incidents recorded: **490**
+- Major or worse: **69**
 
 ## Reliability by provider (all time)
 
@@ -14,11 +14,11 @@ Cross-vendor incident data for 24 providers. Corpus: **22,957 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 68 | — | — |
 | CircleCI | devtools | 307 | 66m | 482m |
-| Cloudflare | cdn | 6672 | 239m | 495m |
+| Cloudflare | cdn | 6675 | 239m | 495m |
 | Confluent Cloud | data | 254 | 194m | 1652m |
 | Datadog | observability | 122 | 74m | 234m |
 | DigitalOcean | cloud | 505 | 145m | 571m |
-| Discord | comms | 216 | 56m | 296m |
+| Discord | comms | 217 | 56m | 296m |
 | Elastic Cloud | observability | 254 | 191m | 1404m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
 | GitHub | devtools | 617 | 67m | 287m |
@@ -28,51 +28,37 @@ Cross-vendor incident data for 24 providers. Corpus: **22,957 incidents**. Updat
 | Netlify | paas | 217 | 39m | 208m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 61 | 107m | 337m |
-| OpenAI | ai | 60 | 134m | 734m |
+| OpenAI | ai | 61 | 134m | 730m |
 | Sentry | observability | 339 | 86m | 364m |
-| Snowflake | data | 199 | 120m | 595m |
-| Supabase | paas | 397 | 156m | 919m |
-| Twilio | comms | 10921 | 270m | 1087m |
+| Snowflake | data | 199 | 121m | 594m |
+| Supabase | paas | 397 | 158m | 1002m |
+| Twilio | comms | 10926 | 270m | 1087m |
 | Vercel | paas | 383 | 74m | 365m |
 | Zoom | comms | 158 | 124m | 1980m |
 
-## New since last run (22)
+## New since last run (10)
 
-- **Cloudflare** — Issues with Workers VPC hostname route resolution on 2026-09-11 (`none`)
-- **Cloudflare** — SSL Certificate Provisioning Delays for Let's Encrypt (`minor`)
-- **Cloudflare** — Issues Editing Bulk Redirects (`minor`)
-- **Snowflake** — INC20000213 (`critical`)
-- **MongoDB Atlas** — Atlas is experiencing issues with issuing certificates from Lets Encrypt (`minor`)
-- **CircleCI** — Issues loading pipelines for a small number of projects (`minor`)
-- **Sentry** — Ingestion is delayed in US (`minor`)
-- **Sentry** — Sentry.io elevated number of 500 errors (`major`)
-- **Vercel** — Elevated error rate on Connect and Passport (`major`)
-- **Supabase** — Unresponsive Projects (`major`)
-- **OpenAI** — Elevated errors for GPT-5.6 Sol on the API (`minor`)
-- **OpenAI** — Elevated errors for ChatGPT users in Europe (`minor`)
-- **OpenAI** — Delays in customer support responses (`none`)
-- **OpenAI** — Elevated errors affecting ChatGPT Work (`minor`)
-- **Twilio** — User Authentication Identity SNA Failure Increase in Indonesia (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Ireland (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes and Long Codes to Appalachian Wireless United States (`minor`)
-- **Twilio** — On Call Engineers are Investigating (`none`)
-- **Discord** — Issue with establishing voice calls (`major`)
-- **Zoom** — Service Degradation Affecting Zoom Phone, Zoom Contact Center and Zoom Meetings in Europe (`none`)
-- **Zoom** — Service degradation affecting Zoom Meeting summary, and Phone call summary in the US region. (`none`)
-- **Zoom** — Service degradation affecting subset of live online meeting translation in Canada region. (`none`)
+- **Cloudflare** — Issues creating and updating Cloud Connector Rules (`minor`)
+- **Cloudflare** — Cloudflare Tunnel Availability Issues (`minor`)
+- **Cloudflare** — Network Performance Issues with Taiwan datacenter (TPE) (`minor`)
+- **OpenAI** — 1% of ChatGPT Work (mobile/web) turns are failing for existing threads (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio Short Codes and Long Codes to Liberty Puerto Rico (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries Across Europe and the Middle East (`minor`)
+- **Twilio** — Voice Insights Console Dashboard Error (`minor`)
+- **Twilio** — TwiML Bins – Service Failures (`minor`)
+- **Discord** — Media Proxy Latency High (`minor`)
 
-## Updated since last run (10)
+## Updated since last run (8)
 
-- **Cloudflare** — DNS Update Delays → `resolved`
-- **Snowflake** — INC20000150 → `identified`
-- **HashiCorp Cloud** — Hashicorp Linux packages GPG key rotation → `resolved`
-- **Elastic Cloud** — Kibana access restored for UI-assigned Organization Owners on Hosted deployments → `resolved`
-- **OpenAI** — Elevated errors across ChatGPT and Codex → `resolved`
-- **OpenAI** — ChatGPT Work Mode High Error Rates → `resolved`
-- **OpenAI** — Elevated errors creating new accounts → `resolved`
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Iliad Italy → `monitoring`
+- **Cloudflare** — Workers Cron Triggers degraded → `resolved`
+- **Snowflake** — INC20000213 → `resolved`
+- **Elastic Cloud** — Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output → `identified`
+- **Supabase** — Unresponsive Projects → `resolved`
+- **Supabase** — 401 errors due to JWT rejections → `identified`
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Iliad Italy → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Ireland → `resolved`
 - **Twilio** — MMS Delivery Failures From A Subset Of Network Subscribers In Australia To Twilio Australia Phone Numbers. → `investigating`
-- **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation. → `resolved`
 
 ---
 
