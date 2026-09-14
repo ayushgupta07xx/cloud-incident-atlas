@@ -1,0 +1,218 @@
+{
+  "changed": [
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-09-12T00:16:43.291000+00:00",
+      "duration_minutes": null,
+      "incident_id": "yr85fb7343g8",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/f1bm42826lvv",
+      "status": "identified",
+      "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong",
+      "update_count": 8,
+      "updated_at": "2026-09-14T07:32:43.355000+00:00"
+    }
+  ],
+  "date": "2026-09-14",
+  "new": [
+    {
+      "category": "observability",
+      "components": [],
+      "created_at": "2026-09-12T23:21:39.810000+00:00",
+      "duration_minutes": 504.1,
+      "incident_id": "h7hkkgyx5c9h",
+      "provider_id": "elastic",
+      "provider_name": "Elastic Cloud",
+      "resolved_at": "2026-09-13T07:45:44.556000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/08zq17vq2cb9",
+      "status": "resolved",
+      "title": "Delayed Metrics in Cloud Console - GCP us-east4",
+      "update_count": 4,
+      "updated_at": "2026-09-13T07:45:44.575000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "API Requests",
+        "Issues",
+        "Pull Requests",
+        "Actions",
+        "Pages"
+      ],
+      "created_at": "2026-09-13T09:16:11.480000+00:00",
+      "duration_minutes": 88.7,
+      "incident_id": "0rn90wk115q9",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-09-13T10:44:55.016000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/8f3xch4y0v2k",
+      "status": "resolved",
+      "title": "Incident with several GitHub Services",
+      "update_count": 6,
+      "updated_at": "2026-09-13T10:44:55.032000+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-09-13T09:26:00+00:00",
+      "duration_minutes": 27.7,
+      "incident_id": "01M2D1CZG0862JB4JHVW56QF89",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-09-13T09:53:42+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Codex GitHub Review and Pull Request Failures",
+      "update_count": 6,
+      "updated_at": "2026-09-13T10:53:10+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-09-13T16:56:41+00:00",
+      "duration_minutes": 51.2,
+      "incident_id": "01M2DV6788RRSDZ5K98S5HN0A8",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-09-13T17:47:55+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Elevated errors for ChatGPT users in Europe",
+      "update_count": 3,
+      "updated_at": "2026-09-13T17:47:55+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-09-14T02:46:48+00:00",
+      "duration_minutes": 70.5,
+      "incident_id": "01M2EWYR55J47M2BPG9WC76VEG",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-09-14T03:57:19+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Elevated error rates for Codex and ChatGPT Work",
+      "update_count": 4,
+      "updated_at": "2026-09-14T03:57:19+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Databases, Tables, and Views",
+        "Databases, Tables, and Views",
+        "Databases, Tables, and Views",
+        "Databases, Tables, and Views",
+        "Databases, Tables, and Views",
+        "Databases, Tables, and Views"
+      ],
+      "created_at": "2026-09-14T04:48:03.739000+00:00",
+      "duration_minutes": 81.1,
+      "incident_id": "8c1snlr8gskb",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": "2026-09-14T06:09:06.758000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/l0wx56h7s2gh",
+      "status": "resolved",
+      "title": "INC20000217",
+      "update_count": 4,
+      "updated_at": "2026-09-14T06:09:06.776000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-09-12T22:08:42.891000+00:00",
+      "duration_minutes": null,
+      "incident_id": "b3btf74tk031",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tly61kb56v02",
+      "status": "investigating",
+      "title": "SMS Delivery Failures from a Subset of Twilio Long Codes to Bouygues Telecom France",
+      "update_count": 6,
+      "updated_at": "2026-09-14T05:16:19.139000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Speech Recognition (Gather Speech) US1"
+      ],
+      "created_at": "2026-09-12T21:25:01.125000+00:00",
+      "duration_minutes": 167.1,
+      "incident_id": "fdml2gk2rzg6",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-13T00:12:06.496000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/jmn01bv482fh",
+      "status": "resolved",
+      "title": "Errors Impacting Real-Time Transcriptions, Conversation Relay, <Gather> Voice TwiML",
+      "update_count": 5,
+      "updated_at": "2026-09-13T00:12:06.514000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-09-14T08:34:09.274000+00:00",
+      "duration_minutes": null,
+      "incident_id": "h3pd52tc8bq8",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/trcxb5gjw8zr",
+      "status": "investigating",
+      "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Vivo Brazil",
+      "update_count": 2,
+      "updated_at": "2026-09-14T09:34:35.891000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Middle East & Africa"
+      ],
+      "created_at": "2026-09-14T09:48:14.336000+00:00",
+      "duration_minutes": null,
+      "incident_id": "n5jrtgz33ntg",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/zvr8kwkvcb2j",
+      "status": "investigating",
+      "title": "Voice Call Failures from a Subset of Twilio United States Phone Numbers to Korek Telecom Iraq",
+      "update_count": 1,
+      "updated_at": "2026-09-14T09:48:14.425000+00:00"
+    }
+  ],
+  "runs": 1
+}
