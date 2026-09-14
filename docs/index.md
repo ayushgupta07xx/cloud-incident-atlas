@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,967 incidents**. Updated 2026-09-12.
+Cross-vendor incident data for 24 providers. Corpus: **22,977 incidents**. Updated 2026-09-14.
 
 ## Last 30 days
 
-- Incidents recorded: **490**
-- Major or worse: **69**
+- Incidents recorded: **467**
+- Major or worse: **66**
 
 ## Reliability by provider (all time)
 
@@ -19,46 +19,39 @@ Cross-vendor incident data for 24 providers. Corpus: **22,967 incidents**. Updat
 | Datadog | observability | 122 | 74m | 234m |
 | DigitalOcean | cloud | 505 | 145m | 571m |
 | Discord | comms | 217 | 56m | 296m |
-| Elastic Cloud | observability | 254 | 191m | 1404m |
+| Elastic Cloud | observability | 255 | 192m | 1396m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
-| GitHub | devtools | 617 | 67m | 287m |
+| GitHub | devtools | 618 | 67m | 287m |
 | Grafana Cloud | observability | 752 | 91m | 1137m |
 | HashiCorp Cloud | devtools | 35 | 196m | 1504m |
 | MongoDB Atlas | data | 272 | 120m | 1439m |
 | Netlify | paas | 217 | 39m | 208m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 61 | 107m | 337m |
-| OpenAI | ai | 61 | 134m | 730m |
+| OpenAI | ai | 64 | 127m | 696m |
 | Sentry | observability | 339 | 86m | 364m |
-| Snowflake | data | 199 | 121m | 594m |
+| Snowflake | data | 200 | 120m | 594m |
 | Supabase | paas | 397 | 158m | 1002m |
-| Twilio | comms | 10926 | 270m | 1087m |
+| Twilio | comms | 10930 | 270m | 1087m |
 | Vercel | paas | 383 | 74m | 365m |
 | Zoom | comms | 158 | 124m | 1980m |
 
 ## New since last run (10)
 
-- **Cloudflare** — Issues creating and updating Cloud Connector Rules (`minor`)
-- **Cloudflare** — Cloudflare Tunnel Availability Issues (`minor`)
-- **Cloudflare** — Network Performance Issues with Taiwan datacenter (TPE) (`minor`)
-- **OpenAI** — 1% of ChatGPT Work (mobile/web) turns are failing for existing threads (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio Short Codes and Long Codes to Liberty Puerto Rico (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries Across Europe and the Middle East (`minor`)
-- **Twilio** — Voice Insights Console Dashboard Error (`minor`)
-- **Twilio** — TwiML Bins – Service Failures (`minor`)
-- **Discord** — Media Proxy Latency High (`minor`)
+- **GitHub** — Incident with several GitHub Services (`critical`)
+- **Snowflake** — INC20000217 (`major`)
+- **Elastic Cloud** — Delayed Metrics in Cloud Console - GCP us-east4 (`major`)
+- **OpenAI** — Elevated error rates for Codex and ChatGPT Work (`none`)
+- **OpenAI** — Elevated errors for ChatGPT users in Europe (`minor`)
+- **OpenAI** — Codex GitHub Review and Pull Request Failures (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio United States Phone Numbers to Korek Telecom Iraq (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Vivo Brazil (`minor`)
+- **Twilio** — Errors Impacting Real-Time Transcriptions, Conversation Relay, <Gather> Voice TwiML (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Bouygues Telecom France (`minor`)
 
-## Updated since last run (8)
+## Updated since last run (1)
 
-- **Cloudflare** — Workers Cron Triggers degraded → `resolved`
-- **Snowflake** — INC20000213 → `resolved`
-- **Elastic Cloud** — Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output → `identified`
-- **Supabase** — Unresponsive Projects → `resolved`
-- **Supabase** — 401 errors due to JWT rejections → `identified`
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Iliad Italy → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Ireland → `resolved`
-- **Twilio** — MMS Delivery Failures From A Subset Of Network Subscribers In Australia To Twilio Australia Phone Numbers. → `investigating`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong → `identified`
 
 ---
 

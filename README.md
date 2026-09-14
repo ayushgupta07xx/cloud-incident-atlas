@@ -31,22 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-12 16:22 UTC` &nbsp;·&nbsp; **10 new** and **8 updated** incidents &nbsp;·&nbsp; 22,967 total
+**Last ingest** &nbsp;`2026-09-14 09:58 UTC` &nbsp;·&nbsp; **10 new** and **1 updated** incidents &nbsp;·&nbsp; 22,977 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 8 |
-| Cloudflare | 4 |
-| Supabase | 2 |
-| OpenAI | 1 |
-| Discord | 1 |
+| Twilio | 5 |
+| OpenAI | 3 |
+| GitHub | 1 |
 | Snowflake | 1 |
+| Elastic Cloud | 1 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000213
-- `major` **Elastic Cloud** — Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasti
-- `major` **Supabase** — Unresponsive Projects
+- `critical` **GitHub** — Incident with several GitHub Services
+- `major` **Snowflake** — INC20000217
+- `major` **Elastic Cloud** — Delayed Metrics in Cloud Console - GCP us-east4
 
 <!-- STATUS:END -->
 
