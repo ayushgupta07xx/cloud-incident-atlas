@@ -1,10 +1,10 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **22,977 incidents**. Updated 2026-09-14.
+Cross-vendor incident data for 24 providers. Corpus: **23,001 incidents**. Updated 2026-09-15.
 
 ## Last 30 days
 
-- Incidents recorded: **467**
+- Incidents recorded: **478**
 - Major or worse: **66**
 
 ## Reliability by provider (all time)
@@ -12,46 +12,66 @@ Cross-vendor incident data for 24 providers. Corpus: **22,977 incidents**. Updat
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
-| Amazon Web Services | cloud | 68 | — | — |
-| CircleCI | devtools | 307 | 66m | 482m |
-| Cloudflare | cdn | 6675 | 239m | 495m |
+| Amazon Web Services | cloud | 70 | — | — |
+| CircleCI | devtools | 308 | 64m | 482m |
+| Cloudflare | cdn | 6680 | 239m | 495m |
 | Confluent Cloud | data | 254 | 194m | 1652m |
 | Datadog | observability | 122 | 74m | 234m |
 | DigitalOcean | cloud | 505 | 145m | 571m |
-| Discord | comms | 217 | 56m | 296m |
+| Discord | comms | 218 | 56m | 296m |
 | Elastic Cloud | observability | 255 | 192m | 1396m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
-| GitHub | devtools | 618 | 67m | 287m |
+| GitHub | devtools | 620 | 67m | 287m |
 | Grafana Cloud | observability | 752 | 91m | 1137m |
 | HashiCorp Cloud | devtools | 35 | 196m | 1504m |
 | MongoDB Atlas | data | 272 | 120m | 1439m |
 | Netlify | paas | 217 | 39m | 208m |
 | New Relic | observability | 103 | 63m | 303m |
 | npm | devtools | 61 | 107m | 337m |
-| OpenAI | ai | 64 | 127m | 696m |
+| OpenAI | ai | 67 | 122m | 700m |
 | Sentry | observability | 339 | 86m | 364m |
 | Snowflake | data | 200 | 120m | 594m |
-| Supabase | paas | 397 | 158m | 1002m |
-| Twilio | comms | 10930 | 270m | 1087m |
+| Supabase | paas | 398 | 158m | 1088m |
+| Twilio | comms | 10939 | 270m | 1086m |
 | Vercel | paas | 383 | 74m | 365m |
 | Zoom | comms | 158 | 124m | 1980m |
 
-## New since last run (10)
+## New since last run (24)
 
-- **GitHub** — Incident with several GitHub Services (`critical`)
-- **Snowflake** — INC20000217 (`major`)
-- **Elastic Cloud** — Delayed Metrics in Cloud Console - GCP us-east4 (`major`)
-- **OpenAI** — Elevated error rates for Codex and ChatGPT Work (`none`)
-- **OpenAI** — Elevated errors for ChatGPT users in Europe (`minor`)
-- **OpenAI** — Codex GitHub Review and Pull Request Failures (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio United States Phone Numbers to Korek Telecom Iraq (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Vivo Brazil (`minor`)
-- **Twilio** — Errors Impacting Real-Time Transcriptions, Conversation Relay, <Gather> Voice TwiML (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Bouygues Telecom France (`minor`)
+- **Cloudflare** — Some Replicate models are failing to start (`minor`)
+- **Cloudflare** — Network latency affecting Singapore (`minor`)
+- **Cloudflare** — Load Balancing Analytics and Notification Delays (`minor`)
+- **Cloudflare** — Cloudflare Queues issues (`minor`)
+- **Cloudflare** — Increased 5xx errors and latency for Los Angeles (LAX) Sept 14 22:15 - Sept 14 23:10 UTC (`none`)
+- **GitHub** — Disruption with some GitHub services (`minor`)
+- **GitHub** — Actions Larger Runner Jobs for some customers may be slow to start (`minor`)
+- **CircleCI** — Increased wait times for macOS jobs (`minor`)
+- **Supabase** — Latency issues resulting in 504 errors (`none`)
+- **OpenAI** — Elevated errors from GPT-5.6 and GPT-5.6 Instant on paid plans (`minor`)
+- **OpenAI** — Elevated errors affecting Work Mode in ChatGPT (`minor`)
+- **OpenAI** — Degraded Performance affecting Agents API (`none`)
+- **Twilio** — SMS Delivery Delays from Twilio to Orange Belgium (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States (`minor`)
+- **Twilio** — Voice Call Failures between a Subset of Twilio Phone Numbers and Multiple Networks in Germany (`minor`)
+- **Twilio** — Voice Call Failures and Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Argentina (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to MTN Swaziland (`minor`)
+- **Twilio** — Missing Data in Voice Insights / Console Subaccount Rollup (`minor`)
+- **Twilio** — User Authentication Identity SNA Failure Increase for Smartfren in Indonesia (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to XL Axiata Indonesia and Smart Axiata Cambodia (`minor`)
+- **Twilio** — Comms API retry failing intermittently (`none`)
+- **Discord** — Session Unavailability (`none`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
+- **Amazon Web Services** — Service disruption: Increased Error Rates (`minor`)
 
-## Updated since last run (1)
+## Updated since last run (7)
 
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong → `identified`
+- **Cloudflare** — Incorrect geo location for some Cloudflare WARP users → `identified`
+- **Snowflake** — INC20000199 → `postmortem`
+- **Supabase** — Network access issues affecting a limited number of users in Myanmar → `resolved`
+- **Twilio** — Voice Call Failures from a Subset of Twilio United States Phone Numbers to Korek Iraq → `resolved`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Vivo Brazil → `resolved`
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Bouygues Telecom France → `identified`
+- **Twilio** — Voice Call Failures From a Subset of Twilio Phone Numbers to Hong Kong → `identified`
 
 ---
 

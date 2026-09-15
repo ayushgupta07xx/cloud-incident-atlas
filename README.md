@@ -31,21 +31,20 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-14 09:58 UTC` &nbsp;·&nbsp; **10 new** and **1 updated** incidents &nbsp;·&nbsp; 22,977 total
+**Last ingest** &nbsp;`2026-09-15 14:29 UTC` &nbsp;·&nbsp; **24 new** and **7 updated** incidents &nbsp;·&nbsp; 23,001 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 5 |
+| Twilio | 13 |
+| Cloudflare | 6 |
 | OpenAI | 3 |
-| GitHub | 1 |
-| Snowflake | 1 |
-| Elastic Cloud | 1 |
+| GitHub | 2 |
+| Supabase | 2 |
+| Amazon Web Services | 2 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Incident with several GitHub Services
-- `major` **Snowflake** — INC20000217
-- `major` **Elastic Cloud** — Delayed Metrics in Cloud Console - GCP us-east4
+- `critical` **Snowflake** — INC20000199
 
 <!-- STATUS:END -->
 
