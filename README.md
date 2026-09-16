@@ -31,20 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-15 14:29 UTC` &nbsp;·&nbsp; **24 new** and **7 updated** incidents &nbsp;·&nbsp; 23,001 total
+**Last ingest** &nbsp;`2026-09-16 11:25 UTC` &nbsp;·&nbsp; **36 new** and **11 updated** incidents &nbsp;·&nbsp; 23,037 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 13 |
+| Twilio | 17 |
 | Cloudflare | 6 |
-| OpenAI | 3 |
-| GitHub | 2 |
-| Supabase | 2 |
-| Amazon Web Services | 2 |
+| GitHub | 4 |
+| Grafana Cloud | 4 |
+| DigitalOcean | 2 |
+| npm | 2 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000199
+- `critical` **GitHub** — Incident with several GitHub Services
+- `critical` **DigitalOcean** — Cloud Control Panel and API
+- `major` **GitHub** — Degradation with Gemini 3.8 Flash
 
 <!-- STATUS:END -->
 
