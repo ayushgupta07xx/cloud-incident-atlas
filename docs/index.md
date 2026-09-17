@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **23,037 incidents**. Updated 2026-09-16.
+Cross-vendor incident data for 24 providers. Corpus: **23,065 incidents**. Updated 2026-09-17.
 
 ## Last 30 days
 
-- Incidents recorded: **503**
-- Major or worse: **70**
+- Incidents recorded: **504**
+- Major or worse: **69**
 
 ## Reliability by provider (all time)
 
@@ -13,70 +13,73 @@ Cross-vendor incident data for 24 providers. Corpus: **23,037 incidents**. Updat
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 70 | — | — |
-| CircleCI | devtools | 309 | 66m | 481m |
-| Cloudflare | cdn | 6684 | 239m | 495m |
+| CircleCI | devtools | 310 | 67m | 481m |
+| Cloudflare | cdn | 6688 | 239m | 495m |
 | Confluent Cloud | data | 255 | 193m | 1650m |
 | Datadog | observability | 122 | 74m | 234m |
-| DigitalOcean | cloud | 506 | 145m | 571m |
-| Discord | comms | 218 | 56m | 295m |
-| Elastic Cloud | observability | 255 | 192m | 1396m |
+| DigitalOcean | cloud | 506 | 145m | 573m |
+| Discord | comms | 221 | 56m | 295m |
+| Elastic Cloud | observability | 256 | 192m | 1462m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
 | GitHub | devtools | 622 | 67m | 287m |
-| Grafana Cloud | observability | 756 | 90m | 1135m |
-| HashiCorp Cloud | devtools | 35 | 196m | 1504m |
-| MongoDB Atlas | data | 273 | 120m | 1439m |
-| Netlify | paas | 217 | 39m | 208m |
-| New Relic | observability | 105 | 63m | 299m |
+| Grafana Cloud | observability | 757 | 90m | 1135m |
+| HashiCorp Cloud | devtools | 36 | 215m | 1499m |
+| MongoDB Atlas | data | 273 | 120m | 1428m |
+| Netlify | paas | 218 | 40m | 205m |
+| New Relic | observability | 105 | 63m | 313m |
 | npm | devtools | 63 | 103m | 322m |
-| OpenAI | ai | 69 | 116m | 689m |
+| OpenAI | ai | 70 | 115m | 684m |
 | Sentry | observability | 339 | 86m | 364m |
 | Snowflake | data | 200 | 120m | 594m |
-| Supabase | paas | 400 | 156m | 1079m |
-| Twilio | comms | 10951 | 270m | 1087m |
-| Vercel | paas | 383 | 74m | 365m |
+| Supabase | paas | 401 | 158m | 1060m |
+| Twilio | comms | 10962 | 270m | 1087m |
+| Vercel | paas | 386 | 74m | 363m |
 | Zoom | comms | 160 | 120m | 1980m |
 
-## New since last run (36)
+## New since last run (28)
 
-- **Cloudflare** — Support Helpdesk Availability Issues (`minor`)
-- **Cloudflare** — Email Notifications Delayed (`minor`)
-- **Cloudflare** — Network Performance Issues in Los Angeles (`minor`)
-- **Cloudflare** — Network Performance Issues in Ashburn (`none`)
-- **GitHub** — Degradation with Gemini 3.8 Flash (`major`)
-- **GitHub** — Disruption with some GitHub services (`minor`)
-- **DigitalOcean** — Support Portal Service Disruption (`minor`)
-- **npm** — Package Publish Degradation (`minor`)
-- **npm** — Publishing Packages Degraded Performance (`minor`)
-- **MongoDB Atlas** — Support Portal Outage (`major`)
+- **Cloudflare** — Increased HTTP Errors in GIG (Rio de Janeiro) (`none`)
+- **Cloudflare** — Replicate Pruna issue (`minor`)
+- **Cloudflare** — Increased HTTP 522 Errors in St. Louis (`none`)
+- **Cloudflare** — Issues with 1.1.1.1 public resolver on .tn queries (`minor`)
+- **HashiCorp Cloud** — Degraded commit/content scans in HCP Vault Radar (`minor`)
 - **CircleCI** — Customers may experience delays in UI updates (`minor`)
-- **Confluent Cloud** — Multiple Confluent Cloud services are in a degraded state - All regions (`major`)
-- **Grafana Cloud** — Increased Execution Time for Browser Checks in Synthetic Monitoring (`minor`)
-- **Grafana Cloud** — Intermittent Metric Write Errors in GCP US Central (prod-us-central-0) (`minor`)
-- **Grafana Cloud** — CloudWatch request timeouts in prod-us-central-0 (`none`)
-- **Grafana Cloud** — Failures Submitting Self-Serve Configuration Changes for Grafana Cloud Logs in AWS Sweden (prod-eu-north-0) (`minor`)
-- **New Relic** — Salesforce Service Disruption (`none`)
-- **New Relic** — Data Irregularities for EU Region (`none`)
-- **Supabase** — Auth Service Outage (`minor`)
-- **Supabase** — Edge Function Latency (`minor`)
-- **OpenAI** — Elevated errors with gpt-image-2.5-flare (`major`)
-- **OpenAI** — Ads Manager login issues (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Tigo Paraguay (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Vivo Brazil (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Airtel India (`minor`)
+- **Elastic Cloud** — Elastic Support Portal unavailable (`major`)
+- **Grafana Cloud** — Elevated Latency Managing Cloud Provider Integrations in GCP US Central (`minor`)
+- **Netlify** — Elevated Image CDN Errors (`minor`)
+- **Vercel** — Failures delivering Logs to Drains (`none`)
+- **Vercel** — Missing Web Analytics and Speed Insights data (`minor`)
+- **Vercel** — Invoice Generation Paused (`none`)
+- **Supabase** — Query slowness for projects running Postgres version 14 in us-east-1 and ap-northeast-2 (`minor`)
+- **OpenAI** — Elevated errors in ChatGPT Work (`minor`)
+- **Twilio** — MMS Delivery Failures From a Subset of Twilio Short Codes to Multiple Networks in United States (`minor`)
+- **Twilio** — MMS Delivery Delyas and Failures from a Subset Of Twilio Longcode to Optus Australia (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio Phone Numbers to Multibyte Hong Kong (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to H3G United Kingdom (`minor`)
+- **Twilio** — User Authentication Identity SNA Missing Redirects for PLDT Smart in Philippines (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Alphanumeric Sender IDs to Smart Communications Philippines (`minor`)
+- **Twilio** — MMS Delivery Delays from Twilio Long Codes to GCI United States (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Chunghwa Telecom Taiwan (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Orange Democratic Republic of the Congo (`minor`)
+- **Twilio** — Twilio Console Issue (`minor`)
+- **Twilio** — MMS Delivery Delays from Twilio Long Codes to Rogers Wireless Canada (`minor`)
 
-## Updated since last run (11)
+## Updated since last run (14)
 
-- **Cloudflare** — Cloudflare Queues issues → `resolved`
-- **Cloudflare** — Incorrect geo location for some Cloudflare WARP users → `identified`
-- **GitHub** — Incident with several GitHub Services → `resolved`
-- **GitHub** — Degradation in repos contents API → `resolved`
-- **DigitalOcean** — Cloud Control Panel and API → `postmortem`
-- **Twilio** — Missing Data in Voice Insights / Console Subaccount Rollup → `resolved`
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Bouygues Telecom France → `resolved`
-- **Twilio** — Voice Call Failures Between Twilio Germany Phone Numbers and Multiple Networks in Germany → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Orange Belgium → `resolved`
+- **Cloudflare** — Network Performance Issues in Los Angeles → `resolved`
+- **Cloudflare** — Support Helpdesk Availability Issues → `resolved`
+- **GitHub** — Degradation with Gemini 3.8 Flash → `resolved`
+- **DigitalOcean** — Support Portal Service Disruption → `resolved`
+- **MongoDB Atlas** — Support Portal Outage → `resolved`
+- **Elastic Cloud** — Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output → `resolved`
+- **New Relic** — Salesforce Service Disruption → `resolved`
+- **Supabase** — Edge Function Latency → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio Alphanumeric Sender IDs and Long Codes to Smart Axiata/Hello Cambodia → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Airtel India → `resolved`
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Peru → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Etisalat Egypt → `resolved`
 - **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong → `identified`
-- **Discord** — Session Unavailability → `resolved`
+- **Zoom** — Service Degradation Affecting Subset of Users using Zoom AI API Service in US Region → `resolved`
 
 ---
 

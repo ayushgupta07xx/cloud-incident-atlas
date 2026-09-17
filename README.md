@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-16 11:25 UTC` &nbsp;·&nbsp; **36 new** and **11 updated** incidents &nbsp;·&nbsp; 23,037 total
+**Last ingest** &nbsp;`2026-09-17 15:41 UTC` &nbsp;·&nbsp; **28 new** and **14 updated** incidents &nbsp;·&nbsp; 23,065 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 17 |
+| Twilio | 16 |
 | Cloudflare | 6 |
-| GitHub | 4 |
-| Grafana Cloud | 4 |
-| DigitalOcean | 2 |
-| npm | 2 |
+| Vercel | 3 |
+| Discord | 3 |
+| Elastic Cloud | 2 |
+| Supabase | 2 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Incident with several GitHub Services
-- `critical` **DigitalOcean** — Cloud Control Panel and API
-- `major` **GitHub** — Degradation with Gemini 3.8 Flash
+- `major` **Elastic Cloud** — Elastic Support Portal unavailable
+- `major` **Discord** — Issue establishing voice call
+- `major` **Discord** — Google Pay Outage
 
 <!-- STATUS:END -->
 
