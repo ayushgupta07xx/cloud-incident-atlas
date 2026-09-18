@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-17 15:41 UTC` &nbsp;·&nbsp; **28 new** and **14 updated** incidents &nbsp;·&nbsp; 23,065 total
+**Last ingest** &nbsp;`2026-09-18 12:20 UTC` &nbsp;·&nbsp; **19 new** and **12 updated** incidents &nbsp;·&nbsp; 23,084 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 16 |
-| Cloudflare | 6 |
-| Vercel | 3 |
-| Discord | 3 |
-| Elastic Cloud | 2 |
-| Supabase | 2 |
+| Twilio | 13 |
+| Cloudflare | 7 |
+| Sentry | 2 |
+| OpenAI | 2 |
+| GitHub | 1 |
+| Confluent Cloud | 1 |
 
 Most severe this run:
 
-- `major` **Elastic Cloud** — Elastic Support Portal unavailable
-- `major` **Discord** — Issue establishing voice call
-- `major` **Discord** — Google Pay Outage
+- `critical` **Sentry** — Delayed ingestion of errors in EU
+- `major` **Elastic Cloud** — AutoOps node metrics temporarily unavailable in some regions
+- `major` **Sentry** — Delays in spans ingestion
 
 <!-- STATUS:END -->
 

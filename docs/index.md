@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **23,065 incidents**. Updated 2026-09-17.
+Cross-vendor incident data for 24 providers. Corpus: **23,084 incidents**. Updated 2026-09-18.
 
 ## Last 30 days
 
-- Incidents recorded: **504**
-- Major or worse: **69**
+- Incidents recorded: **508**
+- Major or worse: **71**
 
 ## Reliability by provider (all time)
 
@@ -14,72 +14,64 @@ Cross-vendor incident data for 24 providers. Corpus: **23,065 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 70 | — | — |
 | CircleCI | devtools | 310 | 67m | 481m |
-| Cloudflare | cdn | 6688 | 239m | 495m |
-| Confluent Cloud | data | 255 | 193m | 1650m |
+| Cloudflare | cdn | 6693 | 239m | 496m |
+| Confluent Cloud | data | 256 | 193m | 1648m |
 | Datadog | observability | 122 | 74m | 234m |
 | DigitalOcean | cloud | 506 | 145m | 573m |
-| Discord | comms | 221 | 56m | 295m |
-| Elastic Cloud | observability | 256 | 192m | 1462m |
+| Discord | comms | 222 | 56m | 294m |
+| Elastic Cloud | observability | 257 | 191m | 1454m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
-| GitHub | devtools | 622 | 67m | 287m |
+| GitHub | devtools | 623 | 67m | 287m |
 | Grafana Cloud | observability | 757 | 90m | 1135m |
 | HashiCorp Cloud | devtools | 36 | 215m | 1499m |
 | MongoDB Atlas | data | 273 | 120m | 1428m |
 | Netlify | paas | 218 | 40m | 205m |
 | New Relic | observability | 105 | 63m | 313m |
 | npm | devtools | 63 | 103m | 322m |
-| OpenAI | ai | 70 | 115m | 684m |
-| Sentry | observability | 339 | 86m | 364m |
+| OpenAI | ai | 72 | 111m | 673m |
+| Sentry | observability | 341 | 86m | 363m |
 | Snowflake | data | 200 | 120m | 594m |
 | Supabase | paas | 401 | 158m | 1060m |
-| Twilio | comms | 10962 | 270m | 1087m |
+| Twilio | comms | 10968 | 270m | 1089m |
 | Vercel | paas | 386 | 74m | 363m |
 | Zoom | comms | 160 | 120m | 1980m |
 
-## New since last run (28)
+## New since last run (19)
 
-- **Cloudflare** — Increased HTTP Errors in GIG (Rio de Janeiro) (`none`)
-- **Cloudflare** — Replicate Pruna issue (`minor`)
-- **Cloudflare** — Increased HTTP 522 Errors in St. Louis (`none`)
-- **Cloudflare** — Issues with 1.1.1.1 public resolver on .tn queries (`minor`)
-- **HashiCorp Cloud** — Degraded commit/content scans in HCP Vault Radar (`minor`)
-- **CircleCI** — Customers may experience delays in UI updates (`minor`)
-- **Elastic Cloud** — Elastic Support Portal unavailable (`major`)
-- **Grafana Cloud** — Elevated Latency Managing Cloud Provider Integrations in GCP US Central (`minor`)
-- **Netlify** — Elevated Image CDN Errors (`minor`)
-- **Vercel** — Failures delivering Logs to Drains (`none`)
-- **Vercel** — Missing Web Analytics and Speed Insights data (`minor`)
-- **Vercel** — Invoice Generation Paused (`none`)
-- **Supabase** — Query slowness for projects running Postgres version 14 in us-east-1 and ap-northeast-2 (`minor`)
-- **OpenAI** — Elevated errors in ChatGPT Work (`minor`)
-- **Twilio** — MMS Delivery Failures From a Subset of Twilio Short Codes to Multiple Networks in United States (`minor`)
-- **Twilio** — MMS Delivery Delyas and Failures from a Subset Of Twilio Longcode to Optus Australia (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio Phone Numbers to Multibyte Hong Kong (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to H3G United Kingdom (`minor`)
-- **Twilio** — User Authentication Identity SNA Missing Redirects for PLDT Smart in Philippines (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Alphanumeric Sender IDs to Smart Communications Philippines (`minor`)
-- **Twilio** — MMS Delivery Delays from Twilio Long Codes to GCI United States (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Chunghwa Telecom Taiwan (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Orange Democratic Republic of the Congo (`minor`)
-- **Twilio** — Twilio Console Issue (`minor`)
-- **Twilio** — MMS Delivery Delays from Twilio Long Codes to Rogers Wireless Canada (`minor`)
+- **Cloudflare** — Cloudflare Dashboard Workers KV Issue (`minor`)
+- **Cloudflare** — Increased Errors for Durable Objects and Downstream Services in Asia Pacific (APAC) Region (`minor`)
+- **Cloudflare** — Network Performance Issues in Vancouver, Canada (`none`)
+- **Cloudflare** — Network Performance Issues in Ashburn, VA, United States (`minor`)
+- **Cloudflare** — Hyperdrive Elevated Origin Connection Failure Rates (`none`)
+- **GitHub** — Elevated rate of errors for OpenAI models provided by Copilot (`minor`)
+- **Confluent Cloud** — Confluent Cloud Metrics API experienced elevated latency and error rates (`none`)
+- **Elastic Cloud** — AutoOps node metrics temporarily unavailable in some regions (`major`)
+- **Sentry** — Delayed ingestion of errors in EU (`critical`)
+- **Sentry** — Delays in spans ingestion (`major`)
+- **OpenAI** — We are seeing elevated error rates across API models (`minor`)
+- **OpenAI** — Elevated errors affecting ChatGPT Work mode (`major`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Globe Telecom Philippines (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to DU and Etisalat United Arab Emirates (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Ufone Pakistan (`minor`)
+- **Twilio** — User Authentication Identity Gateway API Failure Increase to Rogers Network in Canada (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Orange and Tigo Democratic Republic of the Congo (`minor`)
+- **Twilio** — 503 Errors When Calling Comms-API (`none`)
+- **Discord** — Issue / Delay in establishing call connection (`major`)
 
-## Updated since last run (14)
+## Updated since last run (12)
 
-- **Cloudflare** — Network Performance Issues in Los Angeles → `resolved`
-- **Cloudflare** — Support Helpdesk Availability Issues → `resolved`
-- **GitHub** — Degradation with Gemini 3.8 Flash → `resolved`
-- **DigitalOcean** — Support Portal Service Disruption → `resolved`
-- **MongoDB Atlas** — Support Portal Outage → `resolved`
-- **Elastic Cloud** — Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output → `resolved`
-- **New Relic** — Salesforce Service Disruption → `resolved`
-- **Supabase** — Edge Function Latency → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio Alphanumeric Sender IDs and Long Codes to Smart Axiata/Hello Cambodia → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Airtel India → `resolved`
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Peru → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Etisalat Egypt → `resolved`
+- **Cloudflare** — Replicate Pruna issue → `resolved`
+- **Cloudflare** — Network Performance Issues in Ashburn → `resolved`
+- **Snowflake** — INC20000150 → `identified`
+- **Vercel** — Invoice Generation Paused → `resolved`
+- **Supabase** — 401 errors due to JWT rejections → `identified`
+- **Twilio** — MMS Delivery Delays from Twilio Long Codes to Rogers Wireless Canada → `resolved`
+- **Twilio** — Twilio Console Issue → `resolved`
+- **Twilio** — MMS Delivery Failures from a Subset of Twilio Short Codes to Multiple Networks in United States → `resolved`
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States → `resolved`
+- **Twilio** — User Authentication Identity SNA Missing Redirects for PLDT Smart in Philippines → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to H3G United Kingdom → `resolved`
 - **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong → `identified`
-- **Zoom** — Service Degradation Affecting Subset of Users using Zoom AI API Service in US Region → `resolved`
 
 ---
 
