@@ -31,22 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-18 12:20 UTC` &nbsp;·&nbsp; **19 new** and **12 updated** incidents &nbsp;·&nbsp; 23,084 total
+**Last ingest** &nbsp;`2026-09-19 16:33 UTC` &nbsp;·&nbsp; **15 new** and **9 updated** incidents &nbsp;·&nbsp; 23,099 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 13 |
-| Cloudflare | 7 |
-| Sentry | 2 |
-| OpenAI | 2 |
-| GitHub | 1 |
-| Confluent Cloud | 1 |
+| Twilio | 10 |
+| Vercel | 4 |
+| OpenAI | 3 |
+| GitHub | 3 |
+| Cloudflare | 2 |
+| Zoom | 1 |
 
 Most severe this run:
 
-- `critical` **Sentry** — Delayed ingestion of errors in EU
-- `major` **Elastic Cloud** — AutoOps node metrics temporarily unavailable in some regions
-- `major` **Sentry** — Delays in spans ingestion
+- `critical` **Snowflake** — INC20000213
+- `major` **Vercel** — Elevated Errors Triggering Deployments
 
 <!-- STATUS:END -->
 
