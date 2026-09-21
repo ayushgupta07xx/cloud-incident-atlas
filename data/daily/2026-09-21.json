@@ -1,0 +1,218 @@
+{
+  "changed": [
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-09-19T11:30:04.717000+00:00",
+      "duration_minutes": 305.3,
+      "incident_id": "513j7mvlzw0x",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-19T16:35:25.038000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/h6r6zxltzfh3",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to MTS Russia",
+      "update_count": 5,
+      "updated_at": "2026-09-19T16:35:25.056000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-09-18T19:14:14.599000+00:00",
+      "duration_minutes": 2771.8,
+      "incident_id": "tnhtkwkxbyst",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-09-20T17:26:01.684000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/3qgzgrl4328d",
+      "status": "resolved",
+      "title": "SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Tigo and Orange Democratic Republic of the Congo",
+      "update_count": 10,
+      "updated_at": "2026-09-20T17:26:01.699000+00:00"
+    }
+  ],
+  "date": "2026-09-21",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [
+        "Registrar"
+      ],
+      "created_at": "2026-09-21T09:37:55+00:00",
+      "duration_minutes": 11.3,
+      "incident_id": "lb5514cvngd7",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-09-21T09:49:13.586000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/lb5514cvngd7",
+      "status": "resolved",
+      "title": "Unable to register certain domains",
+      "update_count": 2,
+      "updated_at": "2026-09-21T09:49:13.607000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "Incident Response"
+      ],
+      "created_at": "2026-09-20T05:17:14.695000+00:00",
+      "duration_minutes": 95.8,
+      "incident_id": "fsrqsbtpkp06",
+      "provider_id": "datadog",
+      "provider_name": "Datadog",
+      "resolved_at": "2026-09-20T06:53:02.925000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/txhsm142w1cz",
+      "status": "resolved",
+      "title": "Delayed events triggered by emails",
+      "update_count": 2,
+      "updated_at": "2026-09-20T06:53:02.938000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "Monitors"
+      ],
+      "created_at": "2026-09-21T09:44:21.231000+00:00",
+      "duration_minutes": null,
+      "incident_id": "g67lc6tmjnlt",
+      "provider_id": "datadog",
+      "provider_name": "Datadog",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/k1zlzpm9dfm2",
+      "status": "identified",
+      "title": "Delayed Monitors Notifications",
+      "update_count": 2,
+      "updated_at": "2026-09-21T10:00:57.387000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Pull Requests"
+      ],
+      "created_at": "2026-09-20T22:13:37.889000+00:00",
+      "duration_minutes": 68.6,
+      "incident_id": "f6yrxnz5f7bs",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-09-20T23:22:16.710000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/cx8xcm6k8f9s",
+      "status": "resolved",
+      "title": "Incident with Pull Requests",
+      "update_count": 4,
+      "updated_at": "2026-09-20T23:22:16.725000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [
+        "Database",
+        "Management API"
+      ],
+      "created_at": "2026-09-19T20:12:05.167000+00:00",
+      "duration_minutes": 120.5,
+      "incident_id": "ms1mxwhtp30y",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": "2026-09-19T22:12:33.333000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/962nvljg4zjf",
+      "status": "resolved",
+      "title": "Project Lifecycle Activity Degradation",
+      "update_count": 4,
+      "updated_at": "2026-09-19T22:12:33.352000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-09-20T17:47:27.214000+00:00",
+      "duration_minutes": null,
+      "incident_id": "hb3ndrbtj0tr",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/qz8pbzl7qmtz",
+      "status": "monitoring",
+      "title": "SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico",
+      "update_count": 8,
+      "updated_at": "2026-09-21T10:00:20.881000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-09-21T06:10:32.578000+00:00",
+      "duration_minutes": null,
+      "incident_id": "pv6458wz3bz9",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/w6n99jhv404g",
+      "status": "identified",
+      "title": "Voice Call Post Dial Delay from Twilio Phone Numbers to Pakistan",
+      "update_count": 4,
+      "updated_at": "2026-09-21T08:37:24.680000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Middle East & Africa"
+      ],
+      "created_at": "2026-09-21T09:51:12.847000+00:00",
+      "duration_minutes": null,
+      "incident_id": "szjrlr56008q",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rwqd999h381m",
+      "status": "investigating",
+      "title": "Voice Call Failures from Network Subscribers to a Subset of Twilio Israel Phone Numbers",
+      "update_count": 1,
+      "updated_at": "2026-09-21T09:51:12.935000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-09-20T22:28:43.036000+00:00",
+      "duration_minutes": null,
+      "incident_id": "wyrdjl5kj781",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/0569sxgl0zt4",
+      "status": "identified",
+      "title": "SMS Delivery Delays from Twilio to Telemat Cel Brazil",
+      "update_count": 4,
+      "updated_at": "2026-09-21T05:43:21.628000+00:00"
+    }
+  ],
+  "runs": 1
+}

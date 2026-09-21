@@ -6,7 +6,7 @@
       "providers": 1
     },
     "cdn": {
-      "incident_count": 6695,
+      "incident_count": 6696,
       "major_or_worse": 131,
       "providers": 1
     },
@@ -16,7 +16,7 @@
       "providers": 3
     },
     "comms": {
-      "incident_count": 11357,
+      "incident_count": 11361,
       "major_or_worse": 119,
       "providers": 3
     },
@@ -26,18 +26,18 @@
       "providers": 3
     },
     "devtools": {
-      "incident_count": 1071,
+      "incident_count": 1072,
       "major_or_worse": 218,
       "providers": 5
     },
     "observability": {
-      "incident_count": 1582,
+      "incident_count": 1584,
       "major_or_worse": 563,
       "providers": 5
     },
     "paas": {
-      "incident_count": 1008,
-      "major_or_worse": 229,
+      "incident_count": 1009,
+      "major_or_worse": 230,
       "providers": 3
     }
   },
@@ -103,21 +103,21 @@
     },
     "cloudflare": {
       "category": "cdn",
-      "incident_count": 6695,
+      "incident_count": 6696,
       "longest_incident_minutes": 321024.0,
       "mean_severity_rank": 0.33,
-      "mttr_minutes_mean": 448.4,
+      "mttr_minutes_mean": 448.3,
       "mttr_minutes_median": 239.0,
-      "mttr_minutes_p90": 495.4,
+      "mttr_minutes_p90": 495.3,
       "open_count": 5,
       "provider_name": "Cloudflare",
-      "resolved_count": 6690,
-      "resolved_with_duration": 6687,
+      "resolved_count": 6691,
+      "resolved_with_duration": 6688,
       "severity_mix": {
         "critical": 27,
         "maintenance": 4243,
         "major": 104,
-        "minor": 1928,
+        "minor": 1929,
         "none": 393
       },
       "stats_note": null
@@ -145,20 +145,20 @@
     },
     "datadog": {
       "category": "observability",
-      "incident_count": 122,
+      "incident_count": 124,
       "longest_incident_minutes": 2994.4,
-      "mean_severity_rank": 1.49,
-      "mttr_minutes_mean": 161.1,
-      "mttr_minutes_median": 73.5,
-      "mttr_minutes_p90": 234.3,
-      "open_count": 0,
+      "mean_severity_rank": 1.48,
+      "mttr_minutes_mean": 160.6,
+      "mttr_minutes_median": 73.9,
+      "mttr_minutes_p90": 232.6,
+      "open_count": 1,
       "provider_name": "Datadog",
-      "resolved_count": 122,
-      "resolved_with_duration": 122,
+      "resolved_count": 123,
+      "resolved_with_duration": 123,
       "severity_mix": {
         "critical": 12,
         "major": 43,
-        "minor": 60,
+        "minor": 62,
         "none": 7
       },
       "stats_note": null
@@ -247,21 +247,21 @@
     },
     "github": {
       "category": "devtools",
-      "incident_count": 623,
+      "incident_count": 624,
       "longest_incident_minutes": 3718.0,
-      "mean_severity_rank": 1.22,
-      "mttr_minutes_mean": 145.6,
+      "mean_severity_rank": 1.21,
+      "mttr_minutes_mean": 145.5,
       "mttr_minutes_median": 67.0,
       "mttr_minutes_p90": 287.0,
       "open_count": 0,
       "provider_name": "GitHub",
-      "resolved_count": 623,
-      "resolved_with_duration": 623,
+      "resolved_count": 624,
+      "resolved_with_duration": 624,
       "severity_mix": {
         "critical": 27,
         "maintenance": 8,
         "major": 108,
-        "minor": 460,
+        "minor": 461,
         "none": 20
       },
       "stats_note": null
@@ -455,20 +455,20 @@
     },
     "supabase": {
       "category": "paas",
-      "incident_count": 401,
+      "incident_count": 402,
       "longest_incident_minutes": 127741.0,
       "mean_severity_rank": 0.87,
-      "mttr_minutes_mean": 1624.7,
-      "mttr_minutes_median": 157.8,
-      "mttr_minutes_p90": 1059.6,
+      "mttr_minutes_mean": 1620.9,
+      "mttr_minutes_median": 157.6,
+      "mttr_minutes_p90": 1050.0,
       "open_count": 1,
       "provider_name": "Supabase",
-      "resolved_count": 400,
-      "resolved_with_duration": 400,
+      "resolved_count": 401,
+      "resolved_with_duration": 401,
       "severity_mix": {
         "critical": 15,
         "maintenance": 43,
-        "major": 81,
+        "major": 82,
         "minor": 142,
         "none": 120
       },
@@ -476,21 +476,21 @@
     },
     "twilio": {
       "category": "comms",
-      "incident_count": 10974,
+      "incident_count": 10978,
       "longest_incident_minutes": 63457.0,
       "mean_severity_rank": 0.5,
-      "mttr_minutes_mean": 787.9,
+      "mttr_minutes_mean": 788.0,
       "mttr_minutes_median": 270.0,
       "mttr_minutes_p90": 1089.0,
-      "open_count": 83,
+      "open_count": 85,
       "provider_name": "Twilio",
-      "resolved_count": 10891,
-      "resolved_with_duration": 10891,
+      "resolved_count": 10893,
+      "resolved_with_duration": 10893,
       "severity_mix": {
         "critical": 4,
         "maintenance": 4719,
         "major": 40,
-        "minor": 5441,
+        "minor": 5445,
         "none": 770
       },
       "stats_note": null
@@ -536,17 +536,17 @@
       "stats_note": null
     }
   },
-  "generated_at": "2026-09-19T16:33:11.687205+00:00",
+  "generated_at": "2026-09-21T10:02:42.675418+00:00",
   "last_30_days": {
     "by_provider": {
-      "aws": 8,
+      "aws": 6,
       "circleci": 7,
-      "cloudflare": 84,
-      "confluent": 8,
-      "datadog": 2,
-      "digitalocean": 5,
+      "cloudflare": 75,
+      "confluent": 7,
+      "datadog": 4,
+      "digitalocean": 4,
       "discord": 12,
-      "elastic": 10,
+      "elastic": 9,
       "gcp": 1,
       "github": 19,
       "grafana": 20,
@@ -555,48 +555,48 @@
       "netlify": 4,
       "newrelic": 2,
       "npm": 4,
-      "openai": 34,
+      "openai": 32,
       "sentry": 10,
       "snowflake": 10,
       "supabase": 17,
-      "twilio": 199,
-      "vercel": 12,
-      "zoom": 23
+      "twilio": 190,
+      "vercel": 11,
+      "zoom": 20
     },
-    "incident_count": 498,
-    "major_or_worse": 66,
+    "incident_count": 471,
+    "major_or_worse": 65,
     "window_days": 30
   },
   "last_90_days": {
     "by_provider": {
       "aws": 34,
       "circleci": 31,
-      "cloudflare": 384,
-      "confluent": 15,
-      "datadog": 15,
+      "cloudflare": 377,
+      "confluent": 14,
+      "datadog": 16,
       "digitalocean": 32,
       "discord": 20,
       "elastic": 28,
       "gcp": 4,
-      "github": 68,
+      "github": 69,
       "grafana": 73,
-      "hashicorp": 20,
+      "hashicorp": 19,
       "mongodb": 21,
       "netlify": 8,
       "newrelic": 6,
       "npm": 7,
       "openai": 75,
       "sentry": 31,
-      "snowflake": 26,
-      "supabase": 58,
-      "twilio": 732,
+      "snowflake": 24,
+      "supabase": 59,
+      "twilio": 718,
       "vercel": 35,
-      "zoom": 82
+      "zoom": 78
     },
-    "incident_count": 1805,
-    "major_or_worse": 203,
+    "incident_count": 1779,
+    "major_or_worse": 201,
     "window_days": 90
   },
   "providers_tracked": 24,
-  "total_incidents": 23099
+  "total_incidents": 23108
 }
