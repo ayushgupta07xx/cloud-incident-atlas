@@ -4,12 +4,12 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 10974 | 4.5h | 18.1h | 1057.6h |
-| Cloudflare | cdn | 6695 | 4.0h | 8.3h | 5350.4h |
+| Twilio | comms | 10978 | 4.5h | 18.1h | 1057.6h |
+| Cloudflare | cdn | 6696 | 4.0h | 8.3h | 5350.4h |
 | Grafana Cloud | observability | 757 | 1.5h | 18.9h | 2571.2h |
-| GitHub | devtools | 623 | 1.1h | 4.8h | 62.0h |
+| GitHub | devtools | 624 | 1.1h | 4.8h | 62.0h |
 | DigitalOcean | cloud | 506 | 2.4h | 9.6h | 304.2h |
-| Supabase | paas | 401 | 2.6h | 17.7h | 2129.0h |
+| Supabase | paas | 402 | 2.6h | 17.5h | 2129.0h |
 | Vercel | paas | 389 | 1.2h | 6.0h | 339.2h |
 | Sentry | observability | 341 | 1.4h | 6.1h | 668.4h |
 | CircleCI | devtools | 310 | 1.1h | 8.0h | 96.0h |
@@ -20,7 +20,7 @@
 | Netlify | paas | 218 | 40m | 3.4h | 347.3h |
 | Snowflake | data | 200 | 2.0h | 9.9h | 1801.6h |
 | Zoom | comms | 161 | 2.0h | 33.0h | 1944.0h |
-| Datadog | observability | 122 | 1.2h | 3.9h | 49.9h |
+| Datadog | observability | 124 | 1.2h | 3.9h | 49.9h |
 | New Relic | observability | 105 | 1.1h | 5.2h | 52.3h |
 | OpenAI | ai | 75 | 1.9h | 10.7h | 42.4h |
 | Amazon Web Services | cloud | 70 | — | — | — |
@@ -34,10 +34,10 @@
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
 | ai | 1 | 75 | 10 |
-| cdn | 1 | 6695 | 131 |
+| cdn | 1 | 6696 | 131 |
 | cloud | 3 | 582 | 34 |
-| comms | 3 | 11357 | 119 |
+| comms | 3 | 11361 | 119 |
 | data | 3 | 729 | 263 |
-| devtools | 5 | 1071 | 218 |
-| observability | 5 | 1582 | 563 |
-| paas | 3 | 1008 | 229 |
+| devtools | 5 | 1072 | 218 |
+| observability | 5 | 1584 | 563 |
+| paas | 3 | 1009 | 230 |

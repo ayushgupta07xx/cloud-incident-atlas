@@ -31,21 +31,19 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-19 16:33 UTC` &nbsp;·&nbsp; **15 new** and **9 updated** incidents &nbsp;·&nbsp; 23,099 total
+**Last ingest** &nbsp;`2026-09-21 10:02 UTC` &nbsp;·&nbsp; **9 new** and **2 updated** incidents &nbsp;·&nbsp; 23,108 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 10 |
-| Vercel | 4 |
-| OpenAI | 3 |
-| GitHub | 3 |
-| Cloudflare | 2 |
-| Zoom | 1 |
+| Twilio | 6 |
+| Datadog | 2 |
+| Cloudflare | 1 |
+| GitHub | 1 |
+| Supabase | 1 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000213
-- `major` **Vercel** — Elevated Errors Triggering Deployments
+- `major` **Supabase** — Project Lifecycle Activity Degradation
 
 <!-- STATUS:END -->
 

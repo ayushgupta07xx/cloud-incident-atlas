@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **23,099 incidents**. Updated 2026-09-19.
+Cross-vendor incident data for 24 providers. Corpus: **23,108 incidents**. Updated 2026-09-21.
 
 ## Last 30 days
 
-- Incidents recorded: **498**
-- Major or worse: **66**
+- Incidents recorded: **471**
+- Major or worse: **65**
 
 ## Reliability by provider (all time)
 
@@ -14,14 +14,14 @@ Cross-vendor incident data for 24 providers. Corpus: **23,099 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 70 | — | — |
 | CircleCI | devtools | 310 | 67m | 481m |
-| Cloudflare | cdn | 6695 | 239m | 495m |
+| Cloudflare | cdn | 6696 | 239m | 495m |
 | Confluent Cloud | data | 256 | 193m | 1648m |
-| Datadog | observability | 122 | 74m | 234m |
+| Datadog | observability | 124 | 74m | 233m |
 | DigitalOcean | cloud | 506 | 145m | 573m |
 | Discord | comms | 222 | 56m | 294m |
 | Elastic Cloud | observability | 257 | 191m | 1454m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
-| GitHub | devtools | 623 | 67m | 287m |
+| GitHub | devtools | 624 | 67m | 287m |
 | Grafana Cloud | observability | 757 | 90m | 1135m |
 | HashiCorp Cloud | devtools | 36 | 215m | 1499m |
 | MongoDB Atlas | data | 273 | 120m | 1428m |
@@ -31,40 +31,27 @@ Cross-vendor incident data for 24 providers. Corpus: **23,099 incidents**. Updat
 | OpenAI | ai | 75 | 113m | 643m |
 | Sentry | observability | 341 | 86m | 363m |
 | Snowflake | data | 200 | 120m | 594m |
-| Supabase | paas | 401 | 158m | 1060m |
-| Twilio | comms | 10974 | 270m | 1089m |
+| Supabase | paas | 402 | 158m | 1050m |
+| Twilio | comms | 10978 | 270m | 1089m |
 | Vercel | paas | 389 | 73m | 360m |
 | Zoom | comms | 161 | 120m | 1980m |
 
-## New since last run (15)
+## New since last run (9)
 
-- **Cloudflare** — Elevated errors in Ashburn, VA (IAD) (`none`)
-- **Cloudflare** — Network Performance Issues in Ashburn (`none`)
-- **Vercel** — Deployment stuck in initializing state (`minor`)
-- **Vercel** — Elevated Errors Triggering Deployments (`major`)
-- **Vercel** — Elevated Vercel KMS and Connect Errors (`none`)
-- **OpenAI** — Overbilling for OpenAI-hosted containers in the Agent API (`none`)
-- **OpenAI** — Delayed support responses (`none`)
-- **OpenAI** — SSO sign-in and SCIM provisioning issues (`none`)
-- **Twilio** — SMS Delivery Delays from Twilio to MTS Russia (`minor`)
-- **Twilio** — A2P 10DLC Campaign Statuses Remaining 'In Review' (`minor`)
-- **Twilio** — Delays with Phone Number Registration to A2P 10DLC (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Algar Telecom (CTBC) Brazil (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures From a Subset of Twilio Phone Numbers to Orange Democratic Republic of the Congo (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Tigo Democratic Republic of the Congo (`minor`)
-- **Zoom** — Service Degradation Affecting ZoomMate (`none`)
+- **Cloudflare** — Unable to register certain domains (`minor`)
+- **GitHub** — Incident with Pull Requests (`minor`)
+- **Datadog** — Delayed Monitors Notifications (`minor`)
+- **Datadog** — Delayed events triggered by emails (`minor`)
+- **Supabase** — Project Lifecycle Activity Degradation (`major`)
+- **Twilio** — Voice Call Failures from Network Subscribers to a Subset of Twilio Israel Phone Numbers (`minor`)
+- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Pakistan (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Telemat Cel Brazil (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico (`minor`)
 
-## Updated since last run (9)
+## Updated since last run (2)
 
-- **GitHub** — Elevated rate of errors for OpenAI models provided by Copilot → `resolved`
-- **GitHub** — Disruption with some GitHub services → `resolved`
-- **GitHub** — Actions Larger Runner Jobs for some customers may be slow to start → `resolved`
-- **Snowflake** — INC20000213 → `postmortem`
-- **Vercel** — Invoice Generation Paused → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Globe Telecom Philippines → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to DU and Etisalat United Arab Emirates → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Ufone Pakistan → `resolved`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong → `identified`
+- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Tigo and Orange Democratic Republic of the Congo → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to MTS Russia → `resolved`
 
 ---
 
