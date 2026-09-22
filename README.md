@@ -31,19 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-21 10:02 UTC` &nbsp;·&nbsp; **9 new** and **2 updated** incidents &nbsp;·&nbsp; 23,108 total
+**Last ingest** &nbsp;`2026-09-22 14:10 UTC` &nbsp;·&nbsp; **28 new** and **8 updated** incidents &nbsp;·&nbsp; 23,136 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 6 |
-| Datadog | 2 |
-| Cloudflare | 1 |
-| GitHub | 1 |
-| Supabase | 1 |
+| Twilio | 13 |
+| Cloudflare | 5 |
+| Zoom | 3 |
+| Amazon Web Services | 3 |
+| Confluent Cloud | 2 |
+| Supabase | 2 |
 
 Most severe this run:
 
-- `major` **Supabase** — Project Lifecycle Activity Degradation
+- `major` **Confluent Cloud** — Confluent Cloud Console Degraded (All Regions) and Multiple Services Impacted in AWS us-
+- `major` **New Relic** — Test Incident - Public Status Page -ImpactIQ
+- `major` **Netlify** — Errors accessing Netlify-hosted sites
 
 <!-- STATUS:END -->
 

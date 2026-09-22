@@ -1,57 +1,79 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **23,108 incidents**. Updated 2026-09-21.
+Cross-vendor incident data for 24 providers. Corpus: **23,136 incidents**. Updated 2026-09-22.
 
 ## Last 30 days
 
-- Incidents recorded: **471**
-- Major or worse: **65**
+- Incidents recorded: **494**
+- Major or worse: **68**
 
 ## Reliability by provider (all time)
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
-| Amazon Web Services | cloud | 70 | — | — |
-| CircleCI | devtools | 310 | 67m | 481m |
-| Cloudflare | cdn | 6696 | 239m | 495m |
-| Confluent Cloud | data | 256 | 193m | 1648m |
-| Datadog | observability | 124 | 74m | 233m |
+| Amazon Web Services | cloud | 73 | — | — |
+| CircleCI | devtools | 311 | 66m | 481m |
+| Cloudflare | cdn | 6701 | 239m | 495m |
+| Confluent Cloud | data | 257 | 193m | 1647m |
+| Datadog | observability | 124 | 74m | 231m |
 | DigitalOcean | cloud | 506 | 145m | 573m |
 | Discord | comms | 222 | 56m | 294m |
 | Elastic Cloud | observability | 257 | 191m | 1454m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
 | GitHub | devtools | 624 | 67m | 287m |
-| Grafana Cloud | observability | 757 | 90m | 1135m |
+| Grafana Cloud | observability | 758 | 90m | 1135m |
 | HashiCorp Cloud | devtools | 36 | 215m | 1499m |
 | MongoDB Atlas | data | 273 | 120m | 1428m |
-| Netlify | paas | 218 | 40m | 205m |
-| New Relic | observability | 105 | 63m | 313m |
+| Netlify | paas | 219 | 41m | 202m |
+| New Relic | observability | 106 | 63m | 312m |
 | npm | devtools | 63 | 103m | 322m |
-| OpenAI | ai | 75 | 113m | 643m |
+| OpenAI | ai | 76 | 111m | 634m |
 | Sentry | observability | 341 | 86m | 363m |
 | Snowflake | data | 200 | 120m | 594m |
-| Supabase | paas | 402 | 158m | 1050m |
-| Twilio | comms | 10978 | 270m | 1089m |
+| Supabase | paas | 404 | 154m | 1026m |
+| Twilio | comms | 10987 | 270m | 1089m |
 | Vercel | paas | 389 | 73m | 360m |
-| Zoom | comms | 161 | 120m | 1980m |
+| Zoom | comms | 164 | 120m | 1977m |
 
-## New since last run (9)
+## New since last run (28)
 
-- **Cloudflare** — Unable to register certain domains (`minor`)
-- **GitHub** — Incident with Pull Requests (`minor`)
-- **Datadog** — Delayed Monitors Notifications (`minor`)
-- **Datadog** — Delayed events triggered by emails (`minor`)
-- **Supabase** — Project Lifecycle Activity Degradation (`major`)
-- **Twilio** — Voice Call Failures from Network Subscribers to a Subset of Twilio Israel Phone Numbers (`minor`)
-- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Pakistan (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Telemat Cel Brazil (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Liberty Mobile Puerto Rico (`minor`)
+- **Cloudflare** — Partial visibility of Workers and Durable Objects analytics for Fedramp High customers (`minor`)
+- **Cloudflare** — Network Performance Issues in San Jose (SJC-A) (`minor`)
+- **Cloudflare** — Network connectivity issues in LHR, London (`minor`)
+- **Cloudflare** — Increased Cache Failures (`none`)
+- **Cloudflare** — Unable to start containers in Asia-Pacific (`minor`)
+- **CircleCI** — Delays starting Linux Machine jobs (`minor`)
+- **Confluent Cloud** — Confluent Cloud Console Degraded (All Regions) and Multiple Services Impacted in AWS us-west-2 (`major`)
+- **Grafana Cloud** — Mimir write request errors (`none`)
+- **New Relic** — Test Incident - Public Status Page -ImpactIQ (`major`)
+- **Netlify** — Errors accessing Netlify-hosted sites (`major`)
+- **Supabase** — Supavisor connection disruptions in EU West 1 (Ireland) (`minor`)
+- **Supabase** — Project creations are degraded in multiple regions (`minor`)
+- **OpenAI** — Increased error rate for Plus and Pro users. (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio Long Codes to Natcom Haiti (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Airtel India (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures From a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Du United Arab Emirates (`minor`)
+- **Twilio** — User Authentication Identity SNA Failure Increase for Smartfren in Indonesia (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Izzi Mexico (`minor`)
+- **Twilio** — Delayed Intelligent Alerts Notifications and Stale Alert History in Console (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Claro Brazil (`minor`)
+- **Twilio** — Verify Voice Traffic Failures to Japan (`none`)
+- **Twilio** — API Errors Affecting Multiple Services (`none`)
+- **Zoom** — Service degradation affecting comment and attachment features in Zoom Canvas in US region. (`none`)
+- **Zoom** — Service Degradation Affecting Apple Login for Zoom Sign-in. (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Virtual Agent and Zoom Contact Center in US region (`minor`)
 
-## Updated since last run (2)
+## Updated since last run (8)
 
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Tigo and Orange Democratic Republic of the Congo → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to MTS Russia → `resolved`
+- **GitHub** — Degradation with Gemini 3.8 Flash → `resolved`
+- **GitHub** — Disruption with some GitHub services → `resolved`
+- **Datadog** — Delayed Monitors Notifications → `resolved`
+- **Confluent Cloud** — Confluent Cloud — Degraded inter-region connectivity — AWS us-west-2 → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Telemat Cel Brazil → `resolved`
+- **Twilio** — Voice Call Failures from Network Subscribers to a Subset of Twilio Israel Phone Numbers → `resolved`
+- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan → `identified`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio Phone Numbers to Liberty Mobile Puerto Rico → `monitoring`
 
 ---
 
