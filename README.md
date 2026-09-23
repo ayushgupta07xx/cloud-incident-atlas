@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-22 14:10 UTC` &nbsp;·&nbsp; **28 new** and **8 updated** incidents &nbsp;·&nbsp; 23,136 total
+**Last ingest** &nbsp;`2026-09-23 11:27 UTC` &nbsp;·&nbsp; **24 new** and **5 updated** incidents &nbsp;·&nbsp; 23,160 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 13 |
-| Cloudflare | 5 |
-| Zoom | 3 |
-| Amazon Web Services | 3 |
-| Confluent Cloud | 2 |
-| Supabase | 2 |
+| Cloudflare | 9 |
+| Twilio | 9 |
+| Supabase | 3 |
+| Grafana Cloud | 2 |
+| OpenAI | 2 |
+| Zoom | 2 |
 
 Most severe this run:
 
-- `major` **Confluent Cloud** — Confluent Cloud Console Degraded (All Regions) and Multiple Services Impacted in AWS us-
-- `major` **New Relic** — Test Incident - Public Status Page -ImpactIQ
-- `major` **Netlify** — Errors accessing Netlify-hosted sites
+- `major` **Confluent Cloud** — Elevated error rates in Azure Germany West Central region
+- `major` **Grafana Cloud** — IRM Access Issues for a Small Group of Users
+- `major` **Supabase** — Increased error rate in project creation and project restore
 
 <!-- STATUS:END -->
 

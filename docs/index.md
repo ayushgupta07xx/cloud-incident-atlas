@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **23,136 incidents**. Updated 2026-09-22.
+Cross-vendor incident data for 24 providers. Corpus: **23,160 incidents**. Updated 2026-09-23.
 
 ## Last 30 days
 
-- Incidents recorded: **494**
-- Major or worse: **68**
+- Incidents recorded: **509**
+- Major or worse: **70**
 
 ## Reliability by provider (all time)
 
@@ -14,66 +14,62 @@ Cross-vendor incident data for 24 providers. Corpus: **23,136 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 73 | — | — |
 | CircleCI | devtools | 311 | 66m | 481m |
-| Cloudflare | cdn | 6701 | 239m | 495m |
-| Confluent Cloud | data | 257 | 193m | 1647m |
+| Cloudflare | cdn | 6710 | 239m | 495m |
+| Confluent Cloud | data | 258 | 194m | 1645m |
 | Datadog | observability | 124 | 74m | 231m |
 | DigitalOcean | cloud | 506 | 145m | 573m |
 | Discord | comms | 222 | 56m | 294m |
 | Elastic Cloud | observability | 257 | 191m | 1454m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
-| GitHub | devtools | 624 | 67m | 287m |
-| Grafana Cloud | observability | 758 | 90m | 1135m |
+| GitHub | devtools | 625 | 67m | 287m |
+| Grafana Cloud | observability | 760 | 90m | 1142m |
 | HashiCorp Cloud | devtools | 36 | 215m | 1499m |
 | MongoDB Atlas | data | 273 | 120m | 1428m |
 | Netlify | paas | 219 | 41m | 202m |
 | New Relic | observability | 106 | 63m | 312m |
 | npm | devtools | 63 | 103m | 322m |
-| OpenAI | ai | 76 | 111m | 634m |
+| OpenAI | ai | 78 | 100m | 614m |
 | Sentry | observability | 341 | 86m | 363m |
 | Snowflake | data | 200 | 120m | 594m |
-| Supabase | paas | 404 | 154m | 1026m |
-| Twilio | comms | 10987 | 270m | 1089m |
+| Supabase | paas | 406 | 154m | 1014m |
+| Twilio | comms | 10993 | 270m | 1089m |
 | Vercel | paas | 389 | 73m | 360m |
-| Zoom | comms | 164 | 120m | 1977m |
+| Zoom | comms | 165 | 120m | 1971m |
 
-## New since last run (28)
+## New since last run (24)
 
-- **Cloudflare** — Partial visibility of Workers and Durable Objects analytics for Fedramp High customers (`minor`)
-- **Cloudflare** — Network Performance Issues in San Jose (SJC-A) (`minor`)
-- **Cloudflare** — Network connectivity issues in LHR, London (`minor`)
-- **Cloudflare** — Increased Cache Failures (`none`)
-- **Cloudflare** — Unable to start containers in Asia-Pacific (`minor`)
-- **CircleCI** — Delays starting Linux Machine jobs (`minor`)
-- **Confluent Cloud** — Confluent Cloud Console Degraded (All Regions) and Multiple Services Impacted in AWS us-west-2 (`major`)
-- **Grafana Cloud** — Mimir write request errors (`none`)
-- **New Relic** — Test Incident - Public Status Page -ImpactIQ (`major`)
-- **Netlify** — Errors accessing Netlify-hosted sites (`major`)
-- **Supabase** — Supavisor connection disruptions in EU West 1 (Ireland) (`minor`)
-- **Supabase** — Project creations are degraded in multiple regions (`minor`)
-- **OpenAI** — Increased error rate for Plus and Pro users. (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio Long Codes to Natcom Haiti (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Airtel India (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures From a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Du United Arab Emirates (`minor`)
-- **Twilio** — User Authentication Identity SNA Failure Increase for Smartfren in Indonesia (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Izzi Mexico (`minor`)
-- **Twilio** — Delayed Intelligent Alerts Notifications and Stale Alert History in Console (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Claro Brazil (`minor`)
-- **Twilio** — Verify Voice Traffic Failures to Japan (`none`)
-- **Twilio** — API Errors Affecting Multiple Services (`none`)
-- **Zoom** — Service degradation affecting comment and attachment features in Zoom Canvas in US region. (`none`)
-- **Zoom** — Service Degradation Affecting Apple Login for Zoom Sign-in. (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Virtual Agent and Zoom Contact Center in US region (`minor`)
+- **Cloudflare** — Cloudflare One Clients are incorrectly challenged on some sites (`minor`)
+- **Cloudflare** — Increased Errors for Durable Objects (`minor`)
+- **Cloudflare** — Intermittent authentication errors for API and R2 (`minor`)
+- **Cloudflare** — Elevated number of R2 503 errors in Australian Eastern Coast region (`minor`)
+- **Cloudflare** — Issues with 1.1.1.1 for Families (`minor`)
+- **Cloudflare** — Network Performance Issues in Taipei (`none`)
+- **Cloudflare** — Bot Management Configuration Propagation Issues (`minor`)
+- **Cloudflare** — Elevated error rates for Stream Live LL-HLS (`minor`)
+- **Cloudflare** — Connectivity issues in Los Angeles (LAX) (`minor`)
+- **GitHub** — Incident with API Requests and Projects (`minor`)
+- **Confluent Cloud** — Elevated error rates in Azure Germany West Central region (`major`)
+- **Grafana Cloud** — IRM Access Issues for a Small Group of Users (`major`)
+- **Grafana Cloud** — Kubernetes Observability Billing & Usage Incorrect (`minor`)
+- **Supabase** — Increased error rate in project creation and project restore (`major`)
+- **Supabase** — Storage search failing for restored projects (`minor`)
+- **OpenAI** — Elevated Error Rates for ChatGPT across Plus and Pro plans. (`minor`)
+- **OpenAI** — Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans. (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio Alphanumeric Sender IDs to Multiple Networks in Multiple Countries (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio Phone Numbers to Tele2 Sweden (`minor`)
+- **Twilio** — Flex UI Realtime Statistics Showing Inaccurate Longest Waiting Task Data (`minor`)
+- **Twilio** — Customers Are Unable to See All of Their Free Credits in the Free Unit Tracker in the New Twilio Console (`minor`)
+- **Twilio** — Messaging Webhook Delays in US1 (`minor`)
+- **Twilio** — Phone Number APIs and Console Were Returning Incorrect 404 Responses (`none`)
+- **Zoom** — Service Degradation Affecting Zoom Tasks in US Region. (`none`)
 
-## Updated since last run (8)
+## Updated since last run (5)
 
-- **GitHub** — Degradation with Gemini 3.8 Flash → `resolved`
-- **GitHub** — Disruption with some GitHub services → `resolved`
-- **Datadog** — Delayed Monitors Notifications → `resolved`
-- **Confluent Cloud** — Confluent Cloud — Degraded inter-region connectivity — AWS us-west-2 → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Telemat Cel Brazil → `resolved`
-- **Twilio** — Voice Call Failures from Network Subscribers to a Subset of Twilio Israel Phone Numbers → `resolved`
+- **Supabase** — 401 errors due to JWT rejections → `identified`
+- **Twilio** — User Authentication Identity SNA Failure Increase for Smartfren in Indonesia → `resolved`
 - **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan → `identified`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio Phone Numbers to Liberty Mobile Puerto Rico → `monitoring`
+- **Twilio** — SMS Delivery Receipt Delays From a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico → `monitoring`
+- **Zoom** — Service Degradation Affecting Apple Login for Zoom Sign-in. → `resolved`
 
 ---
 
