@@ -94798,8 +94798,8 @@
     "shortlink": "https://stspg.io/18v97b9scdh2",
     "status": "identified",
     "title": "401 errors due to JWT rejections",
-    "update_count": 13,
-    "updated_at": "2026-09-17T19:30:16.541000+00:00"
+    "update_count": 14,
+    "updated_at": "2026-09-23T07:26:29.166000+00:00"
   },
   {
     "category": "cdn",
@@ -106420,10 +106420,7 @@
   {
     "category": "comms",
     "components": [
-      "SMS Long Code, North America",
-      "SMS Short Code, North America",
-      "SMS Toll-Free, North America",
-      "SMS Toll-Free, North America"
+      "SMS, Latin America"
     ],
     "created_at": "2026-09-20T17:47:27.214000+00:00",
     "duration_minutes": null,
@@ -106435,9 +106432,9 @@
     "severity_rank": 1,
     "shortlink": "https://stspg.io/qz8pbzl7qmtz",
     "status": "monitoring",
-    "title": "SMS Delivery Receipt Delays from Twilio Phone Numbers to Liberty Mobile Puerto Rico",
-    "update_count": 15,
-    "updated_at": "2026-09-22T11:15:16.497000+00:00"
+    "title": "SMS Delivery Receipt Delays From a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico",
+    "update_count": 22,
+    "updated_at": "2026-09-23T07:10:44.550000+00:00"
   },
   {
     "category": "devtools",
@@ -106493,8 +106490,8 @@
     "shortlink": "https://stspg.io/w6n99jhv404g",
     "status": "identified",
     "title": "Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan",
-    "update_count": 7,
-    "updated_at": "2026-09-21T22:50:36.005000+00:00"
+    "update_count": 14,
+    "updated_at": "2026-09-23T08:51:23.004000+00:00"
   },
   {
     "category": "cdn",
@@ -106756,18 +106753,18 @@
       "Zoom Meetings"
     ],
     "created_at": "2026-09-21T18:17:47.088000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1419.4,
     "incident_id": "b9qd1hcw1zqk",
     "provider_id": "zoom",
     "provider_name": "Zoom",
-    "resolved_at": null,
+    "resolved_at": "2026-09-22T17:57:12.699000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/j90jkyg5gqz3",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "Service Degradation Affecting Apple Login for Zoom Sign-in.",
-    "update_count": 3,
-    "updated_at": "2026-09-22T01:37:08.113000+00:00"
+    "update_count": 4,
+    "updated_at": "2026-09-22T17:57:12.714000+00:00"
   },
   {
     "category": "cloud",
@@ -106955,18 +106952,18 @@
       "Verify Silent Network Auth"
     ],
     "created_at": "2026-09-22T08:50:50.986000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 349.9,
     "incident_id": "dk6h15j4m9tp",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-22T14:40:47.966000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/8rvtdp51grsm",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "User Authentication Identity SNA Failure Increase for Smartfren in Indonesia",
-    "update_count": 5,
-    "updated_at": "2026-09-22T12:59:10.456000+00:00"
+    "update_count": 6,
+    "updated_at": "2026-09-22T14:40:47.985000+00:00"
   },
   {
     "category": "observability",
@@ -107077,5 +107074,466 @@
     "title": "Supavisor connection disruptions in EU West 1 (Ireland)",
     "update_count": 3,
     "updated_at": "2026-09-22T12:20:13.711000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Stream"
+    ],
+    "created_at": "2026-09-22T14:37:45+00:00",
+    "duration_minutes": 61.1,
+    "incident_id": "pvvq3811tpyq",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-22T15:38:50.535000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/pvvq3811tpyq",
+    "status": "resolved",
+    "title": "Elevated error rates for Stream Live LL-HLS",
+    "update_count": 3,
+    "updated_at": "2026-09-22T15:38:50.559000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-09-22T14:49:00+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "z84lp04f9sht",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-22T14:49:00+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/z84lp04f9sht",
+    "status": "resolved",
+    "title": "Connectivity issues in Los Angeles (LAX)",
+    "update_count": 1,
+    "updated_at": "2026-09-22T15:23:40.411000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "Incident Management and Response (IRM)"
+    ],
+    "created_at": "2026-09-22T14:57:11.248000+00:00",
+    "duration_minutes": 1210.3,
+    "incident_id": "vc8dbf0jf1ds",
+    "provider_id": "grafana",
+    "provider_name": "Grafana Cloud",
+    "resolved_at": "2026-09-23T11:07:27.410000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/cqfnrz8bdkvz",
+    "status": "resolved",
+    "title": "IRM Access Issues for a Small Group of Users",
+    "update_count": 5,
+    "updated_at": "2026-09-23T11:07:27.427000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-09-22T15:04:05+00:00",
+    "duration_minutes": 54.5,
+    "incident_id": "01M34TAFM9WBGEBE3G1GBH4SE8",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-09-22T15:58:32+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans.",
+    "update_count": 3,
+    "updated_at": "2026-09-22T15:58:32+00:00"
+  },
+  {
+    "category": "data",
+    "components": [
+      "Confluent Cloud"
+    ],
+    "created_at": "2026-09-22T15:09:09.219000+00:00",
+    "duration_minutes": 289.8,
+    "incident_id": "3cv1mswhkr4n",
+    "provider_id": "confluent",
+    "provider_name": "Confluent Cloud",
+    "resolved_at": "2026-09-22T19:58:59.159000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/qr82gsy97960",
+    "status": "resolved",
+    "title": "Elevated error rates in Azure Germany West Central region",
+    "update_count": 3,
+    "updated_at": "2026-09-22T19:58:59.175000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Bot Management"
+    ],
+    "created_at": "2026-09-22T15:31:38+00:00",
+    "duration_minutes": 63.7,
+    "incident_id": "c2f7zj7fs8l8",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-22T16:35:19.676000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/c2f7zj7fs8l8",
+    "status": "resolved",
+    "title": "Bot Management Configuration Propagation Issues",
+    "update_count": 2,
+    "updated_at": "2026-09-22T16:35:19.694000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-09-22T18:20:00+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "f93df70676p9",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-22T18:20:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/3j2gx4ttr8jn",
+    "status": "resolved",
+    "title": "Phone Number APIs and Console Were Returning Incorrect 404 Responses",
+    "update_count": 1,
+    "updated_at": "2026-09-22T19:27:55.059000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Other"
+    ],
+    "created_at": "2026-09-22T19:23:02.429000+00:00",
+    "duration_minutes": 51.7,
+    "incident_id": "39w9n3xqzsx0",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-22T20:14:45.996000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/ll09byg9yz2h",
+    "status": "resolved",
+    "title": "Messaging Webhook Delays in US1",
+    "update_count": 3,
+    "updated_at": "2026-09-22T20:14:46.014000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Cloudflare One Client"
+    ],
+    "created_at": "2026-09-22T19:23:17+00:00",
+    "duration_minutes": null,
+    "incident_id": "tl0vrgjy99r0",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/tl0vrgjy99r0",
+    "status": "identified",
+    "title": "Cloudflare One Clients are incorrectly challenged on some sites",
+    "update_count": 2,
+    "updated_at": "2026-09-23T11:02:41+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Other"
+    ],
+    "created_at": "2026-09-22T20:27:37.720000+00:00",
+    "duration_minutes": 102.9,
+    "incident_id": "jpgjg7fn317p",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-22T22:10:32.140000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/w1fb60t016x1",
+    "status": "resolved",
+    "title": "Customers Are Unable to See All of Their Free Credits in the Free Unit Tracker in the New Twilio Console",
+    "update_count": 4,
+    "updated_at": "2026-09-22T22:10:39.625000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Flex Insights"
+    ],
+    "created_at": "2026-09-22T20:44:07.649000+00:00",
+    "duration_minutes": 233.4,
+    "incident_id": "9xvq4cwyz31m",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-23T00:37:29.274000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/tqmcpgc1vtwg",
+    "status": "resolved",
+    "title": "Flex UI Realtime Statistics Showing Inaccurate Longest Waiting Task Data",
+    "update_count": 6,
+    "updated_at": "2026-09-23T00:37:29.297000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "Cost Management and Billing"
+    ],
+    "created_at": "2026-09-22T21:27:47.357000+00:00",
+    "duration_minutes": null,
+    "incident_id": "gjqvmydq1d56",
+    "provider_id": "grafana",
+    "provider_name": "Grafana Cloud",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/4ntjl2yr75n4",
+    "status": "monitoring",
+    "title": "Kubernetes Observability Billing & Usage Incorrect",
+    "update_count": 2,
+    "updated_at": "2026-09-22T23:10:42.895000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-09-22T21:41:05.822000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "zpkwd9fxsby5",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-22T21:41:05.884000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/zpkwd9fxsby5",
+    "status": "resolved",
+    "title": "Network Performance Issues in Taipei",
+    "update_count": 1,
+    "updated_at": "2026-09-22T21:41:05.893000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-09-23T00:42:50+00:00",
+    "duration_minutes": 43.6,
+    "incident_id": "rcjbfb0lyn65",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-23T01:26:28.629000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/rcjbfb0lyn65",
+    "status": "resolved",
+    "title": "Issues with 1.1.1.1 for Families",
+    "update_count": 4,
+    "updated_at": "2026-09-23T01:26:28.643000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Zoom Tasks"
+    ],
+    "created_at": "2026-09-23T01:55:36.871000+00:00",
+    "duration_minutes": 21.0,
+    "incident_id": "xfcfwmvq698k",
+    "provider_id": "zoom",
+    "provider_name": "Zoom",
+    "resolved_at": "2026-09-23T02:16:38.927000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/99jd3fpqyn4j",
+    "status": "resolved",
+    "title": "Service Degradation Affecting Zoom Tasks in US Region.",
+    "update_count": 2,
+    "updated_at": "2026-09-23T02:16:38.943000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Sydney, NSW, Australia - (SYD)",
+      "R2"
+    ],
+    "created_at": "2026-09-23T04:08:46+00:00",
+    "duration_minutes": 17.1,
+    "incident_id": "x86v1qk8yp5v",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-23T04:25:51.870000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/x86v1qk8yp5v",
+    "status": "resolved",
+    "title": "Elevated number of R2 503 errors in Australian Eastern Coast region",
+    "update_count": 4,
+    "updated_at": "2026-09-23T04:25:51.889000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-09-23T06:32:51.977000+00:00",
+    "duration_minutes": null,
+    "incident_id": "1k7t2ygj1r8k",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/dhtmtd9y85fv",
+    "status": "monitoring",
+    "title": "SMS Delivery Delays from Twilio Phone Numbers to Tele2 Sweden",
+    "update_count": 3,
+    "updated_at": "2026-09-23T08:53:48.692000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Durable Objects"
+    ],
+    "created_at": "2026-09-23T08:09:23+00:00",
+    "duration_minutes": 110.8,
+    "incident_id": "78c19w4xw4z2",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-23T10:00:09.478000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/78c19w4xw4z2",
+    "status": "resolved",
+    "title": "Increased Errors for Durable Objects",
+    "update_count": 4,
+    "updated_at": "2026-09-23T10:00:09.500000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "R2"
+    ],
+    "created_at": "2026-09-23T09:08:53+00:00",
+    "duration_minutes": null,
+    "incident_id": "jg6ys8sbd6ny",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/jg6ys8sbd6ny",
+    "status": "identified",
+    "title": "Intermittent authentication errors for API and R2",
+    "update_count": 1,
+    "updated_at": "2026-09-23T09:08:53+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-09-23T09:13:00+00:00",
+    "duration_minutes": 41.3,
+    "incident_id": "01M36RMC01ZFWQ861WYJKC4XE1",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-09-23T09:54:16+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Elevated Error Rates for ChatGPT across Plus and Pro plans.",
+    "update_count": 3,
+    "updated_at": "2026-09-23T09:54:16+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [
+      "ap-northeast-1",
+      "ap-northeast-2",
+      "ap-south-1",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "ca-central-1",
+      "eu-central-1",
+      "eu-central-2",
+      "eu-north-1",
+      "eu-west-1",
+      "eu-west-2",
+      "eu-west-3",
+      "sa-east-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "created_at": "2026-09-23T09:21:14.179000+00:00",
+    "duration_minutes": 88.0,
+    "incident_id": "v53hyqsty0b8",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-23T10:49:14.336000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/694ll1by982q",
+    "status": "resolved",
+    "title": "Increased error rate in project creation and project restore",
+    "update_count": 4,
+    "updated_at": "2026-09-23T10:49:14.355000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [
+      "Storage"
+    ],
+    "created_at": "2026-09-23T09:31:49.050000+00:00",
+    "duration_minutes": null,
+    "incident_id": "4rbrdl79zz9p",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/twg3y61l6b6b",
+    "status": "monitoring",
+    "title": "Storage search failing for restored projects",
+    "update_count": 2,
+    "updated_at": "2026-09-23T10:20:36.716000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "API Requests"
+    ],
+    "created_at": "2026-09-23T10:11:12.845000+00:00",
+    "duration_minutes": null,
+    "incident_id": "8zc63m64hy36",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/m1ps7yrhp4n8",
+    "status": "investigating",
+    "title": "Incident with API Requests and Projects",
+    "update_count": 4,
+    "updated_at": "2026-09-23T10:58:27.099000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-09-23T10:58:09.247000+00:00",
+    "duration_minutes": null,
+    "incident_id": "5hgmnkdyd1pl",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/rw9cffr2p3zv",
+    "status": "identified",
+    "title": "SMS Delivery Failures from Twilio Alphanumeric Sender IDs to Multiple Networks in Multiple Countries",
+    "update_count": 2,
+    "updated_at": "2026-09-23T11:14:17.070000+00:00"
   }
 ]
