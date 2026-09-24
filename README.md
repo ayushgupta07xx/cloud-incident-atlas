@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-23 11:27 UTC` &nbsp;·&nbsp; **24 new** and **5 updated** incidents &nbsp;·&nbsp; 23,160 total
+**Last ingest** &nbsp;`2026-09-24 15:56 UTC` &nbsp;·&nbsp; **26 new** and **8 updated** incidents &nbsp;·&nbsp; 23,186 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Cloudflare | 9 |
-| Twilio | 9 |
-| Supabase | 3 |
-| Grafana Cloud | 2 |
-| OpenAI | 2 |
-| Zoom | 2 |
+| Twilio | 13 |
+| Cloudflare | 5 |
+| Supabase | 4 |
+| Zoom | 3 |
+| HashiCorp Cloud | 1 |
+| CircleCI | 1 |
 
 Most severe this run:
 
-- `major` **Confluent Cloud** — Elevated error rates in Azure Germany West Central region
-- `major` **Grafana Cloud** — IRM Access Issues for a Small Group of Users
-- `major` **Supabase** — Increased error rate in project creation and project restore
+- `critical` **HashiCorp Cloud** — HCP Terraform Returning 404s
+- `critical` **Supabase** — Permission errors in the Supabase Dashboard
+- `major` **Confluent Cloud** — Confluent Cloud Console Degraded (All Regions) and Multiple Services Impacted in AWS us-
 
 <!-- STATUS:END -->
 
