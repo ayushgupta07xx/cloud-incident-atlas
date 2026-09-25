@@ -31,22 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-24 15:56 UTC` &nbsp;·&nbsp; **26 new** and **8 updated** incidents &nbsp;·&nbsp; 23,186 total
+**Last ingest** &nbsp;`2026-09-25 12:55 UTC` &nbsp;·&nbsp; **18 new** and **14 updated** incidents &nbsp;·&nbsp; 23,204 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 13 |
-| Cloudflare | 5 |
-| Supabase | 4 |
-| Zoom | 3 |
-| HashiCorp Cloud | 1 |
-| CircleCI | 1 |
+| Twilio | 15 |
+| Cloudflare | 8 |
+| GitHub | 2 |
+| Zoom | 2 |
+| New Relic | 1 |
+| Netlify | 1 |
 
 Most severe this run:
 
-- `critical` **HashiCorp Cloud** — HCP Terraform Returning 404s
-- `critical` **Supabase** — Permission errors in the Supabase Dashboard
-- `major` **Confluent Cloud** — Confluent Cloud Console Degraded (All Regions) and Multiple Services Impacted in AWS us-
+- `major` **Netlify** — Error accessing Netlify-hosted sites
+- `major` **Supabase** — Project Lifecycle Issues in eu-west-1
 
 <!-- STATUS:END -->
 
