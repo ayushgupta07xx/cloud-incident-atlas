@@ -31,21 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-25 12:55 UTC` &nbsp;·&nbsp; **18 new** and **14 updated** incidents &nbsp;·&nbsp; 23,204 total
+**Last ingest** &nbsp;`2026-09-26 17:16 UTC` &nbsp;·&nbsp; **14 new** and **10 updated** incidents &nbsp;·&nbsp; 23,218 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 15 |
-| Cloudflare | 8 |
-| GitHub | 2 |
+| Twilio | 11 |
+| Cloudflare | 2 |
+| Snowflake | 2 |
 | Zoom | 2 |
-| New Relic | 1 |
-| Netlify | 1 |
+| Datadog | 1 |
+| HashiCorp Cloud | 1 |
 
 Most severe this run:
 
-- `major` **Netlify** — Error accessing Netlify-hosted sites
-- `major` **Supabase** — Project Lifecycle Issues in eu-west-1
+- `critical` **Snowflake** — INC20000237
+- `critical` **OpenAI** — Issues with Codex
+- `major` **HashiCorp Cloud** — Users unable to access releases.hashicorp.con
 
 <!-- STATUS:END -->
 

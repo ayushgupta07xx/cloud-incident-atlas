@@ -1,10 +1,10 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 24 providers. Corpus: **23,204 incidents**. Updated 2026-09-25.
+Cross-vendor incident data for 24 providers. Corpus: **23,218 incidents**. Updated 2026-09-26.
 
 ## Last 30 days
 
-- Incidents recorded: **518**
+- Incidents recorded: **505**
 - Major or worse: **71**
 
 ## Reliability by provider (all time)
@@ -14,65 +14,57 @@ Cross-vendor incident data for 24 providers. Corpus: **23,204 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 73 | — | — |
 | CircleCI | devtools | 312 | 67m | 481m |
-| Cloudflare | cdn | 6720 | 239m | 495m |
-| Confluent Cloud | data | 259 | 195m | 1643m |
-| Datadog | observability | 124 | 74m | 231m |
+| Cloudflare | cdn | 6721 | 239m | 495m |
+| Confluent Cloud | data | 260 | 195m | 1643m |
+| Datadog | observability | 125 | 73m | 229m |
 | DigitalOcean | cloud | 506 | 145m | 573m |
 | Discord | comms | 223 | 56m | 293m |
 | Elastic Cloud | observability | 258 | 191m | 1445m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
 | GitHub | devtools | 626 | 67m | 294m |
-| Grafana Cloud | observability | 760 | 90m | 1140m |
-| HashiCorp Cloud | devtools | 37 | 196m | 1494m |
+| Grafana Cloud | observability | 761 | 90m | 1138m |
+| HashiCorp Cloud | devtools | 38 | 178m | 1488m |
 | MongoDB Atlas | data | 273 | 120m | 1428m |
 | Netlify | paas | 221 | 39m | 197m |
-| New Relic | observability | 107 | 63m | 312m |
+| New Relic | observability | 108 | 63m | 311m |
 | npm | devtools | 63 | 103m | 322m |
-| OpenAI | ai | 80 | 100m | 594m |
+| OpenAI | ai | 81 | 92m | 585m |
 | Sentry | observability | 341 | 86m | 363m |
-| Snowflake | data | 200 | 120m | 594m |
+| Snowflake | data | 201 | 119m | 593m |
 | Supabase | paas | 409 | 152m | 1079m |
-| Twilio | comms | 11009 | 270m | 1089m |
+| Twilio | comms | 11014 | 270m | 1095m |
 | Vercel | paas | 389 | 73m | 360m |
-| Zoom | comms | 169 | 120m | 1962m |
+| Zoom | comms | 170 | 122m | 1959m |
 
-## New since last run (18)
+## New since last run (14)
 
-- **Cloudflare** — Issues with Durable Objects (`minor`)
-- **Cloudflare** — Edit Compression Rule Issue (`minor`)
-- **Cloudflare** — Secondary DNS Update Delays (`minor`)
-- **Cloudflare** — Browser isolation session data sync issues (`minor`)
-- **Cloudflare** — Intermittent 500 errors for backend services on Replicate (`minor`)
-- **Cloudflare** — Delays Starting Cloudflare Workers Builds (`minor`)
-- **GitHub** — Disruption with billing information updates (`minor`)
-- **New Relic** — New Relic UI errors (`none`)
-- **Netlify** — Error accessing Netlify-hosted sites (`major`)
-- **OpenAI** — Elevated Error Rates on GPT-6 Astra Pro (`none`)
-- **Twilio** — User Authentication Identity Gateway API Failure Increase and Gateway API High Latency for Verizon in United States (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Claro Brazil (`minor`)
-- **Twilio** — Event Streams Service Disruption (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Cellularone NE Arizona United States (`minor`)
-- **Twilio** — Link Branding Creation Fails with HTTP 500 Internal Server Error (Auto SSL Enabled) (`minor`)
-- **Twilio** — Some Transfer Calls in Elastic SIP Trunking Failing With Error Code 32204 (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Alphanumeric Sender IDs to Ooredoo Algeria (`minor`)
-- **Zoom** — An unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature (`none`)
+- **Cloudflare** — Cloudflare Cloud Access Security Broker (CASB) Issues (`minor`)
+- **Datadog** — Users are unable to acknowledge, escalate, or resolve On-Call Pages (`minor`)
+- **Snowflake** — INC20000237 (`critical`)
+- **HashiCorp Cloud** — Users unable to access releases.hashicorp.con (`major`)
+- **Confluent Cloud** — Elevated error rates in Azure East US (`minor`)
+- **Grafana Cloud** — Cloud Provider Observability - Hosted Azure metrics issues (`minor`)
+- **New Relic** — Data Irregularities for US region (`major`)
+- **OpenAI** — Issues with Codex (`critical`)
+- **Twilio** — MMS Delivery Delays From a Subset of Twilio Long Codes to GCI United States (`minor`)
+- **Twilio** — Intermittent Trial Unit Errors for Verify 'Try it out' Feature (`minor`)
+- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Brazil (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Etisalat United Arab Emirates (`minor`)
+- **Twilio** — SMS Delivery Failures From a Subset of Twilio Short Codes to T-Mobile United States (`minor`)
+- **Zoom** — Service Degradation Affecting Customer Using Polycom Devices Going Offline (`minor`)
 
-## Updated since last run (14)
+## Updated since last run (10)
 
-- **Cloudflare** — Network Performance Degradation — Asia-Pacific → `identified`
-- **Cloudflare** — Cloudflare Access updates delayed → `resolved`
-- **GitHub** — Incident with Pull Requests → `resolved`
+- **Cloudflare** — Issues with Durable Objects → `resolved`
 - **Snowflake** — INC20000150 → `identified`
-- **Supabase** — Project Lifecycle Issues in eu-west-1 → `resolved`
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs to Telkomsel Indonesia → `resolved`
-- **Twilio** — Voice Call Failures From a Subset of Twilio Phone Numbers to Vodafone in the United Kingdom of Great Britain and Northern Ireland → `resolved`
-- **Twilio** — Customers Using Conversation Intelligence (Classic) May Experience Delays With Transcript and Operator Results Being Available → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to MTN Cameroon → `identified`
-- **Twilio** — SMS Delivery Delays from Twilio to Datora Brazil → `identified`
-- **Twilio** — Voice Call Failures From a Subset of Twilio Phone Numbers to Norway → `identified`
-- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan → `identified`
-- **Twilio** — SMS Delivery Receipt Delays From a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico → `monitoring`
-- **Zoom** — Service Degradation Affecting Live Transcription Services. → `resolved`
+- **Supabase** — 401 errors due to JWT rejections → `identified`
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico → `resolved`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Cellularone NE Arizona United States → `resolved`
+- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan → `resolved`
+- **Twilio** — Voice Call Failures From a Subset of Twilio Phone Numbers to Norway → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Alphanumeric Sender IDs to Ooredoo Algeria → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to MTN Cameroon → `monitoring`
+- **Zoom** — An unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature → `resolved`
 
 ---
 
