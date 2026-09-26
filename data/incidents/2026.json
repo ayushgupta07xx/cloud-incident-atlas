@@ -94798,8 +94798,8 @@
     "shortlink": "https://stspg.io/18v97b9scdh2",
     "status": "identified",
     "title": "401 errors due to JWT rejections",
-    "update_count": 14,
-    "updated_at": "2026-09-23T07:26:29.166000+00:00"
+    "update_count": 15,
+    "updated_at": "2026-09-25T16:23:02.233000+00:00"
   },
   {
     "category": "cdn",
@@ -99192,7 +99192,7 @@
     "status": "identified",
     "title": "INC20000150",
     "update_count": 7,
-    "updated_at": "2026-09-24T23:13:15.096000+00:00"
+    "updated_at": "2026-09-25T18:34:42.555000+00:00"
   },
   {
     "category": "observability",
@@ -106420,21 +106420,21 @@
   {
     "category": "comms",
     "components": [
-      "SMS, Latin America"
+      "SMS Short Code, North America"
     ],
     "created_at": "2026-09-20T17:47:27.214000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 7499.1,
     "incident_id": "hb3ndrbtj0tr",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-25T22:46:35.931000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/qz8pbzl7qmtz",
-    "status": "monitoring",
-    "title": "SMS Delivery Receipt Delays From a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico",
-    "update_count": 25,
-    "updated_at": "2026-09-25T07:22:03.993000+00:00"
+    "status": "resolved",
+    "title": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico",
+    "update_count": 26,
+    "updated_at": "2026-09-25T22:46:35.948000+00:00"
   },
   {
     "category": "devtools",
@@ -106480,18 +106480,18 @@
       "Voice, APAC"
     ],
     "created_at": "2026-09-21T06:10:32.578000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 6686.4,
     "incident_id": "pv6458wz3bz9",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-25T21:36:57.166000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/w6n99jhv404g",
-    "status": "identified",
+    "status": "resolved",
     "title": "Voice Call Post Dial Delay from Twilio Phone Numbers to Jazz Pakistan",
-    "update_count": 16,
-    "updated_at": "2026-09-25T00:52:31.540000+00:00"
+    "update_count": 18,
+    "updated_at": "2026-09-25T21:36:57.187000+00:00"
   },
   {
     "category": "cdn",
@@ -107597,18 +107597,18 @@
       "Voice, Europe"
     ],
     "created_at": "2026-09-23T15:02:40.513000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 3234.2,
     "incident_id": "8dkgb5l51wqy",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-25T20:56:49.956000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/459gq9jp0h41",
-    "status": "identified",
+    "status": "resolved",
     "title": "Voice Call Failures From a Subset of Twilio Phone Numbers to Norway",
-    "update_count": 8,
-    "updated_at": "2026-09-24T23:28:18.836000+00:00"
+    "update_count": 11,
+    "updated_at": "2026-09-25T20:56:49.971000+00:00"
   },
   {
     "category": "cdn",
@@ -107905,10 +107905,10 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/5bgf5k5pp2hd",
-    "status": "identified",
+    "status": "monitoring",
     "title": "SMS Delivery Receipt Delays from Twilio to MTN Cameroon",
-    "update_count": 6,
-    "updated_at": "2026-09-25T02:34:06.870000+00:00"
+    "update_count": 9,
+    "updated_at": "2026-09-26T17:00:41.286000+00:00"
   },
   {
     "category": "comms",
@@ -108131,18 +108131,18 @@
       "SMS, Middle East & Africa"
     ],
     "created_at": "2026-09-24T17:55:33.381000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1383.3,
     "incident_id": "6sqx2z3rqdy9",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-25T16:58:53.124000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/dzpwdczlh735",
-    "status": "identified",
+    "status": "resolved",
     "title": "SMS Delivery Receipt Delays from a Subset of Twilio Alphanumeric Sender IDs to Ooredoo Algeria",
-    "update_count": 6,
-    "updated_at": "2026-09-25T09:16:53.017000+00:00"
+    "update_count": 8,
+    "updated_at": "2026-09-25T16:58:53.142000+00:00"
   },
   {
     "category": "ai",
@@ -108229,18 +108229,18 @@
       "Durable Objects"
     ],
     "created_at": "2026-09-25T00:03:24+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 885.6,
     "incident_id": "gv29fd076q2t",
     "provider_id": "cloudflare",
     "provider_name": "Cloudflare",
-    "resolved_at": null,
+    "resolved_at": "2026-09-25T14:49:01.414000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://www.cloudflarestatus.com/incidents/gv29fd076q2t",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "Issues with Durable Objects",
-    "update_count": 4,
-    "updated_at": "2026-09-25T08:48:52+00:00"
+    "update_count": 5,
+    "updated_at": "2026-09-25T14:49:01.432000+00:00"
   },
   {
     "category": "cdn",
@@ -108265,18 +108265,18 @@
       "SMS Short Code, North America"
     ],
     "created_at": "2026-09-25T02:24:21.657000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1198.9,
     "incident_id": "jys00kdxjmc2",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-09-25T22:23:15.107000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/jbp30fb2xdlf",
-    "status": "identified",
+    "status": "resolved",
     "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Cellularone NE Arizona United States",
-    "update_count": 6,
-    "updated_at": "2026-09-25T12:35:30.123000+00:00"
+    "update_count": 9,
+    "updated_at": "2026-09-25T22:23:15.124000+00:00"
   },
   {
     "category": "comms",
@@ -108358,18 +108358,302 @@
     "components": [
       "Zoom AI"
     ],
-    "created_at": "2026-09-25T09:20:34.930000+00:00",
-    "duration_minutes": null,
+    "created_at": "2026-09-25T09:20:34+00:00",
+    "duration_minutes": 1302.8,
     "incident_id": "w6yw2bsy2sv5",
     "provider_id": "zoom",
     "provider_name": "Zoom",
-    "resolved_at": null,
+    "resolved_at": "2026-09-26T07:03:23.226000+00:00",
     "severity": "none",
     "severity_rank": 0,
     "shortlink": "https://stspg.io/hg6t0sj5dqpg",
-    "status": "investigating",
+    "status": "resolved",
     "title": "An unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI\u2019s Catch Me Up feature",
-    "update_count": 2,
-    "updated_at": "2026-09-25T11:03:35.262000+00:00"
+    "update_count": 9,
+    "updated_at": "2026-09-26T07:03:23.242000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice, Latin America"
+    ],
+    "created_at": "2026-09-25T15:01:02.890000+00:00",
+    "duration_minutes": 468.4,
+    "incident_id": "4sbglq6twpcx",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-25T22:49:27.100000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/ws0cx8tmxbv0",
+    "status": "resolved",
+    "title": "Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Brazil",
+    "update_count": 6,
+    "updated_at": "2026-09-25T22:49:27.119000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "Incident Response"
+    ],
+    "created_at": "2026-09-25T15:11:50.074000+00:00",
+    "duration_minutes": 27.1,
+    "incident_id": "cqxdntdk4c7d",
+    "provider_id": "datadog",
+    "provider_name": "Datadog",
+    "resolved_at": "2026-09-25T15:38:57.863000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/03h92q1l96z2",
+    "status": "resolved",
+    "title": "Users are unable to acknowledge, escalate, or resolve On-Call Pages",
+    "update_count": 5,
+    "updated_at": "2026-09-25T15:38:57.886000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Middle East & Africa"
+    ],
+    "created_at": "2026-09-25T15:27:37.718000+00:00",
+    "duration_minutes": 420.7,
+    "incident_id": "2x8q5jvvz0q7",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-25T22:28:19.495000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/sjz4vrpvkd6k",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Etisalat United Arab Emirates",
+    "update_count": 7,
+    "updated_at": "2026-09-25T22:28:19.510000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Devices (Softphones/Deskphones)"
+    ],
+    "created_at": "2026-09-25T17:45:29.107000+00:00",
+    "duration_minutes": null,
+    "incident_id": "pxxs3nsvn2rx",
+    "provider_id": "zoom",
+    "provider_name": "Zoom",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/4cpggx38p4g2",
+    "status": "identified",
+    "title": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
+    "update_count": 7,
+    "updated_at": "2026-09-26T13:51:19.479000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS Short Code, North America"
+    ],
+    "created_at": "2026-09-25T18:11:36.403000+00:00",
+    "duration_minutes": 143.8,
+    "incident_id": "hhwdrpzt72f8",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-25T20:35:25.082000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/kb6vn09npd00",
+    "status": "resolved",
+    "title": "SMS Delivery Failures From a Subset of Twilio Short Codes to T-Mobile United States",
+    "update_count": 4,
+    "updated_at": "2026-09-25T20:35:25.098000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "APM : US",
+      "APM Agent : US",
+      "Browser : US",
+      "Browser Agent : US",
+      "Infrastructure : US",
+      "Event API : US",
+      "Logs : US",
+      "Incident Intelligence API : US",
+      "Mobile : US",
+      "Infrastructure Agent : US",
+      "NRQL : US",
+      "Log API : US",
+      "Serverless : US",
+      "Metric API : US",
+      "Synthetics : US",
+      "Mobile Agent : US",
+      "OTLP API : US",
+      "Trace API : US",
+      "Synthetics : US"
+    ],
+    "created_at": "2026-09-25T19:57:55.260000+00:00",
+    "duration_minutes": 155.8,
+    "incident_id": "897ql6915l7m",
+    "provider_id": "newrelic",
+    "provider_name": "New Relic",
+    "resolved_at": "2026-09-25T22:33:40.357000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/fy25q1yq6dkr",
+    "status": "resolved",
+    "title": "Data Irregularities for US region",
+    "update_count": 6,
+    "updated_at": "2026-09-25T22:33:40.382000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-09-25T22:58:48+00:00",
+    "duration_minutes": 55.9,
+    "incident_id": "01M3DCNWMW57HYK8FJ5FBFPA39",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-09-25T23:54:41+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Issues with Codex",
+    "update_count": 6,
+    "updated_at": "2026-09-25T23:54:41+00:00"
+  },
+  {
+    "category": "data",
+    "components": [
+      "Databases, Tables, and Views",
+      "Virtual Warehouses",
+      "Data Loading and Unloading",
+      "Applications",
+      "Security and Privacy Features"
+    ],
+    "created_at": "2026-09-25T23:00:23.305000+00:00",
+    "duration_minutes": 80.3,
+    "incident_id": "g8td4vy3qjk7",
+    "provider_id": "snowflake",
+    "provider_name": "Snowflake",
+    "resolved_at": "2026-09-26T00:20:42.321000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/sypcknfz85w6",
+    "status": "resolved",
+    "title": "INC20000237",
+    "update_count": 3,
+    "updated_at": "2026-09-26T00:20:42.342000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Verify"
+    ],
+    "created_at": "2026-09-25T23:51:40.970000+00:00",
+    "duration_minutes": 84.9,
+    "incident_id": "y8wxbfqphjd0",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-09-26T01:16:34.008000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/mn8r86swyfkv",
+    "status": "resolved",
+    "title": "Intermittent Trial Unit Errors for Verify 'Try it out' Feature",
+    "update_count": 5,
+    "updated_at": "2026-09-26T01:16:34.025000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [],
+    "created_at": "2026-09-26T02:06:01+00:00",
+    "duration_minutes": 57.3,
+    "incident_id": "01M3DQCPFNPDR4WKAVGBXQZYKJ",
+    "provider_id": "hashicorp",
+    "provider_name": "HashiCorp Cloud",
+    "resolved_at": "2026-09-26T03:03:21+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Users unable to access releases.hashicorp.con",
+    "update_count": 4,
+    "updated_at": "2026-09-26T03:03:21+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "Integrations"
+    ],
+    "created_at": "2026-09-26T02:11:42.816000+00:00",
+    "duration_minutes": 48.8,
+    "incident_id": "bdf4jlb79sp7",
+    "provider_id": "grafana",
+    "provider_name": "Grafana Cloud",
+    "resolved_at": "2026-09-26T03:00:31.536000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/y9pvmm8jfz0c",
+    "status": "resolved",
+    "title": "Cloud Provider Observability - Hosted Azure metrics issues",
+    "update_count": 3,
+    "updated_at": "2026-09-26T03:00:31.551000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "MMS Long Code, North America"
+    ],
+    "created_at": "2026-09-26T03:16:51.829000+00:00",
+    "duration_minutes": null,
+    "incident_id": "8fb8c6rgzsfq",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/r6nfcj4j5fgj",
+    "status": "investigating",
+    "title": "MMS Delivery Delays From a Subset of Twilio Long Codes to GCI United States",
+    "update_count": 4,
+    "updated_at": "2026-09-26T10:24:50.384000+00:00"
+  },
+  {
+    "category": "data",
+    "components": [
+      "Confluent Cloud"
+    ],
+    "created_at": "2026-09-26T06:40:11.644000+00:00",
+    "duration_minutes": null,
+    "incident_id": "k2qn7x0b9176",
+    "provider_id": "confluent",
+    "provider_name": "Confluent Cloud",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/4ks8n8bbt42z",
+    "status": "identified",
+    "title": "Elevated error rates in Azure East US",
+    "update_count": 3,
+    "updated_at": "2026-09-26T13:23:55.661000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Cloud Access Security Broker (CASB)"
+    ],
+    "created_at": "2026-09-26T10:20:37+00:00",
+    "duration_minutes": 37.5,
+    "incident_id": "39dzwkhzcvv5",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-09-26T10:58:05.152000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/39dzwkhzcvv5",
+    "status": "resolved",
+    "title": "Cloudflare Cloud Access Security Broker (CASB) Issues",
+    "update_count": 4,
+    "updated_at": "2026-09-26T10:58:05.167000+00:00"
   }
 ]
