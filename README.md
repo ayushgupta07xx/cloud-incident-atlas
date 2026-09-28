@@ -31,22 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-26 17:16 UTC` &nbsp;·&nbsp; **14 new** and **10 updated** incidents &nbsp;·&nbsp; 23,218 total
+**Last ingest** &nbsp;`2026-09-28 11:02 UTC` &nbsp;·&nbsp; **7 new** and **5 updated** incidents &nbsp;·&nbsp; 23,225 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 11 |
-| Cloudflare | 2 |
-| Snowflake | 2 |
-| Zoom | 2 |
-| Datadog | 1 |
-| HashiCorp Cloud | 1 |
+| Twilio | 6 |
+| Confluent Cloud | 2 |
+| Cloudflare | 1 |
+| npm | 1 |
+| Snowflake | 1 |
+| Zoom | 1 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000237
-- `critical` **OpenAI** — Issues with Codex
-- `major` **HashiCorp Cloud** — Users unable to access releases.hashicorp.con
+- `critical` **Snowflake** — INC20000239
+- `major` **Confluent Cloud** — Missing Metrics on Confluent Cloud
 
 <!-- STATUS:END -->
 
