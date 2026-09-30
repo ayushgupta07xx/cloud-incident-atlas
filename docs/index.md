@@ -1,10 +1,10 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,239 incidents**. Updated 2026-09-29.
+Cross-vendor incident data for 25 providers. Corpus: **23,254 incidents**. Updated 2026-09-30.
 
 ## Last 30 days
 
-- Incidents recorded: **490**
+- Incidents recorded: **499**
 - Major or worse: **71**
 
 ## Reliability by provider (all time)
@@ -15,7 +15,7 @@ Cross-vendor incident data for 25 providers. Corpus: **23,239 incidents**. Updat
 | Amazon Web Services | cloud | 73 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 312 | 67m | 481m |
-| Cloudflare | cdn | 6724 | 239m | 495m |
+| Cloudflare | cdn | 6727 | 239m | 495m |
 | Confluent Cloud | data | 261 | 195m | 1640m |
 | Datadog | observability | 125 | 73m | 229m |
 | DigitalOcean | cloud | 506 | 145m | 573m |
@@ -29,40 +29,42 @@ Cross-vendor incident data for 25 providers. Corpus: **23,239 incidents**. Updat
 | Netlify | paas | 222 | 38m | 195m |
 | New Relic | observability | 108 | 63m | 311m |
 | npm | devtools | 64 | 105m | 349m |
-| OpenAI | ai | 81 | 92m | 585m |
+| OpenAI | ai | 85 | 100m | 574m |
 | Sentry | observability | 341 | 86m | 363m |
 | Snowflake | data | 202 | 118m | 593m |
-| Supabase | paas | 410 | 150m | 1069m |
-| Twilio | comms | 11021 | 270m | 1095m |
+| Supabase | paas | 411 | 152m | 1150m |
+| Twilio | comms | 11027 | 270m | 1095m |
 | Vercel | paas | 390 | 72m | 359m |
-| Zoom | comms | 171 | 120m | 1956m |
+| Zoom | comms | 172 | 120m | 1953m |
 
-## New since last run (14)
+## New since last run (15)
 
-- **Cloudflare** — Network Performance Issues in Eastern North America (`none`)
-- **Cloudflare** — Replicate Flux Hotswap Models Stuck (`minor`)
-- **GitHub** — Copilot Code Review is unable to complete reviews (`critical`)
-- **Grafana Cloud** — Grafana Access Issues (`critical`)
-- **Grafana Cloud** — Elevated Log Ingestion Errors for Grafana Cloud Logs in Azure Netherlands (EU) (`none`)
-- **Netlify** — Error accessing Netlify-hosted sites (`none`)
-- **Vercel** — Build failures and 500 errors for functions using Edge runtime (`minor`)
-- **Supabase** — Log Ingestion Degradation (`minor`)
-- **Twilio** — Flex Plugins CLI Is Degraded (`minor`)
-- **Twilio** — Automated Alert: No Customer Impact (`none`)
-- **Twilio** — Bulk Messaging API Errors (`none`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to CTBC Brazil (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Canvas, My Notes, Sheets, In App Purchases, Billing Hub, and Clips. (`minor`)
-- **Microsoft Azure** — Intermittent request failures and increased latency across Azure OpenAI, Azure AI Foundry, and Cognitive Services (`minor`)
+- **Cloudflare** — Network Performance Issues in Madrid (`minor`)
+- **Cloudflare** — WARP connectivity in Newark, NJ (`minor`)
+- **Cloudflare** — OTP Deliverability Errors (`minor`)
+- **Supabase** — Intermittent latency in Eastern US (`minor`)
+- **OpenAI** — Elevated error rates for ChatGPT Pro and Plus users (`minor`)
+- **OpenAI** — Elevated errors in ChatGPT Space Pages (`minor`)
+- **OpenAI** — Support available via email (`none`)
+- **OpenAI** — Elevated errors across ChatGPT, Codex, and the API including the Agents API (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Claro Colombia (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Vodafone Netherlands (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Metfone, Viettel, Beeline, and Sotelco Cambodia (`minor`)
+- **Twilio** — Messaging Logs API Latency & Errors (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Phone Numbers to Tigo Guatemala (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Tigo Guatemala (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Phone in the EU01 cluster. (`maintenance`)
 
-## Updated since last run (7)
+## Updated since last run (8)
 
-- **GitHub** — Incident across several services → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Datora Brazil → `resolved`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Mobile Numbers to Vodafone United Kingdom → `resolved`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio to Multiple Networks in Spain → `resolved`
+- **Cloudflare** — Network Performance Degradation — Asia-Pacific → `resolved`
+- **Supabase** — 401 errors due to JWT rejections → `resolved`
+- **OpenAI** — Issues with Codex → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to CTBC Brazil → `resolved`
+- **Twilio** — Flex Plugins CLI Is Degraded → `resolved`
 - **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States → `investigating`
 - **Zoom** — Service Degradation Affecting Customer Using Polycom Devices Going Offline → `identified`
+- **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation. → `resolved`
 
 ---
 

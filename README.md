@@ -31,21 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-29 16:07 UTC` &nbsp;·&nbsp; **14 new** and **7 updated** incidents &nbsp;·&nbsp; 23,239 total
+**Last ingest** &nbsp;`2026-09-30 12:27 UTC` &nbsp;·&nbsp; **15 new** and **8 updated** incidents &nbsp;·&nbsp; 23,254 total
 
 | Provider | Incidents |
 | --- | ---: |
 | Twilio | 9 |
-| Cloudflare | 2 |
-| GitHub | 2 |
-| Grafana Cloud | 2 |
+| OpenAI | 5 |
+| Cloudflare | 4 |
+| Supabase | 2 |
 | Zoom | 2 |
-| Netlify | 1 |
+| Google Cloud Platform | 1 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Copilot Code Review is unable to complete reviews
-- `critical` **Grafana Cloud** — Grafana Access Issues
+- `critical` **OpenAI** — Issues with Codex
+- `medium` **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation.
 
 <!-- STATUS:END -->
 
