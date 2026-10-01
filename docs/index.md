@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,254 incidents**. Updated 2026-09-30.
+Cross-vendor incident data for 25 providers. Corpus: **23,280 incidents**. Updated 2026-10-01.
 
 ## Last 30 days
 
-- Incidents recorded: **499**
-- Major or worse: **71**
+- Incidents recorded: **486**
+- Major or worse: **61**
 
 ## Reliability by provider (all time)
 
@@ -14,57 +14,72 @@ Cross-vendor incident data for 25 providers. Corpus: **23,254 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 73 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
-| CircleCI | devtools | 312 | 67m | 481m |
-| Cloudflare | cdn | 6727 | 239m | 495m |
+| CircleCI | devtools | 313 | 69m | 481m |
+| Cloudflare | cdn | 6731 | 239m | 495m |
 | Confluent Cloud | data | 261 | 195m | 1640m |
-| Datadog | observability | 125 | 73m | 229m |
+| Datadog | observability | 126 | 72m | 228m |
 | DigitalOcean | cloud | 506 | 145m | 573m |
 | Discord | comms | 223 | 56m | 293m |
-| Elastic Cloud | observability | 258 | 191m | 1445m |
+| Elastic Cloud | observability | 258 | 191m | 1579m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
-| GitHub | devtools | 627 | 67m | 292m |
-| Grafana Cloud | observability | 763 | 90m | 1137m |
+| GitHub | devtools | 630 | 67m | 290m |
+| Grafana Cloud | observability | 764 | 90m | 1136m |
 | HashiCorp Cloud | devtools | 38 | 178m | 1488m |
-| MongoDB Atlas | data | 273 | 120m | 1428m |
+| MongoDB Atlas | data | 275 | 120m | 1418m |
 | Netlify | paas | 222 | 38m | 195m |
 | New Relic | observability | 108 | 63m | 311m |
 | npm | devtools | 64 | 105m | 349m |
-| OpenAI | ai | 85 | 100m | 574m |
+| OpenAI | ai | 86 | 106m | 571m |
 | Sentry | observability | 341 | 86m | 363m |
 | Snowflake | data | 202 | 118m | 593m |
 | Supabase | paas | 411 | 152m | 1150m |
-| Twilio | comms | 11027 | 270m | 1095m |
+| Twilio | comms | 11038 | 270m | 1095m |
 | Vercel | paas | 390 | 72m | 359m |
-| Zoom | comms | 172 | 120m | 1953m |
+| Zoom | comms | 174 | 120m | 1950m |
 
-## New since last run (15)
+## New since last run (26)
 
-- **Cloudflare** — Network Performance Issues in Madrid (`minor`)
-- **Cloudflare** — WARP connectivity in Newark, NJ (`minor`)
-- **Cloudflare** — OTP Deliverability Errors (`minor`)
-- **Supabase** — Intermittent latency in Eastern US (`minor`)
-- **OpenAI** — Elevated error rates for ChatGPT Pro and Plus users (`minor`)
-- **OpenAI** — Elevated errors in ChatGPT Space Pages (`minor`)
-- **OpenAI** — Support available via email (`none`)
-- **OpenAI** — Elevated errors across ChatGPT, Codex, and the API including the Agents API (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Claro Colombia (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Vodafone Netherlands (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Metfone, Viettel, Beeline, and Sotelco Cambodia (`minor`)
-- **Twilio** — Messaging Logs API Latency & Errors (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Phone Numbers to Tigo Guatemala (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Tigo Guatemala (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Phone in the EU01 cluster. (`maintenance`)
+- **Cloudflare** — Network Performance Issues in Columbus colo in Ohio (`none`)
+- **Cloudflare** — Network Performance Issues in Los Angeles (LAX) (`minor`)
+- **Cloudflare** — Membership Permission Change Delays (`minor`)
+- **Cloudflare** — Cloudflare Workers build delays (`minor`)
+- **GitHub** — Actions Job Delays (`minor`)
+- **GitHub** — Elevated request latency (`minor`)
+- **GitHub** — [Retroactive] Actions workflow run failures after deployment gate approvals (`minor`)
+- **Datadog** — Delayed Events (`minor`)
+- **MongoDB Atlas** — Trigger processing may be delayed in AWS ap-southeast-2 (`minor`)
+- **MongoDB Atlas** — Delays in Atlas cluster management operations (`none`)
+- **CircleCI** — Delays starting Gen 2 Docker Jobs (`minor`)
+- **Grafana Cloud** — Elevated Latency and Errors for Grafana Cloud Logs in AWS US East (VA) (`minor`)
+- **OpenAI** — Elevated latency for some API requests (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to DigiMobil (Movistar) Spain (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in United States (`minor`)
+- **Twilio** — Gateway API (Lookup API) Failure Increase and High Latency on Verizon in United States (`minor`)
+- **Twilio** — Voice Call Failures and Post Dial Delay from Twilio Phone Numbers to DigiMobil Spain (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Algar Telecom (CTBC) Brazil (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Kolbi Costa Rica (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in Colombia (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Wind Tre Italy (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Tigo Guatemala (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Short Codes to Multiple Networks in Chile (`minor`)
+- **Twilio** — Delivery Failures From Verify to China (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom for Google Workspace Add-On (`minor`)
 
-## Updated since last run (8)
+## Updated since last run (13)
 
-- **Cloudflare** — Network Performance Degradation — Asia-Pacific → `resolved`
-- **Supabase** — 401 errors due to JWT rejections → `resolved`
-- **OpenAI** — Issues with Codex → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to CTBC Brazil → `resolved`
-- **Twilio** — Flex Plugins CLI Is Degraded → `resolved`
+- **Cloudflare** — Network Performance Issues in Madrid → `monitoring`
+- **GitHub** — Copilot Code Review is unable to complete reviews → `resolved`
+- **GitHub** — Disruption with billing information updates → `resolved`
+- **Elastic Cloud** — Replication bug causing slow recoveries → `resolved`
+- **Supabase** — Intermittent latency in Eastern US → `identified`
+- **OpenAI** — Elevated errors in ChatGPT Space Pages → `monitoring`
+- **OpenAI** — Elevated error rates for ChatGPT Pro and Plus users → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Metfone, Viettel, Beeline, and Sotelco Cambodia → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Vodafone Netherlands → `resolved`
+- **Twilio** — Messaging Logs API Latency & Errors → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Tigo Guatemala → `resolved`
 - **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States → `investigating`
 - **Zoom** — Service Degradation Affecting Customer Using Polycom Devices Going Offline → `identified`
-- **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation. → `resolved`
 
 ---
 

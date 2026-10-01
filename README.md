@@ -31,21 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-09-30 12:27 UTC` &nbsp;·&nbsp; **15 new** and **8 updated** incidents &nbsp;·&nbsp; 23,254 total
+**Last ingest** &nbsp;`2026-10-01 17:30 UTC` &nbsp;·&nbsp; **26 new** and **13 updated** incidents &nbsp;·&nbsp; 23,280 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 9 |
-| OpenAI | 5 |
-| Cloudflare | 4 |
-| Supabase | 2 |
-| Zoom | 2 |
-| Google Cloud Platform | 1 |
+| Twilio | 16 |
+| Cloudflare | 5 |
+| GitHub | 5 |
+| OpenAI | 3 |
+| Zoom | 3 |
+| MongoDB Atlas | 2 |
 
 Most severe this run:
 
-- `critical` **OpenAI** — Issues with Codex
-- `medium` **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation.
+- `critical` **GitHub** — Copilot Code Review is unable to complete reviews
+- `major` **Elastic Cloud** — Replication bug causing slow recoveries
 
 <!-- STATUS:END -->
 
