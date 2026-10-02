@@ -31,21 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-01 17:30 UTC` &nbsp;·&nbsp; **26 new** and **13 updated** incidents &nbsp;·&nbsp; 23,280 total
+**Last ingest** &nbsp;`2026-10-02 14:03 UTC` &nbsp;·&nbsp; **12 new** and **11 updated** incidents &nbsp;·&nbsp; 23,292 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 16 |
-| Cloudflare | 5 |
-| GitHub | 5 |
-| OpenAI | 3 |
-| Zoom | 3 |
+| Twilio | 7 |
+| Cloudflare | 4 |
 | MongoDB Atlas | 2 |
+| OpenAI | 2 |
+| Zoom | 2 |
+| Datadog | 1 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Copilot Code Review is unable to complete reviews
-- `major` **Elastic Cloud** — Replication bug causing slow recoveries
+- `major` **OpenAI** — Issues with login, signup, and ads
+- `major` **MongoDB Atlas** — Trigger processing may be delayed globally
 
 <!-- STATUS:END -->
 
