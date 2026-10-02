@@ -1,0 +1,451 @@
+{
+  "changed": [
+    {
+      "category": "cdn",
+      "components": [
+        "Workers Builds"
+      ],
+      "created_at": "2026-09-30T15:33:06+00:00",
+      "duration_minutes": 1794.1,
+      "incident_id": "4m03612lprhr",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-01T21:27:12.818000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/4m03612lprhr",
+      "status": "resolved",
+      "title": "Cloudflare Workers build delays",
+      "update_count": 3,
+      "updated_at": "2026-10-01T21:27:12.850000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [],
+      "created_at": "2026-09-30T10:31:12+00:00",
+      "duration_minutes": 2591.3,
+      "incident_id": "fs7dz54l226c",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-02T05:42:29.851000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/fs7dz54l226c",
+      "status": "resolved",
+      "title": "Network Performance Issues in Madrid",
+      "update_count": 4,
+      "updated_at": "2026-10-02T05:42:29.880000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Actions"
+      ],
+      "created_at": "2026-10-01T14:47:48.138000+00:00",
+      "duration_minutes": 189.1,
+      "incident_id": "2dpbcq5j165n",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-10-01T17:56:54.260000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/kdqxfjn5qg6q",
+      "status": "resolved",
+      "title": "Actions Job Delays",
+      "update_count": 10,
+      "updated_at": "2026-10-01T17:56:54.289000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "MongoDB Atlas App Services and Device Sync"
+      ],
+      "created_at": "2026-10-01T15:41:50+00:00",
+      "duration_minutes": 313.0,
+      "incident_id": "5swmlx3k589x",
+      "provider_id": "mongodb",
+      "provider_name": "MongoDB Atlas",
+      "resolved_at": "2026-10-01T20:54:48.800000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/bdghxhyf3hbd",
+      "status": "resolved",
+      "title": "Trigger processing may be delayed globally",
+      "update_count": 5,
+      "updated_at": "2026-10-01T20:54:48.822000+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-09-30T02:20:32+00:00",
+      "duration_minutes": 2724.4,
+      "incident_id": "01M3R1T4FCR1337FBBYY9K2RPB",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-10-01T23:44:57+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Elevated errors in ChatGPT Space Pages",
+      "update_count": 6,
+      "updated_at": "2026-10-01T23:44:57+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Virtual Warehouses",
+        "Snowpark Container Services"
+      ],
+      "created_at": "2026-08-28T00:07:42.677000+00:00",
+      "duration_minutes": null,
+      "incident_id": "9p16kxkml7v2",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/2tmfhlrz2yz5",
+      "status": "identified",
+      "title": "INC20000150",
+      "update_count": 8,
+      "updated_at": "2026-10-01T22:29:42.519000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [
+        "API Gateway"
+      ],
+      "created_at": "2026-09-29T16:26:33.127000+00:00",
+      "duration_minutes": null,
+      "incident_id": "w91bvbjhqf0f",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/gxmmvm5s9rh0",
+      "status": "identified",
+      "title": "Intermittent latency in Eastern US",
+      "update_count": 7,
+      "updated_at": "2026-10-01T20:23:18.725000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Europe"
+      ],
+      "created_at": "2026-10-01T10:40:45.901000+00:00",
+      "duration_minutes": 730.9,
+      "incident_id": "112h3k39kx17",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-01T22:51:38.153000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/b7dkjvdx92zp",
+      "status": "resolved",
+      "title": "Voice Call Failures and Post Dial Delay from Twilio Phone Numbers to DigiMobil Spain",
+      "update_count": 7,
+      "updated_at": "2026-10-01T22:51:38.337000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "MMS Long Code, North America"
+      ],
+      "created_at": "2026-09-26T03:16:51.829000+00:00",
+      "duration_minutes": null,
+      "incident_id": "8fb8c6rgzsfq",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/r6nfcj4j5fgj",
+      "status": "investigating",
+      "title": "MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States",
+      "update_count": 11,
+      "updated_at": "2026-10-02T10:39:19.737000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Meetings",
+        "Zoom Contact Center",
+        "Zoom Virtual Agent",
+        "Calendar",
+        "Zoom Contact Center",
+        "Voice Agent",
+        "Voice (Inbound/Outbound)",
+        "Mail",
+        "Voice Agent",
+        "Zoom Events",
+        "Recording",
+        "Zoom Webinars Plus and Events"
+      ],
+      "created_at": "2026-10-01T16:08:55+00:00",
+      "duration_minutes": 104.7,
+      "incident_id": "jzmg28568r94",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-10-01T17:53:34.720000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/qscfnkz1qqfm",
+      "status": "resolved",
+      "title": "Service Degradation Affected Incoming and Outgoing Calls of Zoom Contact Center, Virtual Agents, Mail, Calendar, Meetings, Cloud Meeting Recordings, Webinars and Events",
+      "update_count": 3,
+      "updated_at": "2026-10-01T17:53:34.898000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Devices (Softphones/Deskphones)"
+      ],
+      "created_at": "2026-09-25T17:45:29.107000+00:00",
+      "duration_minutes": null,
+      "incident_id": "pxxs3nsvn2rx",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/4cpggx38p4g2",
+      "status": "identified",
+      "title": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
+      "update_count": 15,
+      "updated_at": "2026-10-02T01:31:03.668000+00:00"
+    }
+  ],
+  "date": "2026-10-02",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [],
+      "created_at": "2026-10-01T19:30:00+00:00",
+      "duration_minutes": 0.0,
+      "incident_id": "4c842mwy6z4l",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-01T19:30:00+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/4c842mwy6z4l",
+      "status": "resolved",
+      "title": "Intermittent network connectivity issues in Mumbai",
+      "update_count": 1,
+      "updated_at": "2026-10-01T22:54:54.320000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Durable Objects",
+        "R2"
+      ],
+      "created_at": "2026-10-01T20:59:56+00:00",
+      "duration_minutes": 18.8,
+      "incident_id": "hyv5p7wn1c8v",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-01T21:18:42.733000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/hyv5p7wn1c8v",
+      "status": "resolved",
+      "title": "Increased Errors for Durable Objects and R2",
+      "update_count": 3,
+      "updated_at": "2026-10-01T21:18:42.764000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "RUM"
+      ],
+      "created_at": "2026-10-02T12:46:19.539000+00:00",
+      "duration_minutes": null,
+      "incident_id": "yrkfn68nnnnr",
+      "provider_id": "datadog",
+      "provider_name": "Datadog",
+      "resolved_at": null,
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/gjz5frd5dyxl",
+      "status": "monitoring",
+      "title": "Delayed RUM sessions",
+      "update_count": 3,
+      "updated_at": "2026-10-02T13:50:06.347000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "API",
+        "Media Proxy"
+      ],
+      "created_at": "2026-10-01T19:48:10.455000+00:00",
+      "duration_minutes": 64.6,
+      "incident_id": "yb8bzhp6nd87",
+      "provider_id": "discord",
+      "provider_name": "Discord",
+      "resolved_at": "2026-10-01T20:52:47.181000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/d34fn55r326n",
+      "status": "resolved",
+      "title": "Elevated API error rate",
+      "update_count": 2,
+      "updated_at": "2026-10-01T20:52:47.201000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "Azure Netherlands - prod-eu-west-3"
+      ],
+      "created_at": "2026-10-02T11:03:11.251000+00:00",
+      "duration_minutes": null,
+      "incident_id": "9kg64q3pygpx",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/4wvrl2q1vm5f",
+      "status": "investigating",
+      "title": "Elevated Write Latency and Errors for Grafana Cloud Logs in Azure Netherlands",
+      "update_count": 2,
+      "updated_at": "2026-10-02T11:09:50.232000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "MongoDB Charts"
+      ],
+      "created_at": "2026-10-02T00:01:48.122000+00:00",
+      "duration_minutes": 300.3,
+      "incident_id": "y5cmsx7nwwg3",
+      "provider_id": "mongodb",
+      "provider_name": "MongoDB Atlas",
+      "resolved_at": "2026-10-02T05:02:03.867000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rg45wprbzlwb",
+      "status": "resolved",
+      "title": "MongoDB Charts: Infinite login loop when creating new Charts projects",
+      "update_count": 2,
+      "updated_at": "2026-10-02T05:02:03.889000+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-10-01T18:46:17+00:00",
+      "duration_minutes": 53.2,
+      "incident_id": "01M3WCKTAN41RZ01SBRRTY4AYM",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-10-01T19:39:30+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Issues with login, signup, and ads",
+      "update_count": 5,
+      "updated_at": "2026-10-01T19:39:30+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-10-02T09:35:24.143000+00:00",
+      "duration_minutes": 267.5,
+      "incident_id": "74s4pl431r4x",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-02T14:02:52.237000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/02flzmfrd5dk",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Long Codes to Telenet BidCo NV Belgium",
+      "update_count": 6,
+      "updated_at": "2026-10-02T14:02:52.271000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Trust Hub"
+      ],
+      "created_at": "2026-10-01T18:38:21.973000+00:00",
+      "duration_minutes": 293.3,
+      "incident_id": "ckqs8l7zkclr",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-01T23:31:40.143000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/v34ygz6s0dkc",
+      "status": "resolved",
+      "title": "A2P Campaign Registration Delays",
+      "update_count": 5,
+      "updated_at": "2026-10-01T23:31:40.168000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Verify Silent Network Auth"
+      ],
+      "created_at": "2026-10-02T06:56:01.444000+00:00",
+      "duration_minutes": null,
+      "incident_id": "gv7lz7lyss8t",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/y9tmbssnldtj",
+      "status": "monitoring",
+      "title": "Silent Network Authentication (SNA) Failure Increase on AT&T in United States",
+      "update_count": 5,
+      "updated_at": "2026-10-02T12:40:28.030000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-10-01T23:01:48.470000+00:00",
+      "duration_minutes": 459.9,
+      "incident_id": "j1b9yf1jljzc",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-02T06:41:45.268000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/wtgbwhqbnml7",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Phone Numbers to Jio India",
+      "update_count": 6,
+      "updated_at": "2026-10-02T06:41:45.297000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-10-02T04:42:11.198000+00:00",
+      "duration_minutes": 398.7,
+      "incident_id": "lyjyncqr52tv",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-02T11:20:50.594000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/kb8d4jkjrlr1",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Phone Numbers to Vodafone Netherlands",
+      "update_count": 6,
+      "updated_at": "2026-10-02T11:20:50.620000+00:00"
+    }
+  ],
+  "runs": 1
+}
