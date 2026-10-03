@@ -108445,8 +108445,8 @@
     "shortlink": "https://stspg.io/4cpggx38p4g2",
     "status": "identified",
     "title": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
-    "update_count": 15,
-    "updated_at": "2026-10-02T01:31:03.668000+00:00"
+    "update_count": 16,
+    "updated_at": "2026-10-03T01:31:09.626000+00:00"
   },
   {
     "category": "comms",
@@ -108539,10 +108539,10 @@
     "severity": "critical",
     "severity_rank": 3,
     "shortlink": "https://stspg.io/sypcknfz85w6",
-    "status": "resolved",
+    "status": "postmortem",
     "title": "INC20000237",
-    "update_count": 3,
-    "updated_at": "2026-09-26T00:20:42.342000+00:00"
+    "update_count": 4,
+    "updated_at": "2026-10-02T23:36:11.573000+00:00"
   },
   {
     "category": "comms",
@@ -108615,8 +108615,8 @@
     "shortlink": "https://stspg.io/r6nfcj4j5fgj",
     "status": "investigating",
     "title": "MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States",
-    "update_count": 11,
-    "updated_at": "2026-10-02T10:39:19.737000+00:00"
+    "update_count": 12,
+    "updated_at": "2026-10-03T10:44:38.628000+00:00"
   },
   {
     "category": "data",
@@ -109071,8 +109071,8 @@
     "shortlink": "https://stspg.io/gxmmvm5s9rh0",
     "status": "identified",
     "title": "Intermittent latency in Eastern US",
-    "update_count": 7,
-    "updated_at": "2026-10-01T20:23:18.725000+00:00"
+    "update_count": 8,
+    "updated_at": "2026-10-02T21:06:20.555000+00:00"
   },
   {
     "category": "ai",
@@ -109992,18 +109992,18 @@
       "Verify Silent Network Auth"
     ],
     "created_at": "2026-10-02T06:56:01.444000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 489.0,
     "incident_id": "gv7lz7lyss8t",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-10-02T15:04:59.094000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/y9tmbssnldtj",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "Silent Network Authentication (SNA) Failure Increase on AT&T in United States",
-    "update_count": 5,
-    "updated_at": "2026-10-02T12:40:28.030000+00:00"
+    "update_count": 6,
+    "updated_at": "2026-10-02T15:04:59.123000+00:00"
   },
   {
     "category": "comms",
@@ -110029,19 +110029,19 @@
     "components": [
       "Azure Netherlands - prod-eu-west-3"
     ],
-    "created_at": "2026-10-02T11:03:11.251000+00:00",
-    "duration_minutes": null,
+    "created_at": "2026-10-02T10:03:11+00:00",
+    "duration_minutes": 240.1,
     "incident_id": "9kg64q3pygpx",
     "provider_id": "grafana",
     "provider_name": "Grafana Cloud",
-    "resolved_at": null,
+    "resolved_at": "2026-10-02T14:03:18.211000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/4wvrl2q1vm5f",
-    "status": "investigating",
+    "status": "resolved",
     "title": "Elevated Write Latency and Errors for Grafana Cloud Logs in Azure Netherlands",
-    "update_count": 2,
-    "updated_at": "2026-10-02T11:09:50.232000+00:00"
+    "update_count": 4,
+    "updated_at": "2026-10-02T14:03:18.245000+00:00"
   },
   {
     "category": "observability",
@@ -110049,17 +110049,283 @@
       "RUM"
     ],
     "created_at": "2026-10-02T12:46:19.539000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 137.4,
     "incident_id": "yrkfn68nnnnr",
     "provider_id": "datadog",
     "provider_name": "Datadog",
-    "resolved_at": null,
+    "resolved_at": "2026-10-02T15:03:45.749000+00:00",
     "severity": "none",
     "severity_rank": 0,
     "shortlink": "https://stspg.io/gjz5frd5dyxl",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "Delayed RUM sessions",
+    "update_count": 4,
+    "updated_at": "2026-10-02T15:03:45.771000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-10-02T14:30:00+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "lcz40rh12nf6",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-02T14:30:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/4w1yn7wwp5v0",
+    "status": "resolved",
+    "title": "Increased Email Deferrals and Delays in Deliveries",
+    "update_count": 1,
+    "updated_at": "2026-10-02T16:16:41.398000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-10-02T16:00:00+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "0kj5cjjq93xn",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-02T16:00:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/0kj5cjjq93xn",
+    "status": "resolved",
+    "title": "Network Performance Issues - Seoul (ICN)",
+    "update_count": 1,
+    "updated_at": "2026-10-02T22:33:54.564000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-10-02T16:03:10+00:00",
+    "duration_minutes": 48.0,
+    "incident_id": "01M3YNNVTSCXS8YM2V1YMHMVSE",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-10-02T16:51:13+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Issues with data analysis and file creation in ChatGPT",
+    "update_count": 2,
+    "updated_at": "2026-10-02T16:51:13+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "WhatsApp Messaging"
+    ],
+    "created_at": "2026-10-02T17:21:47.221000+00:00",
+    "duration_minutes": 25.2,
+    "incident_id": "px9djmx9y0xz",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-02T17:46:59.937000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/m96nsgkv9nns",
+    "status": "resolved",
+    "title": "Messaging Event Delays for Comms API",
+    "update_count": 2,
+    "updated_at": "2026-10-02T17:46:59.966000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Conversation Intelligence (classic)"
+    ],
+    "created_at": "2026-10-02T18:29:17+00:00",
+    "duration_minutes": 83.4,
+    "incident_id": "yjfbvncj64w2",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-02T19:52:42.421000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/s4m49zwdckvr",
+    "status": "resolved",
+    "title": "500 Errors for Conversations Classic Conversations Updates",
+    "update_count": 4,
+    "updated_at": "2026-10-02T19:52:42.445000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Programmable Messaging API"
+    ],
+    "created_at": "2026-10-02T20:51:19.958000+00:00",
+    "duration_minutes": 45.6,
+    "incident_id": "t1kn506d3zp1",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-02T21:36:57.610000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/jsmyqyd81ddj",
+    "status": "resolved",
+    "title": "Programmable Messaging API Errors",
+    "update_count": 2,
+    "updated_at": "2026-10-02T21:36:57.638000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "CDN/Cache",
+      "CDN Cache Purge"
+    ],
+    "created_at": "2026-10-02T21:46:34+00:00",
+    "duration_minutes": 11.4,
+    "incident_id": "2xnmsnv8yv5x",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-02T21:57:57.692000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/2xnmsnv8yv5x",
+    "status": "resolved",
+    "title": "Cloudflare CDN experiencing increase in errors.",
+    "update_count": 2,
+    "updated_at": "2026-10-02T21:57:57.716000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-10-02T21:48:10.661000+00:00",
+    "duration_minutes": 814.7,
+    "incident_id": "8j2jr15v5f12",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-03T11:22:51.667000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/t6hy3m872jmc",
+    "status": "resolved",
+    "title": "SMS Delivery Delays and Failures from Twilio to Hi3G Italy",
+    "update_count": 8,
+    "updated_at": "2026-10-03T11:22:51.838000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Workers Builds"
+    ],
+    "created_at": "2026-10-03T05:54:59+00:00",
+    "duration_minutes": null,
+    "incident_id": "q2bck6r39bzk",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/q2bck6r39bzk",
+    "status": "monitoring",
+    "title": "Issues with Workers Build failing to start",
+    "update_count": 2,
+    "updated_at": "2026-10-03T08:54:50+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-10-03T09:07:04.046000+00:00",
+    "duration_minutes": null,
+    "incident_id": "7x2vzhvrtxt5",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/1np93d78llb8",
+    "status": "monitoring",
+    "title": "SMS Delivery Delays from Twilio to Magti GSM Ltd. Georgia",
+    "update_count": 4,
+    "updated_at": "2026-10-03T16:17:54.021000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, APAC"
+    ],
+    "created_at": "2026-10-03T11:07:30.020000+00:00",
+    "duration_minutes": null,
+    "incident_id": "4cpj9bc745k8",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/6f1zxc6jthqr",
+    "status": "investigating",
+    "title": "SMS Delivery Delays from Twilio to Banglalink Bangladesh",
     "update_count": 3,
-    "updated_at": "2026-10-02T13:50:06.347000+00:00"
+    "updated_at": "2026-10-03T14:14:09.745000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [],
+    "created_at": "2026-10-03T13:53:36.141000+00:00",
+    "duration_minutes": null,
+    "incident_id": "1hsrzg6rs2bb",
+    "provider_id": "grafana",
+    "provider_name": "Grafana Cloud",
+    "resolved_at": null,
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/hwjx5xthjp51",
+    "status": "monitoring",
+    "title": "Elevated Write Latency and Errors for Grafana Cloud in GCP Saudi Arabia",
+    "update_count": 3,
+    "updated_at": "2026-10-03T15:07:16.769000+00:00"
+  },
+  {
+    "category": "cloud",
+    "components": [
+      "Bangalore",
+      "BLR1",
+      "BLR1",
+      "BLR1",
+      "BLR1",
+      "BLR1",
+      "BLR1",
+      "BLR1"
+    ],
+    "created_at": "2026-10-03T14:51:13.541000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "6z6dt3t1bhb9",
+    "provider_id": "digitalocean",
+    "provider_name": "DigitalOcean",
+    "resolved_at": "2026-10-03T14:51:13.627000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/kj9rd8tnd1wt",
+    "status": "resolved",
+    "title": "A Network Disruption in BLR1 Region Impacted Multiple Products (Resolved)",
+    "update_count": 1,
+    "updated_at": "2026-10-03T14:51:13.637000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Developer Documentation Website"
+    ],
+    "created_at": "2026-10-03T16:49:15.559000+00:00",
+    "duration_minutes": null,
+    "incident_id": "q8n9qzvl5p5x",
+    "provider_id": "zoom",
+    "provider_name": "Zoom",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/rp1z0hg3q78r",
+    "status": "identified",
+    "title": "Service degradation affecting Developer Documentation Website",
+    "update_count": 2,
+    "updated_at": "2026-10-03T17:15:28.107000+00:00"
   }
 ]
