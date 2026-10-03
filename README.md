@@ -31,21 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-02 14:03 UTC` &nbsp;·&nbsp; **12 new** and **11 updated** incidents &nbsp;·&nbsp; 23,292 total
+**Last ingest** &nbsp;`2026-10-03 17:25 UTC` &nbsp;·&nbsp; **14 new** and **7 updated** incidents &nbsp;·&nbsp; 23,306 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 7 |
-| Cloudflare | 4 |
-| MongoDB Atlas | 2 |
-| OpenAI | 2 |
+| Twilio | 9 |
+| Cloudflare | 3 |
+| Grafana Cloud | 2 |
 | Zoom | 2 |
-| Datadog | 1 |
+| DigitalOcean | 1 |
+| OpenAI | 1 |
 
 Most severe this run:
 
-- `major` **OpenAI** — Issues with login, signup, and ads
-- `major` **MongoDB Atlas** — Trigger processing may be delayed globally
+- `critical` **Cloudflare** — Cloudflare CDN experiencing increase in errors.
+- `critical` **Snowflake** — INC20000237
 
 <!-- STATUS:END -->
 
