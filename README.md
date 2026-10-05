@@ -31,21 +31,16 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-03 17:25 UTC` &nbsp;·&nbsp; **14 new** and **7 updated** incidents &nbsp;·&nbsp; 23,306 total
+**Last ingest** &nbsp;`2026-10-05 11:37 UTC` &nbsp;·&nbsp; **19 new** and **7 updated** incidents &nbsp;·&nbsp; 23,325 total
 
 | Provider | Incidents |
 | --- | ---: |
 | Twilio | 9 |
-| Cloudflare | 3 |
+| Amazon Web Services | 6 |
+| Zoom | 4 |
+| Cloudflare | 2 |
 | Grafana Cloud | 2 |
-| Zoom | 2 |
 | DigitalOcean | 1 |
-| OpenAI | 1 |
-
-Most severe this run:
-
-- `critical` **Cloudflare** — Cloudflare CDN experiencing increase in errors.
-- `critical` **Snowflake** — INC20000237
 
 <!-- STATUS:END -->
 
