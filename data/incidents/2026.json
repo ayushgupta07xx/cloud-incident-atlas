@@ -108445,8 +108445,8 @@
     "shortlink": "https://stspg.io/4cpggx38p4g2",
     "status": "identified",
     "title": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
-    "update_count": 19,
-    "updated_at": "2026-10-06T01:31:53.125000+00:00"
+    "update_count": 20,
+    "updated_at": "2026-10-07T03:02:59.867000+00:00"
   },
   {
     "category": "comms",
@@ -109106,7 +109106,7 @@
     "status": "resolved",
     "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
     "update_count": 9,
-    "updated_at": "2026-10-06T08:26:10+00:00"
+    "updated_at": "2026-10-06T18:48:00+00:00"
   },
   {
     "category": "cdn",
@@ -110365,8 +110365,8 @@
     "shortlink": null,
     "status": "monitoring",
     "title": "HCP Vault Azure: Cluster Updates and Creation",
-    "update_count": 2,
-    "updated_at": "2026-10-06T04:24:42+00:00"
+    "update_count": 3,
+    "updated_at": "2026-10-07T06:06:05+00:00"
   },
   {
     "category": "comms",
@@ -110871,7 +110871,7 @@
     "status": "resolved",
     "title": "Incident with Actions",
     "update_count": 12,
-    "updated_at": "2026-10-05T22:49:42.685000+00:00"
+    "updated_at": "2026-10-06T22:48:02.341000+00:00"
   },
   {
     "category": "comms",
@@ -111137,35 +111137,37 @@
       "SMS, Middle East & Africa"
     ],
     "created_at": "2026-10-06T13:38:46.941000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 869.8,
     "incident_id": "ygqtjb454xpm",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-10-07T04:08:36.830000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/dzpyqclwc783",
-    "status": "identified",
+    "status": "resolved",
     "title": "SMS Delivery Delays from Twilio to MTN Nigeria",
-    "update_count": 3,
-    "updated_at": "2026-10-06T14:48:10.084000+00:00"
+    "update_count": 9,
+    "updated_at": "2026-10-07T04:08:36.856000+00:00"
   },
   {
     "category": "observability",
-    "components": [],
+    "components": [
+      "Azure Infrastructure Health"
+    ],
     "created_at": "2026-10-06T14:04:14.405000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 230.1,
     "incident_id": "cq8g788xgbrf",
     "provider_id": "elastic",
     "provider_name": "Elastic Cloud",
-    "resolved_at": null,
+    "resolved_at": "2026-10-06T17:54:20.267000+00:00",
     "severity": "major",
     "severity_rank": 2,
     "shortlink": "https://stspg.io/v2g8k8qtrd16",
-    "status": "investigating",
+    "status": "resolved",
     "title": "Delayed Serverless Metrics in Azure UAE North region",
-    "update_count": 1,
-    "updated_at": "2026-10-06T14:04:14.490000+00:00"
+    "update_count": 2,
+    "updated_at": "2026-10-06T17:54:20.290000+00:00"
   },
   {
     "category": "data",
@@ -111192,35 +111194,35 @@
     "category": "paas",
     "components": [],
     "created_at": "2026-10-06T15:23:14.392000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 175.5,
     "incident_id": "qhlpy9xwgt9w",
     "provider_id": "supabase",
     "provider_name": "Supabase",
-    "resolved_at": null,
+    "resolved_at": "2026-10-06T18:18:45.162000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/jqvgntjyd688",
-    "status": "identified",
+    "status": "resolved",
     "title": "Upgrade Issues",
-    "update_count": 2,
-    "updated_at": "2026-10-06T16:03:24.842000+00:00"
+    "update_count": 5,
+    "updated_at": "2026-10-06T18:18:45.198000+00:00"
   },
   {
     "category": "ai",
     "components": [],
     "created_at": "2026-10-06T15:45:31+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 124.5,
     "incident_id": "01M48Y8E81QAFF9XKVGE118E6X",
     "provider_id": "openai",
     "provider_name": "OpenAI",
-    "resolved_at": null,
+    "resolved_at": "2026-10-06T17:50:00+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": null,
-    "status": "investigating",
+    "status": "resolved",
     "title": "Errors processing large PDFs in the Responses API",
-    "update_count": 1,
-    "updated_at": "2026-10-06T15:45:31+00:00"
+    "update_count": 3,
+    "updated_at": "2026-10-06T20:11:27+00:00"
   },
   {
     "category": "devtools",
@@ -111229,18 +111231,18 @@
       "Notifications & Status Updates"
     ],
     "created_at": "2026-10-06T16:00:24.868000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 318.4,
     "incident_id": "z4hbq8h49j8c",
     "provider_id": "circleci",
     "provider_name": "CircleCI",
-    "resolved_at": null,
-    "severity": "minor",
-    "severity_rank": 1,
+    "resolved_at": "2026-10-06T21:18:47.358000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
     "shortlink": "https://stspg.io/s7tpg47srxdd",
-    "status": "investigating",
+    "status": "resolved",
     "title": "Delays in pipelines, workflows, UI data, and notifications",
-    "update_count": 2,
-    "updated_at": "2026-10-06T16:10:36.148000+00:00"
+    "update_count": 12,
+    "updated_at": "2026-10-06T21:18:47.381000+00:00"
   },
   {
     "category": "paas",
@@ -111248,17 +111250,323 @@
       "Routing Middleware"
     ],
     "created_at": "2026-10-06T16:10:59.039000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 15.8,
     "incident_id": "1dp8c0nfchtg",
     "provider_id": "vercel",
     "provider_name": "Vercel",
-    "resolved_at": null,
+    "resolved_at": "2026-10-06T16:26:49.377000+00:00",
     "severity": "major",
     "severity_rank": 2,
     "shortlink": "https://stspg.io/l76txmwrzdcp",
-    "status": "identified",
+    "status": "resolved",
     "title": "Vercel Auth login failures for pages with Deployment Protection enabled",
+    "update_count": 4,
+    "updated_at": "2026-10-06T16:26:49.403000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-10-06T17:15:23+00:00",
+    "duration_minutes": 165.4,
+    "incident_id": "01M493CZ0CB14KPC0EER83MNVB",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-10-06T20:00:46+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Computer Use Is Experiencing Issues",
     "update_count": 2,
-    "updated_at": "2026-10-06T16:14:08.646000+00:00"
+    "updated_at": "2026-10-06T20:00:46+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [],
+    "created_at": "2026-10-06T18:57:48.952000+00:00",
+    "duration_minutes": 42.3,
+    "incident_id": "925b57x0v6xk",
+    "provider_id": "sentry",
+    "provider_name": "Sentry",
+    "resolved_at": "2026-10-06T19:40:05.968000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/6msnks20qj6k",
+    "status": "resolved",
+    "title": "Sentry dashboard down",
+    "update_count": 4,
+    "updated_at": "2026-10-06T19:40:05.993000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Webhooks",
+      "Pull Requests"
+    ],
+    "created_at": "2026-10-06T19:57:35.445000+00:00",
+    "duration_minutes": 223.1,
+    "incident_id": "cjwszcf57bff",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-10-06T23:40:44.165000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/w3rcssslq22w",
+    "status": "resolved",
+    "title": "Several services are degraded",
+    "update_count": 9,
+    "updated_at": "2026-10-06T23:40:44.194000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [
+      "Agent Runners",
+      "AI Gateway"
+    ],
+    "created_at": "2026-10-06T20:12:41.436000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "1xxnpwr8p0c8",
+    "provider_id": "netlify",
+    "provider_name": "Netlify",
+    "resolved_at": "2026-10-06T20:12:41.493000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/pyr1sfck72ht",
+    "status": "resolved",
+    "title": "Elevated error rates for AI Gateway",
+    "update_count": 1,
+    "updated_at": "2026-10-06T20:12:41.945000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Conversation Intelligence",
+      "Conversation Intelligence (classic)",
+      "Conversation Memory"
+    ],
+    "created_at": "2026-10-06T20:16:46.713000+00:00",
+    "duration_minutes": 54.5,
+    "incident_id": "rl8tx3c3yw7h",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-06T21:11:19.362000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/n8dmtgchgl9r",
+    "status": "resolved",
+    "title": "Delays Viewing and Receiving Operator Results in Conversation Intelligence and Accessing Conversation Memory",
+    "update_count": 4,
+    "updated_at": "2026-10-06T21:11:19.387000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, APAC"
+    ],
+    "created_at": "2026-10-06T20:47:24.781000+00:00",
+    "duration_minutes": 306.1,
+    "incident_id": "hxchcc4q4r6x",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-07T01:53:28.158000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/lxgvk5nzw42k",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to O! Kyrgyzstan",
+    "update_count": 5,
+    "updated_at": "2026-10-07T01:53:28.185000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-10-06T20:59:13.316000+00:00",
+    "duration_minutes": null,
+    "incident_id": "2t7rjq883wd2",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/v7m03nyrv8n3",
+    "status": "identified",
+    "title": "SMS Delivery Failures from Twilio to Movistar El Salvador",
+    "update_count": 6,
+    "updated_at": "2026-10-07T12:32:10.189000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [],
+    "created_at": "2026-10-07T00:00:00+00:00",
+    "duration_minutes": 520.0,
+    "incident_id": "1t50vxwq2q11",
+    "provider_id": "grafana",
+    "provider_name": "Grafana Cloud",
+    "resolved_at": "2026-10-07T08:40:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/lw22c35nvf3l",
+    "status": "resolved",
+    "title": "Grafana Cloud k6 \u2013 Brief metrics unavailability",
+    "update_count": 1,
+    "updated_at": "2026-10-07T09:34:09.229000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-10-07T01:12:57+00:00",
+    "duration_minutes": 108.0,
+    "incident_id": "01M49YQE6WZT02WYF0KBXVMQ5G",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-10-07T03:00:54+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Workspace Agents Degraded and Responses Impacted",
+    "update_count": 4,
+    "updated_at": "2026-10-07T03:00:54+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Zoom Slides"
+    ],
+    "created_at": "2026-10-07T02:08:18.343000+00:00",
+    "duration_minutes": 158.8,
+    "incident_id": "9xdk3ntx37pr",
+    "provider_id": "zoom",
+    "provider_name": "Zoom",
+    "resolved_at": "2026-10-07T04:47:08.293000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/7v4g7cgtddvk",
+    "status": "resolved",
+    "title": "Service Degradation Affecting Zoom Slides Generation in US Region",
+    "update_count": 4,
+    "updated_at": "2026-10-07T04:47:08.319000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Calendar"
+    ],
+    "created_at": "2026-10-07T02:41:42.171000+00:00",
+    "duration_minutes": 76.8,
+    "incident_id": "8htxnr17zkfz",
+    "provider_id": "zoom",
+    "provider_name": "Zoom",
+    "resolved_at": "2026-10-07T03:58:27.829000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/9prfd6p22by0",
+    "status": "resolved",
+    "title": "Service Degradation Affecting Zoom Calendar",
+    "update_count": 4,
+    "updated_at": "2026-10-07T03:58:27.857000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Columbus, OH, United States - (CMH)",
+      "Network"
+    ],
+    "created_at": "2026-10-07T02:48:37.964000+00:00",
+    "duration_minutes": 542.8,
+    "incident_id": "tt8f4ttcuonf",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-07T11:51:25.778000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/tt8f4ttcuonf",
+    "status": "resolved",
+    "title": "Network Performance Issues in Columbus",
+    "update_count": 4,
+    "updated_at": "2026-10-07T11:51:25.778000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Zoom Contact Center"
+    ],
+    "created_at": "2026-10-07T03:30:23.611000+00:00",
+    "duration_minutes": 12.1,
+    "incident_id": "2v93lly7z5t6",
+    "provider_id": "zoom",
+    "provider_name": "Zoom",
+    "resolved_at": "2026-10-07T03:42:30.382000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/cy3fcgjhf9g1",
+    "status": "resolved",
+    "title": "Service Degradation Affected Inbound and Outbound Calls for Zoom Contact Center",
+    "update_count": 2,
+    "updated_at": "2026-10-07T03:42:30.406000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-10-07T05:31:56+00:00",
+    "duration_minutes": 381.6,
+    "incident_id": "01M4ADHMMBK7K92NJFJ0DXRYJM",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-10-07T11:53:35+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Unable to create new ChatGPT Work threads in latest version of desktop app",
+    "update_count": 5,
+    "updated_at": "2026-10-07T11:53:35+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS Long Code, North America",
+      "MMS Long Code, North America",
+      "MMS Long Code, North America",
+      "SMS Short Code, North America",
+      "MMS Short Code, North America",
+      "MMS Toll-Free, North America",
+      "SMS Toll-Free, North America",
+      "MMS Toll-Free, North America"
+    ],
+    "created_at": "2026-10-07T06:19:57.140000+00:00",
+    "duration_minutes": 356.5,
+    "incident_id": "cq7gctl1695v",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-07T12:16:24.189000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/4cltfz49tz6r",
+    "status": "resolved",
+    "title": "SMS and MMS Delivery Delays and Delivery Receipt Delays between Twilio and AT&T in the United States",
+    "update_count": 6,
+    "updated_at": "2026-10-07T12:16:24.225000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-10-07T12:04:20.674000+00:00",
+    "duration_minutes": 58.3,
+    "incident_id": "bnrwk0hwv22m",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-07T13:02:39.637000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/ytsgm84pnrjr",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Brisanet Brazil",
+    "update_count": 4,
+    "updated_at": "2026-10-07T13:02:39.663000+00:00"
   }
 ]
