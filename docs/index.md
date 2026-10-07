@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,356 incidents**. Updated 2026-10-06.
+Cross-vendor incident data for 25 providers. Corpus: **23,372 incidents**. Updated 2026-10-07.
 
 ## Last 30 days
 
-- Incidents recorded: **480**
-- Major or worse: **56**
+- Incidents recorded: **488**
+- Major or worse: **61**
 
 ## Reliability by provider (all time)
 
@@ -15,67 +15,58 @@ Cross-vendor incident data for 25 providers. Corpus: **23,356 incidents**. Updat
 | Amazon Web Services | cloud | 79 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 314 | 69m | 481m |
-| Cloudflare | cdn | 6741 | 239m | 500m |
+| Cloudflare | cdn | 6742 | 239m | 502m |
 | Confluent Cloud | data | 261 | 195m | 1640m |
 | Datadog | observability | 127 | 73m | 226m |
 | DigitalOcean | cloud | 508 | 144m | 572m |
 | Discord | comms | 224 | 56m | 292m |
-| Elastic Cloud | observability | 259 | 191m | 1579m |
+| Elastic Cloud | observability | 259 | 192m | 1561m |
 | Google Cloud Platform | cloud | 6 | 444m | — |
-| GitHub | devtools | 632 | 67m | 287m |
-| Grafana Cloud | observability | 768 | 90m | 1135m |
+| GitHub | devtools | 633 | 67m | 287m |
+| Grafana Cloud | observability | 769 | 90m | 1135m |
 | HashiCorp Cloud | devtools | 39 | 178m | 1488m |
 | MongoDB Atlas | data | 276 | 120m | 1412m |
-| Netlify | paas | 223 | 39m | 193m |
+| Netlify | paas | 224 | 38m | 191m |
 | New Relic | observability | 108 | 63m | 311m |
 | npm | devtools | 64 | 105m | 349m |
-| OpenAI | ai | 97 | 100m | 634m |
-| Sentry | observability | 341 | 86m | 363m |
+| OpenAI | ai | 100 | 111m | 594m |
+| Sentry | observability | 342 | 85m | 363m |
 | Snowflake | data | 203 | 118m | 592m |
-| Supabase | paas | 413 | 152m | 1179m |
-| Twilio | comms | 11063 | 270m | 1095m |
-| Vercel | paas | 392 | 72m | 358m |
-| Zoom | comms | 178 | 119m | 1735m |
+| Supabase | paas | 413 | 153m | 1175m |
+| Twilio | comms | 11068 | 270m | 1095m |
+| Vercel | paas | 392 | 72m | 357m |
+| Zoom | comms | 181 | 119m | 1605m |
 
-## New since last run (31)
+## New since last run (16)
 
-- **Cloudflare** — Network routing issue (`minor`)
-- **Cloudflare** — RSA Keyless SSL handshake issues (`minor`)
-- **Cloudflare** — Durable Objects Availability Issue in Eastern North America (`minor`)
-- **Cloudflare** — Increase in Latency Across Multiple Locations (`minor`)
-- **GitHub** — Disruption with some GitHub services (`major`)
-- **GitHub** — Incident with Actions (`critical`)
-- **Snowflake** — INC20000263 (`major`)
-- **CircleCI** — Delays in pipelines, workflows, UI data, and notifications (`minor`)
-- **Elastic Cloud** — Delayed Serverless Metrics in Azure UAE North region (`major`)
-- **Grafana Cloud** — IRM Unable to Send SMS to Thailand, Bangladesh, and Austrian Numbers (`minor`)
-- **Netlify** — Error accessing Netlify-hosted sites (`minor`)
-- **Vercel** — Vercel Auth login failures for pages with Deployment Protection enabled (`major`)
-- **Vercel** — Elevated Sandbox error rates in Paris (cdg1) (`minor`)
-- **Supabase** — Upgrade Issues (`minor`)
-- **Supabase** — Increased errors on management api leading to project operation failures (`minor`)
-- **OpenAI** — Errors processing large PDFs in the Responses API (`minor`)
-- **OpenAI** — Elevated error rates in ChatGPT Go conversations (`minor`)
-- **OpenAI** — Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots. (`minor`)
-- **OpenAI** — Elevated errors in API Platform login and administration APIs. (`minor`)
-- **OpenAI** — Elevated errors in ChatGPT conversations (`minor`)
-- **OpenAI** — Elevated error rates in Codex Cloud (`none`)
-- **OpenAI** — Admin Console Intermittently Inaccessible (`none`)
-- **OpenAI** — Issues saving and editing Pages (`minor`)
-- **Twilio** — SMS Delivery Delays and Delivery Receipt Delays from Twilio to Chunghwa Telecom Taiwan (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to MTN Nigeria (`minor`)
+- **Cloudflare** — Network Performance Issues in Columbus (`major`)
+- **GitHub** — Several services are degraded (`critical`)
+- **Grafana Cloud** — Grafana Cloud k6 – Brief metrics unavailability (`none`)
+- **Sentry** — Sentry dashboard down (`critical`)
+- **Netlify** — Elevated error rates for AI Gateway (`none`)
+- **OpenAI** — Unable to create new ChatGPT Work threads in latest version of desktop app (`major`)
+- **OpenAI** — Workspace Agents Degraded and Responses Impacted (`minor`)
+- **OpenAI** — Computer Use Is Experiencing Issues (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Brisanet Brazil (`minor`)
+- **Twilio** — SMS and MMS Delivery Delays and Delivery Receipt Delays between Twilio and AT&T in the United States (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to O! Kyrgyzstan (`minor`)
+- **Twilio** — Delays Viewing and Receiving Operator Results in Conversation Intelligence and Accessing Conversation Memory (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Movistar El Salvador (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Slides Generation in US Region (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Calendar (`minor`)
+- **Zoom** — Service Degradation Affected Inbound and Outbound Calls for Zoom Contact Center (`none`)
 
 ## Updated since last run (10)
 
-- **Cloudflare** — API Shield JWT Validation Errors → `resolved`
-- **GitHub** — Elevated request latency → `resolved`
-- **DigitalOcean** — VPC Networking Availability → `resolved`
+- **GitHub** — Incident with Actions → `resolved`
 - **HashiCorp Cloud** — HCP Vault Azure: Cluster Updates and Creation → `monitoring`
-- **Supabase** — Intermittent latency in Eastern US → `resolved`
+- **CircleCI** — Delays in pipelines, workflows, UI data, and notifications → `resolved`
+- **Elastic Cloud** — Delayed Serverless Metrics in Azure UAE North region → `resolved`
+- **Vercel** — Vercel Auth login failures for pages with Deployment Protection enabled → `resolved`
+- **Supabase** — Upgrade Issues → `resolved`
+- **OpenAI** — Errors processing large PDFs in the Responses API → `resolved`
 - **OpenAI** — Elevated errors across ChatGPT, Codex, and the API including the Agents API → `resolved`
-- **OpenAI** — Elevated Work Mode errors → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures between Twilio Long Codes and Multiple Networks in France → `resolved`
-- **Twilio** — Voice Call Failures from Network Subscribers to a Subset of Twilio France Phone Numbers → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to MTN Nigeria → `resolved`
 - **Zoom** — Service Degradation Affecting Customer Using Polycom Devices Going Offline → `identified`
 
 ---

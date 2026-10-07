@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-06 16:16 UTC` &nbsp;·&nbsp; **31 new** and **10 updated** incidents &nbsp;·&nbsp; 23,356 total
+**Last ingest** &nbsp;`2026-10-07 13:13 UTC` &nbsp;·&nbsp; **16 new** and **10 updated** incidents &nbsp;·&nbsp; 23,372 total
 
 | Provider | Incidents |
 | --- | ---: |
-| OpenAI | 10 |
-| Twilio | 9 |
-| Cloudflare | 5 |
-| GitHub | 3 |
-| Supabase | 3 |
-| Vercel | 2 |
+| Twilio | 6 |
+| OpenAI | 5 |
+| Zoom | 4 |
+| GitHub | 2 |
+| Cloudflare | 1 |
+| Grafana Cloud | 1 |
 
 Most severe this run:
 
+- `critical` **GitHub** — Several services are degraded
+- `critical` **Sentry** — Sentry dashboard down
 - `critical` **GitHub** — Incident with Actions
-- `major` **GitHub** — Disruption with some GitHub services
-- `major` **Snowflake** — INC20000263
 
 <!-- STATUS:END -->
 
