@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-07 13:13 UTC` &nbsp;·&nbsp; **16 new** and **10 updated** incidents &nbsp;·&nbsp; 23,372 total
+**Last ingest** &nbsp;`2026-10-08 18:00 UTC` &nbsp;·&nbsp; **47 new** and **5 updated** incidents &nbsp;·&nbsp; 23,419 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 6 |
+| Supabase | 25 |
+| CircleCI | 5 |
 | OpenAI | 5 |
-| Zoom | 4 |
+| Twilio | 5 |
+| Cloudflare | 4 |
 | GitHub | 2 |
-| Cloudflare | 1 |
-| Grafana Cloud | 1 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Several services are degraded
-- `critical` **Sentry** — Sentry dashboard down
-- `critical` **GitHub** — Incident with Actions
+- `critical` **GitHub** — Incident with Git Operations, Issues, Actions and Pull Requests
+- `critical` **GitHub** — Incident with Git Operations, Pull Requests and Actions
+- `critical` **Supabase** — Permission errors in the Supabase Dashboard
 
 <!-- STATUS:END -->
 
