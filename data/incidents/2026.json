@@ -97889,6 +97889,23 @@
   },
   {
     "category": "paas",
+    "components": [],
+    "created_at": "2026-08-24T15:26:51+00:00",
+    "duration_minutes": 72.1,
+    "incident_id": "01M0T63BGJBJK39SMC47JR2WBN",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-08-24T16:38:59+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Increased rates of Pooler connection timeouts in us-east-1",
+    "update_count": 3,
+    "updated_at": "2026-10-07T15:12:23+00:00"
+  },
+  {
+    "category": "paas",
     "components": [
       "Connection Pooler"
     ],
@@ -98721,6 +98738,23 @@
     "updated_at": "2026-08-27T18:24:26.860000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-08-26T19:49:37+00:00",
+    "duration_minutes": 1354.8,
+    "incident_id": "01M0ZSXXDM1MYE4T2VXQN2D7D2",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-08-27T18:24:26+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "pgBouncer issues on some older projects",
+    "update_count": 7,
+    "updated_at": "2026-10-07T15:12:23+00:00"
+  },
+  {
     "category": "comms",
     "components": [
       "MMS Short Code, North America"
@@ -99039,6 +99073,23 @@
     "updated_at": "2026-08-31T15:57:33.785000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-08-27T17:20:44+00:00",
+    "duration_minutes": 5676.8,
+    "incident_id": "01M123T0XR3BZ7GK0JYMNTVEM0",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-08-31T15:57:33+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Increased response times for requests",
+    "update_count": 11,
+    "updated_at": "2026-10-07T15:12:23+00:00"
+  },
+  {
     "category": "ai",
     "components": [],
     "created_at": "2026-08-27T18:00:38+00:00",
@@ -99341,6 +99392,23 @@
     "title": "On Call Engineers are Investigating",
     "update_count": 2,
     "updated_at": "2026-08-28T17:44:54.422000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-08-28T17:11:02+00:00",
+    "duration_minutes": null,
+    "incident_id": "01M14NN01PQFV0Y9QXQNFH1ZG0",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-08-28T16:18:05+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Projects failing to load Supautils in multiple regions",
+    "update_count": 1,
+    "updated_at": "2026-10-07T15:12:23+00:00"
   },
   {
     "category": "observability",
@@ -99889,6 +99957,23 @@
     "updated_at": "2026-08-31T19:06:38.587000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-08-31T16:28:31+00:00",
+    "duration_minutes": 158.1,
+    "incident_id": "01M1CAD98KP1TTJ7GT7FKA7G2R",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-08-31T19:06:38+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Project Creation Failures",
+    "update_count": 7,
+    "updated_at": "2026-10-07T15:12:23+00:00"
+  },
+  {
     "category": "comms",
     "components": [
       "SMS Short Code, North America"
@@ -100319,6 +100404,23 @@
     "title": "User unable to log in to Supabase Dashboard",
     "update_count": 4,
     "updated_at": "2026-09-01T10:34:27.617000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-01T09:06:45+00:00",
+    "duration_minutes": 87.7,
+    "incident_id": "01M1E3H3ZHVJPQB21RE3ZE8671",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-01T10:34:27+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "User unable to log in to Supabase Dashboard",
+    "update_count": 4,
+    "updated_at": "2026-10-07T15:12:23+00:00"
   },
   {
     "category": "data",
@@ -101599,6 +101701,23 @@
     "title": "Project Lifecycle Actions Showing increased error rates across all regions",
     "update_count": 9,
     "updated_at": "2026-09-04T08:18:40.031000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-04T01:08:09+00:00",
+    "duration_minutes": 430.5,
+    "incident_id": "01M1MZAXBGVWH29NQ09N1HM3XP",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-04T08:18:40+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Project Lifecycle Actions Showing increased error rates across all regions",
+    "update_count": 9,
+    "updated_at": "2026-10-07T15:12:23+00:00"
   },
   {
     "category": "cdn",
@@ -102883,6 +103002,23 @@
     "updated_at": "2026-09-09T08:47:47.316000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-09T09:07:59+00:00",
+    "duration_minutes": null,
+    "incident_id": "01M22PS407P3YFG1E08Y82A790",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-09T08:47:38+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Brief connection disruptions in us-east-1 (N. Virginia)",
+    "update_count": 1,
+    "updated_at": "2026-10-07T15:12:22+00:00"
+  },
+  {
     "category": "cloud",
     "components": [
       "ATL1"
@@ -103346,6 +103482,23 @@
     "title": "Unresponsive Projects",
     "update_count": 8,
     "updated_at": "2026-09-11T19:06:34.982000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-10T15:26:20+00:00",
+    "duration_minutes": 1660.2,
+    "incident_id": "01M25YTM4R9WVEBK1Q4EWKEG3D",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-11T19:06:34+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Unresponsive Projects",
+    "update_count": 8,
+    "updated_at": "2026-10-07T15:12:22+00:00"
   },
   {
     "category": "cdn",
@@ -104276,6 +104429,23 @@
     "updated_at": "2026-09-15T04:47:50.169000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-14T18:08:14+00:00",
+    "duration_minutes": null,
+    "incident_id": "01M2GHNY8317J7BTYHSVQ6205Y",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-11T17:00:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Latency issues resulting in 504 errors",
+    "update_count": 1,
+    "updated_at": "2026-10-07T15:12:22+00:00"
+  },
+  {
     "category": "devtools",
     "components": [],
     "created_at": "2026-09-14T18:40:25.082000+00:00",
@@ -105144,6 +105314,23 @@
     "updated_at": "2026-09-22T09:37:08.386000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-16T08:10:43+00:00",
+    "duration_minutes": 82.8,
+    "incident_id": "01M2MM98ZCB9XHEWE72RNH7JVC",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-16T09:33:34+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Auth Service Outage",
+    "update_count": 4,
+    "updated_at": "2026-10-07T15:12:22+00:00"
+  },
+  {
     "category": "cdn",
     "components": [
       "Support Site"
@@ -105216,6 +105403,23 @@
     "title": "Edge Function Latency",
     "update_count": 3,
     "updated_at": "2026-09-16T12:27:02.641000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-16T09:24:31+00:00",
+    "duration_minutes": 182.5,
+    "incident_id": "01M2MRGDQCTTKKD6YP568X7HEA",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-16T12:27:02+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Edge Function Latency",
+    "update_count": 3,
+    "updated_at": "2026-10-07T15:12:22+00:00"
   },
   {
     "category": "comms",
@@ -105473,6 +105677,23 @@
     "title": "Query slowness for projects running Postgres version 14 in us-east-1 and ap-northeast-2",
     "update_count": 5,
     "updated_at": "2026-09-16T20:36:02.275000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-16T17:54:00+00:00",
+    "duration_minutes": 162.0,
+    "incident_id": "01M2NNN9RN5M3G463PXDWARSJZ",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-16T20:36:02+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Query slowness for projects running Postgres version 14 in us-east-1 and ap-northeast-2",
+    "update_count": 5,
+    "updated_at": "2026-10-07T15:12:22+00:00"
   },
   {
     "category": "comms",
@@ -106380,6 +106601,23 @@
   },
   {
     "category": "paas",
+    "components": [],
+    "created_at": "2026-09-19T20:12:05+00:00",
+    "duration_minutes": 120.5,
+    "incident_id": "01M2XMRADDT38TXBASCZ59E5FB",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-19T22:12:33+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Project Lifecycle Activity Degradation",
+    "update_count": 4,
+    "updated_at": "2026-10-07T15:12:22+00:00"
+  },
+  {
+    "category": "paas",
     "components": [
       "Database",
       "Management API"
@@ -106947,6 +107185,23 @@
     "updated_at": "2026-09-22T09:05:10.488000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-22T08:33:42+00:00",
+    "duration_minutes": 31.5,
+    "incident_id": "01M343ZP1YWERGXEA8X8E8J1B8",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-22T09:05:10+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Project creations are degraded in multiple regions",
+    "update_count": 2,
+    "updated_at": "2026-10-07T15:12:22+00:00"
+  },
+  {
     "category": "comms",
     "components": [
       "Verify Silent Network Auth"
@@ -107074,6 +107329,23 @@
     "title": "Supavisor connection disruptions in EU West 1 (Ireland)",
     "update_count": 3,
     "updated_at": "2026-09-22T12:20:13.711000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-22T11:09:18+00:00",
+    "duration_minutes": 70.9,
+    "incident_id": "01M34CWKF06NFF17WSP7NTF70K",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-22T12:20:13+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Supavisor connection disruptions in EU West 1 (Ireland)",
+    "update_count": 3,
+    "updated_at": "2026-10-07T15:12:22+00:00"
   },
   {
     "category": "cdn",
@@ -107481,6 +107753,23 @@
   },
   {
     "category": "paas",
+    "components": [],
+    "created_at": "2026-09-23T09:31:49+00:00",
+    "duration_minutes": 1469.6,
+    "incident_id": "01M36SPTNEGBY24ND00DD9NGG0",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-24T10:01:25+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Storage search failing for restored projects",
+    "update_count": 3,
+    "updated_at": "2026-10-07T15:12:22+00:00"
+  },
+  {
+    "category": "paas",
     "components": [
       "Storage"
     ],
@@ -107497,6 +107786,23 @@
     "title": "Storage search failing for restored projects",
     "update_count": 3,
     "updated_at": "2026-09-24T10:01:25.158000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-23T10:09:29+00:00",
+    "duration_minutes": 39.8,
+    "incident_id": "01M36VVRX7BVKC5VNH1SGJWBZA",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-23T10:49:14+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Increased error rate in project creation and project restore",
+    "update_count": 4,
+    "updated_at": "2026-10-07T15:12:22+00:00"
   },
   {
     "category": "devtools",
@@ -107740,6 +108046,23 @@
     "updated_at": "2026-09-23T23:41:21.505000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-23T21:58:59+00:00",
+    "duration_minutes": 102.4,
+    "incident_id": "01M384EXNMJ8F6TECVYKHCX88J",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-23T23:41:21+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Supabase CLI CI workflow failures",
+    "update_count": 4,
+    "updated_at": "2026-10-07T15:12:22+00:00"
+  },
+  {
     "category": "ai",
     "components": [],
     "created_at": "2026-09-23T23:25:00+00:00",
@@ -107892,6 +108215,23 @@
     "updated_at": "2026-09-24T11:49:44.207000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-24T11:13:28+00:00",
+    "duration_minutes": 36.3,
+    "incident_id": "01M39HXNPNY21MKAJEPYEZDRM5",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-24T11:49:44+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Permission errors in the Supabase Dashboard",
+    "update_count": 4,
+    "updated_at": "2026-10-07T15:12:22+00:00"
+  },
+  {
     "category": "comms",
     "components": [
       "SMS, Middle East & Africa"
@@ -108007,6 +108347,23 @@
     "title": "Project Lifecycle Issues in eu-west-1",
     "update_count": 7,
     "updated_at": "2026-09-24T17:38:02.889000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-24T15:36:11+00:00",
+    "duration_minutes": 121.8,
+    "incident_id": "01M3A0YQAEGQW3XZ0DPWBFTDKR",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-24T17:38:02+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Project Lifecycle Issues in eu-west-1",
+    "update_count": 7,
+    "updated_at": "2026-10-07T15:12:22+00:00"
   },
   {
     "category": "comms",
@@ -108445,8 +108802,8 @@
     "shortlink": "https://stspg.io/4cpggx38p4g2",
     "status": "identified",
     "title": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
-    "update_count": 20,
-    "updated_at": "2026-10-07T03:02:59.867000+00:00"
+    "update_count": 21,
+    "updated_at": "2026-10-08T02:40:01.837000+00:00"
   },
   {
     "category": "comms",
@@ -108869,6 +109226,23 @@
     "updated_at": "2026-09-28T14:36:48.042000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-28T13:47:53+00:00",
+    "duration_minutes": 48.9,
+    "incident_id": "01M3M4B906PBCBR2TRSHZ1PEAQ",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-09-28T14:36:48+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Log Ingestion Degradation",
+    "update_count": 4,
+    "updated_at": "2026-10-07T15:12:22+00:00"
+  },
+  {
     "category": "observability",
     "components": [
       "AWS US East - prod-us-east-3"
@@ -109054,6 +109428,23 @@
     "title": "Flex Plugins CLI Is Degraded",
     "update_count": 4,
     "updated_at": "2026-09-29T17:12:50.575000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-09-29T16:26:33+00:00",
+    "duration_minutes": 9829.3,
+    "incident_id": "01M3PZTHHR2P5PR1WRCZ36EDVV",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-10-06T12:15:49+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Intermittent latency in Eastern US",
+    "update_count": 10,
+    "updated_at": "2026-10-07T15:12:21+00:00"
   },
   {
     "category": "paas",
@@ -109870,7 +110261,7 @@
     "status": "resolved",
     "title": "Issues with login, signup, and ads",
     "update_count": 5,
-    "updated_at": "2026-10-01T19:39:30+00:00"
+    "updated_at": "2026-10-07T22:26:25+00:00"
   },
   {
     "category": "cdn",
@@ -110365,8 +110756,8 @@
     "shortlink": null,
     "status": "monitoring",
     "title": "HCP Vault Azure: Cluster Updates and Creation",
-    "update_count": 3,
-    "updated_at": "2026-10-07T06:06:05+00:00"
+    "update_count": 4,
+    "updated_at": "2026-10-08T06:07:08+00:00"
   },
   {
     "category": "comms",
@@ -111020,6 +111411,23 @@
     "updated_at": "2026-10-06T09:03:57.092000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-10-06T07:53:39+00:00",
+    "duration_minutes": 70.3,
+    "incident_id": "01M4838DNQ5VAYPYAJHMCCCHP2",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-10-06T09:03:57+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Increased errors on management api leading to project operation failures",
+    "update_count": 4,
+    "updated_at": "2026-10-07T15:12:21+00:00"
+  },
+  {
     "category": "comms",
     "components": [
       "SMS, Middle East & Africa"
@@ -111208,6 +111616,23 @@
     "updated_at": "2026-10-06T18:18:45.198000+00:00"
   },
   {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-10-06T15:23:15+00:00",
+    "duration_minutes": 175.5,
+    "incident_id": "01M48WZN5HSPR8TG7AT83XRS1K",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-10-06T18:18:45+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Upgrade Issues",
+    "update_count": 5,
+    "updated_at": "2026-10-07T15:12:21+00:00"
+  },
+  {
     "category": "ai",
     "components": [],
     "created_at": "2026-10-06T15:45:31+00:00",
@@ -111239,10 +111664,10 @@
     "severity": "major",
     "severity_rank": 2,
     "shortlink": "https://stspg.io/s7tpg47srxdd",
-    "status": "resolved",
+    "status": "postmortem",
     "title": "Delays in pipelines, workflows, UI data, and notifications",
-    "update_count": 12,
-    "updated_at": "2026-10-06T21:18:47.381000+00:00"
+    "update_count": 13,
+    "updated_at": "2026-10-07T22:17:33.231000+00:00"
   },
   {
     "category": "paas",
@@ -111392,9 +111817,9 @@
     "severity_rank": 1,
     "shortlink": "https://stspg.io/v7m03nyrv8n3",
     "status": "identified",
-    "title": "SMS Delivery Failures from Twilio to Movistar El Salvador",
-    "update_count": 6,
-    "updated_at": "2026-10-07T12:32:10.189000+00:00"
+    "title": "SMS Delivery Delays and Failures from Twilio to Movistar El Salvador",
+    "update_count": 15,
+    "updated_at": "2026-10-08T17:35:30.864000+00:00"
   },
   {
     "category": "observability",
@@ -111568,5 +111993,432 @@
     "title": "SMS Delivery Delays from Twilio to Brisanet Brazil",
     "update_count": 4,
     "updated_at": "2026-10-07T13:02:39.663000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Machine Jobs"
+    ],
+    "created_at": "2026-10-07T13:40:00.514000+00:00",
+    "duration_minutes": 26.3,
+    "incident_id": "tj6wdnfjwr64",
+    "provider_id": "circleci",
+    "provider_name": "CircleCI",
+    "resolved_at": "2026-10-07T14:06:21.413000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/7q8hkm5sgt8h",
+    "status": "postmortem",
+    "title": "Delay on starting Machine Job Tasks",
+    "update_count": 4,
+    "updated_at": "2026-10-08T17:55:30.337000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-10-07T14:02:53.573000+00:00",
+    "duration_minutes": null,
+    "incident_id": "8jy0g7q5xkfb",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/tvw3zc9w0nh6",
+    "status": "identified",
+    "title": "SMS Delivery Delays from Twilio to Brisanet Brazil",
+    "update_count": 6,
+    "updated_at": "2026-10-08T05:14:37.263000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Pipelines & Workflows"
+    ],
+    "created_at": "2026-10-07T14:27:38.305000+00:00",
+    "duration_minutes": 53.5,
+    "incident_id": "0z31ldjd8m5v",
+    "provider_id": "circleci",
+    "provider_name": "CircleCI",
+    "resolved_at": "2026-10-07T15:21:09.797000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/n2l0044kmkdr",
+    "status": "postmortem",
+    "title": "Elevated level of infra fails on customer jobs",
+    "update_count": 4,
+    "updated_at": "2026-10-08T17:55:10.794000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "API"
+    ],
+    "created_at": "2026-10-07T15:06:01.033000+00:00",
+    "duration_minutes": 18.9,
+    "incident_id": "p86jkvmrc3pc",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-07T15:24:55.871000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/p86jkvmrc3pc",
+    "status": "resolved",
+    "title": "Cloudflare API service issues",
+    "update_count": 3,
+    "updated_at": "2026-10-07T15:24:55.871000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS Long Code, North America",
+      "SMS Long Code, North America",
+      "MMS Long Code, North America",
+      "MMS Long Code, North America",
+      "SMS Short Code, North America",
+      "SMS Toll-Free, North America",
+      "MMS Short Code, North America",
+      "MMS Toll-Free, North America",
+      "SMS Toll-Free, North America",
+      "MMS Toll-Free, North America"
+    ],
+    "created_at": "2026-10-07T15:09:08.226000+00:00",
+    "duration_minutes": 444.5,
+    "incident_id": "bqsmmtf7xm9h",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-07T22:33:41.059000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/8y55r7ldm2qj",
+    "status": "resolved",
+    "title": "SMS and MMS Delivery Receipt Delays from Twilio to AT&T United States",
+    "update_count": 6,
+    "updated_at": "2026-10-07T22:33:41.086000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Git Operations",
+      "Webhooks",
+      "Issues",
+      "Pull Requests",
+      "Actions"
+    ],
+    "created_at": "2026-10-07T15:14:45.614000+00:00",
+    "duration_minutes": 70.5,
+    "incident_id": "djlmxz2zd0j7",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-10-07T16:25:14.613000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/96smrcth8bpg",
+    "status": "resolved",
+    "title": "Incident with Git Operations, Pull Requests and Actions",
+    "update_count": 20,
+    "updated_at": "2026-10-07T16:25:14.647000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-10-07T16:31:37+00:00",
+    "duration_minutes": 95.0,
+    "incident_id": "01M4BK9J2M83R4SSC71D9FXW45",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-10-07T18:06:37+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Dot in Codex may fail to create new threads",
+    "update_count": 3,
+    "updated_at": "2026-10-07T18:06:37+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Git Operations",
+      "Issues",
+      "Pull Requests",
+      "Actions"
+    ],
+    "created_at": "2026-10-07T17:17:05.776000+00:00",
+    "duration_minutes": 47.7,
+    "incident_id": "qpfv5p86dmrl",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-10-07T18:04:49.441000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/4p8x0jnnsx7m",
+    "status": "resolved",
+    "title": "Incident with Git Operations, Issues, Actions and Pull Requests",
+    "update_count": 5,
+    "updated_at": "2026-10-07T18:04:49.479000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-10-07T17:21:52+00:00",
+    "duration_minutes": 61.5,
+    "incident_id": "01M4BP5JE7DKJSP3VG2S2DCWF2",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-10-07T18:23:25+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
+    "update_count": 2,
+    "updated_at": "2026-10-07T18:23:25+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Docker Jobs"
+    ],
+    "created_at": "2026-10-07T18:54:58.635000+00:00",
+    "duration_minutes": 70.6,
+    "incident_id": "39rfrjmk5pvd",
+    "provider_id": "circleci",
+    "provider_name": "CircleCI",
+    "resolved_at": "2026-10-07T20:05:32.007000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/fpv4m66zyd77",
+    "status": "postmortem",
+    "title": "Increased task wait times for Docker Gen2",
+    "update_count": 5,
+    "updated_at": "2026-10-08T17:54:55.573000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-10-07T23:42:12+00:00",
+    "duration_minutes": 21.1,
+    "incident_id": "01M4CBXZ62A9SVH8D74KVYQC8M",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-10-08T00:03:18+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Elevated errors with GPT-5.6 Instant in FedRAMP workspaces",
+    "update_count": 3,
+    "updated_at": "2026-10-08T00:03:19+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Hyperdrive"
+    ],
+    "created_at": "2026-10-07T23:56:32.883000+00:00",
+    "duration_minutes": null,
+    "incident_id": "adw7e1heupa2",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-05T00:00:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/adw7e1heupa2",
+    "status": "resolved",
+    "title": "Hyperdrive Degraded Performance",
+    "update_count": 1,
+    "updated_at": "2026-10-07T23:56:32.883000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Verify",
+      "SMS"
+    ],
+    "created_at": "2026-10-08T03:08:31.720000+00:00",
+    "duration_minutes": 387.2,
+    "incident_id": "k7cd8ydy2ffm",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-08T09:35:46.471000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/98cdk9s4mj5b",
+    "status": "resolved",
+    "title": "Twilio SMS Delivery Issues",
+    "update_count": 7,
+    "updated_at": "2026-10-08T09:35:46.491000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-10-08T03:17:40+00:00",
+    "duration_minutes": 94.0,
+    "incident_id": "01M4CR8GCAFC1RYQXZDXAZP2VT",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-10-08T04:51:39+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
+    "update_count": 2,
+    "updated_at": "2026-10-08T04:51:39+00:00"
+  },
+  {
+    "category": "data",
+    "components": [
+      "Confluent Cloud"
+    ],
+    "created_at": "2026-10-08T11:00:26+00:00",
+    "duration_minutes": 55.9,
+    "incident_id": "w45zq7p98g0b",
+    "provider_id": "confluent",
+    "provider_name": "Confluent Cloud",
+    "resolved_at": "2026-10-08T11:56:22.958000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/pqqcxkj2yyv0",
+    "status": "resolved",
+    "title": "Experiencing high error rate in AZURE in Germany West Central region",
+    "update_count": 3,
+    "updated_at": "2026-10-08T11:56:22.981000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Machine Jobs"
+    ],
+    "created_at": "2026-10-08T13:00:30.841000+00:00",
+    "duration_minutes": 215.0,
+    "incident_id": "jn756xtsy4xg",
+    "provider_id": "circleci",
+    "provider_name": "CircleCI",
+    "resolved_at": "2026-10-08T16:35:33.396000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/vcsrgfwdsy4z",
+    "status": "postmortem",
+    "title": "Elevated wait times for machine jobs",
+    "update_count": 10,
+    "updated_at": "2026-10-08T17:56:57.650000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "GCP US Central - prod-us-central-0",
+      "GCP US Central - prod-us-central-5",
+      "GCP US Central - prod-us-central-0: Ingestion",
+      "GCP US Central - prod-us-central-5: Ingestion",
+      "GCP US Central - prod-us-central-0: Ingestion"
+    ],
+    "created_at": "2026-10-08T13:06:20.495000+00:00",
+    "duration_minutes": null,
+    "incident_id": "91ct2lc9xfmn",
+    "provider_id": "grafana",
+    "provider_name": "Grafana Cloud",
+    "resolved_at": null,
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/cjbf6knm4jq4",
+    "status": "investigating",
+    "title": "Degraded Performance with Increased Latency for Grafana Cloud Metrics and Traces in GCP US Central",
+    "update_count": 8,
+    "updated_at": "2026-10-08T17:30:50.143000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-10-08T14:00:00+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "76m2gfyfx1xc",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-08T14:00:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/76m2gfyfx1xc",
+    "status": "resolved",
+    "title": "Network Performance Issues in Kochi",
+    "update_count": 1,
+    "updated_at": "2026-10-08T17:09:38.216000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [
+      "Edge Functions"
+    ],
+    "created_at": "2026-10-08T14:34:05.033000+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "snkdthnwxrqj",
+    "provider_id": "netlify",
+    "provider_name": "Netlify",
+    "resolved_at": "2026-10-08T14:34:05.099000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/lj0lc6yxq5qn",
+    "status": "resolved",
+    "title": "Elevated Edge Function Errors",
+    "update_count": 1,
+    "updated_at": "2026-10-08T14:34:05.706000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice, Europe"
+    ],
+    "created_at": "2026-10-08T15:15:23.014000+00:00",
+    "duration_minutes": null,
+    "incident_id": "4ljh1k0qvbx2",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/f6lz0n724bjq",
+    "status": "monitoring",
+    "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Norway",
+    "update_count": 4,
+    "updated_at": "2026-10-08T17:42:14.825000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "GCP Infrastructure health: us-central1"
+    ],
+    "created_at": "2026-10-08T16:42:49.149000+00:00",
+    "duration_minutes": null,
+    "incident_id": "5j2h3yzkj06w",
+    "provider_id": "elastic",
+    "provider_name": "Elastic Cloud",
+    "resolved_at": null,
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/mz2mhlvnv4kt",
+    "status": "identified",
+    "title": "Delayed or Unavailable project operation in GCP us-central1",
+    "update_count": 2,
+    "updated_at": "2026-10-08T17:21:20.243000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-10-08T17:14:40.718000+00:00",
+    "duration_minutes": null,
+    "incident_id": "xczvsioz1un8",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-08T17:00:00+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/xczvsioz1un8",
+    "status": "resolved",
+    "title": "Network Performance Issues in Kochi",
+    "update_count": 1,
+    "updated_at": "2026-10-08T17:14:40.718000+00:00"
   }
 ]
