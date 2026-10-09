@@ -1,0 +1,438 @@
+{
+  "changed": [
+    {
+      "category": "observability",
+      "components": [
+        "GCP Infrastructure health: us-central1"
+      ],
+      "created_at": "2026-10-08T16:42:49.149000+00:00",
+      "duration_minutes": 491.6,
+      "incident_id": "5j2h3yzkj06w",
+      "provider_id": "elastic",
+      "provider_name": "Elastic Cloud",
+      "resolved_at": "2026-10-09T00:54:22.669000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/mz2mhlvnv4kt",
+      "status": "resolved",
+      "title": "Delayed or Unavailable project operation in GCP us-central1",
+      "update_count": 5,
+      "updated_at": "2026-10-09T00:54:22.701000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "Incident Management and Response (IRM)"
+      ],
+      "created_at": "2026-10-05T16:17:43.417000+00:00",
+      "duration_minutes": null,
+      "incident_id": "6x77ccl9shpy",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/9l8htmqt82s2",
+      "status": "identified",
+      "title": "IRM Unable to Send SMS to Thailand, Bangladesh, and Austrian Numbers",
+      "update_count": 4,
+      "updated_at": "2026-10-09T12:51:52.271000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "GCP US Central - prod-us-central-0",
+        "GCP US Central - prod-us-central-5",
+        "GCP US Central - prod-us-central-0: Ingestion",
+        "GCP US Central - prod-us-central-5: Ingestion",
+        "GCP US Central - prod-us-central-0: Ingestion"
+      ],
+      "created_at": "2026-10-08T13:06:20.495000+00:00",
+      "duration_minutes": 693.1,
+      "incident_id": "91ct2lc9xfmn",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-10-09T00:39:26.028000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/cjbf6knm4jq4",
+      "status": "resolved",
+      "title": "Degraded Performance with Increased Latency for Grafana Cloud Metrics and Traces in GCP US Central",
+      "update_count": 13,
+      "updated_at": "2026-10-09T00:40:17.794000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-10-04T00:38:03+00:00",
+      "duration_minutes": 7565.1,
+      "incident_id": "01M425HC0FED5GM4SH1DDR55X3",
+      "provider_id": "hashicorp",
+      "provider_name": "HashiCorp Cloud",
+      "resolved_at": "2026-10-09T06:43:08+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "HCP Vault Azure: Cluster Updates and Creation",
+      "update_count": 5,
+      "updated_at": "2026-10-09T06:43:08+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Databases, Tables, and Views",
+        "Databases, Tables, and Views",
+        "Virtual Warehouses",
+        "Virtual Warehouses",
+        "Data Loading and Unloading",
+        "Data Loading and Unloading",
+        "Applications",
+        "Applications"
+      ],
+      "created_at": "2026-09-27T02:15:51.785000+00:00",
+      "duration_minutes": 60.8,
+      "incident_id": "3ykqqwk3s758",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": "2026-09-27T03:16:42.207000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/3c0vvgf9cdwx",
+      "status": "postmortem",
+      "title": "INC20000239",
+      "update_count": 3,
+      "updated_at": "2026-10-09T09:57:12.912000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Virtual Warehouses",
+        "Snowpark Container Services"
+      ],
+      "created_at": "2026-08-28T00:07:42.677000+00:00",
+      "duration_minutes": null,
+      "incident_id": "9p16kxkml7v2",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/2tmfhlrz2yz5",
+      "status": "identified",
+      "title": "INC20000150",
+      "update_count": 9,
+      "updated_at": "2026-10-08T21:37:51.617000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-10-06T20:59:13.316000+00:00",
+      "duration_minutes": null,
+      "incident_id": "2t7rjq883wd2",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/v7m03nyrv8n3",
+      "status": "identified",
+      "title": "SMS Delivery Delays and Failures from Twilio to Movistar El Salvador",
+      "update_count": 17,
+      "updated_at": "2026-10-09T05:48:29.301000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Europe"
+      ],
+      "created_at": "2026-10-08T15:15:23.014000+00:00",
+      "duration_minutes": 314.4,
+      "incident_id": "4ljh1k0qvbx2",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-08T20:29:47.097000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/f6lz0n724bjq",
+      "status": "resolved",
+      "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Norway",
+      "update_count": 6,
+      "updated_at": "2026-10-08T20:29:47.122000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-10-07T14:02:53.573000+00:00",
+      "duration_minutes": null,
+      "incident_id": "8jy0g7q5xkfb",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tvw3zc9w0nh6",
+      "status": "identified",
+      "title": "SMS Delivery Delays from Twilio to Brisanet Brazil",
+      "update_count": 7,
+      "updated_at": "2026-10-08T21:15:01.936000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Devices (Softphones/Deskphones)"
+      ],
+      "created_at": "2026-09-25T17:45:29.107000+00:00",
+      "duration_minutes": null,
+      "incident_id": "pxxs3nsvn2rx",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/4cpggx38p4g2",
+      "status": "identified",
+      "title": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
+      "update_count": 22,
+      "updated_at": "2026-10-09T01:34:08.460000+00:00"
+    }
+  ],
+  "date": "2026-10-09",
+  "new": [
+    {
+      "category": "devtools",
+      "components": [
+        "CircleCI API",
+        "CircleCI UI"
+      ],
+      "created_at": "2026-10-09T11:33:00.290000+00:00",
+      "duration_minutes": null,
+      "incident_id": "6cfhhlr4rmm0",
+      "provider_id": "circleci",
+      "provider_name": "CircleCI",
+      "resolved_at": null,
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/hkfkwz292bz8",
+      "status": "identified",
+      "title": "Delay in data appearing in UI and API",
+      "update_count": 5,
+      "updated_at": "2026-10-09T14:29:58.946000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [],
+      "created_at": "2026-10-08T22:31:54.271000+00:00",
+      "duration_minutes": 0.5,
+      "incident_id": "9o6q1l6wwtmr",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-08T22:32:25.184000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/9o6q1l6wwtmr",
+      "status": "resolved",
+      "title": "Network Performance Issues in Sofia",
+      "update_count": 2,
+      "updated_at": "2026-10-08T22:32:43.739000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Confluent Cloud"
+      ],
+      "created_at": "2026-10-09T13:34:30.403000+00:00",
+      "duration_minutes": null,
+      "incident_id": "07y1w8m52p0q",
+      "provider_id": "confluent",
+      "provider_name": "Confluent Cloud",
+      "resolved_at": null,
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/hnth2zjystz5",
+      "status": "investigating",
+      "title": "Experiencing high error rate in AZURE in West Europe region",
+      "update_count": 1,
+      "updated_at": "2026-10-09T13:34:30.499000+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [
+        "Google Cloud Storage"
+      ],
+      "created_at": "2026-10-08T12:19:00+00:00",
+      "duration_minutes": 671.0,
+      "incident_id": "mSFVt6PiP557bjRyYsut",
+      "provider_id": "gcp",
+      "provider_name": "Google Cloud Platform",
+      "resolved_at": "2026-10-08T23:30:00+00:00",
+      "severity": "medium",
+      "severity_rank": 2,
+      "shortlink": "incidents/mSFVt6PiP557bjRyYsut",
+      "status": "resolved",
+      "title": "Google Cloud Storage customers are experiencing elevated latencies and error rates when performing upload or write operations.",
+      "update_count": 5,
+      "updated_at": "2026-10-09T00:13:43+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "MongoDB Cloud"
+      ],
+      "created_at": "2026-10-09T13:11:12.248000+00:00",
+      "duration_minutes": null,
+      "incident_id": "zgrbbkk36076",
+      "provider_id": "mongodb",
+      "provider_name": "MongoDB Atlas",
+      "resolved_at": null,
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/dfzzl335pscn",
+      "status": "investigating",
+      "title": "Admin Admin API: Intermittent Increase in 5xx errors",
+      "update_count": 1,
+      "updated_at": "2026-10-09T13:11:12.448000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Short Code, North America"
+      ],
+      "created_at": "2026-10-09T12:59:36.285000+00:00",
+      "duration_minutes": null,
+      "incident_id": "5l20hbzp2k8m",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/qz161h8mggr5",
+      "status": "investigating",
+      "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Onvoy Spectrum Mobile United States",
+      "update_count": 2,
+      "updated_at": "2026-10-09T14:05:01.492000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-10-09T06:42:55.493000+00:00",
+      "duration_minutes": null,
+      "incident_id": "6vzm9lngb3cq",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/75tlt46n30fr",
+      "status": "identified",
+      "title": "SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender Type to Mobile China",
+      "update_count": 5,
+      "updated_at": "2026-10-09T14:31:15.247000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-10-08T21:15:51.119000+00:00",
+      "duration_minutes": 168.0,
+      "incident_id": "909wjpr90t63",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-09T00:03:52.175000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/th7w8bw5zxcl",
+      "status": "resolved",
+      "title": "SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender Type to Moov C\u00f4te d'Ivoire",
+      "update_count": 4,
+      "updated_at": "2026-10-09T00:03:52.201000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-10-09T12:39:23.942000+00:00",
+      "duration_minutes": null,
+      "incident_id": "qxsvc7lqqx4n",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/nmb1cwpkyv8w",
+      "status": "identified",
+      "title": "SMS Delivery Delays from Twilio Alphanumeric Sender IDs to Telenor Norway",
+      "update_count": 3,
+      "updated_at": "2026-10-09T13:44:13.180000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-10-09T10:46:46.091000+00:00",
+      "duration_minutes": null,
+      "incident_id": "rxz39khk1dh0",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/c2l0ghvfr3n0",
+      "status": "monitoring",
+      "title": "SMS Delivery Delays from Twilio to TIM and Noverca Italia Srl Italy",
+      "update_count": 4,
+      "updated_at": "2026-10-09T13:25:20.623000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Short Code, North America",
+        "SMS Toll-Free, North America",
+        "SMS Toll-Free, North America"
+      ],
+      "created_at": "2026-10-08T19:47:52.583000+00:00",
+      "duration_minutes": 513.3,
+      "incident_id": "yn67bt4txhw7",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-09T04:21:08.353000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tvyggv710bcl",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Verizon United States",
+      "update_count": 5,
+      "updated_at": "2026-10-09T04:21:08.382000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "PCI Integration",
+        "PCI Integration"
+      ],
+      "created_at": "2026-10-09T14:17:53.966000+00:00",
+      "duration_minutes": 11.7,
+      "incident_id": "q9j1vyvhkymw",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-10-09T14:29:33.221000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/vwp06p0ncd1x",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Phone and Zoom Contact Center PCI Integration in North America",
+      "update_count": 2,
+      "updated_at": "2026-10-09T14:29:33.245000+00:00"
+    }
+  ],
+  "runs": 1
+}
