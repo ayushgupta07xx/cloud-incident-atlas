@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,419 incidents**. Updated 2026-10-08.
+Cross-vendor incident data for 25 providers. Corpus: **23,431 incidents**. Updated 2026-10-09.
 
 ## Last 30 days
 
-- Incidents recorded: **510**
-- Major or worse: **69**
+- Incidents recorded: **506**
+- Major or worse: **70**
 
 ## Reliability by provider (all time)
 
@@ -14,18 +14,18 @@ Cross-vendor incident data for 25 providers. Corpus: **23,419 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 79 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
-| CircleCI | devtools | 318 | 69m | 480m |
-| Cloudflare | cdn | 6746 | 239m | 501m |
-| Confluent Cloud | data | 262 | 194m | 1633m |
+| CircleCI | devtools | 319 | 69m | 480m |
+| Cloudflare | cdn | 6747 | 239m | 501m |
+| Confluent Cloud | data | 263 | 194m | 1633m |
 | Datadog | observability | 127 | 73m | 226m |
 | DigitalOcean | cloud | 508 | 144m | 572m |
 | Discord | comms | 224 | 56m | 292m |
-| Elastic Cloud | observability | 260 | 192m | 1561m |
-| Google Cloud Platform | cloud | 6 | 444m | — |
+| Elastic Cloud | observability | 260 | 192m | 1543m |
+| Google Cloud Platform | cloud | 7 | 640m | — |
 | GitHub | devtools | 635 | 67m | 287m |
-| Grafana Cloud | observability | 770 | 90m | 1135m |
-| HashiCorp Cloud | devtools | 39 | 178m | 1488m |
-| MongoDB Atlas | data | 276 | 120m | 1412m |
+| Grafana Cloud | observability | 770 | 90m | 1134m |
+| HashiCorp Cloud | devtools | 39 | 196m | 1770m |
+| MongoDB Atlas | data | 277 | 120m | 1412m |
 | Netlify | paas | 225 | 38m | 189m |
 | New Relic | observability | 108 | 63m | 311m |
 | npm | devtools | 64 | 105m | 349m |
@@ -33,43 +33,35 @@ Cross-vendor incident data for 25 providers. Corpus: **23,419 incidents**. Updat
 | Sentry | observability | 342 | 85m | 363m |
 | Snowflake | data | 203 | 118m | 592m |
 | Supabase | paas | 438 | 150m | 1237m |
-| Twilio | comms | 11072 | 270m | 1095m |
+| Twilio | comms | 11078 | 270m | 1095m |
 | Vercel | paas | 392 | 72m | 357m |
-| Zoom | comms | 181 | 119m | 1605m |
+| Zoom | comms | 182 | 117m | 1562m |
 
-## New since last run (47)
+## New since last run (12)
 
-- **Cloudflare** — Network Performance Issues in Kochi (`minor`)
-- **Cloudflare** — Network Performance Issues in Kochi (`none`)
-- **Cloudflare** — Cloudflare API service issues (`minor`)
-- **Cloudflare** — Hyperdrive Degraded Performance (`none`)
-- **GitHub** — Incident with Git Operations, Issues, Actions and Pull Requests (`critical`)
-- **GitHub** — Incident with Git Operations, Pull Requests and Actions (`critical`)
-- **CircleCI** — Elevated wait times for machine jobs (`minor`)
-- **CircleCI** — Increased task wait times for Docker Gen2 (`minor`)
-- **CircleCI** — Elevated level of infra fails on customer jobs (`minor`)
-- **CircleCI** — Delay on starting Machine Job Tasks (`minor`)
-- **Confluent Cloud** — Experiencing high error rate in AZURE in Germany West Central region (`major`)
-- **Elastic Cloud** — Delayed or Unavailable project operation in GCP us-central1 (`major`)
-- **Grafana Cloud** — Degraded Performance with Increased Latency for Grafana Cloud Metrics and Traces in GCP US Central (`major`)
-- **Netlify** — Elevated Edge Function Errors (`none`)
-- **Supabase** — Upgrade Issues (`none`)
-- **Supabase** — Intermittent latency in Eastern US (`minor`)
-- **Supabase** — Increased errors on management api leading to project operation failures (`minor`)
-- **Supabase** — Log Ingestion Degradation (`none`)
-- **Supabase** — Project Lifecycle Issues in eu-west-1 (`minor`)
-- **Supabase** — Permission errors in the Supabase Dashboard (`critical`)
-- **Supabase** — Storage search failing for restored projects (`minor`)
-- **Supabase** — Supabase CLI CI workflow failures (`none`)
-- **Supabase** — Increased error rate in project creation and project restore (`minor`)
-- **Supabase** — Supavisor connection disruptions in EU West 1 (Ireland) (`minor`)
-- **Supabase** — Project creations are degraded in multiple regions (`none`)
+- **Cloudflare** — Network Performance Issues in Sofia (`minor`)
+- **MongoDB Atlas** — Admin Admin API: Intermittent Increase in 5xx errors (`none`)
+- **CircleCI** — Delay in data appearing in UI and API (`major`)
+- **Confluent Cloud** — Experiencing high error rate in AZURE in West Europe region (`major`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Onvoy Spectrum Mobile United States (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio Alphanumeric Sender IDs to Telenor Norway (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to TIM and Noverca Italia Srl Italy (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender Type to Mobile China (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Verizon United States (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender Type to Moov Côte d'Ivoire (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Phone and Zoom Contact Center PCI Integration in North America (`none`)
+- **Google Cloud Platform** — Google Cloud Storage customers are experiencing elevated latencies and error rates when performing upload or write operations. (`medium`)
 
-## Updated since last run (5)
+## Updated since last run (10)
 
-- **HashiCorp Cloud** — HCP Vault Azure: Cluster Updates and Creation → `monitoring`
-- **CircleCI** — Delays in pipelines, workflows, UI data, and notifications → `postmortem`
-- **OpenAI** — Issues with login, signup, and ads → `resolved`
+- **Snowflake** — INC20000239 → `postmortem`
+- **Snowflake** — INC20000150 → `identified`
+- **HashiCorp Cloud** — HCP Vault Azure: Cluster Updates and Creation → `resolved`
+- **Elastic Cloud** — Delayed or Unavailable project operation in GCP us-central1 → `resolved`
+- **Grafana Cloud** — Degraded Performance with Increased Latency for Grafana Cloud Metrics and Traces in GCP US Central → `resolved`
+- **Grafana Cloud** — IRM Unable to Send SMS to Thailand, Bangladesh, and Austrian Numbers → `identified`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Norway → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Brisanet Brazil → `identified`
 - **Twilio** — SMS Delivery Delays and Failures from Twilio to Movistar El Salvador → `identified`
 - **Zoom** — Service Degradation Affecting Customer Using Polycom Devices Going Offline → `identified`
 
