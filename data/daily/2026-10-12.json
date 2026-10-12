@@ -1,0 +1,367 @@
+{
+  "changed": [
+    {
+      "category": "cdn",
+      "components": [
+        "China Network"
+      ],
+      "created_at": "2026-10-10T04:13:17+00:00",
+      "duration_minutes": null,
+      "incident_id": "cyxclg7nnhjy",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/cyxclg7nnhjy",
+      "status": "identified",
+      "title": "Elevated Errors in China Network Colos",
+      "update_count": 3,
+      "updated_at": "2026-10-12T04:23:57+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-10-10T03:43:15.533000+00:00",
+      "duration_minutes": null,
+      "incident_id": "0mtly7m1pnq6",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/5qy4ps7zj9bw",
+      "status": "identified",
+      "title": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand",
+      "update_count": 8,
+      "updated_at": "2026-10-12T11:52:45.773000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-10-06T20:59:13.316000+00:00",
+      "duration_minutes": null,
+      "incident_id": "2t7rjq883wd2",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/v7m03nyrv8n3",
+      "status": "monitoring",
+      "title": "SMS Delivery Delays and Failures from Twilio to Movistar El Salvador",
+      "update_count": 23,
+      "updated_at": "2026-10-11T19:31:51.295000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-10-07T14:02:53.573000+00:00",
+      "duration_minutes": 6950.5,
+      "incident_id": "8jy0g7q5xkfb",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-12T09:53:24.731000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tvw3zc9w0nh6",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Brisanet Brazil",
+      "update_count": 21,
+      "updated_at": "2026-10-12T09:53:24.763000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-10-10T13:38:15.188000+00:00",
+      "duration_minutes": 565.7,
+      "incident_id": "zdxmfpspy73j",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-10T23:03:56.078000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/h5tf3z8639jx",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to DigiTel C.A. Venezuela",
+      "update_count": 7,
+      "updated_at": "2026-10-10T23:03:56.100000+00:00"
+    }
+  ],
+  "date": "2026-10-12",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [
+        "Los Angeles, CA, United States - (LAX)"
+      ],
+      "created_at": "2026-10-12T08:52:23.535000+00:00",
+      "duration_minutes": null,
+      "incident_id": "vyy1a1dspusg",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/vyy1a1dspusg",
+      "status": "investigating",
+      "title": "Elevated errors in Los Angeles (LAX)",
+      "update_count": 1,
+      "updated_at": "2026-10-12T08:52:23.535000+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [
+        "Global"
+      ],
+      "created_at": "2026-10-11T22:01:39.863000+00:00",
+      "duration_minutes": 87.4,
+      "incident_id": "qfg5hmfhxw5d",
+      "provider_id": "digitalocean",
+      "provider_name": "DigitalOcean",
+      "resolved_at": "2026-10-11T23:29:01.690000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/61n77v08qp0j",
+      "status": "resolved",
+      "title": "DNS Resolution for Managed Kubernetes",
+      "update_count": 3,
+      "updated_at": "2026-10-11T23:29:01.711000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "AWS US East (VA) - prod-us-east-3"
+      ],
+      "created_at": "2026-10-12T09:45:54.207000+00:00",
+      "duration_minutes": null,
+      "incident_id": "c5zm69crkl0t",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": null,
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/q5r4k8bnw6l6",
+      "status": "identified",
+      "title": "Elevated Errors Ingesting Metrics in AWS US East (VA)",
+      "update_count": 4,
+      "updated_at": "2026-10-12T11:56:40.230000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [],
+      "created_at": "2026-10-09T08:30:00+00:00",
+      "duration_minutes": 0.0,
+      "incident_id": "v4p2zm420trb",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-10-09T08:30:00+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/0hgq6b9hp550",
+      "status": "resolved",
+      "title": "Issues with Private Data Source Connect (PDC) in AWS US East (OH)",
+      "update_count": 1,
+      "updated_at": "2026-10-12T09:58:32.697000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "PHONE NUMBERS"
+      ],
+      "created_at": "2026-10-12T07:37:36.036000+00:00",
+      "duration_minutes": 133.8,
+      "incident_id": "2jmh84yd7drw",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-12T09:51:26.177000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/r4l105wfbyqb",
+      "status": "resolved",
+      "title": "Phone Number Purchase Failures in New Console",
+      "update_count": 5,
+      "updated_at": "2026-10-12T09:51:26.201000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Middle East & Africa"
+      ],
+      "created_at": "2026-10-12T07:36:43.289000+00:00",
+      "duration_minutes": 186.4,
+      "incident_id": "57lzljsprhzg",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-12T10:43:07.437000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/kxhfhgv62703",
+      "status": "resolved",
+      "title": "Voice Call Failures From a Subset of Twilio Phone Numbers to Pelephone Israel",
+      "update_count": 5,
+      "updated_at": "2026-10-12T10:43:07.462000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-10-11T04:55:18.830000+00:00",
+      "duration_minutes": 452.9,
+      "incident_id": "7qvm0t9wh1kl",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-11T12:28:15.375000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/mkgvkv9vyd16",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Beeline Kazakhstan",
+      "update_count": 5,
+      "updated_at": "2026-10-11T12:28:15.403000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-10-12T09:18:05.062000+00:00",
+      "duration_minutes": null,
+      "incident_id": "dgbks7mltnqc",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tbqr4p58jbwy",
+      "status": "monitoring",
+      "title": "SMS Delivery Delays from Twilio to Multiple Networks in Italy",
+      "update_count": 3,
+      "updated_at": "2026-10-12T11:55:48.770000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Verify Silent Network Auth"
+      ],
+      "created_at": "2026-10-11T05:17:32.181000+00:00",
+      "duration_minutes": 402.0,
+      "incident_id": "dh3zfbj63cs8",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-11T11:59:35.090000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/4ckm8sj5wn22",
+      "status": "resolved",
+      "title": "Silent Network Authentication (SNA) Missing Redirects on Vodafone in United Kingdom",
+      "update_count": 4,
+      "updated_at": "2026-10-11T11:59:35.119000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-10-12T11:53:33.242000+00:00",
+      "duration_minutes": null,
+      "incident_id": "fm5fk85h6glc",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/6z04b5nnhvd2",
+      "status": "investigating",
+      "title": "Voice Call Post Dial Delay From a Subset of Twilio Phone Numbers to Malaysia",
+      "update_count": 1,
+      "updated_at": "2026-10-12T11:53:33.363000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "WhatsApp Messaging"
+      ],
+      "created_at": "2026-10-12T03:24:59+00:00",
+      "duration_minutes": 234.0,
+      "incident_id": "lrq2mmp9zb08",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-12T07:19:00.968000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/623n247dv0m2",
+      "status": "resolved",
+      "title": "WhatsApp Sandbox Message Processing Issues",
+      "update_count": 7,
+      "updated_at": "2026-10-12T07:19:00.994000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-10-12T07:19:35.917000+00:00",
+      "duration_minutes": null,
+      "incident_id": "vd9gl3zwrcst",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/mq33mcpx1x1k",
+      "status": "investigating",
+      "title": "SMS Delivery Delays from Twilio to Pelephone Israel",
+      "update_count": 3,
+      "updated_at": "2026-10-12T10:20:15.636000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom AI"
+      ],
+      "created_at": "2026-10-12T11:09:38.221000+00:00",
+      "duration_minutes": 11.2,
+      "incident_id": "5bxhmvy9byj5",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-10-12T11:20:51.818000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/qpwjwckn00wm",
+      "status": "resolved",
+      "title": "Service degradation affecting Zoom AI Companion in US region",
+      "update_count": 2,
+      "updated_at": "2026-10-12T11:20:51.847000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Scheduler"
+      ],
+      "created_at": "2026-10-11T22:29:02.332000+00:00",
+      "duration_minutes": 133.3,
+      "incident_id": "w91tx12w9scz",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-10-12T00:42:19.599000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/696czlyjfngy",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Scheduler.",
+      "update_count": 4,
+      "updated_at": "2026-10-12T00:42:19.624000+00:00"
+    }
+  ],
+  "runs": 1
+}
