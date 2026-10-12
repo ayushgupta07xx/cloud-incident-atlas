@@ -31,22 +31,19 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-10 17:54 UTC` &nbsp;·&nbsp; **16 new** and **18 updated** incidents &nbsp;·&nbsp; 23,447 total
+**Last ingest** &nbsp;`2026-10-12 12:10 UTC` &nbsp;·&nbsp; **14 new** and **5 updated** incidents &nbsp;·&nbsp; 23,461 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 11 |
-| CircleCI | 6 |
-| Cloudflare | 4 |
-| OpenAI | 3 |
-| MongoDB Atlas | 2 |
-| Confluent Cloud | 2 |
+| Twilio | 12 |
+| Cloudflare | 2 |
+| Grafana Cloud | 2 |
+| Zoom | 2 |
+| DigitalOcean | 1 |
 
 Most severe this run:
 
-- `major` **MongoDB Atlas** — Issue impacting Atlas Search availability on certain clusters
-- `major` **Confluent Cloud** — Possible outage in AWS us-east-1
-- `major` **Vercel** — Delays in Drains, Observability, and Workflow in Washington (iad1)
+- `major` **Grafana Cloud** — Elevated Errors Ingesting Metrics in AWS US East (VA)
 
 <!-- STATUS:END -->
 
