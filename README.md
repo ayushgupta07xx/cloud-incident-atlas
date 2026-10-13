@@ -31,19 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-12 12:10 UTC` &nbsp;·&nbsp; **14 new** and **5 updated** incidents &nbsp;·&nbsp; 23,461 total
+**Last ingest** &nbsp;`2026-10-13 17:08 UTC` &nbsp;·&nbsp; **29 new** and **13 updated** incidents &nbsp;·&nbsp; 23,490 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 12 |
-| Cloudflare | 2 |
-| Grafana Cloud | 2 |
-| Zoom | 2 |
-| DigitalOcean | 1 |
+| Twilio | 16 |
+| Cloudflare | 9 |
+| GitHub | 4 |
+| Grafana Cloud | 3 |
+| Supabase | 3 |
+| OpenAI | 2 |
 
 Most severe this run:
 
-- `major` **Grafana Cloud** — Elevated Errors Ingesting Metrics in AWS US East (VA)
+- `critical` **GitHub** — Incident with Git Operations, Issues, Actions and Pull Requests
+- `critical` **GitHub** — Incident with Git Operations, Pull Requests and Actions
+- `critical` **GitHub** — Several services are degraded
 
 <!-- STATUS:END -->
 
