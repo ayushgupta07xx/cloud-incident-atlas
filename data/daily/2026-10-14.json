@@ -1,0 +1,601 @@
+{
+  "changed": [
+    {
+      "category": "cdn",
+      "components": [
+        "Workers"
+      ],
+      "created_at": "2026-10-13T15:18:01.555000+00:00",
+      "duration_minutes": 531.4,
+      "incident_id": "cbvocc87nsne",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-14T00:09:26.984000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/cbvocc87nsne",
+      "status": "resolved",
+      "title": "Cloudflare Workers - Cron Trigger Activation Issues",
+      "update_count": 4,
+      "updated_at": "2026-10-14T00:09:26.984000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Los Angeles, CA, United States - (LAX)"
+      ],
+      "created_at": "2026-10-12T08:52:23.535000+00:00",
+      "duration_minutes": 1968.2,
+      "incident_id": "vyy1a1dspusg",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-13T17:40:37.437000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/vyy1a1dspusg",
+      "status": "resolved",
+      "title": "Elevated errors in Los Angeles (LAX)",
+      "update_count": 3,
+      "updated_at": "2026-10-13T17:40:37.437000+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [
+        "Google Cloud Storage"
+      ],
+      "created_at": "2026-10-08T11:00:00+00:00",
+      "duration_minutes": 1786.0,
+      "incident_id": "mSFVt6PiP557bjRyYsut",
+      "provider_id": "gcp",
+      "provider_name": "Google Cloud Platform",
+      "resolved_at": "2026-10-09T16:46:00+00:00",
+      "severity": "medium",
+      "severity_rank": 2,
+      "shortlink": "incidents/mSFVt6PiP557bjRyYsut",
+      "status": "resolved",
+      "title": "Google Cloud Storage (GCS) customers experienced elevated latencies and error rates when performing upload or write operations.",
+      "update_count": 7,
+      "updated_at": "2026-10-14T07:24:12+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "Incident Management and Response (IRM)"
+      ],
+      "created_at": "2026-10-05T16:17:43.417000+00:00",
+      "duration_minutes": null,
+      "incident_id": "6x77ccl9shpy",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/9l8htmqt82s2",
+      "status": "identified",
+      "title": "IRM Unable to Send SMS to Thailand, Bangladesh, and Austrian Numbers",
+      "update_count": 5,
+      "updated_at": "2026-10-13T21:35:12.709000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "Incident Management and Response (IRM)"
+      ],
+      "created_at": "2026-10-13T09:23:32.316000+00:00",
+      "duration_minutes": null,
+      "incident_id": "fj19hw3kzfry",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/3kqkpqlqm6f5",
+      "status": "investigating",
+      "title": "Phone call notifications to numbers in Russia and Kazakhstan are blocked",
+      "update_count": 2,
+      "updated_at": "2026-10-13T21:35:33.249000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Data Loading and Unloading"
+      ],
+      "created_at": "2026-10-13T15:53:15.150000+00:00",
+      "duration_minutes": null,
+      "incident_id": "35r1b6t7n8y2",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/zv7wdpp3sk46",
+      "status": "investigating",
+      "title": "INC20000277",
+      "update_count": 8,
+      "updated_at": "2026-10-14T03:19:21.002000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [],
+      "created_at": "2026-10-12T19:49:07+00:00",
+      "duration_minutes": 1355.7,
+      "incident_id": "01M4RTJRV55MN1WZDT7KTSAKK5",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": "2026-10-13T18:24:49+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Edge Function Degradation",
+      "update_count": 5,
+      "updated_at": "2026-10-13T18:24:49+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [],
+      "created_at": "2026-10-12T22:59:44+00:00",
+      "duration_minutes": null,
+      "incident_id": "01M4S5FT4GCZ8BWV2W1RB5WXNE",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "monitoring",
+      "title": "Realtime latency",
+      "update_count": 8,
+      "updated_at": "2026-10-14T03:00:21+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Middle East & Africa"
+      ],
+      "created_at": "2026-10-13T12:57:41.829000+00:00",
+      "duration_minutes": 359.6,
+      "incident_id": "8r6hqst5pydb",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-13T18:57:19.168000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/6rh8s49r12f0",
+      "status": "resolved",
+      "title": "Voice Call Failures between a Subset of Twilio South Africa Phone Numbers and Multiple Networks in South Africa",
+      "update_count": 6,
+      "updated_at": "2026-10-13T18:57:19.197000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-10-13T15:18:57.469000+00:00",
+      "duration_minutes": 289.4,
+      "incident_id": "fj3sr5pft48s",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-13T20:08:22.086000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/6kjnwh77ksh7",
+      "status": "resolved",
+      "title": "Voice Call Audio Quality Degradation between Twilio Phone Numbers and Multiple Networks in Brazil",
+      "update_count": 5,
+      "updated_at": "2026-10-13T20:08:22.117000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-10-12T11:53:33.242000+00:00",
+      "duration_minutes": null,
+      "incident_id": "fm5fk85h6glc",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/6z04b5nnhvd2",
+      "status": "identified",
+      "title": "Voice Call Post Dial Delay From a Subset of Twilio Phone Numbers to Thailand",
+      "update_count": 14,
+      "updated_at": "2026-10-14T09:09:14.549000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-10-13T14:33:04.803000+00:00",
+      "duration_minutes": 793.0,
+      "incident_id": "rqv026yy14y0",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-14T03:46:02.222000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/lvn2pmhnjsqy",
+      "status": "resolved",
+      "title": "SMS Delivery Delays and Failures from Twilio to VIVACOM Bulgaria",
+      "update_count": 6,
+      "updated_at": "2026-10-14T03:46:02.254000+00:00"
+    }
+  ],
+  "date": "2026-10-14",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [
+        "Observatory"
+      ],
+      "created_at": "2026-10-14T04:52:22.205000+00:00",
+      "duration_minutes": null,
+      "incident_id": "73pslms8eann",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-14T04:12:00+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/73pslms8eann",
+      "status": "resolved",
+      "title": "OBS API availability",
+      "update_count": 1,
+      "updated_at": "2026-10-14T04:52:22.205000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Portland, OR, United States - (PDX)"
+      ],
+      "created_at": "2026-10-14T04:40:32.403000+00:00",
+      "duration_minutes": 125.2,
+      "incident_id": "7hicc5bfkvx3",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-14T06:45:43.255000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/7hicc5bfkvx3",
+      "status": "resolved",
+      "title": "Elevated number of 5XX errors in PDX",
+      "update_count": 3,
+      "updated_at": "2026-10-14T06:45:43.255000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Network"
+      ],
+      "created_at": "2026-10-14T10:54:23.731000+00:00",
+      "duration_minutes": null,
+      "incident_id": "ak3kgdz2nyog",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-14T07:51:00+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/ak3kgdz2nyog",
+      "status": "resolved",
+      "title": "Increased HTTP Errors in London (LHR)",
+      "update_count": 1,
+      "updated_at": "2026-10-14T10:54:52.901000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Los Angeles, CA, United States - (LAX)"
+      ],
+      "created_at": "2026-10-13T20:37:59.232000+00:00",
+      "duration_minutes": 127.0,
+      "incident_id": "fdgz8zlmfhw6",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-13T22:44:56.599000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/fdgz8zlmfhw6",
+      "status": "resolved",
+      "title": "Network Performance Issues in LAX",
+      "update_count": 2,
+      "updated_at": "2026-10-13T22:44:56.599000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Network"
+      ],
+      "created_at": "2026-10-14T05:51:04.220000+00:00",
+      "duration_minutes": null,
+      "incident_id": "l6if0sptyjvw",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-14T05:20:00+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/l6if0sptyjvw",
+      "status": "resolved",
+      "title": "Elevated errors in Los Angeles (LAX)",
+      "update_count": 1,
+      "updated_at": "2026-10-14T05:51:04.220000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Workers"
+      ],
+      "created_at": "2026-10-14T05:36:12.243000+00:00",
+      "duration_minutes": null,
+      "incident_id": "npjny9agana8",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/npjny9agana8",
+      "status": "monitoring",
+      "title": "Cloudflare Workers - Cron Trigger Activation Issues",
+      "update_count": 3,
+      "updated_at": "2026-10-14T08:14:16.627000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Dallas, TX, United States - (DFW)"
+      ],
+      "created_at": "2026-10-14T04:59:55.241000+00:00",
+      "duration_minutes": null,
+      "incident_id": "rip4d46xzsez",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-14T03:30:00+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/rip4d46xzsez",
+      "status": "resolved",
+      "title": "Possible Network Congestion in Dallas, TX, United States (DFW)",
+      "update_count": 1,
+      "updated_at": "2026-10-14T04:59:55.241000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [],
+      "created_at": "2026-10-13T17:24:36.926000+00:00",
+      "duration_minutes": null,
+      "incident_id": "z7vongh8rqc1",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-10-13T17:07:00+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/z7vongh8rqc1",
+      "status": "resolved",
+      "title": "Cloudflare Service Issues",
+      "update_count": 1,
+      "updated_at": "2026-10-13T17:30:45.973000+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [
+        "Global"
+      ],
+      "created_at": "2026-10-13T17:09:47.490000+00:00",
+      "duration_minutes": 0.0,
+      "incident_id": "rl0fl1jtxw7l",
+      "provider_id": "digitalocean",
+      "provider_name": "DigitalOcean",
+      "resolved_at": "2026-10-13T17:09:47.560000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/txrkbrvfl4bz",
+      "status": "resolved",
+      "title": "App Platform Deployments",
+      "update_count": 1,
+      "updated_at": "2026-10-13T17:09:48.123000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-10-13T20:30:00+00:00",
+      "duration_minutes": 0.0,
+      "incident_id": "6yk962mhlr3h",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-10-13T20:30:00+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/6ky9bv9gkkd1",
+      "status": "resolved",
+      "title": "[Retroactive] Actions workflow run logs delayed",
+      "update_count": 1,
+      "updated_at": "2026-10-14T00:13:11.803000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "GCP US Central - prod-us-central-4"
+      ],
+      "created_at": "2026-10-13T19:55:20.914000+00:00",
+      "duration_minutes": 51.4,
+      "incident_id": "npdd5p4wt0qh",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-10-13T20:46:44.698000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tkdwbmz3gpx0",
+      "status": "resolved",
+      "title": "Errors when querying Prometheus datasource",
+      "update_count": 4,
+      "updated_at": "2026-10-13T20:46:44.720000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "www.npmjs.com website"
+      ],
+      "created_at": "2026-10-14T09:29:04.643000+00:00",
+      "duration_minutes": null,
+      "incident_id": "nwrj52br2kjv",
+      "provider_id": "npm",
+      "provider_name": "npm",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/sjn79qb38sy0",
+      "status": "monitoring",
+      "title": "Issues with login and viewing packages",
+      "update_count": 4,
+      "updated_at": "2026-10-14T11:33:36.641000+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-10-14T07:05:44+00:00",
+      "duration_minutes": 167.4,
+      "incident_id": "01M4WKPE1EY48ZB4RZJ80YH7ES",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-10-14T09:53:11+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Degraded performance in Codex and ChatGPT Work",
+      "update_count": 3,
+      "updated_at": "2026-10-14T09:53:11+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-10-14T10:18:07+00:00",
+      "duration_minutes": 40.0,
+      "incident_id": "01M4WYPP5QA0CJ3JV76KH285K8",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-10-14T10:58:07+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst",
+      "update_count": 3,
+      "updated_at": "2026-10-14T10:58:07+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [],
+      "created_at": "2026-10-14T05:46:32.221000+00:00",
+      "duration_minutes": 153.7,
+      "incident_id": "600twx50v7vg",
+      "provider_id": "sentry",
+      "provider_name": "Sentry",
+      "resolved_at": "2026-10-14T08:20:13.025000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/kl4239fh2t23",
+      "status": "resolved",
+      "title": "Ingestion Halted for EAP data in EU",
+      "update_count": 4,
+      "updated_at": "2026-10-14T08:20:13.055000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [],
+      "created_at": "2026-10-14T10:22:39.050000+00:00",
+      "duration_minutes": 26.6,
+      "incident_id": "fbvpxj1cclwz",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-14T10:49:16.284000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/8g6drvtdgt9d",
+      "status": "resolved",
+      "title": "Automated Alert: No Customer Impact",
+      "update_count": 2,
+      "updated_at": "2026-10-14T10:49:16.305000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Middle East & Africa"
+      ],
+      "created_at": "2026-10-14T11:20:58.894000+00:00",
+      "duration_minutes": null,
+      "incident_id": "gkgz86nq6mwd",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/87ksz4fr43kl",
+      "status": "investigating",
+      "title": "Voice Call Failures and Post Dial Delay from a Subset of Twilio Phone Numbers to Israel",
+      "update_count": 1,
+      "updated_at": "2026-10-14T11:20:59.188000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America",
+        "SMS, Europe"
+      ],
+      "created_at": "2026-10-14T02:20:29.471000+00:00",
+      "duration_minutes": 266.0,
+      "incident_id": "npz93rbcf5x7",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-10-14T06:46:31.177000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/0nmpsgvllzcs",
+      "status": "resolved",
+      "title": "SMS Delivery Delays and Failures between Twilio and Multiple Networks in Brazil and Italy",
+      "update_count": 5,
+      "updated_at": "2026-10-14T06:46:31.198000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "ZoomMate"
+      ],
+      "created_at": "2026-10-14T09:39:17.743000+00:00",
+      "duration_minutes": 5.1,
+      "incident_id": "1f92zl019hrl",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-10-14T09:44:25.664000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/7j0d2jvn7hx6",
+      "status": "resolved",
+      "title": "Service Degradation Affected Sandbox Creation in ZoomMate",
+      "update_count": 2,
+      "updated_at": "2026-10-14T09:44:25.688000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Clips"
+      ],
+      "created_at": "2026-10-14T00:20:29.055000+00:00",
+      "duration_minutes": null,
+      "incident_id": "7j0c0s1k4cpv",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rcc26f8fnwgf",
+      "status": "identified",
+      "title": "Service Degradation Affecting Zoom Clips",
+      "update_count": 4,
+      "updated_at": "2026-10-14T08:04:35.166000+00:00"
+    }
+  ],
+  "runs": 1
+}
