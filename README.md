@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-13 17:08 UTC` &nbsp;·&nbsp; **29 new** and **13 updated** incidents &nbsp;·&nbsp; 23,490 total
+**Last ingest** &nbsp;`2026-10-14 11:44 UTC` &nbsp;·&nbsp; **20 new** and **12 updated** incidents &nbsp;·&nbsp; 23,510 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 16 |
-| Cloudflare | 9 |
-| GitHub | 4 |
+| Cloudflare | 10 |
+| Twilio | 7 |
 | Grafana Cloud | 3 |
-| Supabase | 3 |
 | OpenAI | 2 |
+| Zoom | 2 |
+| Supabase | 2 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Incident with Git Operations, Issues, Actions and Pull Requests
-- `critical` **GitHub** — Incident with Git Operations, Pull Requests and Actions
-- `critical` **GitHub** — Several services are degraded
+- `major` **Cloudflare** — Cloudflare Service Issues
+- `major` **Sentry** — Ingestion Halted for EAP data in EU
+- `medium` **Google Cloud Platform** — Google Cloud Storage (GCS) customers experienced elevated latencies and error rates when
 
 <!-- STATUS:END -->
 

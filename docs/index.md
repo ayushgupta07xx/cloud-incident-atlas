@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,490 incidents**. Updated 2026-10-13.
+Cross-vendor incident data for 25 providers. Corpus: **23,510 incidents**. Updated 2026-10-14.
 
 ## Last 30 days
 
-- Incidents recorded: **506**
-- Major or worse: **66**
+- Incidents recorded: **521**
+- Major or worse: **67**
 
 ## Reliability by provider (all time)
 
@@ -15,71 +15,65 @@ Cross-vendor incident data for 25 providers. Corpus: **23,490 incidents**. Updat
 | Amazon Web Services | cloud | 79 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 319 | 69m | 481m |
-| Cloudflare | cdn | 6759 | 239m | 502m |
+| Cloudflare | cdn | 6767 | 239m | 504m |
 | Confluent Cloud | data | 264 | 194m | 1619m |
 | Datadog | observability | 127 | 73m | 226m |
-| DigitalOcean | cloud | 509 | 144m | 571m |
+| DigitalOcean | cloud | 510 | 144m | 571m |
 | Discord | comms | 224 | 56m | 292m |
 | Elastic Cloud | observability | 260 | 192m | 1543m |
 | Google Cloud Platform | cloud | 7 | 640m | — |
-| GitHub | devtools | 636 | 67m | 294m |
-| Grafana Cloud | observability | 774 | 90m | 1133m |
+| GitHub | devtools | 637 | 67m | 292m |
+| Grafana Cloud | observability | 775 | 90m | 1133m |
 | HashiCorp Cloud | devtools | 40 | 178m | 1647m |
 | MongoDB Atlas | data | 278 | 120m | 1406m |
 | Netlify | paas | 225 | 38m | 189m |
 | New Relic | observability | 108 | 63m | 311m |
-| npm | devtools | 64 | 105m | 349m |
-| OpenAI | ai | 108 | 108m | 614m |
-| Sentry | observability | 342 | 85m | 363m |
+| npm | devtools | 65 | 105m | 349m |
+| OpenAI | ai | 110 | 108m | 594m |
+| Sentry | observability | 343 | 86m | 362m |
 | Snowflake | data | 204 | 118m | 592m |
-| Supabase | paas | 441 | 152m | 1235m |
-| Twilio | comms | 11102 | 270m | 1095m |
+| Supabase | paas | 441 | 153m | 1272m |
+| Twilio | comms | 11105 | 270m | 1095m |
 | Vercel | paas | 394 | 72m | 364m |
-| Zoom | comms | 186 | 119m | 1778m |
+| Zoom | comms | 188 | 117m | 1735m |
 
-## New since last run (29)
+## New since last run (20)
 
 - **Cloudflare** — Cloudflare Workers - Cron Trigger Activation Issues (`minor`)
-- **Cloudflare** — Network performance issues in Ashburn, US (IAD) (`minor`)
-- **Cloudflare** — Audit Logs v2 ingestion is missing multiple Cloudflare products (`minor`)
-- **Cloudflare** — Cloudflare Network Performance Issues (`minor`)
-- **Cloudflare** — Cloudflare Workers - Cron Trigger Activation Issues (`minor`)
-- **Cloudflare** — Network Performance Issues in Seattle (`minor`)
-- **Cloudflare** — Cloudflare Workers API (`minor`)
-- **GitHub** — Incident with Actions, Pull Requests and Issues (`minor`)
-- **Snowflake** — INC20000277 (`minor`)
-- **HashiCorp Cloud** — Terraform Runs Failing (`major`)
-- **Grafana Cloud** — Phone call notifications to numbers in Russia and Kazakhstan are blocked (`minor`)
-- **Grafana Cloud** — Elevated Errors Ingesting Metrics in AWS US East (OH) - prod-us-east-0 (`none`)
-- **Vercel** — Increased build and deployment failures (`major`)
-- **Supabase** — Realtime latency (`minor`)
-- **Supabase** — Edge Function Degradation (`minor`)
-- **Supabase** — Log ingestion impaired (`minor`)
-- **OpenAI** — Degraded performance in GPT-6.1 Sol Codex and Work mode (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Beeline Kazakhstan (`minor`)
-- **Twilio** — Voice Call Audio Quality Degradation between Twilio Phone Numbers and Multiple Networks in Brazil (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to VIVACOM Bulgaria (`minor`)
-- **Twilio** — Voice Call Failures between a Subset of Twilio Phone Numbers and Multiple Networks in South Africa (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Etisalat and Du United Arab Emirates (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Telekom Germany (`minor`)
-- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States (`minor`)
-- **Twilio** — Debugger Notification Delivery Issues (`minor`)
+- **Cloudflare** — Increased HTTP Errors in London (LHR) (`minor`)
+- **Cloudflare** — Elevated number of 5XX errors in PDX (`none`)
+- **Cloudflare** — Elevated errors in Los Angeles (LAX) (`none`)
+- **Cloudflare** — OBS API availability (`minor`)
+- **Cloudflare** — Possible Network Congestion in Dallas, TX, United States (DFW) (`minor`)
+- **Cloudflare** — Network Performance Issues in LAX (`minor`)
+- **Cloudflare** — Cloudflare Service Issues (`major`)
+- **GitHub** — [Retroactive] Actions workflow run logs delayed (`minor`)
+- **DigitalOcean** — App Platform Deployments (`none`)
+- **npm** — Issues with login and viewing packages (`minor`)
+- **Grafana Cloud** — Errors when querying Prometheus datasource (`minor`)
+- **Sentry** — Ingestion Halted for EAP data in EU (`major`)
+- **OpenAI** — Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst (`minor`)
+- **OpenAI** — Degraded performance in Codex and ChatGPT Work (`minor`)
+- **Twilio** — Voice Call Failures and Post Dial Delay from a Subset of Twilio Phone Numbers to Israel (`minor`)
+- **Twilio** — Automated Alert: No Customer Impact (`none`)
+- **Twilio** — SMS Delivery Delays and Failures between Twilio and Multiple Networks in Brazil and Italy (`minor`)
+- **Zoom** — Service Degradation Affected Sandbox Creation in ZoomMate (`none`)
+- **Zoom** — Service Degradation Affecting Zoom Clips (`minor`)
 
-## Updated since last run (13)
+## Updated since last run (12)
 
-- **Cloudflare** — Elevated errors in Los Angeles (LAX) → `identified`
-- **Cloudflare** — Elevated Errors in China Network Colos → `identified`
-- **GitHub** — Incident with Git Operations, Issues, Actions and Pull Requests → `resolved`
-- **GitHub** — Incident with Git Operations, Pull Requests and Actions → `resolved`
-- **GitHub** — Several services are degraded → `resolved`
-- **CircleCI** — Delay in data appearing in UI and API → `postmortem`
-- **Grafana Cloud** — Elevated Errors Ingesting Metrics in AWS US East (VA) → `resolved`
-- **OpenAI** — Delayed Costs data in the Compliance API → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Movistar El Salvador → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays From a Subset of Twilio Short Codes to Multiple Networks in New Zealand → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Italy → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Pelephone Israel → `resolved`
+- **Cloudflare** — Cloudflare Workers - Cron Trigger Activation Issues → `resolved`
+- **Cloudflare** — Elevated errors in Los Angeles (LAX) → `resolved`
+- **Snowflake** — INC20000277 → `investigating`
+- **Grafana Cloud** — Phone call notifications to numbers in Russia and Kazakhstan are blocked → `investigating`
+- **Grafana Cloud** — IRM Unable to Send SMS to Thailand, Bangladesh, and Austrian Numbers → `identified`
+- **Supabase** — Realtime latency → `monitoring`
+- **Supabase** — Edge Function Degradation → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to VIVACOM Bulgaria → `resolved`
+- **Twilio** — Voice Call Audio Quality Degradation between Twilio Phone Numbers and Multiple Networks in Brazil → `resolved`
+- **Twilio** — Voice Call Failures between a Subset of Twilio South Africa Phone Numbers and Multiple Networks in South Africa → `resolved`
 - **Twilio** — Voice Call Post Dial Delay From a Subset of Twilio Phone Numbers to Thailand → `identified`
+- **Google Cloud Platform** — Google Cloud Storage (GCS) customers experienced elevated latencies and error rates when performing upload or write operations. → `resolved`
 
 ---
 
