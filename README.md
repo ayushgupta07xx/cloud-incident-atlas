@@ -31,22 +31,16 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-14 11:44 UTC` &nbsp;·&nbsp; **20 new** and **12 updated** incidents &nbsp;·&nbsp; 23,510 total
+**Last ingest** &nbsp;`2026-10-15 15:46 UTC` &nbsp;·&nbsp; **19 new** and **10 updated** incidents &nbsp;·&nbsp; 23,529 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Cloudflare | 10 |
-| Twilio | 7 |
+| Twilio | 10 |
+| Cloudflare | 9 |
 | Grafana Cloud | 3 |
-| OpenAI | 2 |
 | Zoom | 2 |
-| Supabase | 2 |
-
-Most severe this run:
-
-- `major` **Cloudflare** — Cloudflare Service Issues
-- `major` **Sentry** — Ingestion Halted for EAP data in EU
-- `medium` **Google Cloud Platform** — Google Cloud Storage (GCS) customers experienced elevated latencies and error rates when
+| CircleCI | 1 |
+| OpenAI | 1 |
 
 <!-- STATUS:END -->
 
