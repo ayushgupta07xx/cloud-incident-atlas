@@ -4,24 +4,24 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 11113 | 4.5h | 18.2h | 1057.6h |
-| Cloudflare | cdn | 6773 | 4.0h | 8.4h | 5350.4h |
-| Grafana Cloud | observability | 777 | 1.5h | 18.9h | 2571.2h |
-| GitHub | devtools | 637 | 1.1h | 4.9h | 62.0h |
+| Twilio | comms | 11118 | 4.5h | 18.2h | 1057.6h |
+| Cloudflare | cdn | 6782 | 4.0h | 8.4h | 5350.4h |
+| Grafana Cloud | observability | 778 | 1.5h | 18.9h | 2571.2h |
+| GitHub | devtools | 638 | 1.1h | 4.9h | 62.0h |
 | DigitalOcean | cloud | 510 | 2.4h | 9.5h | 304.2h |
 | Supabase | paas | 441 | 2.6h | 22.1h | 2129.0h |
 | Vercel | paas | 394 | 1.2h | 6.1h | 339.2h |
 | Sentry | observability | 343 | 1.4h | 6.0h | 668.4h |
 | CircleCI | devtools | 320 | 1.2h | 8.0h | 96.0h |
 | MongoDB Atlas | data | 278 | 2.0h | 23.4h | 4467.0h |
-| Confluent Cloud | data | 264 | 3.2h | 27.0h | 2821.4h |
+| Confluent Cloud | data | 266 | 3.2h | 26.8h | 2821.4h |
 | Elastic Cloud | observability | 260 | 3.2h | 25.7h | 708.5h |
 | Netlify | paas | 225 | 38m | 3.1h | 347.3h |
 | Discord | comms | 224 | 56m | 4.9h | 664.8h |
-| Snowflake | data | 204 | 2.0h | 9.9h | 1801.6h |
+| Snowflake | data | 205 | 2.0h | 9.9h | 1801.6h |
 | Zoom | comms | 189 | 1.9h | 27.5h | 1944.0h |
 | Datadog | observability | 127 | 1.2h | 3.8h | 49.9h |
-| OpenAI | ai | 111 | 1.8h | 9.9h | 70.7h |
+| OpenAI | ai | 112 | 1.8h | 11.2h | 70.7h |
 | New Relic | observability | 108 | 1.1h | 5.2h | 52.3h |
 | Amazon Web Services | cloud | 79 | — | — | — |
 | npm | devtools | 65 | 1.8h | 5.8h | 20.9h |
@@ -34,11 +34,11 @@
 
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
-| ai | 1 | 111 | 15 |
-| cdn | 1 | 6773 | 134 |
+| ai | 1 | 112 | 16 |
+| cdn | 1 | 6782 | 136 |
 | cloud | 4 | 597 | 35 |
-| comms | 3 | 11526 | 120 |
-| data | 3 | 746 | 276 |
-| devtools | 5 | 1101 | 229 |
-| observability | 5 | 1615 | 573 |
+| comms | 3 | 11531 | 120 |
+| data | 3 | 749 | 277 |
+| devtools | 5 | 1102 | 229 |
+| observability | 5 | 1616 | 574 |
 | paas | 3 | 1060 | 245 |

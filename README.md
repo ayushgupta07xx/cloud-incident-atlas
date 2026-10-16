@@ -31,16 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-15 15:46 UTC` &nbsp;·&nbsp; **19 new** and **10 updated** incidents &nbsp;·&nbsp; 23,529 total
+**Last ingest** &nbsp;`2026-10-16 12:39 UTC` &nbsp;·&nbsp; **20 new** and **14 updated** incidents &nbsp;·&nbsp; 23,549 total
 
 | Provider | Incidents |
 | --- | ---: |
+| Cloudflare | 13 |
 | Twilio | 10 |
-| Cloudflare | 9 |
-| Grafana Cloud | 3 |
-| Zoom | 2 |
-| CircleCI | 1 |
-| OpenAI | 1 |
+| Snowflake | 3 |
+| GitHub | 2 |
+| Confluent Cloud | 2 |
+| Grafana Cloud | 2 |
+
+Most severe this run:
+
+- `critical` **Snowflake** — INC20000287
+- `major` **Cloudflare** — Network Performance Issues in Eastern North America
+- `major` **Cloudflare** — Network Performance Issues in London
 
 <!-- STATUS:END -->
 
