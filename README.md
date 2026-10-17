@@ -31,22 +31,20 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-16 12:39 UTC` &nbsp;·&nbsp; **20 new** and **14 updated** incidents &nbsp;·&nbsp; 23,549 total
+**Last ingest** &nbsp;`2026-10-17 16:29 UTC` &nbsp;·&nbsp; **13 new** and **4 updated** incidents &nbsp;·&nbsp; 23,562 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Cloudflare | 13 |
-| Twilio | 10 |
-| Snowflake | 3 |
-| GitHub | 2 |
-| Confluent Cloud | 2 |
-| Grafana Cloud | 2 |
+| Twilio | 9 |
+| Grafana Cloud | 3 |
+| Cloudflare | 2 |
+| Netlify | 1 |
+| Supabase | 1 |
+| Zoom | 1 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000287
-- `major` **Cloudflare** — Network Performance Issues in Eastern North America
-- `major` **Cloudflare** — Network Performance Issues in London
+- `major` **Cloudflare** — Cloudflare Fedramp Dashboard and Access
 
 <!-- STATUS:END -->
 
