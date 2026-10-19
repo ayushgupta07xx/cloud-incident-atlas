@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,562 incidents**. Updated 2026-10-17.
+Cross-vendor incident data for 25 providers. Corpus: **23,570 incidents**. Updated 2026-10-19.
 
 ## Last 30 days
 
-- Incidents recorded: **481**
-- Major or worse: **64**
+- Incidents recorded: **459**
+- Major or worse: **59**
 
 ## Reliability by provider (all time)
 
@@ -15,7 +15,7 @@ Cross-vendor incident data for 25 providers. Corpus: **23,562 incidents**. Updat
 | Amazon Web Services | cloud | 79 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 320 | 69m | 481m |
-| Cloudflare | cdn | 6784 | 239m | 506m |
+| Cloudflare | cdn | 6785 | 239m | 506m |
 | Confluent Cloud | data | 266 | 194m | 1606m |
 | Datadog | observability | 127 | 73m | 226m |
 | DigitalOcean | cloud | 510 | 144m | 571m |
@@ -31,34 +31,27 @@ Cross-vendor incident data for 25 providers. Corpus: **23,562 incidents**. Updat
 | npm | devtools | 65 | 107m | 347m |
 | OpenAI | ai | 112 | 111m | 673m |
 | Sentry | observability | 343 | 86m | 362m |
-| Snowflake | data | 205 | 118m | 596m |
+| Snowflake | data | 206 | 118m | 596m |
 | Supabase | paas | 442 | 153m | 1323m |
-| Twilio | comms | 11125 | 270m | 1095m |
+| Twilio | comms | 11130 | 270m | 1095m |
 | Vercel | paas | 394 | 72m | 364m |
-| Zoom | comms | 190 | 115m | 1605m |
+| Zoom | comms | 191 | 111m | 1562m |
 
-## New since last run (13)
+## New since last run (8)
 
-- **Cloudflare** — Cloudflare Fedramp Dashboard and Access (`major`)
-- **Cloudflare** — Increased HTTP 5xx Errors Ashburn (`minor`)
-- **Grafana Cloud** — Metric reads and rule evaluations are degraded in mimir-prod-66 (`minor`)
-- **Netlify** — Elevated Build Errors (`minor`)
-- **Supabase** — Project creation errors ap-ne1 (`minor`)
-- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Brazil (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Multiple Networks in Czech Republic (`minor`)
+- **Cloudflare** — Network Performance Issues in Virginia and Ohio United States (`minor`)
+- **Snowflake** — INC20000290 (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Network Subscribers to Twilio Denmark Phone Numbers (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Surf Telecom Brazil (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio Alphanumeric Sender Type to Multiple Networks in Turkey (`minor`)
 - **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Brisanet Brazil (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes and Long Codes to Multiple Networks in Colombia (`minor`)
-- **Twilio** — On Call Engineers are Investigating Errors with the Virtual Phone in Legacy Console (`none`)
-- **Twilio** — Delayed A2P Campaign Approvals (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Verizon United States (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Chat Compose and SMS Summarisation with AI Companion (`minor`)
+- **Twilio** — 5300 Errors on Singapore Client Edge (`minor`)
+- **Zoom** — Service Degradation Affecting ZP SMS Australia Mobile Numbers (`none`)
 
-## Updated since last run (4)
+## Updated since last run (2)
 
-- **Grafana Cloud** — Phone call notifications to numbers in Russia and Kazakhstan are blocked → `investigating`
-- **Grafana Cloud** — IRM Unable to Send SMS to Thailand Numbers → `identified`
-- **Twilio** — Voice Call Silent and One-Way Audio from Gamma United Kingdom to a Subset of Twilio United Kingdom Phone Numbers → `resolved`
-- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Thailand → `identified`
+- **Twilio** — Voice Call Post Dial Delay From a Subset of Twilio Phone Numbers to Thailand → `identified`
+- **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation. → `resolved`
 
 ---
 

@@ -31,20 +31,19 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-17 16:29 UTC` &nbsp;·&nbsp; **13 new** and **4 updated** incidents &nbsp;·&nbsp; 23,562 total
+**Last ingest** &nbsp;`2026-10-19 10:02 UTC` &nbsp;·&nbsp; **8 new** and **2 updated** incidents &nbsp;·&nbsp; 23,570 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 9 |
-| Grafana Cloud | 3 |
-| Cloudflare | 2 |
-| Netlify | 1 |
-| Supabase | 1 |
+| Twilio | 6 |
+| Cloudflare | 1 |
+| Snowflake | 1 |
 | Zoom | 1 |
+| Google Cloud Platform | 1 |
 
 Most severe this run:
 
-- `major` **Cloudflare** — Cloudflare Fedramp Dashboard and Access
+- `medium` **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation.
 
 <!-- STATUS:END -->
 
