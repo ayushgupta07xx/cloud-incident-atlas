@@ -31,19 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-19 10:02 UTC` &nbsp;·&nbsp; **8 new** and **2 updated** incidents &nbsp;·&nbsp; 23,570 total
+**Last ingest** &nbsp;`2026-10-20 14:29 UTC` &nbsp;·&nbsp; **27 new** and **6 updated** incidents &nbsp;·&nbsp; 23,597 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 6 |
-| Cloudflare | 1 |
+| Twilio | 12 |
+| Grafana Cloud | 6 |
+| Cloudflare | 3 |
+| Zoom | 2 |
+| GitHub | 1 |
 | Snowflake | 1 |
-| Zoom | 1 |
-| Google Cloud Platform | 1 |
 
 Most severe this run:
 
-- `medium` **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation.
+- `critical` **Cloudflare** — Cloudflare Zero Trust connectivity
+- `critical` **GitHub** — Degraded availability for GitHub Actions, GitHub Pages and Webhooks
+- `critical` **Snowflake** — INC20000294
 
 <!-- STATUS:END -->
 

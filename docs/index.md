@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,570 incidents**. Updated 2026-10-19.
+Cross-vendor incident data for 25 providers. Corpus: **23,597 incidents**. Updated 2026-10-20.
 
 ## Last 30 days
 
-- Incidents recorded: **459**
-- Major or worse: **59**
+- Incidents recorded: **482**
+- Major or worse: **67**
 
 ## Reliability by provider (all time)
 
@@ -15,43 +15,64 @@ Cross-vendor incident data for 25 providers. Corpus: **23,570 incidents**. Updat
 | Amazon Web Services | cloud | 79 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 320 | 69m | 481m |
-| Cloudflare | cdn | 6785 | 239m | 506m |
-| Confluent Cloud | data | 266 | 194m | 1606m |
+| Cloudflare | cdn | 6788 | 239m | 506m |
+| Confluent Cloud | data | 267 | 194m | 1606m |
 | Datadog | observability | 127 | 73m | 226m |
 | DigitalOcean | cloud | 510 | 144m | 571m |
 | Discord | comms | 224 | 56m | 292m |
-| Elastic Cloud | observability | 260 | 192m | 1543m |
-| Google Cloud Platform | cloud | 7 | 640m | — |
-| GitHub | devtools | 638 | 67m | 291m |
-| Grafana Cloud | observability | 779 | 91m | 1132m |
+| Elastic Cloud | observability | 261 | 192m | 1543m |
+| Google Cloud Platform | cloud | 8 | 556m | — |
+| GitHub | devtools | 639 | 67m | 290m |
+| Grafana Cloud | observability | 782 | 92m | 1138m |
 | HashiCorp Cloud | devtools | 40 | 178m | 1647m |
-| MongoDB Atlas | data | 278 | 120m | 1406m |
-| Netlify | paas | 226 | 38m | 187m |
+| MongoDB Atlas | data | 279 | 120m | 1406m |
+| Netlify | paas | 227 | 39m | 185m |
 | New Relic | observability | 108 | 63m | 311m |
 | npm | devtools | 65 | 107m | 347m |
-| OpenAI | ai | 112 | 111m | 673m |
-| Sentry | observability | 343 | 86m | 362m |
-| Snowflake | data | 206 | 118m | 596m |
-| Supabase | paas | 442 | 153m | 1323m |
-| Twilio | comms | 11130 | 270m | 1095m |
+| OpenAI | ai | 113 | 109m | 663m |
+| Sentry | observability | 344 | 85m | 361m |
+| Snowflake | data | 207 | 118m | 596m |
+| Supabase | paas | 443 | 152m | 1319m |
+| Twilio | comms | 11139 | 270m | 1095m |
 | Vercel | paas | 394 | 72m | 364m |
-| Zoom | comms | 191 | 111m | 1562m |
+| Zoom | comms | 193 | 113m | 1511m |
 
-## New since last run (8)
+## New since last run (27)
 
-- **Cloudflare** — Network Performance Issues in Virginia and Ohio United States (`minor`)
-- **Snowflake** — INC20000290 (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Network Subscribers to Twilio Denmark Phone Numbers (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Surf Telecom Brazil (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio Alphanumeric Sender Type to Multiple Networks in Turkey (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Brisanet Brazil (`minor`)
-- **Twilio** — 5300 Errors on Singapore Client Edge (`minor`)
-- **Zoom** — Service Degradation Affecting ZP SMS Australia Mobile Numbers (`none`)
+- **Cloudflare** — Cloudflare Zero Trust connectivity (`critical`)
+- **Cloudflare** — Cloudflare Secure Web Gateway and DLP enforcement issues for Google Gemini (`minor`)
+- **Cloudflare** — DNS Update Delays (`minor`)
+- **GitHub** — Degraded availability for GitHub Actions, GitHub Pages and Webhooks (`critical`)
+- **Snowflake** — INC20000294 (`critical`)
+- **MongoDB Atlas** — GCP Availability Zone europe-west2-b connectivity issues (`minor`)
+- **Confluent Cloud** — Multiple Confluent Cloud services are in a degraded state - GCP EU-West2 (`major`)
+- **Elastic Cloud** — Degraded availability for some Elastic Cloud Hosted and Serverless deployments in GCP europe-west2 (London) (`major`)
+- **Grafana Cloud** — IRM outage in the region prod-gb-south-0 and prod-eu-west-0 (`none`)
+- **Grafana Cloud** — Grafana Cloud unavailibity in the prod-gb-south-0 region (`maintenance`)
+- **Grafana Cloud** — Metrics: Evelvated Read and Ruler Errors. (`major`)
+- **Sentry** — Sentry is down (`critical`)
+- **Netlify** — Agent Runner failures (`major`)
+- **Supabase** — Support Form Errors (`minor`)
+- **OpenAI** — File Download errors (`minor`)
+- **Twilio** — Voice Call Failures from Network Subscribers to a Subset of Twilio Thailand Phone Numbers (`minor`)
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Romania (`minor`)
+- **Twilio** — Silent Network Authentication (SNA) Failure Increase on AT&T in United States (`minor`)
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to AT&T United States (`minor`)
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to Telus Canada (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Portugal (`minor`)
+- **Twilio** — RCS Delivery Receipt Delays for AT&T (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures Between a Subset of Twilio Long Codes and Multiple Networks in Italy (`minor`)
+- **Twilio** — Voice Call Failures and Post Dial Delay from a Subset of Twilio Mobile Numbers to Brazil (`minor`)
+- **Zoom** — Service Degradation Affecting Meeting Summaries Via Email. (`minor`)
 
-## Updated since last run (2)
+## Updated since last run (6)
 
-- **Twilio** — Voice Call Post Dial Delay From a Subset of Twilio Phone Numbers to Thailand → `identified`
-- **Google Cloud Platform** — Multiple products in us-central1-b are experiencing network service degradation. → `resolved`
+- **Grafana Cloud** — IRM Unable to Send SMS to Thailand Numbers → `resolved`
+- **Grafana Cloud** — Phone call notifications to numbers in Russia and Kazakhstan are blocked → `resolved`
+- **Grafana Cloud** — Issues with Geomap Tiles → `resolved`
+- **Twilio** — Voice Call Failures from a Subset of Callers to Twilio Denmark Phone Numbers → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Surf Telecom Brazil → `identified`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Brisanet Brazil → `monitoring`
 
 ---
 
