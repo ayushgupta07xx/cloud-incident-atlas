@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-20 14:29 UTC` &nbsp;·&nbsp; **27 new** and **6 updated** incidents &nbsp;·&nbsp; 23,597 total
+**Last ingest** &nbsp;`2026-10-21 11:40 UTC` &nbsp;·&nbsp; **19 new** and **18 updated** incidents &nbsp;·&nbsp; 23,616 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 12 |
-| Grafana Cloud | 6 |
-| Cloudflare | 3 |
-| Zoom | 2 |
-| GitHub | 1 |
-| Snowflake | 1 |
+| Twilio | 13 |
+| Grafana Cloud | 11 |
+| Cloudflare | 2 |
+| Snowflake | 2 |
+| Elastic Cloud | 2 |
+| Sentry | 2 |
 
 Most severe this run:
 
-- `critical` **Cloudflare** — Cloudflare Zero Trust connectivity
-- `critical` **GitHub** — Degraded availability for GitHub Actions, GitHub Pages and Webhooks
+- `critical` **Sentry** — Sentry.io not loading in US region
 - `critical` **Snowflake** — INC20000294
+- `critical` **Grafana Cloud** — Grafana Access Issues
 
 <!-- STATUS:END -->
 
