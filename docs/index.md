@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,616 incidents**. Updated 2026-10-21.
+Cross-vendor incident data for 25 providers. Corpus: **23,654 incidents**. Updated 2026-10-22.
 
 ## Last 30 days
 
-- Incidents recorded: **494**
-- Major or worse: **71**
+- Incidents recorded: **496**
+- Major or worse: **76**
 
 ## Reliability by provider (all time)
 
@@ -14,71 +14,67 @@ Cross-vendor incident data for 25 providers. Corpus: **23,616 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 79 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
-| CircleCI | devtools | 321 | 70m | 481m |
-| Cloudflare | cdn | 6789 | 239m | 507m |
+| CircleCI | devtools | 322 | 70m | 481m |
+| Cloudflare | cdn | 6794 | 239m | 507m |
 | Confluent Cloud | data | 267 | 195m | 1599m |
 | Datadog | observability | 127 | 73m | 226m |
 | DigitalOcean | cloud | 510 | 144m | 571m |
 | Discord | comms | 224 | 56m | 292m |
-| Elastic Cloud | observability | 262 | 192m | 1506m |
-| Google Cloud Platform | cloud | 8 | 556m | — |
-| GitHub | devtools | 639 | 67m | 290m |
-| Grafana Cloud | observability | 785 | 92m | 1136m |
+| Elastic Cloud | observability | 263 | 192m | 1506m |
+| Google Cloud Platform | cloud | 8 | 505m | — |
+| GitHub | devtools | 642 | 67m | 287m |
+| Grafana Cloud | observability | 787 | 93m | 1135m |
 | HashiCorp Cloud | devtools | 40 | 178m | 1647m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
-| Netlify | paas | 227 | 39m | 185m |
+| Netlify | paas | 228 | 40m | 205m |
 | New Relic | observability | 108 | 63m | 311m |
-| npm | devtools | 65 | 107m | 347m |
-| OpenAI | ai | 114 | 108m | 653m |
-| Sentry | observability | 346 | 85m | 360m |
-| Snowflake | data | 208 | 118m | 595m |
-| Supabase | paas | 444 | 153m | 1315m |
-| Twilio | comms | 11147 | 270m | 1095m |
+| npm | devtools | 67 | 108m | 344m |
+| OpenAI | ai | 118 | 109m | 624m |
+| Sentry | observability | 347 | 84m | 359m |
+| Snowflake | data | 209 | 118m | 594m |
+| Supabase | paas | 448 | 152m | 1294m |
+| Twilio | comms | 11159 | 270m | 1095m |
 | Vercel | paas | 394 | 72m | 364m |
-| Zoom | comms | 193 | 113m | 1511m |
+| Zoom | comms | 194 | 111m | 1503m |
 
-## New since last run (19)
+## New since last run (38)
 
-- **Cloudflare** — Issue with Bot management traffic categorization for verified bots (`minor`)
-- **Snowflake** — INC20000299 (`minor`)
-- **CircleCI** — Increased wait times for macOS jobs on m4pro.large (`minor`)
-- **Elastic Cloud** — Elastic Cloud scaling issues in Azure (`major`)
-- **Grafana Cloud** — Possible incorrect evaluation of Synthetic Monitoring alert rules in cluster prod-us-east-3 (`none`)
-- **Grafana Cloud** — DB issues in prod-sa-east-1 (`none`)
+- **Cloudflare** — Cloudflare Workers API Latency (`minor`)
+- **Cloudflare** — Network congestion in Portland and Seattle, US (`minor`)
+- **Cloudflare** — Elevated Error Rate for Durable Objects in Lisbon (`minor`)
+- **Cloudflare** — Elevated Errors for R2 and Durable Objects in ENAM (`major`)
+- **Cloudflare** — Increased Latency in India (`minor`)
+- **GitHub** — Errors loading Issues, Pull Requests, and search results (`minor`)
+- **GitHub** — Incident with Actions Results (`minor`)
+- **GitHub** — Delays for Pull Requests and Webhook deliveries (`critical`)
+- **npm** — Degraded Publish, Install, and View Package (`minor`)
+- **npm** — Degraded Package Install and Publishing (`major`)
+- **Snowflake** — INC20000301 (`critical`)
+- **CircleCI** — Increased Docker gen2 wait times (`minor`)
+- **Elastic Cloud** — 403 error when trying to access Autoops in newly created serverless projects (`major`)
 - **Grafana Cloud** — Some GCK6 App Project Pages are Failing to Load (`major`)
-- **Sentry** — Sentry.io not loading in US region (`critical`)
-- **Sentry** — Sentry.io not loading (`major`)
-- **Supabase** — Projects stuck in restarting state (`none`)
-- **OpenAI** — Degraded performance in ChatGPT, Codex, and APIs (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Orange France (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to T-Mobile Czech Republic (`minor`)
-- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Israel (`minor`)
-- **Twilio** — WhatsApp Embedded Signup Configuration Failures (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs to United Arab Emirates (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Telnyx United States (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Phone Numbers to Telstra Australia (`minor`)
-- **Twilio** — Issue with Flex Agent Copilot Auto Wrap-up Notes (`minor`)
+- **Grafana Cloud** — Increased timeout errors in alert rule evaluations (AWS Germany, prod-eu-west-2) (`minor`)
+- **Sentry** — Increased latency processing integration webhooks (`minor`)
+- **Netlify** — Delays in build logs appearing in the UI (`minor`)
+- **Supabase** — Project lifecycle operation errors in the EU region (`major`)
+- **Supabase** — Elevated Mgmt API Error Rates in Multiple Regions (`major`)
+- **Supabase** — Project lifecycle operations such as project creation, pausing, and restoration, in all regions (`major`)
+- **Supabase** — Intermittent connection errors via the connection pooler in us-east-1 (`none`)
+- **OpenAI** — Elevated ChatGPT conversation and Responses API errors (`minor`)
+- **OpenAI** — Elevated FedRAMP API error rates for Astra and Sol (`minor`)
+- **OpenAI** — Elevated error rates for gpt-5.6-luna API requests (`minor`)
+- **OpenAI** — Authentication errors for some users (`major`)
 
-## Updated since last run (18)
+## Updated since last run (8)
 
-- **Cloudflare** — Cloudflare Secure Web Gateway and DLP enforcement issues for Google Gemini → `resolved`
-- **Snowflake** — INC20000294 → `resolved`
-- **MongoDB Atlas** — GCP Availability Zone europe-west2-b connectivity issues → `resolved`
-- **Confluent Cloud** — Multiple Confluent Cloud services are in a degraded state - GCP EU-West2 → `resolved`
-- **Elastic Cloud** — Degraded availability for some Elastic Cloud Hosted and Serverless deployments in GCP europe-west2 (London) → `resolved`
-- **Grafana Cloud** — Grafana Cloud unavailibity in the prod-gb-south-0 region → `resolved`
-- **Grafana Cloud** — Degraded data source queries → `resolved`
-- **Grafana Cloud** — Elevated Latency and Errors for Grafana Cloud Logs in AWS US East (VA) → `resolved`
-- **Grafana Cloud** — Grafana Access Issues → `resolved`
-- **Grafana Cloud** — Issues with Geomap Tiles → `resolved`
-- **Grafana Cloud** — High Latency in prod-us-east-2 → `resolved`
-- **Grafana Cloud** — Alert rule creation, deletion, and update degradation in prod-us-east-2 → `resolved`
-- **Grafana Cloud** — Partial Logs Write Outage → `resolved`
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Brisanet Brazil → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Surf Telecom Brazil → `resolved`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Digi.Mobil Romania → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures between a Subset of Twilio Long Codes and Multiple Networks in Italy → `monitoring`
-- **Twilio** — Voice Call Failures and Post Dial Delay From a Subset of Twilio Mobile Numbers to Brazil → `monitoring`
+- **Cloudflare** — Incorrect geo location for some Cloudflare WARP users → `resolved`
+- **GitHub** — Degraded availability for GitHub Actions, GitHub Pages and Webhooks → `resolved`
+- **Snowflake** — INC20000263 → `postmortem`
+- **Twilio** — Voice Call Failures and Post Dial Delay from a Subset of Twilio Mobile Numbers to Brazil → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Orange France → `resolved`
+- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Israel → `identified`
+- **Twilio** — SMS Delivery Delays and Failures Between a Subset of Twilio Long Codes and Multiple Networks in Italy → `monitoring`
+- **Google Cloud Platform** — Multiple services were experiencing issues in the europe-west2 region. → `resolved`
 
 ---
 
