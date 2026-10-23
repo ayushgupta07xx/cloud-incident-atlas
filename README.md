@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-22 16:05 UTC` &nbsp;·&nbsp; **38 new** and **8 updated** incidents &nbsp;·&nbsp; 23,654 total
+**Last ingest** &nbsp;`2026-10-23 12:48 UTC` &nbsp;·&nbsp; **25 new** and **15 updated** incidents &nbsp;·&nbsp; 23,679 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 16 |
-| Cloudflare | 6 |
-| GitHub | 4 |
-| Supabase | 4 |
-| OpenAI | 4 |
-| npm | 2 |
+| Twilio | 17 |
+| Cloudflare | 7 |
+| OpenAI | 3 |
+| GitHub | 2 |
+| Elastic Cloud | 2 |
+| Supabase | 2 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Delays for Pull Requests and Webhook deliveries
-- `critical` **Snowflake** — INC20000301
-- `critical` **GitHub** — Degraded availability for GitHub Actions, GitHub Pages and Webhooks
+- `major` **Cloudflare** — Delayed audit log delivery for WARP and Zero Trust services
+- `major` **Cloudflare** — Network Error Log Processing Unavailable
+- `major` **HashiCorp Cloud** — GitHub and Other VCS workloads experiencing intermittent issues
 
 <!-- STATUS:END -->
 
