@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,700 incidents**. Updated 2026-10-24.
+Cross-vendor incident data for 25 providers. Corpus: **23,712 incidents**. Updated 2026-10-26.
 
 ## Last 30 days
 
-- Incidents recorded: **492**
-- Major or worse: **74**
+- Incidents recorded: **474**
+- Major or worse: **70**
 
 ## Reliability by provider (all time)
 
@@ -15,7 +15,7 @@ Cross-vendor incident data for 25 providers. Corpus: **23,700 incidents**. Updat
 | Amazon Web Services | cloud | 79 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 322 | 70m | 481m |
-| Cloudflare | cdn | 6804 | 239m | 506m |
+| Cloudflare | cdn | 6805 | 239m | 506m |
 | Confluent Cloud | data | 267 | 195m | 1599m |
 | Datadog | observability | 127 | 73m | 226m |
 | DigitalOcean | cloud | 510 | 144m | 571m |
@@ -23,58 +23,41 @@ Cross-vendor incident data for 25 providers. Corpus: **23,700 incidents**. Updat
 | Elastic Cloud | observability | 264 | 192m | 1470m |
 | Google Cloud Platform | cloud | 8 | 505m | — |
 | GitHub | devtools | 645 | 67m | 295m |
-| Grafana Cloud | observability | 789 | 93m | 1134m |
+| Grafana Cloud | observability | 790 | 92m | 1134m |
 | HashiCorp Cloud | devtools | 41 | 165m | 1525m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 229 | 41m | 225m |
 | New Relic | observability | 108 | 63m | 311m |
-| npm | devtools | 67 | 108m | 344m |
+| npm | devtools | 68 | 108m | 342m |
 | OpenAI | ai | 123 | 111m | 575m |
 | Sentry | observability | 347 | 84m | 359m |
 | Snowflake | data | 209 | 118m | 594m |
 | Supabase | paas | 450 | 150m | 1287m |
-| Twilio | comms | 11177 | 271m | 1105m |
+| Twilio | comms | 11186 | 271m | 1109m |
 | Vercel | paas | 395 | 72m | 364m |
 | Zoom | comms | 196 | 111m | 1488m |
 
-## New since last run (21)
+## New since last run (12)
 
-- **Cloudflare** — Increased error rate in Workflow Operations (`minor`)
-- **Cloudflare** — Network Performance Issues in Ashburn (`minor`)
-- **Cloudflare** — Delayed, missed, and duplicated Workers Cron Triggers (`minor`)
-- **Cloudflare** — Network connectivity issues affecting services in North America (`major`)
-- **GitHub** — Grok 4.6 and Grok 4.7 Service Issues (`minor`)
-- **GitHub** — Disruption with Dependabot Alerts (`minor`)
-- **Grafana Cloud** — Some Grafana Instances Experiencing Issues Coming Online after Restart (`minor`)
-- **Vercel** — Delays in Logs and Observability data (`minor`)
-- **OpenAI** — Degraded experience with ChatGPT app connections using CIMD (`minor`)
-- **OpenAI** — Help Center Chat Support Degraded (`none`)
-- **Twilio** — Voice Call Failures and Post Dial Delay From a Subset of Twilio Phone Numbers to United States (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to WOM Colombia (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Phone Numbers to Telefonica Nicaragua (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes and Long Codes to Claro Brazil (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Multiple Networks in South Africa (`minor`)
-- **Twilio** — Voice Call Failures from Network Subscribers to Twilio Costa Rica Landline Numbers (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Claro Costa Rica (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico (`minor`)
-- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Chile (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes and Long Codes to Appalachian Wireless United States (`minor`)
-- **Zoom** — Service Degradation Affecting Multiple Zoom Services (`minor`)
+- **Cloudflare** — Network Performance Issues in Chicago (ORD) (`minor`)
+- **npm** — View package and auth outage on npmjs.com (`major`)
+- **Grafana Cloud** — ingestion errors in mimir-prod-66 (`none`)
+- **Twilio** — SMS Delivery Delays from Twilio to Telcel Mexico (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Cellcom Israel (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Telia Sweden (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Airtel Nigeria (`minor`)
+- **Twilio** — Silent Network Authentication (SNA) Missing Redirects and Gateway API (Lookup API) Failure Increase in Netherlands (`minor`)
+- **Twilio** — Silent Network Authentication (SNA) Missing Redirects on Vodafone in United Kingdom (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Claro Brazil and Puerto Rico (`minor`)
+- **Twilio** — Azure Marketplace SendGrid Customers Experiencing Account Management Issues (`minor`)
+- **Twilio** — MMS Delivery Delays From a Subset of Twilio Longcodes to C-Spire United States (`minor`)
 
-## Updated since last run (12)
+## Updated since last run (4)
 
-- **Snowflake** — INC20000287 → `postmortem`
-- **Snowflake** — INC20000277 → `postmortem`
-- **HashiCorp Cloud** — GitHub and Other VCS workloads experiencing intermittent issues → `resolved`
-- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to Viaero United States → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Surf Telecom Brazil → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Multiple Networks in United States and Canada → `resolved`
-- **Twilio** — SMS Delivery Delays between a Subset of Twilio Phone Numbers and Multiple Networks in Brazil → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Telecall Brazil → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Malitel Mali → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures between a Subset of Twilio Long Codes and Multiple Networks in Italy → `resolved`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio Short Codes to Multiple Networks in India → `identified`
-- **Zoom** — Service Degradation Affecting Zoom Meetings Services in the US. → `resolved`
+- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Chile → `resolved`
+- **Twilio** — Voice Call Failures and Post Dial Delay From a Subset of Twilio Phone Numbers to United States → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Claro Costa Rica → `identified`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio Short Codes to Multiple Networks in India → `monitoring`
 
 ---
 

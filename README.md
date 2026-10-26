@@ -31,22 +31,18 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-24 16:41 UTC` &nbsp;·&nbsp; **21 new** and **12 updated** incidents &nbsp;·&nbsp; 23,700 total
+**Last ingest** &nbsp;`2026-10-26 10:16 UTC` &nbsp;·&nbsp; **12 new** and **4 updated** incidents &nbsp;·&nbsp; 23,712 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 18 |
-| Cloudflare | 4 |
-| GitHub | 2 |
-| OpenAI | 2 |
-| Zoom | 2 |
-| Snowflake | 2 |
+| Twilio | 13 |
+| Cloudflare | 1 |
+| npm | 1 |
+| Grafana Cloud | 1 |
 
 Most severe this run:
 
-- `critical` **Snowflake** — INC20000287
-- `major` **Cloudflare** — Network connectivity issues affecting services in North America
-- `major` **HashiCorp Cloud** — GitHub and Other VCS workloads experiencing intermittent issues
+- `major` **npm** — View package and auth outage on npmjs.com
 
 <!-- STATUS:END -->
 

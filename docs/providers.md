@@ -4,9 +4,9 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 11177 | 4.5h | 18.4h | 1174.9h |
-| Cloudflare | cdn | 6804 | 4.0h | 8.4h | 5350.4h |
-| Grafana Cloud | observability | 789 | 1.6h | 18.9h | 2571.2h |
+| Twilio | comms | 11186 | 4.5h | 18.5h | 1174.9h |
+| Cloudflare | cdn | 6805 | 4.0h | 8.4h | 5350.4h |
+| Grafana Cloud | observability | 790 | 1.5h | 18.9h | 2571.2h |
 | GitHub | devtools | 645 | 1.1h | 4.9h | 62.0h |
 | DigitalOcean | cloud | 510 | 2.4h | 9.5h | 304.2h |
 | Supabase | paas | 450 | 2.5h | 21.4h | 2129.0h |
@@ -24,7 +24,7 @@
 | OpenAI | ai | 123 | 1.8h | 9.6h | 70.7h |
 | New Relic | observability | 108 | 1.1h | 5.2h | 52.3h |
 | Amazon Web Services | cloud | 79 | — | — | — |
-| npm | devtools | 67 | 1.8h | 5.7h | 20.9h |
+| npm | devtools | 68 | 1.8h | 5.7h | 20.9h |
 | HashiCorp Cloud | devtools | 41 | 2.8h | 25.4h | 126.1h |
 | Atlassian | devtools | 39 | 2.0h | 37.4h | 261.0h |
 | Google Cloud Platform | cloud | 8 | 8.4h | — | 516.0h |
@@ -35,10 +35,10 @@
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
 | ai | 1 | 123 | 17 |
-| cdn | 1 | 6804 | 142 |
+| cdn | 1 | 6805 | 142 |
 | cloud | 4 | 598 | 36 |
-| comms | 3 | 11597 | 120 |
+| comms | 3 | 11606 | 120 |
 | data | 3 | 755 | 280 |
-| devtools | 5 | 1114 | 233 |
-| observability | 5 | 1635 | 585 |
+| devtools | 5 | 1115 | 234 |
+| observability | 5 | 1636 | 585 |
 | paas | 3 | 1074 | 249 |
