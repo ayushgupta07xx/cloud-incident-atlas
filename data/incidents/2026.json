@@ -116430,10 +116430,10 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/mvj6m6cnm9xd",
-    "status": "identified",
+    "status": "monitoring",
     "title": "SMS Delivery Delays and Failures from Twilio Short Codes to Multiple Networks in India",
-    "update_count": 12,
-    "updated_at": "2026-10-24T06:37:14.223000+00:00"
+    "update_count": 15,
+    "updated_at": "2026-10-26T08:41:42.014000+00:00"
   },
   {
     "category": "cdn",
@@ -117513,18 +117513,18 @@
       "Voice, Latin America"
     ],
     "created_at": "2026-10-23T14:53:53.749000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 3539.9,
     "incident_id": "dd5fhn3m0l57",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-10-26T01:53:45.546000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/2qywdrx4sx6m",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "Voice Call Post Dial Delay from Twilio Phone Numbers to Chile",
-    "update_count": 8,
-    "updated_at": "2026-10-24T13:13:28.701000+00:00"
+    "update_count": 10,
+    "updated_at": "2026-10-26T01:53:45.577000+00:00"
   },
   {
     "category": "devtools",
@@ -117766,10 +117766,10 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/nc2wcdch71hz",
-    "status": "monitoring",
+    "status": "identified",
     "title": "SMS Delivery Delays from Twilio to Claro Costa Rica",
-    "update_count": 7,
-    "updated_at": "2026-10-24T13:53:21.682000+00:00"
+    "update_count": 14,
+    "updated_at": "2026-10-26T05:43:24.639000+00:00"
   },
   {
     "category": "cdn",
@@ -117841,17 +117841,244 @@
       "Voice, North America"
     ],
     "created_at": "2026-10-24T14:17:21.964000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1735.8,
     "incident_id": "z1rg79106g49",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-25T19:13:07.835000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/zlzsz68bx4ht",
+    "status": "resolved",
+    "title": "Voice Call Failures and Post Dial Delay From a Subset of Twilio Phone Numbers to United States",
+    "update_count": 10,
+    "updated_at": "2026-10-25T19:13:07.866000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Verify Silent Network Auth"
+    ],
+    "created_at": "2026-10-24T18:42:55.039000+00:00",
+    "duration_minutes": 1119.6,
+    "incident_id": "mddcy8x4rqrl",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-25T13:22:30.233000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/jcnbk0q9l16j",
+    "status": "resolved",
+    "title": "Silent Network Authentication (SNA) Missing Redirects on Vodafone in United Kingdom",
+    "update_count": 8,
+    "updated_at": "2026-10-25T13:22:30.259000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "MMS Long Code, North America"
+    ],
+    "created_at": "2026-10-24T19:28:44.392000+00:00",
+    "duration_minutes": null,
+    "incident_id": "b04rxz67r80y",
     "provider_id": "twilio",
     "provider_name": "Twilio",
     "resolved_at": null,
     "severity": "minor",
     "severity_rank": 1,
-    "shortlink": "https://stspg.io/zlzsz68bx4ht",
+    "shortlink": "https://stspg.io/w5tjc5l91098",
     "status": "identified",
-    "title": "Voice Call Failures and Post Dial Delay From a Subset of Twilio Phone Numbers to United States",
+    "title": "MMS Delivery Delays From a Subset of Twilio Longcodes to C-Spire United States",
+    "update_count": 9,
+    "updated_at": "2026-10-26T10:12:16.213000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Verify Silent Network Auth",
+      "Legacy Identity MatchAndAttributes"
+    ],
+    "created_at": "2026-10-24T21:28:32.347000+00:00",
+    "duration_minutes": 1254.4,
+    "incident_id": "mx5mps7t54lt",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-25T18:22:55.521000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/hyg20bcmh6db",
+    "status": "resolved",
+    "title": "Silent Network Authentication (SNA) Missing Redirects and Gateway API (Lookup API) Failure Increase in Netherlands",
+    "update_count": 9,
+    "updated_at": "2026-10-25T18:22:55.547000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SendGrid Partners"
+    ],
+    "created_at": "2026-10-24T22:04:21.677000+00:00",
+    "duration_minutes": 49.7,
+    "incident_id": "37jx2hd23rgv",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-24T22:54:00.797000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/8z4mms0dhdd0",
+    "status": "resolved",
+    "title": "Azure Marketplace SendGrid Customers Experiencing Account Management Issues",
+    "update_count": 3,
+    "updated_at": "2026-10-24T22:54:00.820000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Middle East & Africa"
+    ],
+    "created_at": "2026-10-25T09:11:42.081000+00:00",
+    "duration_minutes": 591.7,
+    "incident_id": "1kgdy5p9whh3",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-25T19:03:24.090000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/44g1x2s7z92b",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Airtel Nigeria",
+    "update_count": 7,
+    "updated_at": "2026-10-25T19:03:24.116000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-10-25T12:12:34.208000+00:00",
+    "duration_minutes": 756.2,
+    "incident_id": "cwvj1cqj3z01",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-26T00:48:43.357000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/3y8xj18rtbj3",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Telia Sweden",
+    "update_count": 6,
+    "updated_at": "2026-10-26T00:48:43.382000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-10-25T12:47:21.261000+00:00",
+    "duration_minutes": null,
+    "incident_id": "jd7cyxdy7qzf",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/hxnytk94h5sz",
+    "status": "monitoring",
+    "title": "SMS Delivery Delays and Failures from Twilio to Claro Brazil and Puerto Rico",
+    "update_count": 9,
+    "updated_at": "2026-10-26T10:05:49.969000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-10-25T23:15:56.859000+00:00",
+    "duration_minutes": 257.0,
+    "incident_id": "m09vtrnmmjty",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-26T03:32:58.229000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/ywdtq3536d37",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to Telcel Mexico",
     "update_count": 4,
-    "updated_at": "2026-10-24T16:22:21.980000+00:00"
+    "updated_at": "2026-10-26T03:32:58.254000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Middle East & Africa"
+    ],
+    "created_at": "2026-10-26T00:49:16.749000+00:00",
+    "duration_minutes": null,
+    "incident_id": "h92lcglnhn0y",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/lnndbpdfh4k7",
+    "status": "monitoring",
+    "title": "SMS Delivery Delays from Twilio to Cellcom Israel",
+    "update_count": 6,
+    "updated_at": "2026-10-26T08:04:32.823000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "AWS US East (VA) - prod-us-east-3"
+    ],
+    "created_at": "2026-10-26T02:13:16.636000+00:00",
+    "duration_minutes": 60.5,
+    "incident_id": "wcvm832ndmhp",
+    "provider_id": "grafana",
+    "provider_name": "Grafana Cloud",
+    "resolved_at": "2026-10-26T03:13:46.024000+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/42ggj9rqyyjm",
+    "status": "resolved",
+    "title": "ingestion errors in mimir-prod-66",
+    "update_count": 3,
+    "updated_at": "2026-10-26T03:13:46.047000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "www.npmjs.com website"
+    ],
+    "created_at": "2026-10-26T05:54:32.531000+00:00",
+    "duration_minutes": 35.8,
+    "incident_id": "hf0q2nhdk5cp",
+    "provider_id": "npm",
+    "provider_name": "npm",
+    "resolved_at": "2026-10-26T06:30:18.628000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/5rh64dpfcvqz",
+    "status": "resolved",
+    "title": "View package and auth outage on npmjs.com",
+    "update_count": 4,
+    "updated_at": "2026-10-26T06:30:19.136000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-10-26T09:21:56.911000+00:00",
+    "duration_minutes": null,
+    "incident_id": "s5io0kegzlsz",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-26T09:03:00+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/s5io0kegzlsz",
+    "status": "resolved",
+    "title": "Network Performance Issues in Chicago (ORD)",
+    "update_count": 1,
+    "updated_at": "2026-10-26T09:21:56.911000+00:00"
   }
 ]
