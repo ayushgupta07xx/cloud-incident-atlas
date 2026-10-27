@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,712 incidents**. Updated 2026-10-26.
+Cross-vendor incident data for 25 providers. Corpus: **23,738 incidents**. Updated 2026-10-27.
 
 ## Last 30 days
 
-- Incidents recorded: **474**
-- Major or worse: **70**
+- Incidents recorded: **495**
+- Major or worse: **71**
 
 ## Reliability by provider (all time)
 
@@ -15,49 +15,70 @@ Cross-vendor incident data for 25 providers. Corpus: **23,712 incidents**. Updat
 | Amazon Web Services | cloud | 79 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 322 | 70m | 481m |
-| Cloudflare | cdn | 6805 | 239m | 506m |
+| Cloudflare | cdn | 6811 | 239m | 505m |
 | Confluent Cloud | data | 267 | 195m | 1599m |
-| Datadog | observability | 127 | 73m | 226m |
+| Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 510 | 144m | 571m |
 | Discord | comms | 224 | 56m | 292m |
 | Elastic Cloud | observability | 264 | 192m | 1470m |
 | Google Cloud Platform | cloud | 8 | 505m | — |
-| GitHub | devtools | 645 | 67m | 295m |
-| Grafana Cloud | observability | 790 | 92m | 1134m |
+| GitHub | devtools | 646 | 67m | 294m |
+| Grafana Cloud | observability | 791 | 92m | 1134m |
 | HashiCorp Cloud | devtools | 41 | 165m | 1525m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
-| Netlify | paas | 229 | 41m | 225m |
+| Netlify | paas | 231 | 41m | 230m |
 | New Relic | observability | 108 | 63m | 311m |
 | npm | devtools | 68 | 108m | 342m |
-| OpenAI | ai | 123 | 111m | 575m |
+| OpenAI | ai | 126 | 108m | 572m |
 | Sentry | observability | 347 | 84m | 359m |
 | Snowflake | data | 209 | 118m | 594m |
-| Supabase | paas | 450 | 150m | 1287m |
-| Twilio | comms | 11186 | 271m | 1109m |
+| Supabase | paas | 450 | 152m | 1335m |
+| Twilio | comms | 11198 | 271m | 1114m |
 | Vercel | paas | 395 | 72m | 364m |
 | Zoom | comms | 196 | 111m | 1488m |
 
-## New since last run (12)
+## New since last run (26)
 
-- **Cloudflare** — Network Performance Issues in Chicago (ORD) (`minor`)
-- **npm** — View package and auth outage on npmjs.com (`major`)
-- **Grafana Cloud** — ingestion errors in mimir-prod-66 (`none`)
-- **Twilio** — SMS Delivery Delays from Twilio to Telcel Mexico (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Cellcom Israel (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Telia Sweden (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Airtel Nigeria (`minor`)
-- **Twilio** — Silent Network Authentication (SNA) Missing Redirects and Gateway API (Lookup API) Failure Increase in Netherlands (`minor`)
-- **Twilio** — Silent Network Authentication (SNA) Missing Redirects on Vodafone in United Kingdom (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Claro Brazil and Puerto Rico (`minor`)
-- **Twilio** — Azure Marketplace SendGrid Customers Experiencing Account Management Issues (`minor`)
-- **Twilio** — MMS Delivery Delays From a Subset of Twilio Longcodes to C-Spire United States (`minor`)
+- **Cloudflare** — ERR_TIMED_OUT and ERR_EMPTY_RESPONSE being observed by Cloudflare Customers (`major`)
+- **Cloudflare** — Cache Purging Delays Affecting Requests Routed Through EEUR (`minor`)
+- **Cloudflare** — We are seeing some customers having issues with Workers Builds (`minor`)
+- **Cloudflare** — Some customers may notice their Pages and/or workers builds are intermittently failing. (`minor`)
+- **Cloudflare** — Delayed, missed, and duplicated Workers Cron Triggers (`minor`)
+- **Cloudflare** — Cloudflare Workers build delays (`minor`)
+- **GitHub** — Incident with Actions, Issues, API Requests and Pull Requests (`minor`)
+- **Datadog** — Elevated Error Rates for Workflow Automation, App Builder, Bits Code, Bits Agent Builder (`major`)
+- **Grafana Cloud** — Degraded Cloud Integrations (`minor`)
+- **Netlify** — Elevated Build Errors and Agent Runner failures (`major`)
+- **Netlify** — Delays in build logs appearing in the UI (`minor`)
+- **OpenAI** — 6.1 Sol Degraded Model Performance (`minor`)
+- **OpenAI** — Elevated error rates for most hosted Code Reviews and Security Reviews on private GitHub repositories (`none`)
+- **OpenAI** — Elevated error rates for Ads POST requests (`minor`)
+- **Twilio** — Gateway API (Lookup API) Failure Increase on Three in United Kingdom (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Turkcell Turkey (`minor`)
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to AT&T United States (`minor`)
+- **Twilio** — Voice Call Failures between a Subset of Twilio numbers and Multiple Networks in Germany. (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to AT&T United States (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures between a Subset of Twilio Long Codes and Multiple Networks in South Africa (`minor`)
+- **Twilio** — SMS Delivery Failures between a Subset of Twilio Phone Numbers and Multiple Networks in Brazil (`minor`)
+- **Twilio** — MMS Delivery Delays and Failures from a Subset of Twilio Long Codes to Cellcom United States (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Docomo Pacific United States (`minor`)
+- **Twilio** — WhatsApp Sandbox Sending Configuration Issues (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Mauritel Mauritania (`minor`)
 
-## Updated since last run (4)
+## Updated since last run (12)
 
-- **Twilio** — Voice Call Post Dial Delay from Twilio Phone Numbers to Chile → `resolved`
-- **Twilio** — Voice Call Failures and Post Dial Delay From a Subset of Twilio Phone Numbers to United States → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Claro Costa Rica → `identified`
-- **Twilio** — SMS Delivery Delays and Failures from Twilio Short Codes to Multiple Networks in India → `monitoring`
+- **Cloudflare** — Network Performance Issues in Ashburn → `resolved`
+- **Cloudflare** — Elevated errors for some requests in Ashburn, Virginia → `resolved`
+- **Cloudflare** — Network congestion in Portland and Seattle, US → `resolved`
+- **Cloudflare** — Network Performance Issues in Eastern North America → `resolved`
+- **GitHub** — Disruption with Dependabot Alerts → `resolved`
+- **Supabase** — Elevated Mgmt API Error Rates in Multiple Regions → `resolved`
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Claro Costa Rica → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Cellcom Israel → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio Short Codes to Multiple Networks in India → `resolved`
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Claro Brazil and Puerto Rico → `resolved`
+- **Google Cloud Platform** — Multiple services were experiencing issues in the europe-west2 region. → `resolved`
 
 ---
 

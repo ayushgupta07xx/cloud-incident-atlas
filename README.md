@@ -31,18 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-26 10:16 UTC` &nbsp;·&nbsp; **12 new** and **4 updated** incidents &nbsp;·&nbsp; 23,712 total
+**Last ingest** &nbsp;`2026-10-27 15:32 UTC` &nbsp;·&nbsp; **26 new** and **12 updated** incidents &nbsp;·&nbsp; 23,738 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 13 |
-| Cloudflare | 1 |
-| npm | 1 |
-| Grafana Cloud | 1 |
+| Twilio | 17 |
+| Cloudflare | 10 |
+| OpenAI | 3 |
+| GitHub | 2 |
+| Netlify | 2 |
+| Datadog | 1 |
 
 Most severe this run:
 
-- `major` **npm** — View package and auth outage on npmjs.com
+- `major` **Cloudflare** — ERR_TIMED_OUT and ERR_EMPTY_RESPONSE being observed by Cloudflare Customers
+- `major` **Datadog** — Elevated Error Rates for Workflow Automation, App Builder, Bits Code, Bits Agent Builder
+- `major` **Netlify** — Elevated Build Errors and Agent Runner failures
 
 <!-- STATUS:END -->
 
