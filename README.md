@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-27 15:32 UTC` &nbsp;·&nbsp; **26 new** and **12 updated** incidents &nbsp;·&nbsp; 23,738 total
+**Last ingest** &nbsp;`2026-10-28 12:42 UTC` &nbsp;·&nbsp; **21 new** and **14 updated** incidents &nbsp;·&nbsp; 23,759 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 17 |
-| Cloudflare | 10 |
-| OpenAI | 3 |
+| Twilio | 18 |
+| Cloudflare | 9 |
 | GitHub | 2 |
-| Netlify | 2 |
-| Datadog | 1 |
+| Grafana Cloud | 2 |
+| DigitalOcean | 1 |
+| New Relic | 1 |
 
 Most severe this run:
 
-- `major` **Cloudflare** — ERR_TIMED_OUT and ERR_EMPTY_RESPONSE being observed by Cloudflare Customers
-- `major` **Datadog** — Elevated Error Rates for Workflow Automation, App Builder, Bits Code, Bits Agent Builder
-- `major` **Netlify** — Elevated Build Errors and Agent Runner failures
+- `critical` **Grafana Cloud** — Frontend Observability Outage in prod-eu-west-2
+- `major` **DigitalOcean** — Kubernetes Cluster Management Operations
+- `major` **New Relic** — Next-Gen Entity Platform Issues
 
 <!-- STATUS:END -->
 
