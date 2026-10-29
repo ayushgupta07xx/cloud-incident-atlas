@@ -108963,18 +108963,18 @@
       "MMS Long Code, North America"
     ],
     "created_at": "2026-09-26T03:16:51.829000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 46970.5,
     "incident_id": "8fb8c6rgzsfq",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-10-28T18:07:22.079000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/r6nfcj4j5fgj",
-    "status": "investigating",
+    "status": "resolved",
     "title": "MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States",
-    "update_count": 14,
-    "updated_at": "2026-10-05T10:45:20.175000+00:00"
+    "update_count": 38,
+    "updated_at": "2026-10-28T18:07:22.104000+00:00"
   },
   {
     "category": "data",
@@ -115583,8 +115583,8 @@
   {
     "category": "cdn",
     "components": [
-      "Dashboard",
-      "Zero Trust"
+      "Zero Trust",
+      "Dashboard"
     ],
     "created_at": "2026-10-20T03:20:42.381000+00:00",
     "duration_minutes": 192.0,
@@ -116171,10 +116171,10 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/pkftg0jw9wng",
-    "status": "resolved",
+    "status": "postmortem",
     "title": "INC20000299",
-    "update_count": 2,
-    "updated_at": "2026-10-21T08:36:28.306000+00:00"
+    "update_count": 3,
+    "updated_at": "2026-10-28T13:48:09.036000+00:00"
   },
   {
     "category": "observability",
@@ -116552,10 +116552,10 @@
     "severity": "critical",
     "severity_rank": 3,
     "shortlink": "https://stspg.io/1p8djd2f3bkb",
-    "status": "resolved",
+    "status": "postmortem",
     "title": "INC20000301",
-    "update_count": 9,
-    "updated_at": "2026-10-21T23:29:21.721000+00:00"
+    "update_count": 10,
+    "updated_at": "2026-10-28T21:14:38.838000+00:00"
   },
   {
     "category": "devtools",
@@ -116616,8 +116616,8 @@
   {
     "category": "cdn",
     "components": [
-      "Lisbon, Portugal - (LIS)",
-      "Durable Objects"
+      "Durable Objects",
+      "Lisbon, Portugal - (LIS)"
     ],
     "created_at": "2026-10-21T23:50:36.035000+00:00",
     "duration_minutes": 44.7,
@@ -116852,9 +116852,9 @@
     "severity_rank": 1,
     "shortlink": "https://stspg.io/44w94j036yc8",
     "status": "resolved",
-    "title": "Incident with Actions Results",
+    "title": "Incident with Actions",
     "update_count": 7,
-    "updated_at": "2026-10-22T15:18:46.315000+00:00"
+    "updated_at": "2026-10-29T12:25:11.235000+00:00"
   },
   {
     "category": "comms",
@@ -116999,9 +116999,9 @@
   {
     "category": "cdn",
     "components": [
-      "Ashburn, United States - (IAD)",
       "CDN/Cache",
-      "Workers"
+      "Workers",
+      "Ashburn, United States - (IAD)"
     ],
     "created_at": "2026-10-22T17:01:31+00:00",
     "duration_minutes": 29.9,
@@ -117073,8 +117073,8 @@
   {
     "category": "cdn",
     "components": [
-      "Audit Logs",
-      "Zero Trust"
+      "Zero Trust",
+      "Audit Logs"
     ],
     "created_at": "2026-10-22T17:32:32+00:00",
     "duration_minutes": 398.3,
@@ -117325,7 +117325,7 @@
     "status": "resolved",
     "title": "Delayed Actions status check results",
     "update_count": 5,
-    "updated_at": "2026-10-23T08:05:27.388000+00:00"
+    "updated_at": "2026-10-28T22:29:49.032000+00:00"
   },
   {
     "category": "comms",
@@ -117774,11 +117774,11 @@
   {
     "category": "cdn",
     "components": [
-      "Ashburn, United States - (IAD)",
-      "Artifacts",
-      "D1",
-      "Durable Objects",
       "Network",
+      "Durable Objects",
+      "Artifacts",
+      "Ashburn, United States - (IAD)",
+      "D1",
       "Queues",
       "R2",
       "Workflows"
@@ -118096,9 +118096,9 @@
     "severity_rank": 1,
     "shortlink": "https://stspg.io/pb0q4qwl07bw",
     "status": "identified",
-    "title": "Voice Call Failures from Twilio Phone Numbers to Digi.Mobil Romania",
-    "update_count": 7,
-    "updated_at": "2026-10-27T20:48:36.552000+00:00"
+    "title": "Voice Call Failures from Twilio Phone Numbers to Romania",
+    "update_count": 8,
+    "updated_at": "2026-10-28T20:59:54.450000+00:00"
   },
   {
     "category": "comms",
@@ -118253,8 +118253,8 @@
     "shortlink": "https://stspg.io/nyd4frf589yf",
     "status": "identified",
     "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Docomo Pacific United States",
-    "update_count": 7,
-    "updated_at": "2026-10-28T03:17:57.101000+00:00"
+    "update_count": 8,
+    "updated_at": "2026-10-29T03:18:19.500000+00:00"
   },
   {
     "category": "comms",
@@ -118310,9 +118310,9 @@
     "severity_rank": 1,
     "shortlink": "https://stspg.io/j8hy8nd92n3y",
     "status": "identified",
-    "title": "SMS Delivery Delays and Failures Between Twilio Brazil Phone Numbers and Multiple Networks in Brazil",
-    "update_count": 10,
-    "updated_at": "2026-10-28T10:03:18.553000+00:00"
+    "title": "SMS Delivery Delays and Failures between a Subset of Twilio Brazil Phone Numbers and Multiple Networks in Brazil",
+    "update_count": 16,
+    "updated_at": "2026-10-29T05:41:32.873000+00:00"
   },
   {
     "category": "comms",
@@ -118723,8 +118723,8 @@
     "shortlink": "https://stspg.io/3xvllg3n8qn3",
     "status": "identified",
     "title": "MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States",
-    "update_count": 5,
-    "updated_at": "2026-10-28T04:49:20.362000+00:00"
+    "update_count": 7,
+    "updated_at": "2026-10-29T05:01:50.959000+00:00"
   },
   {
     "category": "comms",
@@ -118785,18 +118785,18 @@
       "Voice, Latin America"
     ],
     "created_at": "2026-10-27T22:28:10.391000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1180.9,
     "incident_id": "gvjnm28xrcrk",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-10-28T18:09:04.479000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/b8qwcl8jqfs8",
-    "status": "identified",
-    "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Argentina",
-    "update_count": 7,
-    "updated_at": "2026-10-28T10:04:58.646000+00:00"
+    "status": "resolved",
+    "title": "Voice Call Failures From a Subset of Twilio Phone Numbers to Argentina",
+    "update_count": 10,
+    "updated_at": "2026-10-28T18:09:04.514000+00:00"
   },
   {
     "category": "comms",
@@ -118823,24 +118823,24 @@
       "SMS, Latin America"
     ],
     "created_at": "2026-10-27T23:23:53.210000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 969.5,
     "incident_id": "crgyp7tjc6qj",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-10-28T15:33:25.051000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/s3hqd3xrll18",
-    "status": "identified",
+    "status": "resolved",
     "title": "SMS Delivery Delays from Twilio to Surf Telecom Brazil",
-    "update_count": 8,
-    "updated_at": "2026-10-28T12:20:22.429000+00:00"
+    "update_count": 11,
+    "updated_at": "2026-10-28T15:33:25.078000+00:00"
   },
   {
     "category": "cdn",
     "components": [
-      "D1",
       "Durable Objects",
+      "D1",
       "Queues",
       "Workflows"
     ],
@@ -118883,18 +118883,35 @@
       "Ashburn, United States - (IAD)"
     ],
     "created_at": "2026-10-28T04:39:13.459000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1059.2,
     "incident_id": "snth5ero95rz",
     "provider_id": "cloudflare",
     "provider_name": "Cloudflare",
-    "resolved_at": null,
+    "resolved_at": "2026-10-28T22:18:26.488000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://www.cloudflarestatus.com/incidents/snth5ero95rz",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "Network Performance Issues in Ashburn, IAD",
-    "update_count": 2,
-    "updated_at": "2026-10-28T05:05:21.234000+00:00"
+    "update_count": 3,
+    "updated_at": "2026-10-28T22:18:26.488000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-10-28T05:30:00+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "t4jzgkkglc2z",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-28T05:30:00+00:00",
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/406l3p05s1s8",
+    "status": "resolved",
+    "title": "Twilio Console Errors",
+    "update_count": 1,
+    "updated_at": "2026-10-28T17:09:16.042000+00:00"
   },
   {
     "category": "observability",
@@ -118918,8 +118935,8 @@
   {
     "category": "cdn",
     "components": [
-      "D1",
       "Durable Objects",
+      "D1",
       "Queues",
       "Workflows"
     ],
@@ -118943,18 +118960,18 @@
       "SMS, Middle East & Africa"
     ],
     "created_at": "2026-10-28T11:22:42.484000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 627.5,
     "incident_id": "ltkx39ggzym6",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-10-28T21:50:10.047000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/1gvv8zsvgv66",
-    "status": "investigating",
+    "status": "resolved",
     "title": "SMS Delivery Delays and Failures from Twilio to MTC Namibia",
-    "update_count": 2,
-    "updated_at": "2026-10-28T12:23:18.808000+00:00"
+    "update_count": 7,
+    "updated_at": "2026-10-28T21:50:10.073000+00:00"
   },
   {
     "category": "comms",
@@ -118970,9 +118987,470 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/ztbjh512mvbc",
-    "status": "investigating",
+    "status": "identified",
     "title": "Silent Network Authentication (SNA) Failure Increase on Indosat in Indonesia",
+    "update_count": 9,
+    "updated_at": "2026-10-29T14:23:16.218000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Copilot"
+    ],
+    "created_at": "2026-10-28T14:12:53.821000+00:00",
+    "duration_minutes": 75.4,
+    "incident_id": "l7ycmglmykgg",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-10-28T15:28:19.237000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/bwcyq078jzms",
+    "status": "resolved",
+    "title": "Disruption with some Copilot services",
+    "update_count": 8,
+    "updated_at": "2026-10-28T15:28:19.266000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Programmable Messaging API"
+    ],
+    "created_at": "2026-10-28T14:18:47.421000+00:00",
+    "duration_minutes": 433.9,
+    "incident_id": "lq2y20qkm8q5",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-28T21:32:38.549000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/t90f3vj6npmq",
+    "status": "resolved",
+    "title": "Possible 503 Errors for Messaging Traffic in the Australia Region",
+    "update_count": 6,
+    "updated_at": "2026-10-28T21:32:38.575000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Zoom Quality Management"
+    ],
+    "created_at": "2026-10-28T14:31:21.716000+00:00",
+    "duration_minutes": 995.5,
+    "incident_id": "chd978s7g6p9",
+    "provider_id": "zoom",
+    "provider_name": "Zoom",
+    "resolved_at": "2026-10-29T07:06:53.071000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/3wdnhf87gqwg",
+    "status": "resolved",
+    "title": "Service Degradation Affecting the Evaluations Acknowledge Button in Zoom Quality Management in the US Region",
+    "update_count": 5,
+    "updated_at": "2026-10-29T07:06:53.093000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Verify Silent Network Auth",
+      "Lookup Identity Match"
+    ],
+    "created_at": "2026-10-28T15:54:20.329000+00:00",
+    "duration_minutes": 225.6,
+    "incident_id": "xgmn4ck4q5xj",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-28T19:39:53.350000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/gs219tdynm0m",
+    "status": "resolved",
+    "title": "Silent Network Authentication (SNA) Failure Increase and Gateway API (Lookup API) Failure Increase on EE in United Kingdom",
+    "update_count": 6,
+    "updated_at": "2026-10-28T19:39:53.380000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-10-28T16:21:08+00:00",
+    "duration_minutes": 52.8,
+    "incident_id": "01M61N1EA48SQQYHEJ5H8XQA2W",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": "2026-10-28T17:13:56+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Delayed Log Delivery from 14:10 - 15:30 UTC",
+    "update_count": 2,
+    "updated_at": "2026-10-28T17:13:56+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-10-28T16:38:26.977000+00:00",
+    "duration_minutes": 307.9,
+    "incident_id": "ptrh66c56rd9",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-28T21:46:22.434000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/lml97h1cpk9p",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from a Subset of Twilio Long Codes to Orange Belgium",
+    "update_count": 6,
+    "updated_at": "2026-10-28T21:46:22.467000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Docker Jobs"
+    ],
+    "created_at": "2026-10-28T18:15:52.753000+00:00",
+    "duration_minutes": 63.2,
+    "incident_id": "8q9j33r2rssy",
+    "provider_id": "circleci",
+    "provider_name": "CircleCI",
+    "resolved_at": "2026-10-28T19:19:03.311000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/t4pc57wmjnql",
+    "status": "resolved",
+    "title": "Delays for gen2 dedicated IP range jobs",
+    "update_count": 4,
+    "updated_at": "2026-10-28T19:19:03.334000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Durable Objects",
+      "Artifacts",
+      "R2"
+    ],
+    "created_at": "2026-10-28T21:01:39.385000+00:00",
+    "duration_minutes": 10.8,
+    "incident_id": "h6fgl47h6iht",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-28T21:12:24.884000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/h6fgl47h6iht",
+    "status": "resolved",
+    "title": "Increased latency and error rate for R2 in ENAM",
+    "update_count": 2,
+    "updated_at": "2026-10-28T21:12:24.884000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS"
+    ],
+    "created_at": "2026-10-28T23:44:24+00:00",
+    "duration_minutes": 50.8,
+    "incident_id": "9zqqhk0bwf0f",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-29T00:35:09.309000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/0m8p0n48mkky",
+    "status": "resolved",
+    "title": "Link Shortening Redirect Errors on Branded Domains",
+    "update_count": 4,
+    "updated_at": "2026-10-29T00:35:09.338000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "MMS Short Code, North America"
+    ],
+    "created_at": "2026-10-29T00:51:03.796000+00:00",
+    "duration_minutes": 794.6,
+    "incident_id": "km5dmfj8blwk",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-29T14:05:36.828000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/vn6l6s97s1tz",
+    "status": "resolved",
+    "title": "MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to T-Mobile United States",
+    "update_count": 7,
+    "updated_at": "2026-10-29T14:05:36.860000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice, North America"
+    ],
+    "created_at": "2026-10-29T01:34:44.037000+00:00",
+    "duration_minutes": 765.9,
+    "incident_id": "w874yx5qwkqc",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-29T14:20:39.650000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/h222bhk6xb0k",
+    "status": "resolved",
+    "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to T-Mobile United States",
+    "update_count": 9,
+    "updated_at": "2026-10-29T14:20:39.679000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Queretaro, Mexico - (QRO)"
+    ],
+    "created_at": "2026-10-29T01:50:23.037000+00:00",
+    "duration_minutes": null,
+    "incident_id": "jajp50huvxtz",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-29T00:35:00+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/jajp50huvxtz",
+    "status": "resolved",
+    "title": "Network Performance Issues in Queretaro, MX",
     "update_count": 1,
-    "updated_at": "2026-10-28T12:14:45.168000+00:00"
+    "updated_at": "2026-10-29T01:52:38.184000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Flex Agent Copilot"
+    ],
+    "created_at": "2026-10-29T03:50:10+00:00",
+    "duration_minutes": 90.2,
+    "incident_id": "8scqrr8n09k9",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-29T05:20:21+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/3nwn4vdkgw39",
+    "status": "resolved",
+    "title": "Flex Agent Copilot Note Generation Issues",
+    "update_count": 2,
+    "updated_at": "2026-10-29T05:24:10.444000+00:00"
+  },
+  {
+    "category": "data",
+    "components": [
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses",
+      "Virtual Warehouses"
+    ],
+    "created_at": "2026-10-29T04:29:50.406000+00:00",
+    "duration_minutes": null,
+    "incident_id": "9ssl44lx0my9",
+    "provider_id": "snowflake",
+    "provider_name": "Snowflake",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/pg7wwchv5118",
+    "status": "identified",
+    "title": "INC20000319",
+    "update_count": 9,
+    "updated_at": "2026-10-29T16:53:09.038000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Lookup SIM Swap",
+      "Legacy Identity MatchAndAttributes"
+    ],
+    "created_at": "2026-10-29T06:34:43.811000+00:00",
+    "duration_minutes": 237.3,
+    "incident_id": "6p5h9xk8vgc1",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-29T10:32:01.474000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/93ksygsfnc0j",
+    "status": "resolved",
+    "title": "Gateway API (Lookup API) Failure Increase on Verizon in United States",
+    "update_count": 5,
+    "updated_at": "2026-10-29T10:32:01.510000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Cloud Network Interconnect (CNI)",
+      "Los Angeles, United States - (LAX)"
+    ],
+    "created_at": "2026-10-29T06:55:41.568000+00:00",
+    "duration_minutes": 92.5,
+    "incident_id": "oco7f885d2v4",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-29T08:28:13.765000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/oco7f885d2v4",
+    "status": "resolved",
+    "title": "Increased errors and latency for CNI 2.0 traffic in LAX",
+    "update_count": 3,
+    "updated_at": "2026-10-29T08:28:13.765000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Containers",
+      "D1",
+      "Workers Assets",
+      "Workflows"
+    ],
+    "created_at": "2026-10-29T09:22:53.373000+00:00",
+    "duration_minutes": 146.4,
+    "incident_id": "6yfpsos7ksp3",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-29T11:49:16.376000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/6yfpsos7ksp3",
+    "status": "resolved",
+    "title": "Increased Worker services errors",
+    "update_count": 4,
+    "updated_at": "2026-10-29T11:49:16.376000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Durable Objects"
+    ],
+    "created_at": "2026-10-29T10:06:17.344000+00:00",
+    "duration_minutes": 101.1,
+    "incident_id": "bc7e93q3eigp",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-29T11:47:23.364000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/bc7e93q3eigp",
+    "status": "resolved",
+    "title": "Issues with Durable Objects availability in Eastern Europe",
+    "update_count": 2,
+    "updated_at": "2026-10-29T11:47:23.364000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [],
+    "created_at": "2026-10-29T10:19:55.318000+00:00",
+    "duration_minutes": 149.9,
+    "incident_id": "rn76zdy367m2",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-10-29T12:49:52.145000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/22p3vp78z20q",
+    "status": "resolved",
+    "title": "Disruption with Copilot Cloud services",
+    "update_count": 6,
+    "updated_at": "2026-10-29T12:49:52.175000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Dashboard",
+      "Support Site"
+    ],
+    "created_at": "2026-10-29T10:31:52.864000+00:00",
+    "duration_minutes": 99.1,
+    "incident_id": "k2cd9e1fyskp",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-29T12:10:59.965000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/k2cd9e1fyskp",
+    "status": "resolved",
+    "title": "Increased HTTP 429 Rate Limit Errors on Cloudflare Dashboard",
+    "update_count": 4,
+    "updated_at": "2026-10-29T12:10:59.965000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-10-29T12:18:59.746000+00:00",
+    "duration_minutes": 215.2,
+    "incident_id": "nrvk37g4ydlw",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-10-29T15:54:13.931000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/hx3nt33m96pc",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from a Subset of Twilio Phone Numbers to Vivo Brazil",
+    "update_count": 8,
+    "updated_at": "2026-10-29T15:54:13.955000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Durable Objects",
+      "Artifacts",
+      "D1",
+      "Workers Assets",
+      "Workflows"
+    ],
+    "created_at": "2026-10-29T14:16:46.205000+00:00",
+    "duration_minutes": 137.0,
+    "incident_id": "r4mz367vddi7",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-29T16:33:43.687000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/r4mz367vddi7",
+    "status": "resolved",
+    "title": "Increased Durable Objects, D1 and Workflows Error Rates",
+    "update_count": 3,
+    "updated_at": "2026-10-29T16:33:43.687000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Durable Objects",
+      "Artifacts",
+      "D1",
+      "R2"
+    ],
+    "created_at": "2026-10-29T16:36:48.045000+00:00",
+    "duration_minutes": 13.3,
+    "incident_id": "10m2bxjztzwh",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-10-29T16:50:03.928000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/10m2bxjztzwh",
+    "status": "resolved",
+    "title": "Increased Errors for Durable Objects and Downstream Services in Eastern North America (ENAM)",
+    "update_count": 3,
+    "updated_at": "2026-10-29T16:50:03.928000+00:00"
   }
 ]
