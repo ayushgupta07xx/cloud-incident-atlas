@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-28 12:42 UTC` &nbsp;·&nbsp; **21 new** and **14 updated** incidents &nbsp;·&nbsp; 23,759 total
+**Last ingest** &nbsp;`2026-10-29 17:36 UTC` &nbsp;·&nbsp; **24 new** and **21 updated** incidents &nbsp;·&nbsp; 23,783 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 18 |
-| Cloudflare | 9 |
-| GitHub | 2 |
-| Grafana Cloud | 2 |
-| DigitalOcean | 1 |
-| New Relic | 1 |
+| Twilio | 19 |
+| Cloudflare | 16 |
+| GitHub | 4 |
+| Snowflake | 3 |
+| CircleCI | 1 |
+| Supabase | 1 |
 
 Most severe this run:
 
-- `critical` **Grafana Cloud** — Frontend Observability Outage in prod-eu-west-2
-- `major` **DigitalOcean** — Kubernetes Cluster Management Operations
-- `major` **New Relic** — Next-Gen Entity Platform Issues
+- `critical` **GitHub** — Disruption with some Copilot services
+- `critical` **Cloudflare** — Cloudflare Zero Trust connectivity
+- `critical` **Snowflake** — INC20000301
 
 <!-- STATUS:END -->
 
