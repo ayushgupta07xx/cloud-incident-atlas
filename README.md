@@ -31,22 +31,15 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-29 17:36 UTC` &nbsp;·&nbsp; **24 new** and **21 updated** incidents &nbsp;·&nbsp; 23,783 total
+**Last ingest** &nbsp;`2026-10-30 14:27 UTC` &nbsp;·&nbsp; **7 new** and **8 updated** incidents &nbsp;·&nbsp; 23,790 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 19 |
-| Cloudflare | 16 |
-| GitHub | 4 |
-| Snowflake | 3 |
-| CircleCI | 1 |
+| Twilio | 8 |
+| Cloudflare | 3 |
+| Snowflake | 2 |
 | Supabase | 1 |
-
-Most severe this run:
-
-- `critical` **GitHub** — Disruption with some Copilot services
-- `critical` **Cloudflare** — Cloudflare Zero Trust connectivity
-- `critical` **Snowflake** — INC20000301
+| Amazon Web Services | 1 |
 
 <!-- STATUS:END -->
 
