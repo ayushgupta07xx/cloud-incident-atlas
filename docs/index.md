@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,790 incidents**. Updated 2026-10-30.
+Cross-vendor incident data for 25 providers. Corpus: **23,801 incidents**. Updated 2026-10-31.
 
 ## Last 30 days
 
-- Incidents recorded: **510**
-- Major or worse: **73**
+- Incidents recorded: **498**
+- Major or worse: **76**
 
 ## Reliability by provider (all time)
 
@@ -15,48 +15,52 @@ Cross-vendor incident data for 25 providers. Corpus: **23,790 incidents**. Updat
 | Amazon Web Services | cloud | 80 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 323 | 70m | 481m |
-| Cloudflare | cdn | 6828 | 239m | 504m |
+| Cloudflare | cdn | 6829 | 239m | 504m |
 | Confluent Cloud | data | 267 | 195m | 1599m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 511 | 144m | 571m |
-| Discord | comms | 224 | 56m | 292m |
+| Discord | comms | 226 | 56m | 290m |
 | Elastic Cloud | observability | 264 | 192m | 1470m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
-| GitHub | devtools | 649 | 67m | 290m |
+| GitHub | devtools | 652 | 67m | 287m |
 | Grafana Cloud | observability | 792 | 92m | 1133m |
 | HashiCorp Cloud | devtools | 41 | 165m | 1525m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 231 | 41m | 230m |
 | New Relic | observability | 109 | 63m | 311m |
 | npm | devtools | 68 | 108m | 342m |
-| OpenAI | ai | 126 | 104m | 571m |
+| OpenAI | ai | 128 | 104m | 569m |
 | Sentry | observability | 347 | 84m | 359m |
-| Snowflake | data | 210 | 118m | 598m |
+| Snowflake | data | 211 | 119m | 598m |
 | Supabase | paas | 452 | 150m | 1327m |
-| Twilio | comms | 11221 | 271m | 1117m |
+| Twilio | comms | 11223 | 271m | 1119m |
 | Vercel | paas | 395 | 72m | 364m |
 | Zoom | comms | 197 | 113m | 1480m |
 
-## New since last run (7)
+## New since last run (11)
 
-- **Cloudflare** — Increased Errors for Browser Run (`minor`)
-- **Cloudflare** — R2 Elevated Latency in Eastern Europe (`minor`)
-- **Supabase** — Logs degraded in multiple regions (`none`)
-- **Twilio** — On Call Engineers are Investigating (`none`)
-- **Twilio** — SMS Delivery Delays from Twilio to Altice United States (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Multiple Networks in Multiple Countries Across Africa and Asia (`minor`)
-- **Amazon Web Services** — Service impact: Increased invoke error rates (`minor`)
+- **Cloudflare** — Cache purge delays in Qingdao Shandong, China (`minor`)
+- **GitHub** — Incident with Dependabot (`minor`)
+- **GitHub** — Incident with Actions, Pages, and Webhooks (`major`)
+- **GitHub** — Disruption with GitHub services (`critical`)
+- **Snowflake** — INC20000321 (`minor`)
+- **OpenAI** — Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences (`minor`)
+- **OpenAI** — Elevated errors for GPT Image 2 API image edits (`minor`)
+- **Twilio** — Silent Network Authentication (SNA) Missing Redirects and Gateway API (Lookup API) High Latency on KPN in Netherlands (`minor`)
+- **Twilio** — Silent Network Authentication (SNA) Missing Redirects on Smart in Philippines (`minor`)
+- **Discord** — Issues establishing voice call (`major`)
+- **Discord** — Issues establishing voice calls (`major`)
 
 ## Updated since last run (8)
 
-- **Cloudflare** — Network Performance Issues in Ashburn → `resolved`
-- **Snowflake** — INC20000319 → `resolved`
-- **Snowflake** — INC20000150 → `identified`
+- **CircleCI** — Delays for gen2 dedicated IP range jobs → `postmortem`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Docomo Pacific United States → `resolved`
+- **Twilio** — SMS and MMS Delivery Delays from Twilio to Altice United States → `resolved`
+- **Twilio** — SMS Delivery Failures From a Subset of Twilio Phone Numbers to Multiple Networks in Brazil → `resolved`
+- **Twilio** — Automated Alert: Minimal Customer Impact → `resolved`
 - **Twilio** — Silent Network Authentication (SNA) Failure Increase on Indosat in Indonesia → `identified`
 - **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States → `monitoring`
-- **Twilio** — SMS Delivery Failures from Twilio Phone Numbers to Multiple Networks in Brazil → `monitoring`
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Docomo Pacific United States → `monitoring`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Romania → `identified`
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Digi.Mobil Romania → `identified`
 
 ---
 

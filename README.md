@@ -31,15 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-30 14:27 UTC` &nbsp;·&nbsp; **7 new** and **8 updated** incidents &nbsp;·&nbsp; 23,790 total
+**Last ingest** &nbsp;`2026-10-31 17:48 UTC` &nbsp;·&nbsp; **11 new** and **8 updated** incidents &nbsp;·&nbsp; 23,801 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 8 |
-| Cloudflare | 3 |
-| Snowflake | 2 |
-| Supabase | 1 |
-| Amazon Web Services | 1 |
+| Twilio | 9 |
+| GitHub | 3 |
+| OpenAI | 2 |
+| Discord | 2 |
+| Cloudflare | 1 |
+| Snowflake | 1 |
+
+Most severe this run:
+
+- `critical` **GitHub** — Disruption with GitHub services
+- `major` **GitHub** — Incident with Actions, Pages, and Webhooks
+- `major` **Discord** — Issues establishing voice call
 
 <!-- STATUS:END -->
 
