@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,801 incidents**. Updated 2026-10-31.
+Cross-vendor incident data for 25 providers. Corpus: **23,812 incidents**. Updated 2026-11-02.
 
 ## Last 30 days
 
-- Incidents recorded: **498**
-- Major or worse: **76**
+- Incidents recorded: **486**
+- Major or worse: **75**
 
 ## Reliability by provider (all time)
 
@@ -19,48 +19,44 @@ Cross-vendor incident data for 25 providers. Corpus: **23,801 incidents**. Updat
 | Confluent Cloud | data | 267 | 195m | 1599m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 511 | 144m | 571m |
-| Discord | comms | 226 | 56m | 290m |
+| Discord | comms | 226 | 56m | 296m |
 | Elastic Cloud | observability | 264 | 192m | 1470m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
 | GitHub | devtools | 652 | 67m | 287m |
-| Grafana Cloud | observability | 792 | 92m | 1133m |
+| Grafana Cloud | observability | 795 | 92m | 1133m |
 | HashiCorp Cloud | devtools | 41 | 165m | 1525m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
-| Netlify | paas | 231 | 41m | 230m |
-| New Relic | observability | 109 | 63m | 311m |
+| Netlify | paas | 232 | 41m | 234m |
+| New Relic | observability | 110 | 63m | 310m |
 | npm | devtools | 68 | 108m | 342m |
 | OpenAI | ai | 128 | 104m | 569m |
 | Sentry | observability | 347 | 84m | 359m |
 | Snowflake | data | 211 | 119m | 598m |
-| Supabase | paas | 452 | 150m | 1327m |
-| Twilio | comms | 11223 | 271m | 1119m |
+| Supabase | paas | 453 | 149m | 1323m |
+| Twilio | comms | 11228 | 271m | 1119m |
 | Vercel | paas | 395 | 72m | 364m |
 | Zoom | comms | 197 | 113m | 1480m |
 
 ## New since last run (11)
 
-- **Cloudflare** — Cache purge delays in Qingdao Shandong, China (`minor`)
-- **GitHub** — Incident with Dependabot (`minor`)
-- **GitHub** — Incident with Actions, Pages, and Webhooks (`major`)
-- **GitHub** — Disruption with GitHub services (`critical`)
-- **Snowflake** — INC20000321 (`minor`)
-- **OpenAI** — Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences (`minor`)
-- **OpenAI** — Elevated errors for GPT Image 2 API image edits (`minor`)
-- **Twilio** — Silent Network Authentication (SNA) Missing Redirects and Gateway API (Lookup API) High Latency on KPN in Netherlands (`minor`)
-- **Twilio** — Silent Network Authentication (SNA) Missing Redirects on Smart in Philippines (`minor`)
-- **Discord** — Issues establishing voice call (`major`)
-- **Discord** — Issues establishing voice calls (`major`)
+- **Grafana Cloud** — Metrics Alert Rule Evaluation Failures in AWS Australia (prod-au-southeast-1) (`minor`)
+- **Grafana Cloud** — Missing Metrics for Some Synthetic Monitoring Checks using the Montreal, North Virginia, and North California public probes (`none`)
+- **Grafana Cloud** — IRM Unable to Voice Call Brazil Numbers (`major`)
+- **New Relic** — Synthetics Ping Monitor Processing Delays in Multiple Regions (`minor`)
+- **Netlify** — Delays in build logs appearing in the UI (`minor`)
+- **Supabase** — PG15 -> PG17 Upgrade Failures (`none`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to T-Mobile and O2 Czech Republic (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Google Voice United States (`minor`)
+- **Twilio** — Silent Network Authentication (SNA) Missing Redirects in Indonesia (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Philippines (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to KDDI Japan (`minor`)
 
-## Updated since last run (8)
+## Updated since last run (4)
 
-- **CircleCI** — Delays for gen2 dedicated IP range jobs → `postmortem`
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Docomo Pacific United States → `resolved`
-- **Twilio** — SMS and MMS Delivery Delays from Twilio to Altice United States → `resolved`
-- **Twilio** — SMS Delivery Failures From a Subset of Twilio Phone Numbers to Multiple Networks in Brazil → `resolved`
-- **Twilio** — Automated Alert: Minimal Customer Impact → `resolved`
 - **Twilio** — Silent Network Authentication (SNA) Failure Increase on Indosat in Indonesia → `identified`
 - **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States → `monitoring`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Digi.Mobil Romania → `identified`
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Digi Mobil Romania → `identified`
+- **Discord** — Issues establishing voice call → `resolved`
 
 ---
 

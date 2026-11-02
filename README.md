@@ -31,21 +31,20 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-10-31 17:48 UTC` &nbsp;·&nbsp; **11 new** and **8 updated** incidents &nbsp;·&nbsp; 23,801 total
+**Last ingest** &nbsp;`2026-11-02 12:37 UTC` &nbsp;·&nbsp; **11 new** and **4 updated** incidents &nbsp;·&nbsp; 23,812 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 9 |
-| GitHub | 3 |
-| OpenAI | 2 |
-| Discord | 2 |
-| Cloudflare | 1 |
-| Snowflake | 1 |
+| Twilio | 8 |
+| Grafana Cloud | 3 |
+| New Relic | 1 |
+| Netlify | 1 |
+| Supabase | 1 |
+| Discord | 1 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Disruption with GitHub services
-- `major` **GitHub** — Incident with Actions, Pages, and Webhooks
+- `major` **Grafana Cloud** — IRM Unable to Voice Call Brazil Numbers
 - `major` **Discord** — Issues establishing voice call
 
 <!-- STATUS:END -->
