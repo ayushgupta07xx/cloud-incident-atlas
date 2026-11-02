@@ -1,0 +1,290 @@
+{
+  "changed": [
+    {
+      "category": "comms",
+      "components": [],
+      "created_at": "2026-10-31T15:26:29.258000+00:00",
+      "duration_minutes": 377.3,
+      "incident_id": "bg4s23tyzw6l",
+      "provider_id": "discord",
+      "provider_name": "Discord",
+      "resolved_at": "2026-10-31T21:43:44.392000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/pl4x16p74j68",
+      "status": "resolved",
+      "title": "Issues establishing voice call",
+      "update_count": 3,
+      "updated_at": "2026-10-31T21:43:44.419000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Verify Silent Network Auth"
+      ],
+      "created_at": "2026-10-28T12:14:45.049000+00:00",
+      "duration_minutes": null,
+      "incident_id": "bx87yfgd4nbf",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/ztbjh512mvbc",
+      "status": "identified",
+      "title": "Silent Network Authentication (SNA) Failure Increase on Indosat in Indonesia",
+      "update_count": 13,
+      "updated_at": "2026-11-02T06:27:04.266000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "MMS Long Code, North America",
+        "MMS Long Code, North America"
+      ],
+      "created_at": "2026-10-27T21:31:08.219000+00:00",
+      "duration_minutes": null,
+      "incident_id": "cclj59q01cgt",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/3xvllg3n8qn3",
+      "status": "monitoring",
+      "title": "MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States",
+      "update_count": 14,
+      "updated_at": "2026-11-02T04:45:29.606000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Europe"
+      ],
+      "created_at": "2026-10-26T13:09:40.509000+00:00",
+      "duration_minutes": null,
+      "incident_id": "jjnny3n3b4pp",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/pb0q4qwl07bw",
+      "status": "identified",
+      "title": "Voice Call Failures from Twilio Phone Numbers to Digi Mobil Romania",
+      "update_count": 18,
+      "updated_at": "2026-11-02T10:45:44.648000+00:00"
+    }
+  ],
+  "date": "2026-11-02",
+  "new": [
+    {
+      "category": "observability",
+      "components": [
+        "Incident Management and Response (IRM)"
+      ],
+      "created_at": "2026-11-02T00:36:09.481000+00:00",
+      "duration_minutes": null,
+      "incident_id": "507h3wxc3mdh",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": null,
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/m1k738p976cl",
+      "status": "investigating",
+      "title": "IRM Unable to Voice Call Brazil Numbers",
+      "update_count": 1,
+      "updated_at": "2026-11-02T00:37:28.185000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "AWS Australia - prod-au-southeast-1: Rule Evaluation"
+      ],
+      "created_at": "2026-11-02T09:20:07+00:00",
+      "duration_minutes": 108.1,
+      "incident_id": "x7ddtqs4j7ty",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-11-02T11:08:12.506000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/yw5qq1khyhj1",
+      "status": "resolved",
+      "title": "Metrics Alert Rule Evaluation Failures in AWS Australia (prod-au-southeast-1)",
+      "update_count": 3,
+      "updated_at": "2026-11-02T11:08:12.547000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [],
+      "created_at": "2026-11-02T08:00:00+00:00",
+      "duration_minutes": 0.0,
+      "incident_id": "xtcvvd5p4v73",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-11-02T08:00:00+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/gg5pyd5dw55z",
+      "status": "resolved",
+      "title": "Missing Metrics for Some Synthetic Monitoring Checks using the Montreal, North Virginia, and North California public probes",
+      "update_count": 1,
+      "updated_at": "2026-11-02T12:15:07.440000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [
+        "Build Pipeline",
+        "Netlify Application UI"
+      ],
+      "created_at": "2026-11-02T00:15:36.287000+00:00",
+      "duration_minutes": 536.9,
+      "incident_id": "kcdfq4x1w113",
+      "provider_id": "netlify",
+      "provider_name": "Netlify",
+      "resolved_at": "2026-11-02T09:12:31.585000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/fyjt00sdjpd0",
+      "status": "resolved",
+      "title": "Delays in build logs appearing in the UI",
+      "update_count": 2,
+      "updated_at": "2026-11-02T09:12:32.173000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "Synthetics : Europe",
+        "Synthetics : Europe"
+      ],
+      "created_at": "2026-11-02T02:32:03.592000+00:00",
+      "duration_minutes": 105.8,
+      "incident_id": "0n8rymrmfkw2",
+      "provider_id": "newrelic",
+      "provider_name": "New Relic",
+      "resolved_at": "2026-11-02T04:17:50.107000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/dc5d1kz1z89c",
+      "status": "resolved",
+      "title": "Synthetics Ping Monitor Processing Delays in Multiple Regions",
+      "update_count": 4,
+      "updated_at": "2026-11-02T04:18:11.139000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [],
+      "created_at": "2026-10-31T20:06:00+00:00",
+      "duration_minutes": 68.3,
+      "incident_id": "01M69S3BGQFBQGFEB6HP2FXEJA",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": "2026-10-31T21:14:16+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "PG15 -> PG17 Upgrade Failures",
+      "update_count": 3,
+      "updated_at": "2026-10-31T21:14:16+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-11-01T20:30:04.464000+00:00",
+      "duration_minutes": 247.9,
+      "incident_id": "3cdw1jrt88l2",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-02T00:37:57.392000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/xv9ztqr6xcpc",
+      "status": "resolved",
+      "title": "SMS Delivery Failures from Twilio to KDDI Japan",
+      "update_count": 5,
+      "updated_at": "2026-11-02T00:37:57.422000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-11-02T09:46:19.006000+00:00",
+      "duration_minutes": null,
+      "incident_id": "dt4b6xktlfvf",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/c6whbwvnzqls",
+      "status": "monitoring",
+      "title": "SMS Delivery Delays from a Subset of Twilio Long Codes to T-Mobile and O2 Czech Republic",
+      "update_count": 4,
+      "updated_at": "2026-11-02T12:11:11.744000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Verify Silent Network Auth"
+      ],
+      "created_at": "2026-11-02T06:54:08.803000+00:00",
+      "duration_minutes": null,
+      "incident_id": "p3dwpq8y05nd",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/v4lwtmk208gj",
+      "status": "identified",
+      "title": "Silent Network Authentication (SNA) Missing Redirects in Indonesia",
+      "update_count": 4,
+      "updated_at": "2026-11-02T10:44:15.133000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-11-02T05:41:31.845000+00:00",
+      "duration_minutes": null,
+      "incident_id": "q0wmp98qd05h",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tbsjgc4grpsw",
+      "status": "identified",
+      "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Philippines",
+      "update_count": 4,
+      "updated_at": "2026-11-02T08:49:10.257000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Short Code, North America"
+      ],
+      "created_at": "2026-11-02T00:51:56.575000+00:00",
+      "duration_minutes": 392.5,
+      "incident_id": "sh0zmvq1plq6",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-02T07:24:26.330000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/7x77g3krl3cw",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Short Codes to Google Voice United States",
+      "update_count": 6,
+      "updated_at": "2026-11-02T07:24:26.357000+00:00"
+    }
+  ],
+  "runs": 1
+}
