@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,812 incidents**. Updated 2026-11-02.
+Cross-vendor incident data for 25 providers. Corpus: **23,846 incidents**. Updated 2026-11-03.
 
 ## Last 30 days
 
-- Incidents recorded: **486**
-- Major or worse: **75**
+- Incidents recorded: **510**
+- Major or worse: **79**
 
 ## Reliability by provider (all time)
 
@@ -14,49 +14,67 @@ Cross-vendor incident data for 25 providers. Corpus: **23,812 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 80 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
-| CircleCI | devtools | 323 | 70m | 481m |
-| Cloudflare | cdn | 6829 | 239m | 504m |
+| CircleCI | devtools | 324 | 69m | 481m |
+| Cloudflare | cdn | 6836 | 239m | 504m |
 | Confluent Cloud | data | 267 | 195m | 1599m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 511 | 144m | 571m |
 | Discord | comms | 226 | 56m | 296m |
 | Elastic Cloud | observability | 264 | 192m | 1470m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
-| GitHub | devtools | 652 | 67m | 287m |
-| Grafana Cloud | observability | 795 | 92m | 1133m |
+| GitHub | devtools | 654 | 67m | 287m |
+| Grafana Cloud | observability | 798 | 91m | 1132m |
 | HashiCorp Cloud | devtools | 41 | 165m | 1525m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 232 | 41m | 234m |
-| New Relic | observability | 110 | 63m | 310m |
+| New Relic | observability | 111 | 63m | 310m |
 | npm | devtools | 68 | 108m | 342m |
-| OpenAI | ai | 128 | 104m | 569m |
-| Sentry | observability | 347 | 84m | 359m |
+| OpenAI | ai | 129 | 108m | 568m |
+| Sentry | observability | 350 | 86m | 357m |
 | Snowflake | data | 211 | 119m | 598m |
-| Supabase | paas | 453 | 149m | 1323m |
-| Twilio | comms | 11228 | 271m | 1119m |
+| Supabase | paas | 455 | 148m | 1315m |
+| Twilio | comms | 11241 | 271m | 1119m |
 | Vercel | paas | 395 | 72m | 364m |
-| Zoom | comms | 197 | 113m | 1480m |
+| Zoom | comms | 198 | 113m | 1480m |
 
-## New since last run (11)
+## New since last run (34)
 
-- **Grafana Cloud** — Metrics Alert Rule Evaluation Failures in AWS Australia (prod-au-southeast-1) (`minor`)
-- **Grafana Cloud** — Missing Metrics for Some Synthetic Monitoring Checks using the Montreal, North Virginia, and North California public probes (`none`)
-- **Grafana Cloud** — IRM Unable to Voice Call Brazil Numbers (`major`)
-- **New Relic** — Synthetics Ping Monitor Processing Delays in Multiple Regions (`minor`)
-- **Netlify** — Delays in build logs appearing in the UI (`minor`)
-- **Supabase** — PG15 -> PG17 Upgrade Failures (`none`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to T-Mobile and O2 Czech Republic (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Google Voice United States (`minor`)
-- **Twilio** — Silent Network Authentication (SNA) Missing Redirects in Indonesia (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Philippines (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to KDDI Japan (`minor`)
+- **Cloudflare** — Increased Durable Object Errors in the Dallas, TX US region (`minor`)
+- **Cloudflare** — Cloudflare Workers and Pages build errors (`minor`)
+- **Cloudflare** — Elevated number of 5xx errors in HKG (`minor`)
+- **Cloudflare** — Network Performance Issues in APJC (`minor`)
+- **Cloudflare** — Cloudflare Container Issues (`minor`)
+- **Cloudflare** — Cloudflare Gateway DNS-over-TLS Connectivity Issues over IPv4 (`minor`)
+- **Cloudflare** — Worker Deployments Delayed (`minor`)
+- **GitHub** — Incident with API, Git, and Copilot requests (`minor`)
+- **GitHub** — Elevated errors on GPT-5.4 Nano (`minor`)
+- **CircleCI** — Increased wait time for Machine and Remote Docker jobs (`minor`)
+- **Grafana Cloud** — Increased query latency for Logs in GCP US Central (prod-us-central-0) (`minor`)
+- **Grafana Cloud** — Elevated Request Errors for Grafana Across Multiple Regions (`minor`)
+- **Grafana Cloud** — Grafana Cloud: k6 timeouts (`none`)
+- **New Relic** — Data Irregularities in US Region (`major`)
+- **Sentry** — Sentry.io dashboard and API is down (`critical`)
+- **Sentry** — Delays in spans and transactions processing (`major`)
+- **Sentry** — Sentry dashboard is down (`critical`)
+- **Supabase** — Management API Postgres config updates overwriting previous updates (`none`)
+- **Supabase** — Storage uploads failing in us-east-1 (`minor`)
+- **OpenAI** — File upload errors in ChatGPT (`minor`)
+- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Long Codes and Short Codes to AT&T United States (`minor`)
+- **Twilio** — MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to T-Mobile and Verizon United States (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Entel Bolivia (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Claro Puerto Rico (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Lycamobile United Kingdom (`minor`)
 
-## Updated since last run (4)
+## Updated since last run (8)
 
-- **Twilio** — Silent Network Authentication (SNA) Failure Increase on Indosat in Indonesia → `identified`
+- **Cloudflare** — Network Performance Issues in Ashburn → `resolved`
+- **Snowflake** — INC20000294 → `postmortem`
+- **Grafana Cloud** — IRM Unable to Voice Call Brazil Numbers → `investigating`
+- **Twilio** — Silent Network Authentication (SNA) Missing Redirects on XL Axiata in Indonesia → `resolved`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to T-Mobile and O2 Czech Republic → `resolved`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines → `identified`
+- **Twilio** — Silent Network Authentication (SNA) Failure Increase on Indosat in Indonesia → `monitoring`
 - **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States → `monitoring`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Digi Mobil Romania → `identified`
-- **Discord** — Issues establishing voice call → `resolved`
 
 ---
 

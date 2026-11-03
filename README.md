@@ -31,21 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-02 12:37 UTC` &nbsp;·&nbsp; **11 new** and **4 updated** incidents &nbsp;·&nbsp; 23,812 total
+**Last ingest** &nbsp;`2026-11-03 17:19 UTC` &nbsp;·&nbsp; **34 new** and **8 updated** incidents &nbsp;·&nbsp; 23,846 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 8 |
-| Grafana Cloud | 3 |
-| New Relic | 1 |
-| Netlify | 1 |
-| Supabase | 1 |
-| Discord | 1 |
+| Twilio | 18 |
+| Cloudflare | 8 |
+| Grafana Cloud | 4 |
+| Sentry | 3 |
+| GitHub | 2 |
+| Supabase | 2 |
 
 Most severe this run:
 
-- `major` **Grafana Cloud** — IRM Unable to Voice Call Brazil Numbers
-- `major` **Discord** — Issues establishing voice call
+- `critical` **Sentry** — Sentry.io dashboard and API is down
+- `critical` **Sentry** — Sentry dashboard is down
+- `critical` **Snowflake** — INC20000294
 
 <!-- STATUS:END -->
 
