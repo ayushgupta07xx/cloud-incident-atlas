@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,846 incidents**. Updated 2026-11-03.
+Cross-vendor incident data for 25 providers. Corpus: **23,859 incidents**. Updated 2026-11-04.
 
 ## Last 30 days
 
-- Incidents recorded: **510**
-- Major or worse: **79**
+- Incidents recorded: **508**
+- Major or worse: **81**
 
 ## Reliability by provider (all time)
 
@@ -15,66 +15,61 @@ Cross-vendor incident data for 25 providers. Corpus: **23,846 incidents**. Updat
 | Amazon Web Services | cloud | 80 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 324 | 69m | 481m |
-| Cloudflare | cdn | 6836 | 239m | 504m |
+| Cloudflare | cdn | 6839 | 239m | 504m |
 | Confluent Cloud | data | 267 | 195m | 1599m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 511 | 144m | 571m |
 | Discord | comms | 226 | 56m | 296m |
-| Elastic Cloud | observability | 264 | 192m | 1470m |
+| Elastic Cloud | observability | 265 | 192m | 1470m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
-| GitHub | devtools | 654 | 67m | 287m |
-| Grafana Cloud | observability | 798 | 91m | 1132m |
+| GitHub | devtools | 657 | 67m | 287m |
+| Grafana Cloud | observability | 800 | 92m | 1134m |
 | HashiCorp Cloud | devtools | 41 | 165m | 1525m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 232 | 41m | 234m |
-| New Relic | observability | 111 | 63m | 310m |
+| New Relic | observability | 112 | 63m | 306m |
 | npm | devtools | 68 | 108m | 342m |
 | OpenAI | ai | 129 | 108m | 568m |
 | Sentry | observability | 350 | 86m | 357m |
 | Snowflake | data | 211 | 119m | 598m |
-| Supabase | paas | 455 | 148m | 1315m |
-| Twilio | comms | 11241 | 271m | 1119m |
+| Supabase | paas | 456 | 148m | 1308m |
+| Twilio | comms | 11243 | 271m | 1119m |
 | Vercel | paas | 395 | 72m | 364m |
-| Zoom | comms | 198 | 113m | 1480m |
+| Zoom | comms | 198 | 115m | 1472m |
 
-## New since last run (34)
+## New since last run (13)
 
-- **Cloudflare** — Increased Durable Object Errors in the Dallas, TX US region (`minor`)
-- **Cloudflare** — Cloudflare Workers and Pages build errors (`minor`)
-- **Cloudflare** — Elevated number of 5xx errors in HKG (`minor`)
-- **Cloudflare** — Network Performance Issues in APJC (`minor`)
-- **Cloudflare** — Cloudflare Container Issues (`minor`)
-- **Cloudflare** — Cloudflare Gateway DNS-over-TLS Connectivity Issues over IPv4 (`minor`)
-- **Cloudflare** — Worker Deployments Delayed (`minor`)
-- **GitHub** — Incident with API, Git, and Copilot requests (`minor`)
-- **GitHub** — Elevated errors on GPT-5.4 Nano (`minor`)
-- **CircleCI** — Increased wait time for Machine and Remote Docker jobs (`minor`)
-- **Grafana Cloud** — Increased query latency for Logs in GCP US Central (prod-us-central-0) (`minor`)
-- **Grafana Cloud** — Elevated Request Errors for Grafana Across Multiple Regions (`minor`)
-- **Grafana Cloud** — Grafana Cloud: k6 timeouts (`none`)
-- **New Relic** — Data Irregularities in US Region (`major`)
-- **Sentry** — Sentry.io dashboard and API is down (`critical`)
-- **Sentry** — Delays in spans and transactions processing (`major`)
-- **Sentry** — Sentry dashboard is down (`critical`)
-- **Supabase** — Management API Postgres config updates overwriting previous updates (`none`)
-- **Supabase** — Storage uploads failing in us-east-1 (`minor`)
-- **OpenAI** — File upload errors in ChatGPT (`minor`)
-- **Twilio** — MMS Delivery Receipt Delays from a Subset of Twilio Long Codes and Short Codes to AT&T United States (`minor`)
-- **Twilio** — MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to T-Mobile and Verizon United States (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Entel Bolivia (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Claro Puerto Rico (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Lycamobile United Kingdom (`minor`)
+- **Cloudflare** — Network latency issues in NRT (`minor`)
+- **Cloudflare** — Cloudflare Pages Upload Issue (`minor`)
+- **Cloudflare** — Missing Logs and Traces in Cloudflare Observability Platform (`none`)
+- **GitHub** — Incident with Pull Requests, Git Operations and Issues (`major`)
+- **GitHub** — Increased task-related errors for Copilot Mission Control (`minor`)
+- **GitHub** — Incident with Git Operations (`minor`)
+- **Elastic Cloud** — mOLTP PrivateLink connectivity issue (`major`)
+- **Grafana Cloud** — GitHub returning 403 for all Git Sync repositories (`minor`)
+- **Grafana Cloud** — October usage report visualization issue (`minor`)
+- **New Relic** — Data and Alerts Irregularities for US Region (`none`)
+- **Supabase** — Intermittent errors on Supavisor Shared Pooler in us-east-2 (`minor`)
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Small Networks in United States (`minor`)
+- **Twilio** — MMS Delivery Failures from a Subset of Twilio Long Codes to GCI United States (`minor`)
 
-## Updated since last run (8)
+## Updated since last run (15)
 
-- **Cloudflare** — Network Performance Issues in Ashburn → `resolved`
-- **Snowflake** — INC20000294 → `postmortem`
-- **Grafana Cloud** — IRM Unable to Voice Call Brazil Numbers → `investigating`
-- **Twilio** — Silent Network Authentication (SNA) Missing Redirects on XL Axiata in Indonesia → `resolved`
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to T-Mobile and O2 Czech Republic → `resolved`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines → `identified`
+- **Cloudflare** — Cloudflare Workers and Pages build errors → `resolved`
+- **GitHub** — Incident with Actions, Pages, and Webhooks → `resolved`
+- **Grafana Cloud** — IRM Unable to Voice Call Brazil Numbers → `resolved`
+- **Sentry** — Delays in spans and transactions processing → `resolved`
+- **Twilio** — MMS Delivery Receipt Delays and Delivery Delays from a Subset of Twilio Long Codes and Short Codes to AT&T United States → `resolved`
+- **Twilio** — Some Customers May Have Incorrect Balances Reflected on Their Account → `resolved`
+- **Twilio** — MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to T-Mobile and Verizon United States → `resolved`
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Small Networks United States → `resolved`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes and Long Codes to Brisanet Brazil → `resolved`
+- **Twilio** — Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Multiple Networks in United States → `resolved`
+- **Twilio** — RateQueue Host Down Did Not Recover → `identified`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines → `monitoring`
 - **Twilio** — Silent Network Authentication (SNA) Failure Increase on Indosat in Indonesia → `monitoring`
 - **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to C-Spire United States → `monitoring`
+- **Zoom** — Service Degradation Affecting Outbound MMS Services in the US region → `resolved`
 
 ---
 

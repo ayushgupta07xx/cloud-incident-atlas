@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-03 17:19 UTC` &nbsp;·&nbsp; **34 new** and **8 updated** incidents &nbsp;·&nbsp; 23,846 total
+**Last ingest** &nbsp;`2026-11-04 14:23 UTC` &nbsp;·&nbsp; **13 new** and **15 updated** incidents &nbsp;·&nbsp; 23,859 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 18 |
-| Cloudflare | 8 |
-| Grafana Cloud | 4 |
-| Sentry | 3 |
-| GitHub | 2 |
-| Supabase | 2 |
+| Twilio | 12 |
+| Cloudflare | 4 |
+| GitHub | 4 |
+| Grafana Cloud | 3 |
+| Elastic Cloud | 1 |
+| New Relic | 1 |
 
 Most severe this run:
 
-- `critical` **Sentry** — Sentry.io dashboard and API is down
-- `critical` **Sentry** — Sentry dashboard is down
-- `critical` **Snowflake** — INC20000294
+- `major` **GitHub** — Incident with Pull Requests, Git Operations and Issues
+- `major` **Elastic Cloud** — mOLTP PrivateLink connectivity issue
+- `major` **GitHub** — Incident with Actions, Pages, and Webhooks
 
 <!-- STATUS:END -->
 
