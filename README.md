@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-04 14:23 UTC` &nbsp;·&nbsp; **13 new** and **15 updated** incidents &nbsp;·&nbsp; 23,859 total
+**Last ingest** &nbsp;`2026-11-05 19:03 UTC` &nbsp;·&nbsp; **21 new** and **15 updated** incidents &nbsp;·&nbsp; 23,880 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 12 |
-| Cloudflare | 4 |
-| GitHub | 4 |
-| Grafana Cloud | 3 |
-| Elastic Cloud | 1 |
-| New Relic | 1 |
+| Twilio | 10 |
+| GitHub | 7 |
+| Cloudflare | 6 |
+| OpenAI | 2 |
+| HashiCorp Cloud | 1 |
+| Confluent Cloud | 1 |
 
 Most severe this run:
 
-- `major` **GitHub** — Incident with Pull Requests, Git Operations and Issues
-- `major` **Elastic Cloud** — mOLTP PrivateLink connectivity issue
-- `major` **GitHub** — Incident with Actions, Pages, and Webhooks
+- `critical` **GitHub** — Disruption with some Copilot services
+- `major` **GitHub** — Incident with Actions
+- `major` **GitHub** — Incident with Actions and Pages
 
 <!-- STATUS:END -->
 
