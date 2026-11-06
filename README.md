@@ -31,22 +31,20 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-05 19:03 UTC` &nbsp;·&nbsp; **21 new** and **15 updated** incidents &nbsp;·&nbsp; 23,880 total
+**Last ingest** &nbsp;`2026-11-06 15:18 UTC` &nbsp;·&nbsp; **14 new** and **7 updated** incidents &nbsp;·&nbsp; 23,894 total
 
 | Provider | Incidents |
 | --- | ---: |
 | Twilio | 10 |
-| GitHub | 7 |
-| Cloudflare | 6 |
-| OpenAI | 2 |
+| Cloudflare | 4 |
+| GitHub | 1 |
 | HashiCorp Cloud | 1 |
-| Confluent Cloud | 1 |
+| Grafana Cloud | 1 |
+| Supabase | 1 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Disruption with some Copilot services
-- `major` **GitHub** — Incident with Actions
-- `major` **GitHub** — Incident with Actions and Pages
+- `major` **HashiCorp Cloud** — HCP Boundary Scheduled Maintenance
 
 <!-- STATUS:END -->
 
