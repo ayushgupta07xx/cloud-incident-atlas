@@ -1,0 +1,409 @@
+{
+  "changed": [
+    {
+      "category": "cdn",
+      "components": [
+        "Durable Objects"
+      ],
+      "created_at": "2026-11-05T13:23:55.346000+00:00",
+      "duration_minutes": 1181.4,
+      "incident_id": "oy8gxjb38yse",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-06T09:05:19.945000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/oy8gxjb38yse",
+      "status": "resolved",
+      "title": "Increased Errors for Durable Objects in Western Europe",
+      "update_count": 2,
+      "updated_at": "2026-11-06T09:05:19.945000+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-11-05T15:25:03+00:00",
+      "duration_minutes": 786.6,
+      "incident_id": "01M6P50GPP1V98EF8MJ9SH393R",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-11-06T04:31:37+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "ChatGPT Work and Dots Errors",
+      "update_count": 6,
+      "updated_at": "2026-11-06T04:31:37+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Virtual Warehouses",
+        "Snowpark Container Services"
+      ],
+      "created_at": "2026-08-28T00:07:42.677000+00:00",
+      "duration_minutes": null,
+      "incident_id": "9p16kxkml7v2",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/2tmfhlrz2yz5",
+      "status": "identified",
+      "title": "INC20000150",
+      "update_count": 13,
+      "updated_at": "2026-11-05T23:06:46.327000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Verify Silent Network Auth"
+      ],
+      "created_at": "2026-10-28T12:14:45.049000+00:00",
+      "duration_minutes": 12714.4,
+      "incident_id": "bx87yfgd4nbf",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T08:09:11.578000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/ztbjh512mvbc",
+      "status": "resolved",
+      "title": "Silent Network Authentication (SNA) Failure Increase on Indosat in Indonesia",
+      "update_count": 21,
+      "updated_at": "2026-11-06T08:09:11.603000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, North America"
+      ],
+      "created_at": "2026-11-05T14:15:22.785000+00:00",
+      "duration_minutes": 313.4,
+      "incident_id": "fw0j9994p8kf",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-05T19:28:43.909000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/vm8ttb7rtmls",
+      "status": "resolved",
+      "title": "Voice Call Post Dial Delay from a Subset of Twilio Canada Phone Numbers to Rogers Wireless and Fido Canada",
+      "update_count": 4,
+      "updated_at": "2026-11-05T19:28:43.937000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-11-02T05:41:31.845000+00:00",
+      "duration_minutes": null,
+      "incident_id": "q0wmp98qd05h",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tbsjgc4grpsw",
+      "status": "identified",
+      "title": "Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines",
+      "update_count": 17,
+      "updated_at": "2026-11-06T14:07:42.049000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-11-05T18:34:08.322000+00:00",
+      "duration_minutes": null,
+      "incident_id": "ry5cj1mk6r60",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/t4vp65pctxst",
+      "status": "identified",
+      "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Telefonica Argentina",
+      "update_count": 6,
+      "updated_at": "2026-11-06T10:22:11.742000+00:00"
+    }
+  ],
+  "date": "2026-11-06",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [
+        "Singapore, Singapore - (SIN)"
+      ],
+      "created_at": "2026-11-06T08:54:00.339000+00:00",
+      "duration_minutes": 109.6,
+      "incident_id": "3ehw20ozwlkr",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-06T10:43:38.174000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/3ehw20ozwlkr",
+      "status": "resolved",
+      "title": "Network Performance Issues in Singapore",
+      "update_count": 3,
+      "updated_at": "2026-11-06T10:43:38.174000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Pages",
+        "Workers Builds",
+        "Wrangler"
+      ],
+      "created_at": "2026-11-06T09:47:17.426000+00:00",
+      "duration_minutes": 21.2,
+      "incident_id": "wtsd415cavkc",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-06T10:08:30.899000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/wtsd415cavkc",
+      "status": "resolved",
+      "title": "Wrangler Deployments, Pages, and Workers Builds failures",
+      "update_count": 3,
+      "updated_at": "2026-11-06T10:08:30.899000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Workers Builds"
+      ],
+      "created_at": "2026-11-05T19:51:39.176000+00:00",
+      "duration_minutes": 28.5,
+      "incident_id": "yaa0witbl2me",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-05T20:20:10.166000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/yaa0witbl2me",
+      "status": "resolved",
+      "title": "Workers Builds Issues",
+      "update_count": 3,
+      "updated_at": "2026-11-05T20:20:10.166000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Git Operations",
+        "Issues",
+        "Actions",
+        "Pages"
+      ],
+      "created_at": "2026-11-05T23:36:06.204000+00:00",
+      "duration_minutes": 44.7,
+      "incident_id": "pfbmpxxfq1cy",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-06T00:20:49.344000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/s5bs6jn41fwh",
+      "status": "resolved",
+      "title": "Degraded performance for multiple GitHub services",
+      "update_count": 8,
+      "updated_at": "2026-11-06T00:20:49.369000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "AWS Indonesia - prod-ap-southeast-2: Public Probes"
+      ],
+      "created_at": "2026-11-06T10:12:03.729000+00:00",
+      "duration_minutes": 0.0,
+      "incident_id": "g167fqm7tf73",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-11-06T10:12:03.803000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/nhj64nnckg57",
+      "status": "resolved",
+      "title": "Synthetic Monitoring \u2014 Jakarta Public Probe Degradation",
+      "update_count": 1,
+      "updated_at": "2026-11-06T10:12:03.813000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-11-06T15:09:12+00:00",
+      "duration_minutes": 6.6,
+      "incident_id": "01M6RPG72DEK1M63PRKRK6K96T",
+      "provider_id": "hashicorp",
+      "provider_name": "HashiCorp Cloud",
+      "resolved_at": "2026-11-06T15:15:49+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "HCP Boundary Scheduled Maintenance",
+      "update_count": 2,
+      "updated_at": "2026-11-06T15:15:49+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [],
+      "created_at": "2026-11-05T23:12:59+00:00",
+      "duration_minutes": 42.2,
+      "incident_id": "01M6PZSAS3Q36YESDRFF8QF8JS",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": "2026-11-05T23:55:13+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Intermittent 502/503 errors for pg_net calls to Edge Functions",
+      "update_count": 2,
+      "updated_at": "2026-11-05T23:55:13+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-11-05T22:50:44.746000+00:00",
+      "duration_minutes": 958.3,
+      "incident_id": "f2mwx4r30hnd",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T14:49:03.918000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/0cdcwtnsfvqk",
+      "status": "resolved",
+      "title": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Liberty Puerto Rico",
+      "update_count": 8,
+      "updated_at": "2026-11-06T14:49:03.954000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-11-05T20:25:58.590000+00:00",
+      "duration_minutes": 291.2,
+      "incident_id": "hx17zkpkzlqx",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T01:17:08.878000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/p8ym163prst6",
+      "status": "resolved",
+      "title": "SMS Delivery Failures from Twilio Phone Numbers to Lycamobile France",
+      "update_count": 5,
+      "updated_at": "2026-11-06T01:17:08.907000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-11-06T15:12:49.525000+00:00",
+      "duration_minutes": null,
+      "incident_id": "k837lh2xzwh0",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/js4403xnsb4l",
+      "status": "investigating",
+      "title": "Voice Call Audio Quality Degradation from a Subset of Twilio Mobile Numbers to Claro Colombia",
+      "update_count": 1,
+      "updated_at": "2026-11-06T15:12:49.599000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Notify"
+      ],
+      "created_at": "2026-11-06T05:33:22.017000+00:00",
+      "duration_minutes": 94.9,
+      "incident_id": "k8tt82wzsqz4",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T07:08:16.597000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/7gbj0ltqgxg5",
+      "status": "resolved",
+      "title": "Notification Logs Unavailable in Console",
+      "update_count": 4,
+      "updated_at": "2026-11-06T07:08:16.622000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-11-05T23:33:06.389000+00:00",
+      "duration_minutes": null,
+      "incident_id": "n13tys18mwkt",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/dkky20b1v4xp",
+      "status": "identified",
+      "title": "Voice Call Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Colombia",
+      "update_count": 5,
+      "updated_at": "2026-11-06T07:14:29.191000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-11-06T01:23:45.567000+00:00",
+      "duration_minutes": 535.7,
+      "incident_id": "xd1knrh7yh7y",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T10:19:26.065000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rckpqs66fws7",
+      "status": "resolved",
+      "title": "SMS Delivery Delays Between Twilio and T-Mobile in Czech Republic",
+      "update_count": 9,
+      "updated_at": "2026-11-06T10:19:26.096000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Calendar",
+        "Mail",
+        "Zoom Scheduler"
+      ],
+      "created_at": "2026-11-06T03:32:15.277000+00:00",
+      "duration_minutes": 97.1,
+      "incident_id": "pmmkv8mbtxln",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-11-06T05:09:23.146000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/n6ft1fxrgkw3",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Mail, Calendar and Scheduler.",
+      "update_count": 4,
+      "updated_at": "2026-11-06T05:09:23.173000+00:00"
+    }
+  ],
+  "runs": 1
+}
