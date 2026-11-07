@@ -31,20 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-06 15:18 UTC` &nbsp;·&nbsp; **14 new** and **7 updated** incidents &nbsp;·&nbsp; 23,894 total
+**Last ingest** &nbsp;`2026-11-07 18:05 UTC` &nbsp;·&nbsp; **18 new** and **9 updated** incidents &nbsp;·&nbsp; 23,912 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 10 |
-| Cloudflare | 4 |
-| GitHub | 1 |
-| HashiCorp Cloud | 1 |
-| Grafana Cloud | 1 |
-| Supabase | 1 |
+| Twilio | 11 |
+| Amazon Web Services | 4 |
+| Cloudflare | 3 |
+| GitHub | 3 |
+| Snowflake | 2 |
+| npm | 1 |
 
 Most severe this run:
 
-- `major` **HashiCorp Cloud** — HCP Boundary Scheduled Maintenance
+- `major` **GitHub** — Incident with Actions
+- `major` **GitHub** — Incident with Actions and Pages
 
 <!-- STATUS:END -->
 

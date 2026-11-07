@@ -1,21 +1,21 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,894 incidents**. Updated 2026-11-06.
+Cross-vendor incident data for 25 providers. Corpus: **23,912 incidents**. Updated 2026-11-07.
 
 ## Last 30 days
 
-- Incidents recorded: **491**
-- Major or worse: **73**
+- Incidents recorded: **492**
+- Major or worse: **69**
 
 ## Reliability by provider (all time)
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
-| Amazon Web Services | cloud | 80 | — | — |
+| Amazon Web Services | cloud | 84 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 324 | 69m | 481m |
-| Cloudflare | cdn | 6846 | 239m | 504m |
+| Cloudflare | cdn | 6849 | 239m | 504m |
 | Confluent Cloud | data | 268 | 194m | 1592m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 511 | 144m | 571m |
@@ -23,46 +23,52 @@ Cross-vendor incident data for 25 providers. Corpus: **23,894 incidents**. Updat
 | Elastic Cloud | observability | 265 | 192m | 1462m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
 | GitHub | devtools | 661 | 67m | 287m |
-| Grafana Cloud | observability | 801 | 91m | 1134m |
+| Grafana Cloud | observability | 801 | 92m | 1138m |
 | HashiCorp Cloud | devtools | 43 | 160m | 1515m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 233 | 41m | 233m |
 | New Relic | observability | 112 | 63m | 306m |
-| npm | devtools | 68 | 108m | 342m |
-| OpenAI | ai | 131 | 111m | 594m |
+| npm | devtools | 69 | 107m | 340m |
+| OpenAI | ai | 132 | 111m | 594m |
 | Sentry | observability | 351 | 86m | 356m |
-| Snowflake | data | 211 | 119m | 598m |
-| Supabase | paas | 458 | 148m | 1294m |
-| Twilio | comms | 11255 | 272m | 1120m |
+| Snowflake | data | 213 | 121m | 597m |
+| Supabase | paas | 459 | 148m | 1287m |
+| Twilio | comms | 11261 | 272m | 1127m |
 | Vercel | paas | 396 | 72m | 363m |
 | Zoom | comms | 199 | 113m | 1464m |
 
-## New since last run (14)
+## New since last run (18)
 
-- **Cloudflare** — Network Performance Issues in Singapore (`minor`)
-- **Cloudflare** — Wrangler Deployments, Pages, and Workers Builds failures (`minor`)
-- **Cloudflare** — Workers Builds Issues (`minor`)
-- **GitHub** — Degraded performance for multiple GitHub services (`minor`)
-- **HashiCorp Cloud** — HCP Boundary Scheduled Maintenance (`major`)
-- **Grafana Cloud** — Synthetic Monitoring — Jakarta Public Probe Degradation (`none`)
-- **Supabase** — Intermittent 502/503 errors for pg_net calls to Edge Functions (`minor`)
-- **Twilio** — Voice Call Audio Quality Degradation from a Subset of Twilio Mobile Numbers to Claro Colombia (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Liberty Puerto Rico (`minor`)
-- **Twilio** — SMS Delivery Delays Between Twilio and T-Mobile in Czech Republic (`minor`)
-- **Twilio** — Notification Logs Unavailable in Console (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio Phone Numbers to Lycamobile France (`minor`)
-- **Twilio** — Voice Call Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Colombia (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Mail, Calendar and Scheduler. (`minor`)
+- **Cloudflare** — Network Performance Issues in Chicago (`minor`)
+- **Cloudflare** — Spectrum Availability Issue in Phoenix (`minor`)
+- **Cloudflare** — Fedramp Customers have Delayed Purges (`minor`)
+- **npm** — Minor issues impacting package publish (`minor`)
+- **Snowflake** — INC20000337 (`minor`)
+- **Snowflake** — INC20000336 (`minor`)
+- **Supabase** — Increased Errors with Project Lifecycle Operations in US-West-2 (`minor`)
+- **OpenAI** — Elevated error rates with some U.S. business Mastercards (`none`)
+- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in India (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Claro Dominican Republic (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Chile (`minor`)
+- **Twilio** — TwiML ConversationRelay Documents Page Error (`minor`)
+- **Amazon Web Services** — Service is operating normally: [RESOLVED] Elevated Launch Failures (`minor`)
+- **Amazon Web Services** — Service impact: Elevated Launch Failures (`minor`)
+- **Amazon Web Services** — Service impact: Elevated Launch Failures (`minor`)
+- **Amazon Web Services** — Service impact: Elevated Launch Failures (`minor`)
 
-## Updated since last run (7)
+## Updated since last run (9)
 
-- **Cloudflare** — Increased Errors for Durable Objects in Western Europe → `resolved`
-- **Snowflake** — INC20000150 → `identified`
-- **OpenAI** — ChatGPT Work and Dots Errors → `resolved`
-- **Twilio** — Silent Network Authentication (SNA) Failure Increase on Indosat in Indonesia → `resolved`
-- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Canada Phone Numbers to Rogers Wireless and Fido Canada → `resolved`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Telefonica Argentina → `identified`
-- **Twilio** — Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines → `identified`
+- **GitHub** — Incident with Actions → `resolved`
+- **GitHub** — Incident with Actions and Pages → `resolved`
+- **GitHub** — Incident with Git Operations → `resolved`
+- **Grafana Cloud** — October usage report visualization issue → `resolved`
+- **Twilio** — Voice Call Failures From a Subset of Twilio Mobile Numbers to Argentina → `resolved`
+- **Twilio** — Voice Call Silent and One-Way Audio between a Subset of Twilio Phone Numbers and Multiple Networks in Colombia → `resolved`
+- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Digi Mobil Romania → `resolved`
+- **Twilio** — Voice Call Audio Quality Degradation from a Subset of Twilio Mobile Numbers to Claro Colombia → `resolved`
+- **Twilio** — Voice Call Failures From a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines → `identified`
 
 ---
 
