@@ -1,0 +1,516 @@
+{
+  "changed": [
+    {
+      "category": "devtools",
+      "components": [
+        "Git Operations"
+      ],
+      "created_at": "2026-11-03T20:57:14.438000+00:00",
+      "duration_minutes": 103.8,
+      "incident_id": "13b6lyl8d7bz",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-03T22:41:03.289000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/n478rfsspcmr",
+      "status": "resolved",
+      "title": "Incident with Git Operations",
+      "update_count": 6,
+      "updated_at": "2026-11-06T23:36:05.165000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Actions"
+      ],
+      "created_at": "2026-11-04T17:40:33.675000+00:00",
+      "duration_minutes": 35.6,
+      "incident_id": "h02n9572mx9y",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-04T18:16:08.361000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/7pwv28hvkmz8",
+      "status": "resolved",
+      "title": "Incident with Actions",
+      "update_count": 4,
+      "updated_at": "2026-11-07T01:10:18.506000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Webhooks",
+        "Actions",
+        "Pages"
+      ],
+      "created_at": "2026-11-04T16:05:31.580000+00:00",
+      "duration_minutes": 55.7,
+      "incident_id": "xr3myzj7ms51",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-04T17:01:11.503000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/pjgptg3cfc6n",
+      "status": "resolved",
+      "title": "Incident with Actions and Pages",
+      "update_count": 9,
+      "updated_at": "2026-11-07T01:04:38.647000+00:00"
+    },
+    {
+      "category": "observability",
+      "components": [
+        "Cost Management and Billing"
+      ],
+      "created_at": "2026-11-03T22:00:09.668000+00:00",
+      "duration_minutes": 4516.7,
+      "incident_id": "sytnxyqfmbwg",
+      "provider_id": "grafana",
+      "provider_name": "Grafana Cloud",
+      "resolved_at": "2026-11-07T01:16:53.874000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/ksvgzjk4ctnl",
+      "status": "resolved",
+      "title": "October usage report visualization issue",
+      "update_count": 4,
+      "updated_at": "2026-11-07T01:16:53.895000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Europe"
+      ],
+      "created_at": "2026-10-26T13:09:40.509000+00:00",
+      "duration_minutes": 16346.8,
+      "incident_id": "jjnny3n3b4pp",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T21:36:29.793000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/pb0q4qwl07bw",
+      "status": "resolved",
+      "title": "Voice Call Failures from Twilio Phone Numbers to Digi Mobil Romania",
+      "update_count": 23,
+      "updated_at": "2026-11-06T21:36:29.823000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-11-06T15:12:49.525000+00:00",
+      "duration_minutes": 36.5,
+      "incident_id": "k837lh2xzwh0",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T15:49:17.876000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/js4403xnsb4l",
+      "status": "resolved",
+      "title": "Voice Call Audio Quality Degradation from a Subset of Twilio Mobile Numbers to Claro Colombia",
+      "update_count": 3,
+      "updated_at": "2026-11-06T15:49:17.911000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-11-05T23:33:06.389000+00:00",
+      "duration_minutes": 1354.1,
+      "incident_id": "n13tys18mwkt",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T22:07:14.197000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/dkky20b1v4xp",
+      "status": "resolved",
+      "title": "Voice Call Silent and One-Way Audio between a Subset of Twilio Phone Numbers and Multiple Networks in Colombia",
+      "update_count": 8,
+      "updated_at": "2026-11-06T22:07:14.226000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-11-02T05:41:31.845000+00:00",
+      "duration_minutes": null,
+      "incident_id": "q0wmp98qd05h",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tbsjgc4grpsw",
+      "status": "identified",
+      "title": "Voice Call Failures From a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines",
+      "update_count": 18,
+      "updated_at": "2026-11-07T14:08:05.825000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-11-05T18:34:08.322000+00:00",
+      "duration_minutes": 2001.2,
+      "incident_id": "ry5cj1mk6r60",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-07T03:55:18.148000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/t4vp65pctxst",
+      "status": "resolved",
+      "title": "Voice Call Failures From a Subset of Twilio Mobile Numbers to Argentina",
+      "update_count": 9,
+      "updated_at": "2026-11-07T03:55:18.174000+00:00"
+    }
+  ],
+  "date": "2026-11-07",
+  "new": [
+    {
+      "category": "cloud",
+      "components": [],
+      "created_at": "2026-11-06T22:51:05+00:00",
+      "duration_minutes": null,
+      "incident_id": "https://status.aws.amazon.com/#ec2-us-west-2_1794005465",
+      "provider_id": "aws",
+      "provider_name": "Amazon Web Services",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://status.aws.amazon.com/",
+      "status": "reported",
+      "title": "Service impact: Elevated Launch Failures",
+      "update_count": 0,
+      "updated_at": "2026-11-06T22:51:05+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [],
+      "created_at": "2026-11-06T23:19:12+00:00",
+      "duration_minutes": null,
+      "incident_id": "https://status.aws.amazon.com/#ec2-us-west-2_1794007152",
+      "provider_id": "aws",
+      "provider_name": "Amazon Web Services",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://status.aws.amazon.com/",
+      "status": "reported",
+      "title": "Service impact: Elevated Launch Failures",
+      "update_count": 0,
+      "updated_at": "2026-11-06T23:19:12+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [],
+      "created_at": "2026-11-07T00:08:32+00:00",
+      "duration_minutes": null,
+      "incident_id": "https://status.aws.amazon.com/#ec2-us-west-2_1794010112",
+      "provider_id": "aws",
+      "provider_name": "Amazon Web Services",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://status.aws.amazon.com/",
+      "status": "reported",
+      "title": "Service impact: Elevated Launch Failures",
+      "update_count": 0,
+      "updated_at": "2026-11-07T00:08:32+00:00"
+    },
+    {
+      "category": "cloud",
+      "components": [],
+      "created_at": "2026-11-07T01:12:16+00:00",
+      "duration_minutes": null,
+      "incident_id": "https://status.aws.amazon.com/#ec2-us-west-2_1794013936",
+      "provider_id": "aws",
+      "provider_name": "Amazon Web Services",
+      "resolved_at": "2026-11-07T01:12:16+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://status.aws.amazon.com/",
+      "status": "resolved",
+      "title": "Service is operating normally: [RESOLVED] Elevated Launch Failures",
+      "update_count": 0,
+      "updated_at": "2026-11-07T01:12:16+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Spectrum"
+      ],
+      "created_at": "2026-11-07T00:59:31.548000+00:00",
+      "duration_minutes": null,
+      "incident_id": "c60k3g4vsoc1",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1",
+      "status": "monitoring",
+      "title": "Spectrum Availability Issue in Phoenix",
+      "update_count": 2,
+      "updated_at": "2026-11-07T02:51:59.805000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "CDN Cache Purge"
+      ],
+      "created_at": "2026-11-06T17:47:15.545000+00:00",
+      "duration_minutes": null,
+      "incident_id": "wp49bp8bqo6c",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c",
+      "status": "identified",
+      "title": "Fedramp Customers have Delayed Purges",
+      "update_count": 2,
+      "updated_at": "2026-11-06T17:59:13.680000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Network",
+        "Chicago, United States - (ORD)"
+      ],
+      "created_at": "2026-11-07T05:34:24.281000+00:00",
+      "duration_minutes": null,
+      "incident_id": "x9orajjmvvwa",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-07T05:12:00+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/x9orajjmvvwa",
+      "status": "resolved",
+      "title": "Network Performance Issues in Chicago",
+      "update_count": 1,
+      "updated_at": "2026-11-07T05:35:16.013000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Package publishing"
+      ],
+      "created_at": "2026-11-07T14:28:25.152000+00:00",
+      "duration_minutes": 36.7,
+      "incident_id": "cc0t2r4403sy",
+      "provider_id": "npm",
+      "provider_name": "npm",
+      "resolved_at": "2026-11-07T15:05:04.230000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tf64mpt4xjfv",
+      "status": "resolved",
+      "title": "Minor issues impacting package publish",
+      "update_count": 3,
+      "updated_at": "2026-11-07T15:05:05.127000+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-11-06T18:38:43+00:00",
+      "duration_minutes": null,
+      "incident_id": "01M6S2FV5TZWQ753NHRB7BF5K7",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": null,
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": null,
+      "status": "monitoring",
+      "title": "Elevated error rates with some U.S. business Mastercards",
+      "update_count": 3,
+      "updated_at": "2026-11-07T01:29:31+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Virtual Warehouses",
+        "Snowpark Container Services"
+      ],
+      "created_at": "2026-11-07T02:38:51+00:00",
+      "duration_minutes": 125.5,
+      "incident_id": "6dlxq4rs00th",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": "2026-11-07T04:44:20.916000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/290fxmq7sbz1",
+      "status": "resolved",
+      "title": "INC20000337",
+      "update_count": 3,
+      "updated_at": "2026-11-07T04:44:20.949000+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Virtual Warehouses",
+        "Virtual Warehouses",
+        "Snowpark Container Services",
+        "Snowpark Container Services"
+      ],
+      "created_at": "2026-11-06T23:32:50.982000+00:00",
+      "duration_minutes": 200.1,
+      "incident_id": "x3qhhkdr8yqw",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": "2026-11-07T02:52:54.111000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/nh3575zzxkv4",
+      "status": "resolved",
+      "title": "INC20000336",
+      "update_count": 4,
+      "updated_at": "2026-11-07T02:52:54.136000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [],
+      "created_at": "2026-11-06T23:49:35+00:00",
+      "duration_minutes": 147.9,
+      "incident_id": "01M6SM91Q83VAJW12ZRRFC6JBH",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": "2026-11-07T02:17:30+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Increased Errors with Project Lifecycle Operations in US-West-2",
+      "update_count": 4,
+      "updated_at": "2026-11-07T02:17:30+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-11-06T17:24:00.186000+00:00",
+      "duration_minutes": 226.1,
+      "incident_id": "8xn89j4cllbj",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T21:10:06.403000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rk654gkg0kzq",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Claro Dominican Republic",
+      "update_count": 5,
+      "updated_at": "2026-11-06T21:10:06.432000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-11-07T13:00:28.130000+00:00",
+      "duration_minutes": 219.3,
+      "incident_id": "by1px810vb67",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-07T16:39:48.752000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rnjcs8jfyfj8",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Multiple Networks in India",
+      "update_count": 5,
+      "updated_at": "2026-11-07T16:39:48.778000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-11-07T02:57:55.584000+00:00",
+      "duration_minutes": null,
+      "incident_id": "dxdxr2tzkzkd",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/zdnncbbx3vjq",
+      "status": "identified",
+      "title": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand",
+      "update_count": 7,
+      "updated_at": "2026-11-07T13:49:17.789000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Documentation"
+      ],
+      "created_at": "2026-11-06T16:53:27+00:00",
+      "duration_minutes": 115.8,
+      "incident_id": "hrghhx98wx17",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T18:49:12.983000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/grzmz7g8nd43",
+      "status": "resolved",
+      "title": "TwiML ConversationRelay Documents Page Error",
+      "update_count": 4,
+      "updated_at": "2026-11-06T18:49:13.008000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-11-06T21:21:41.235000+00:00",
+      "duration_minutes": null,
+      "incident_id": "m5yrng0zkwr5",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/92y684hgthhn",
+      "status": "identified",
+      "title": "SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile",
+      "update_count": 6,
+      "updated_at": "2026-11-07T12:56:01.429000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-11-06T15:56:27.315000+00:00",
+      "duration_minutes": 224.8,
+      "incident_id": "w3fds6d06pn3",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-06T19:41:14.975000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/3hy4jwgncx25",
+      "status": "resolved",
+      "title": "Voice Call Failures from a Subset of Twilio Phone Numbers to Chile",
+      "update_count": 4,
+      "updated_at": "2026-11-06T19:41:15.007000+00:00"
+    }
+  ],
+  "runs": 1
+}
