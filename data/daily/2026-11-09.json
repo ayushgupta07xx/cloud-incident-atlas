@@ -1,0 +1,313 @@
+{
+  "changed": [
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-11-07T02:57:55.584000+00:00",
+      "duration_minutes": 3088.8,
+      "incident_id": "dxdxr2tzkzkd",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-09T06:26:40.989000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/zdnncbbx3vjq",
+      "status": "resolved",
+      "title": "SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand",
+      "update_count": 11,
+      "updated_at": "2026-11-09T06:26:41.017000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-10-12T11:53:33+00:00",
+      "duration_minutes": 40122.3,
+      "incident_id": "fm5fk85h6glc",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-09T08:35:48.663000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/6z04b5nnhvd2",
+      "status": "resolved",
+      "title": "Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Thailand",
+      "update_count": 47,
+      "updated_at": "2026-11-09T08:35:48.704000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Latin America"
+      ],
+      "created_at": "2026-11-06T21:21:41.235000+00:00",
+      "duration_minutes": null,
+      "incident_id": "m5yrng0zkwr5",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/92y684hgthhn",
+      "status": "identified",
+      "title": "SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile",
+      "update_count": 12,
+      "updated_at": "2026-11-09T10:27:46.176000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, APAC"
+      ],
+      "created_at": "2026-11-02T05:41:31.845000+00:00",
+      "duration_minutes": null,
+      "incident_id": "q0wmp98qd05h",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tbsjgc4grpsw",
+      "status": "identified",
+      "title": "Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines",
+      "update_count": 19,
+      "updated_at": "2026-11-08T14:09:34.514000+00:00"
+    }
+  ],
+  "date": "2026-11-09",
+  "new": [
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-11-09T05:59:07.851000+00:00",
+      "duration_minutes": 190.8,
+      "incident_id": "c9px7cw2ghrs",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-09T09:09:56.174000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/jztczfplj6yb",
+      "status": "resolved",
+      "title": "Increased timeouts due to surge in anonymous users",
+      "update_count": 10,
+      "updated_at": "2026-11-09T09:09:56.206000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "API Requests"
+      ],
+      "created_at": "2026-11-08T10:36:05.481000+00:00",
+      "duration_minutes": 116.5,
+      "incident_id": "pyynvrm1vskw",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-08T12:32:35.611000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/5yt31mfmyc6p",
+      "status": "resolved",
+      "title": "Increase in timeouts for some unauthenticated users",
+      "update_count": 7,
+      "updated_at": "2026-11-08T12:32:35.646000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Webhooks",
+        "Actions"
+      ],
+      "created_at": "2026-11-09T10:00:35.232000+00:00",
+      "duration_minutes": 110.0,
+      "incident_id": "xxb3l2bm76dr",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-09T11:50:35.774000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://stspg.io/4vdghm7tycm4",
+      "status": "resolved",
+      "title": "Incident with Webhooks and Actions",
+      "update_count": 8,
+      "updated_at": "2026-11-09T11:50:35.805000+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-11-08T15:11:15+00:00",
+      "duration_minutes": 109.5,
+      "incident_id": "01M6XVDCKRT3PSB0YP8J30GTD5",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-11-08T17:00:42+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Elevated errors with image generation",
+      "update_count": 3,
+      "updated_at": "2026-11-08T17:00:42+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [],
+      "created_at": "2026-11-08T10:53:59+00:00",
+      "duration_minutes": 101.8,
+      "incident_id": "01M6XCPARB0V5QQ23RKW273S1F",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": "2026-11-08T12:35:48+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Interruption in connections to Supavisor in eu-west-2",
+      "update_count": 2,
+      "updated_at": "2026-11-08T12:35:48+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-11-09T06:57:09.387000+00:00",
+      "duration_minutes": null,
+      "incident_id": "91slf66q53vx",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/bw4k4qvrtlqv",
+      "status": "identified",
+      "title": "SMS Delivery Failures from Twilio to ETL Laos",
+      "update_count": 8,
+      "updated_at": "2026-11-09T12:00:20.879000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, APAC"
+      ],
+      "created_at": "2026-11-07T21:22:59.762000+00:00",
+      "duration_minutes": 796.6,
+      "incident_id": "9tfsyfgf6sxx",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-08T10:39:37.739000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/9twgn7wdgg76",
+      "status": "resolved",
+      "title": "SMS Delivery Receipt Delays from Twilio to Globe Philippines",
+      "update_count": 5,
+      "updated_at": "2026-11-08T10:39:37.770000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-11-09T07:38:30.469000+00:00",
+      "duration_minutes": null,
+      "incident_id": "ftg4m9bxt7wt",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/xrzs2ckkp8b8",
+      "status": "investigating",
+      "title": "SMS Delivery Failures from Germany to a Subset of Twilio Long Codes",
+      "update_count": 3,
+      "updated_at": "2026-11-09T10:48:17.854000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS Long Code, North America",
+        "SMS Long Code, North America",
+        "SMS Short Code, North America"
+      ],
+      "created_at": "2026-11-07T19:37:03.627000+00:00",
+      "duration_minutes": 1296.3,
+      "incident_id": "jnx2660mnhkl",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-08T17:13:19.842000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/d23g0f03q9hf",
+      "status": "resolved",
+      "title": "SMS Delivery Receipt Delays from a Subset of Twilio Long Codes and Short Codes to Multiple Networks in United States",
+      "update_count": 8,
+      "updated_at": "2026-11-08T17:13:19.875000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-11-08T23:19:19.413000+00:00",
+      "duration_minutes": 360.7,
+      "incident_id": "rg1ppj2b00hz",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-09T05:20:01.514000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/1pgtfkrx4r8h",
+      "status": "resolved",
+      "title": "SMS Delivery Failures from Twilio to MTN Nigeria",
+      "update_count": 5,
+      "updated_at": "2026-11-09T05:20:01.549000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Verify Silent Network Auth",
+        "Lookup Identity Match",
+        "Lookup SIM Swap",
+        "Legacy Identity MatchAndAttributes"
+      ],
+      "created_at": "2026-11-08T14:58:56.307000+00:00",
+      "duration_minutes": 852.8,
+      "incident_id": "x2w2p6b9d9dr",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-09T05:11:44.433000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tns3h72gg0l6",
+      "status": "resolved",
+      "title": "Silent Network Authentication (SNA) Failure Increase and Gateway API (Lookup API) Failure Increase on EnStream in Canada",
+      "update_count": 8,
+      "updated_at": "2026-11-09T05:11:44.462000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS/MMS (Inbound/Outbound)",
+        "SMS (Inbound/Outbound)"
+      ],
+      "created_at": "2026-11-09T00:07:48.240000+00:00",
+      "duration_minutes": 60.4,
+      "incident_id": "24hyksy87wl0",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-11-09T01:08:13.169000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/kvsn81c4blyx",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Inbound SMS Service in the AU region",
+      "update_count": 4,
+      "updated_at": "2026-11-09T01:08:13.192000+00:00"
+    }
+  ],
+  "runs": 1
+}
