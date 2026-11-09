@@ -31,21 +31,19 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-07 18:05 UTC` &nbsp;·&nbsp; **18 new** and **9 updated** incidents &nbsp;·&nbsp; 23,912 total
+**Last ingest** &nbsp;`2026-11-09 13:01 UTC` &nbsp;·&nbsp; **12 new** and **4 updated** incidents &nbsp;·&nbsp; 23,924 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 11 |
-| Amazon Web Services | 4 |
-| Cloudflare | 3 |
+| Twilio | 10 |
 | GitHub | 3 |
-| Snowflake | 2 |
-| npm | 1 |
+| Supabase | 1 |
+| OpenAI | 1 |
+| Zoom | 1 |
 
 Most severe this run:
 
-- `major` **GitHub** — Incident with Actions
-- `major` **GitHub** — Incident with Actions and Pages
+- `major` **GitHub** — Incident with Webhooks and Actions
 
 <!-- STATUS:END -->
 

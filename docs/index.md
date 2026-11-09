@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,912 incidents**. Updated 2026-11-07.
+Cross-vendor incident data for 25 providers. Corpus: **23,924 incidents**. Updated 2026-11-09.
 
 ## Last 30 days
 
-- Incidents recorded: **492**
-- Major or worse: **69**
+- Incidents recorded: **477**
+- Major or worse: **63**
 
 ## Reliability by provider (all time)
 
@@ -22,53 +22,42 @@ Cross-vendor incident data for 25 providers. Corpus: **23,912 incidents**. Updat
 | Discord | comms | 226 | 56m | 296m |
 | Elastic Cloud | observability | 265 | 192m | 1462m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
-| GitHub | devtools | 661 | 67m | 287m |
+| GitHub | devtools | 664 | 67m | 287m |
 | Grafana Cloud | observability | 801 | 92m | 1138m |
 | HashiCorp Cloud | devtools | 43 | 160m | 1515m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 233 | 41m | 233m |
 | New Relic | observability | 112 | 63m | 306m |
 | npm | devtools | 69 | 107m | 340m |
-| OpenAI | ai | 132 | 111m | 594m |
+| OpenAI | ai | 133 | 110m | 585m |
 | Sentry | observability | 351 | 86m | 356m |
 | Snowflake | data | 213 | 121m | 597m |
-| Supabase | paas | 459 | 148m | 1287m |
-| Twilio | comms | 11261 | 272m | 1127m |
+| Supabase | paas | 460 | 147m | 1280m |
+| Twilio | comms | 11267 | 272m | 1130m |
 | Vercel | paas | 396 | 72m | 363m |
-| Zoom | comms | 199 | 113m | 1464m |
+| Zoom | comms | 200 | 111m | 1456m |
 
-## New since last run (18)
+## New since last run (12)
 
-- **Cloudflare** — Network Performance Issues in Chicago (`minor`)
-- **Cloudflare** — Spectrum Availability Issue in Phoenix (`minor`)
-- **Cloudflare** — Fedramp Customers have Delayed Purges (`minor`)
-- **npm** — Minor issues impacting package publish (`minor`)
-- **Snowflake** — INC20000337 (`minor`)
-- **Snowflake** — INC20000336 (`minor`)
-- **Supabase** — Increased Errors with Project Lifecycle Operations in US-West-2 (`minor`)
-- **OpenAI** — Elevated error rates with some U.S. business Mastercards (`none`)
-- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in India (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Claro Dominican Republic (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Chile (`minor`)
-- **Twilio** — TwiML ConversationRelay Documents Page Error (`minor`)
-- **Amazon Web Services** — Service is operating normally: [RESOLVED] Elevated Launch Failures (`minor`)
-- **Amazon Web Services** — Service impact: Elevated Launch Failures (`minor`)
-- **Amazon Web Services** — Service impact: Elevated Launch Failures (`minor`)
-- **Amazon Web Services** — Service impact: Elevated Launch Failures (`minor`)
+- **GitHub** — Incident with Webhooks and Actions (`major`)
+- **GitHub** — Increased timeouts due to surge in anonymous users (`minor`)
+- **GitHub** — Increase in timeouts for some unauthenticated users (`minor`)
+- **Supabase** — Interruption in connections to Supavisor in eu-west-2 (`none`)
+- **OpenAI** — Elevated errors with image generation (`minor`)
+- **Twilio** — SMS Delivery Failures from Germany to a Subset of Twilio Long Codes (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to ETL Laos (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to MTN Nigeria (`minor`)
+- **Twilio** — Silent Network Authentication (SNA) Failure Increase and Gateway API (Lookup API) Failure Increase on EnStream in Canada (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes and Short Codes to Multiple Networks in United States (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio to Globe Philippines (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Inbound SMS Service in the AU region (`minor`)
 
-## Updated since last run (9)
+## Updated since last run (4)
 
-- **GitHub** — Incident with Actions → `resolved`
-- **GitHub** — Incident with Actions and Pages → `resolved`
-- **GitHub** — Incident with Git Operations → `resolved`
-- **Grafana Cloud** — October usage report visualization issue → `resolved`
-- **Twilio** — Voice Call Failures From a Subset of Twilio Mobile Numbers to Argentina → `resolved`
-- **Twilio** — Voice Call Silent and One-Way Audio between a Subset of Twilio Phone Numbers and Multiple Networks in Colombia → `resolved`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Digi Mobil Romania → `resolved`
-- **Twilio** — Voice Call Audio Quality Degradation from a Subset of Twilio Mobile Numbers to Claro Colombia → `resolved`
-- **Twilio** — Voice Call Failures From a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines → `identified`
+- **Twilio** — Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Thailand → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand → `resolved`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile → `identified`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines → `identified`
 
 ---
 
