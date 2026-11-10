@@ -31,19 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-09 13:01 UTC` &nbsp;·&nbsp; **12 new** and **4 updated** incidents &nbsp;·&nbsp; 23,924 total
+**Last ingest** &nbsp;`2026-11-10 17:17 UTC` &nbsp;·&nbsp; **21 new** and **5 updated** incidents &nbsp;·&nbsp; 23,945 total
 
 | Provider | Incidents |
 | --- | ---: |
 | Twilio | 10 |
+| Cloudflare | 5 |
+| OpenAI | 4 |
 | GitHub | 3 |
-| Supabase | 1 |
-| OpenAI | 1 |
-| Zoom | 1 |
+| Grafana Cloud | 2 |
+| Discord | 1 |
 
 Most severe this run:
 
-- `major` **GitHub** — Incident with Webhooks and Actions
+- `critical` **GitHub** — Incident with Git Operations and Pull Requests
+- `critical` **GitHub** — Incident with Actions and Checks API
+- `major` **GitHub** — Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot
 
 <!-- STATUS:END -->
 
