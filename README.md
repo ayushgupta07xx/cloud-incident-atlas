@@ -31,22 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-10 17:17 UTC` &nbsp;·&nbsp; **21 new** and **5 updated** incidents &nbsp;·&nbsp; 23,945 total
+**Last ingest** &nbsp;`2026-11-11 14:07 UTC` &nbsp;·&nbsp; **15 new** and **3 updated** incidents &nbsp;·&nbsp; 23,960 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 10 |
-| Cloudflare | 5 |
-| OpenAI | 4 |
-| GitHub | 3 |
-| Grafana Cloud | 2 |
-| Discord | 1 |
+| Cloudflare | 8 |
+| Twilio | 5 |
+| Sentry | 2 |
+| Vercel | 1 |
+| Zoom | 1 |
+| GitHub | 1 |
 
 Most severe this run:
 
 - `critical` **GitHub** — Incident with Git Operations and Pull Requests
-- `critical` **GitHub** — Incident with Actions and Checks API
-- `major` **GitHub** — Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot
+- `major` **Sentry** — Account emails not being delivered
 
 <!-- STATUS:END -->
 

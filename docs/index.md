@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,945 incidents**. Updated 2026-11-10.
+Cross-vendor incident data for 25 providers. Corpus: **23,960 incidents**. Updated 2026-11-11.
 
 ## Last 30 days
 
-- Incidents recorded: **495**
-- Major or worse: **67**
+- Incidents recorded: **492**
+- Major or worse: **66**
 
 ## Reliability by provider (all time)
 
@@ -15,7 +15,7 @@ Cross-vendor incident data for 25 providers. Corpus: **23,945 incidents**. Updat
 | Amazon Web Services | cloud | 84 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 324 | 69m | 481m |
-| Cloudflare | cdn | 6853 | 239m | 506m |
+| Cloudflare | cdn | 6860 | 239m | 505m |
 | Confluent Cloud | data | 268 | 194m | 1592m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 511 | 144m | 571m |
@@ -30,43 +30,35 @@ Cross-vendor incident data for 25 providers. Corpus: **23,945 incidents**. Updat
 | New Relic | observability | 112 | 63m | 306m |
 | npm | devtools | 69 | 107m | 340m |
 | OpenAI | ai | 136 | 110m | 643m |
-| Sentry | observability | 351 | 86m | 356m |
+| Sentry | observability | 353 | 84m | 354m |
 | Snowflake | data | 213 | 121m | 597m |
 | Supabase | paas | 460 | 147m | 1280m |
-| Twilio | comms | 11274 | 272m | 1130m |
-| Vercel | paas | 396 | 72m | 363m |
-| Zoom | comms | 201 | 109m | 1448m |
+| Twilio | comms | 11278 | 272m | 1130m |
+| Vercel | paas | 397 | 72m | 362m |
+| Zoom | comms | 202 | 111m | 1440m |
 
-## New since last run (21)
+## New since last run (15)
 
-- **Cloudflare** — Account Analytics Filter Issue (`minor`)
-- **Cloudflare** — Changes to Cloudflare Workers are not producing Event Subscription events (`minor`)
-- **Cloudflare** — Changes made to Workers may be delayed or disrupted (`minor`)
-- **Cloudflare** — Network Performance Issues in Eastern North America (`minor`)
-- **GitHub** — Incident with Git Operations and Pull Requests (`critical`)
-- **GitHub** — Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot (`major`)
-- **GitHub** — Incident with Actions and Checks API (`critical`)
-- **Grafana Cloud** — Mimir query unexpected response with status code 500 (`minor`)
-- **Grafana Cloud** — Cloud Logs writes - Elevated latency and error rates in prod-eu-central-0 (`none`)
-- **OpenAI** — Incorrect cost data in Costs API exports (`none`)
-- **OpenAI** — Elevated Errors On API (`minor`)
-- **OpenAI** — Elevated ChatGPT Conversation Errors (`minor`)
-- **Twilio** — Gateway API (Lookup API) Failure Increase on Verizon in United States (`minor`)
-- **Twilio** — WhatsApp Business API Message Send Failures (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Chile (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio to Bouygues Telecom France (`minor`)
-- **Twilio** — Voice Call Audio Quality Degradation, Silent and One-Way Audio between Twilio and Multiple Networks in United Kingdom (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Multiple Networks in Italy (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from Twilio to Spusu United Kingdom (`minor`)
-- **Discord** — Connectivity Issue w/ Discord's Homepage and Marketing Sites (`major`)
-- **Zoom** — Service Degradation Affecting a subset of users with ZVA and ZoomMate (`none`)
+- **Cloudflare** — Workers deployments errors with D1 bindings (`minor`)
+- **Cloudflare** — SSL Certificate Provisioning Issue (`minor`)
+- **Cloudflare** — Elevated number of 5xx errors in Hong Kong (`minor`)
+- **Cloudflare** — Replicate Input Upload Issue (`minor`)
+- **Cloudflare** — Cloudflare Worker Builds Issue (`minor`)
+- **Cloudflare** — Network Performance Issues in St. Louis, USA (`minor`)
+- **Cloudflare** — Prediction issue on OpenAI models via Replicate (`minor`)
+- **Sentry** — Account emails not being delivered (`major`)
+- **Sentry** — EU region replay ingestion latency (`minor`)
+- **Vercel** — Elevated Sandbox and Blob request latency and errors (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Turkcell Turkey (`minor`)
+- **Twilio** — Retroactive Incident Impacting Twilio Usage APIs (`none`)
+- **Twilio** — Issue resolved (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from Twilio Phone Numbers to Movistar Venezuela (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Conference Room Connector Services Endpoints in the AMS region. (`minor`)
 
-## Updated since last run (5)
+## Updated since last run (3)
 
-- **Cloudflare** — Spectrum Availability Issue in Phoenix → `resolved`
-- **OpenAI** — Elevated error rates with some U.S. business Mastercards → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio to ETL Laos → `resolved`
-- **Twilio** — SMS Delivery Failures from Network Subscribers in Germany to a Subset of Twilio Long Codes → `resolved`
+- **Cloudflare** — Changes to Cloudflare Workers are not producing Event Subscription events → `identified`
+- **GitHub** — Incident with Git Operations and Pull Requests → `resolved`
 - **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile → `identified`
 
 ---
