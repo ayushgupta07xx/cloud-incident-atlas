@@ -1,64 +1,75 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **23,960 incidents**. Updated 2026-11-11.
+Cross-vendor incident data for 25 providers. Corpus: **23,998 incidents**. Updated 2026-11-12.
 
 ## Last 30 days
 
-- Incidents recorded: **492**
-- Major or worse: **66**
+- Incidents recorded: **506**
+- Major or worse: **67**
 
 ## Reliability by provider (all time)
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
-| Amazon Web Services | cloud | 84 | — | — |
+| Amazon Web Services | cloud | 91 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 324 | 69m | 481m |
-| Cloudflare | cdn | 6860 | 239m | 505m |
+| Cloudflare | cdn | 6863 | 239m | 507m |
 | Confluent Cloud | data | 268 | 194m | 1592m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 511 | 144m | 571m |
 | Discord | comms | 227 | 56m | 296m |
 | Elastic Cloud | observability | 265 | 192m | 1462m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
-| GitHub | devtools | 667 | 67m | 286m |
-| Grafana Cloud | observability | 803 | 92m | 1137m |
+| GitHub | devtools | 670 | 67m | 286m |
+| Grafana Cloud | observability | 805 | 93m | 1136m |
 | HashiCorp Cloud | devtools | 43 | 160m | 1515m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 233 | 41m | 233m |
 | New Relic | observability | 112 | 63m | 306m |
 | npm | devtools | 69 | 107m | 340m |
-| OpenAI | ai | 136 | 110m | 643m |
-| Sentry | observability | 353 | 84m | 354m |
-| Snowflake | data | 213 | 121m | 597m |
-| Supabase | paas | 460 | 147m | 1280m |
-| Twilio | comms | 11278 | 272m | 1130m |
+| OpenAI | ai | 140 | 110m | 618m |
+| Sentry | observability | 354 | 84m | 354m |
+| Snowflake | data | 214 | 120m | 597m |
+| Supabase | paas | 462 | 147m | 1265m |
+| Twilio | comms | 11292 | 272m | 1127m |
 | Vercel | paas | 397 | 72m | 362m |
-| Zoom | comms | 202 | 111m | 1440m |
+| Zoom | comms | 203 | 113m | 1438m |
 
-## New since last run (15)
+## New since last run (38)
 
-- **Cloudflare** — Workers deployments errors with D1 bindings (`minor`)
-- **Cloudflare** — SSL Certificate Provisioning Issue (`minor`)
-- **Cloudflare** — Elevated number of 5xx errors in Hong Kong (`minor`)
-- **Cloudflare** — Replicate Input Upload Issue (`minor`)
-- **Cloudflare** — Cloudflare Worker Builds Issue (`minor`)
-- **Cloudflare** — Network Performance Issues in St. Louis, USA (`minor`)
-- **Cloudflare** — Prediction issue on OpenAI models via Replicate (`minor`)
-- **Sentry** — Account emails not being delivered (`major`)
-- **Sentry** — EU region replay ingestion latency (`minor`)
-- **Vercel** — Elevated Sandbox and Blob request latency and errors (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Turkcell Turkey (`minor`)
-- **Twilio** — Retroactive Incident Impacting Twilio Usage APIs (`none`)
-- **Twilio** — Issue resolved (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from Twilio Phone Numbers to Movistar Venezuela (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Conference Room Connector Services Endpoints in the AMS region. (`minor`)
+- **Cloudflare** — Replicate Issue (`minor`)
+- **Cloudflare** — DNSSEC Configuration Change Issues (`minor`)
+- **Cloudflare** — Network Performance Degraded (`minor`)
+- **GitHub** — Incident with Webhooks API (`minor`)
+- **GitHub** — Impact across multiple GitHub products including Actions, Pages, and Copilot products. (`critical`)
+- **GitHub** — Incident with Webhooks (`minor`)
+- **Snowflake** — INC20000347 (`minor`)
+- **Grafana Cloud** — Elevated query errors for Grafana Cloud Metrics in prod-us-east-3 (`minor`)
+- **Grafana Cloud** — Degraded performance for Grafana Cloud Metrics in prod-us-central-7 (`major`)
+- **Sentry** — US issues feed throwing intermittent errors (`minor`)
+- **Supabase** — Storage request degradation in eu-west-1 (`minor`)
+- **Supabase** — Project Lifecycle Issues in ap-northeast-1 (`minor`)
+- **OpenAI** — Elevated errors affecting the Microsoft 365 connector (`minor`)
+- **OpenAI** — GPT-image-2.5 and 2.6 Sunburst & Flare High error rate (`minor`)
+- **OpenAI** — Unable to start new Workspace Agent runs (`critical`)
+- **OpenAI** — Elevated errors affecting logins, sign-ups, and ChatGPT features (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Virgin Mobile Colombia (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio to Claro Colombia (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Telenor Pakistan (`minor`)
+- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Mobile Numbers (`minor`)
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in United States (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in France (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to MTS Kazakhstan (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Phone Numbers to Tcell Tajikistan (`minor`)
+- **Twilio** — SMS Delivery Failures from Twilio 10DLC to AT&T United States (`minor`)
 
-## Updated since last run (3)
+## Updated since last run (4)
 
-- **Cloudflare** — Changes to Cloudflare Workers are not producing Event Subscription events → `identified`
-- **GitHub** — Incident with Git Operations and Pull Requests → `resolved`
+- **Cloudflare** — Fedramp Customers have Delayed Purges → `resolved`
+- **Cloudflare** — Replicate Model Registry Unavailable → `identified`
+- **Twilio** — SMS Delivery Failures from Twilio to Turkcell Turkey → `resolved`
 - **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile → `identified`
 
 ---

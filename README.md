@@ -31,21 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-11 14:07 UTC` &nbsp;·&nbsp; **15 new** and **3 updated** incidents &nbsp;·&nbsp; 23,960 total
+**Last ingest** &nbsp;`2026-11-12 19:12 UTC` &nbsp;·&nbsp; **38 new** and **4 updated** incidents &nbsp;·&nbsp; 23,998 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Cloudflare | 8 |
-| Twilio | 5 |
-| Sentry | 2 |
-| Vercel | 1 |
-| Zoom | 1 |
-| GitHub | 1 |
+| Twilio | 16 |
+| Amazon Web Services | 7 |
+| Cloudflare | 5 |
+| OpenAI | 4 |
+| GitHub | 3 |
+| Grafana Cloud | 2 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Incident with Git Operations and Pull Requests
-- `major` **Sentry** — Account emails not being delivered
+- `critical` **GitHub** — Impact across multiple GitHub products including Actions, Pages, and Copilot products.
+- `critical` **OpenAI** — Unable to start new Workspace Agent runs
+- `major` **Grafana Cloud** — Degraded performance for Grafana Cloud Metrics in prod-us-central-7
 
 <!-- STATUS:END -->
 
