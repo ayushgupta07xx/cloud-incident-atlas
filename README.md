@@ -31,22 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-12 19:12 UTC` &nbsp;·&nbsp; **38 new** and **4 updated** incidents &nbsp;·&nbsp; 23,998 total
+**Last ingest** &nbsp;`2026-11-13 15:38 UTC` &nbsp;·&nbsp; **21 new** and **13 updated** incidents &nbsp;·&nbsp; 24,019 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 16 |
-| Amazon Web Services | 7 |
+| Twilio | 14 |
+| GitHub | 6 |
 | Cloudflare | 5 |
-| OpenAI | 4 |
-| GitHub | 3 |
-| Grafana Cloud | 2 |
+| Snowflake | 3 |
+| Supabase | 2 |
+| Zoom | 2 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Impact across multiple GitHub products including Actions, Pages, and Copilot products.
-- `critical` **OpenAI** — Unable to start new Workspace Agent runs
-- `major` **Grafana Cloud** — Degraded performance for Grafana Cloud Metrics in prod-us-central-7
+- `critical` **GitHub** — Incident with Git Operations and Pull Requests
+- `critical` **GitHub** — Incident with Actions and Checks API
+- `major` **GitHub** — Incident with Webhooks and Actions
 
 <!-- STATUS:END -->
 
