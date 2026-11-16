@@ -1,74 +1,76 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **24,033 incidents**. Updated 2026-11-14.
+Cross-vendor incident data for 25 providers. Corpus: **24,053 incidents**. Updated 2026-11-16.
 
 ## Last 30 days
 
-- Incidents recorded: **494**
-- Major or worse: **65**
+- Incidents recorded: **491**
+- Major or worse: **62**
 
 ## Reliability by provider (all time)
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR |
 | --- | --- | ---: | ---: | ---: |
 | Atlassian | devtools | 39 | 120m | 2244m |
-| Amazon Web Services | cloud | 91 | — | — |
+| Amazon Web Services | cloud | 97 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 324 | 69m | 481m |
-| Cloudflare | cdn | 6869 | 239m | 509m |
+| Cloudflare | cdn | 6871 | 239m | 509m |
 | Confluent Cloud | data | 268 | 194m | 1592m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 511 | 144m | 571m |
 | Discord | comms | 227 | 56m | 296m |
 | Elastic Cloud | observability | 265 | 192m | 1462m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
-| GitHub | devtools | 673 | 67m | 284m |
+| GitHub | devtools | 674 | 67m | 284m |
 | Grafana Cloud | observability | 805 | 93m | 1136m |
-| HashiCorp Cloud | devtools | 44 | 150m | 1509m |
+| HashiCorp Cloud | devtools | 46 | 162m | 1499m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 235 | 41m | 236m |
 | New Relic | observability | 112 | 63m | 306m |
 | npm | devtools | 69 | 107m | 340m |
-| OpenAI | ai | 143 | 110m | 678m |
+| OpenAI | ai | 143 | 111m | 726m |
 | Sentry | observability | 354 | 84m | 354m |
 | Snowflake | data | 215 | 120m | 599m |
 | Supabase | paas | 464 | 147m | 1251m |
-| Twilio | comms | 11307 | 272m | 1129m |
+| Twilio | comms | 11314 | 272m | 1131m |
 | Vercel | paas | 397 | 72m | 362m |
-| Zoom | comms | 205 | 117m | 1495m |
+| Zoom | comms | 207 | 117m | 1480m |
 
-## New since last run (14)
+## New since last run (20)
 
-- **Cloudflare** — Increased errors for R2 and Tiered Cache (`minor`)
-- **Cloudflare** — Issues with 1.1.1.1 public resolver in Canada (`minor`)
-- **GitHub** — Copilot experiencing degraded model availability for some GPT models (`minor`)
-- **GitHub** — Incident with Pull Requests (`major`)
-- **HashiCorp Cloud** — HYOK, Private VCS, and Private Run Tasks returning 403 errors (`major`)
-- **Netlify** — Increase in errors for drag and drop deploys (`none`)
-- **OpenAI** — Delayed Costs Data in the Compliance API (`minor`)
-- **OpenAI** — Elevated errors with ChatGPT billing and Ads billing (`none`)
-- **Twilio** — SMS Delivery Delays from Twilio to Altan Redes Mexico (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Orange Mali (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Phone Numbers to Telenor Pakistan (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to MTN Nigeria (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil (`minor`)
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Multiple Networks in Multiple Countries in Latin America (`minor`)
+- **Cloudflare** — Elevated number of errors in Bogotá (`minor`)
+- **Cloudflare** — Elevated error rates on R2 buckets in West North America (`minor`)
+- **GitHub** — Incident with Pull Requests (`minor`)
+- **HashiCorp Cloud** — Some of HCP Boundary Clusters might be seeing degraded performance. (`minor`)
+- **HashiCorp Cloud** — Emergency Maintenance Notification – HCP Radar (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to MTN/Libertis Congo (`minor`)
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Long Codes to Multiple Networks in Canada (`minor`)
+- **Twilio** — Silent Network Authentication (SNA) Missing Redirects in Philippines (`minor`)
+- **Twilio** — Inbound MMS Failures (`minor`)
+- **Twilio** — Gateway API (Lookup API) Failure Increase in United States (`minor`)
+- **Twilio** — New Twilio Accounts Experiencing Email Product Provisioning Delays (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Events custom domain (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom Workflow Service (`minor`)
+- **Amazon Web Services** — Service is operating normally: [RESOLVED] Increased Connectivity issues in US-EAST-1 (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity issues in US-EAST-1 (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity issues in US-EAST-1 (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity issues in US-EAST-1 (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity issues in US-EAST-1 (`minor`)
+- **Amazon Web Services** — Service impact: Increased Connectivity issues in US-EAST-1 (`minor`)
 
-## Updated since last run (13)
+## Updated since last run (9)
 
-- **Cloudflare** — Cloudflare is seeing an issue with Workers API availability → `resolved`
-- **Cloudflare** — Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted → `resolved`
-- **GitHub** — Degraded performance for multiple GitHub services → `resolved`
-- **GitHub** — Incident with Pull Requests, Git Operations and Issues → `resolved`
-- **Netlify** — Delayed Support Email Delivery to Microsoft 365 and Outlook Mailboxes → `resolved`
-- **OpenAI** — Elevated errors affecting the Microsoft 365 connector → `resolved`
-- **Twilio** — Twilio Email Send API Message Delivery Delays to Microsoft Inboxes → `resolved`
-- **Twilio** — Silent Network Authentication (SNA) Failure Increase and Gateway API (Lookup API) Failure Increase in United Kingdom → `resolved`
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in India → `monitoring`
-- **Twilio** — SMS Delivery Receipt Failures from Twilio to Claro Costa Rica → `identified`
-- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers → `identified`
-- **Zoom** — Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue. → `resolved`
-- **Zoom** — Service Degradation Affecting Zoom Phone Calls in China Region → `resolved`
+- **OpenAI** — Delayed Costs Data in the Compliance API → `resolved`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in India → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to MTN Nigeria → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Altan Redes Mexico → `resolved`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Colombia, Mexico, Chile, and Costa Rica → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Orange Mali → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil → `monitoring`
+- **Twilio** — SMS Delivery Receipt Failures from Twilio to Claro Costa Rica → `monitoring`
+- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Mobile Numbers → `identified`
 
 ---
 

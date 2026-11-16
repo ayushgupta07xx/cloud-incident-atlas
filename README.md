@@ -31,22 +31,16 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-14 18:45 UTC` &nbsp;·&nbsp; **14 new** and **13 updated** incidents &nbsp;·&nbsp; 24,033 total
+**Last ingest** &nbsp;`2026-11-16 12:54 UTC` &nbsp;·&nbsp; **20 new** and **9 updated** incidents &nbsp;·&nbsp; 24,053 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 11 |
-| Cloudflare | 4 |
-| GitHub | 4 |
-| OpenAI | 3 |
-| Netlify | 2 |
+| Twilio | 15 |
+| Amazon Web Services | 6 |
+| Cloudflare | 2 |
+| HashiCorp Cloud | 2 |
 | Zoom | 2 |
-
-Most severe this run:
-
-- `major` **GitHub** — Incident with Pull Requests
-- `major` **HashiCorp Cloud** — HYOK, Private VCS, and Private Run Tasks returning 403 errors
-- `major` **GitHub** — Incident with Pull Requests, Git Operations and Issues
+| GitHub | 1 |
 
 <!-- STATUS:END -->
 
