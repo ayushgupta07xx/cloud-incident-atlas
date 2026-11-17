@@ -31,16 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-16 12:54 UTC` &nbsp;·&nbsp; **20 new** and **9 updated** incidents &nbsp;·&nbsp; 24,053 total
+**Last ingest** &nbsp;`2026-11-17 18:44 UTC` &nbsp;·&nbsp; **32 new** and **17 updated** incidents &nbsp;·&nbsp; 24,085 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 15 |
-| Amazon Web Services | 6 |
-| Cloudflare | 2 |
-| HashiCorp Cloud | 2 |
-| Zoom | 2 |
-| GitHub | 1 |
+| Twilio | 18 |
+| GitHub | 11 |
+| Cloudflare | 9 |
+| Zoom | 4 |
+| Supabase | 2 |
+| DigitalOcean | 1 |
+
+Most severe this run:
+
+- `critical` **GitHub** — Delays for Pull Requests and Webhook deliveries
+- `major` **GitHub** — Incident with Pull Requests, Git Operations and Issues
 
 <!-- STATUS:END -->
 
