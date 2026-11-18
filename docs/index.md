@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **24,085 incidents**. Updated 2026-11-17.
+Cross-vendor incident data for 25 providers. Corpus: **24,106 incidents**. Updated 2026-11-18.
 
 ## Last 30 days
 
-- Incidents recorded: **520**
-- Major or worse: **62**
+- Incidents recorded: **530**
+- Major or worse: **61**
 
 ## Reliability by provider (all time)
 
@@ -15,75 +15,63 @@ Cross-vendor incident data for 25 providers. Corpus: **24,085 incidents**. Updat
 | Amazon Web Services | cloud | 97 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 324 | 69m | 481m |
-| Cloudflare | cdn | 6880 | 239m | 508m |
-| Confluent Cloud | data | 268 | 194m | 1592m |
+| Cloudflare | cdn | 6888 | 239m | 509m |
+| Confluent Cloud | data | 269 | 194m | 1592m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 512 | 144m | 571m |
 | Discord | comms | 228 | 56m | 295m |
 | Elastic Cloud | observability | 265 | 192m | 1462m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
-| GitHub | devtools | 674 | 67m | 283m |
+| GitHub | devtools | 675 | 67m | 282m |
 | Grafana Cloud | observability | 805 | 93m | 1136m |
 | HashiCorp Cloud | devtools | 47 | 160m | 1494m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 235 | 41m | 236m |
 | New Relic | observability | 112 | 63m | 306m |
 | npm | devtools | 69 | 107m | 340m |
-| OpenAI | ai | 144 | 111m | 726m |
+| OpenAI | ai | 145 | 113m | 721m |
 | Sentry | observability | 354 | 84m | 354m |
 | Snowflake | data | 216 | 121m | 598m |
-| Supabase | paas | 466 | 148m | 1242m |
-| Twilio | comms | 11326 | 272m | 1131m |
+| Supabase | paas | 467 | 148m | 1240m |
+| Twilio | comms | 11333 | 272m | 1132m |
 | Vercel | paas | 397 | 72m | 362m |
-| Zoom | comms | 211 | 113m | 1448m |
+| Zoom | comms | 213 | 109m | 1438m |
 
-## New since last run (32)
+## New since last run (21)
 
-- **Cloudflare** — Network performance issues in Los Angeles (LAX) and Frankfurt (FRA) datacenters (`minor`)
-- **Cloudflare** — Turnstile verification failures (`minor`)
-- **Cloudflare** — Errors and stalled predictions on some models (`minor`)
-- **Cloudflare** — Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized (`minor`)
-- **Cloudflare** — Elevated number of 5xx and 499 errors (`minor`)
-- **Cloudflare** — Elevated number of 52x origin connectivity errors in Seoul (`minor`)
-- **Cloudflare** — Network Performance Issues in Ashburn, US (`none`)
-- **Cloudflare** — Network Performance Issues in Montreal, Canada (`minor`)
-- **Cloudflare** — Errors creating predictions for some models (`minor`)
-- **DigitalOcean** — App Platform Accessibility in Cloud Panel (`none`)
-- **Snowflake** — INC20000351 (`minor`)
-- **HashiCorp Cloud** — Remote Terraform runs failing (`minor`)
-- **Supabase** — Projects in sa-east-1 experiencing delayed event ingestion (`none`)
-- **Supabase** — ‘Project not specified’ errors reported for users in ap-northeast-2 (`minor`)
-- **OpenAI** — Costs API data is delayed (`minor`)
-- **Twilio** — Voice Call Post Dial Delay, Audio Quality Degradation, and Silent and One-Way Audio Between Twilio Phone Numbers and Brazil (`minor`)
-- **Twilio** — SMS Delivery Failures between a Subset of Twilio Short Codes and Claro in Brazil (`minor`)
-- **Twilio** — Customers Unable to View Balance in Console (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Sky United Kingdom (`minor`)
-- **Twilio** — Voice Call Audio Quality Degradation Between Twilio and Multiple Networks in United Kingdom (`minor`)
-- **Twilio** — Gateway API (Lookup API) Failure Increase in Canada (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Telenor Pakistan (`minor`)
-- **Twilio** — Voice Call Audio Quality Degradation between Twilio and Multiple Networks in United Kingdom (`minor`)
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to T-Mobile United States (`minor`)
+- **Cloudflare** — R2 Downloads Stalling in Japan (`minor`)
+- **Cloudflare** — Network Performance Issues in North America (`minor`)
+- **Cloudflare** — Network disruption across multiple colocations in India (`minor`)
+- **Cloudflare** — Network Performance Issues in Paris (`minor`)
+- **Cloudflare** — Elevated 5xx error rates and latency in Mumbai (`minor`)
+- **Cloudflare** — Cloudflare Access Issue (`minor`)
+- **Cloudflare** — Issues with Durable Objects and Dependent Services (`minor`)
+- **Cloudflare** — R2 elevated errors and timeouts for requests from South America (`minor`)
+- **GitHub** — Degraded Availability for MAI Code 2 Flash in Copilot (`minor`)
+- **Confluent Cloud** — New Confluent Cloud account sign-ups temporarily unavailable (`maintenance`)
+- **Supabase** — Edge Function Issues in ap-northeast-1 (`minor`)
+- **OpenAI** — Elevated conversation errors for Free and Go users (`minor`)
+- **Twilio** — Transactional Email Delays in AP (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Bell and Bell Aliant Canada (`minor`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio phone numbers in Brasil (`minor`)
+- **Twilio** — Speech Recognition and Real-Time Transcription Failures in US1 (`minor`)
+- **Twilio** — Programmable Messaging API Errors (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Short Codes to AT&T Mexico (`minor`)
+- **Twilio** — Voice Call Signing Issues (`minor`)
+- **Zoom** — Service Degradation Affecting Subset of Users using Zoom Phone Calls in Europe Region. (`none`)
+- **Zoom** — Service degradation affected a subset of users attempting to approve attendees for Webinar Registrations in the North America region. (`none`)
 
-## Updated since last run (17)
+## Updated since last run (9)
 
-- **GitHub** — Incident with Pull Requests → `resolved`
-- **GitHub** — Incident with Webhooks API → `resolved`
-- **GitHub** — Increased timeouts due to surge in anonymous users → `resolved`
-- **GitHub** — Increase in timeouts for some unauthenticated users → `resolved`
-- **GitHub** — Incident with Pull Requests, Git Operations and Issues → `resolved`
-- **GitHub** — Increased task-related errors for Copilot Mission Control → `resolved`
-- **GitHub** — Incident with API, Git, and Copilot requests → `resolved`
-- **GitHub** — Elevated errors on GPT-5.4 Nano → `resolved`
-- **GitHub** — Incident with Actions, Issues, API Requests and Pull Requests → `resolved`
-- **GitHub** — Project updates delayed → `resolved`
-- **GitHub** — Delays for Pull Requests and Webhook deliveries → `resolved`
-- **Twilio** — SMS Delivery Receipt Failures from Twilio to Claro Costa Rica → `resolved`
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to MTN/Libertis Congo → `resolved`
-- **Twilio** — Silent Network Authentication (SNA) Missing Redirects in Philippines → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil → `monitoring`
-- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers → `identified`
+- **Cloudflare** — Errors and stalled predictions on some models → `resolved`
+- **Cloudflare** — Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized → `resolved`
+- **OpenAI** — Costs API data is delayed → `monitoring`
+- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Mobile Numbers → `resolved`
+- **Twilio** — SMS Delivery Failures Between a Subset of Twilio Short Codes and Claro in Brazil → `resolved`
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil → `resolved`
+- **Twilio** — Voice Call Audio Quality Degradation and Post Dial Delay and Silent and One-Way Audio Between Twilio and Brazil → `identified`
+- **Twilio** — Voice Call Audio Quality Degradation between Twilio Phone Numbers and Multiple Networks in United Kingdom → `monitoring`
 
 ---
 

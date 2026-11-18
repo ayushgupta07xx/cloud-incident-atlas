@@ -4,23 +4,23 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 11326 | 4.5h | 18.9h | 1174.9h |
-| Cloudflare | cdn | 6880 | 4.0h | 8.5h | 5350.4h |
+| Twilio | comms | 11333 | 4.5h | 18.9h | 1174.9h |
+| Cloudflare | cdn | 6888 | 4.0h | 8.5h | 5350.4h |
 | Grafana Cloud | observability | 805 | 1.6h | 18.9h | 2571.2h |
-| GitHub | devtools | 674 | 1.1h | 4.7h | 62.0h |
+| GitHub | devtools | 675 | 1.1h | 4.7h | 62.0h |
 | DigitalOcean | cloud | 512 | 2.4h | 9.5h | 304.2h |
-| Supabase | paas | 466 | 2.5h | 20.7h | 2129.0h |
+| Supabase | paas | 467 | 2.5h | 20.7h | 2129.0h |
 | Vercel | paas | 397 | 1.2h | 6.0h | 339.2h |
 | Sentry | observability | 354 | 1.4h | 5.9h | 668.4h |
 | CircleCI | devtools | 324 | 1.2h | 8.0h | 96.0h |
 | MongoDB Atlas | data | 279 | 2.0h | 23.4h | 4467.0h |
-| Confluent Cloud | data | 268 | 3.2h | 26.5h | 2821.4h |
+| Confluent Cloud | data | 269 | 3.2h | 26.5h | 2821.4h |
 | Elastic Cloud | observability | 265 | 3.2h | 24.4h | 708.5h |
 | Netlify | paas | 235 | 41m | 3.9h | 347.3h |
 | Discord | comms | 228 | 56m | 4.9h | 664.8h |
 | Snowflake | data | 216 | 2.0h | 10.0h | 1844.0h |
-| Zoom | comms | 211 | 1.9h | 24.1h | 1944.0h |
-| OpenAI | ai | 144 | 1.8h | 12.1h | 93.5h |
+| Zoom | comms | 213 | 1.8h | 24.0h | 1944.0h |
+| OpenAI | ai | 145 | 1.9h | 12.0h | 93.5h |
 | Datadog | observability | 128 | 1.2h | 3.7h | 49.9h |
 | New Relic | observability | 112 | 1.0h | 5.1h | 52.3h |
 | Amazon Web Services | cloud | 97 | — | — | — |
@@ -34,11 +34,11 @@
 
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
-| ai | 1 | 144 | 18 |
-| cdn | 1 | 6880 | 143 |
+| ai | 1 | 145 | 18 |
+| cdn | 1 | 6888 | 143 |
 | cloud | 4 | 618 | 37 |
-| comms | 3 | 11765 | 123 |
-| data | 3 | 763 | 280 |
-| devtools | 5 | 1153 | 248 |
+| comms | 3 | 11774 | 123 |
+| data | 3 | 764 | 280 |
+| devtools | 5 | 1154 | 248 |
 | observability | 5 | 1664 | 596 |
-| paas | 3 | 1098 | 250 |
+| paas | 3 | 1099 | 250 |

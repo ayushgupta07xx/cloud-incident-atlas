@@ -31,21 +31,16 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-17 18:44 UTC` &nbsp;·&nbsp; **32 new** and **17 updated** incidents &nbsp;·&nbsp; 24,085 total
+**Last ingest** &nbsp;`2026-11-18 15:31 UTC` &nbsp;·&nbsp; **21 new** and **9 updated** incidents &nbsp;·&nbsp; 24,106 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 18 |
-| GitHub | 11 |
-| Cloudflare | 9 |
-| Zoom | 4 |
-| Supabase | 2 |
-| DigitalOcean | 1 |
-
-Most severe this run:
-
-- `critical` **GitHub** — Delays for Pull Requests and Webhook deliveries
-- `major` **GitHub** — Incident with Pull Requests, Git Operations and Issues
+| Twilio | 13 |
+| Cloudflare | 10 |
+| OpenAI | 2 |
+| Zoom | 2 |
+| GitHub | 1 |
+| Confluent Cloud | 1 |
 
 <!-- STATUS:END -->
 
