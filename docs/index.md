@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **24,106 incidents**. Updated 2026-11-18.
+Cross-vendor incident data for 25 providers. Corpus: **24,128 incidents**. Updated 2026-11-19.
 
 ## Last 30 days
 
-- Incidents recorded: **530**
-- Major or worse: **61**
+- Incidents recorded: **523**
+- Major or worse: **54**
 
 ## Reliability by provider (all time)
 
@@ -14,64 +14,63 @@ Cross-vendor incident data for 25 providers. Corpus: **24,106 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 97 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
-| CircleCI | devtools | 324 | 69m | 481m |
-| Cloudflare | cdn | 6888 | 239m | 509m |
-| Confluent Cloud | data | 269 | 194m | 1592m |
+| CircleCI | devtools | 325 | 70m | 481m |
+| Cloudflare | cdn | 6893 | 239m | 508m |
+| Confluent Cloud | data | 269 | 195m | 1585m |
 | Datadog | observability | 128 | 72m | 224m |
-| DigitalOcean | cloud | 512 | 144m | 571m |
+| DigitalOcean | cloud | 513 | 145m | 575m |
 | Discord | comms | 228 | 56m | 295m |
 | Elastic Cloud | observability | 265 | 192m | 1462m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
-| GitHub | devtools | 675 | 67m | 282m |
-| Grafana Cloud | observability | 805 | 93m | 1136m |
-| HashiCorp Cloud | devtools | 47 | 160m | 1494m |
+| GitHub | devtools | 677 | 67m | 281m |
+| Grafana Cloud | observability | 807 | 92m | 1135m |
+| HashiCorp Cloud | devtools | 48 | 150m | 1488m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 235 | 41m | 236m |
 | New Relic | observability | 112 | 63m | 306m |
 | npm | devtools | 69 | 107m | 340m |
-| OpenAI | ai | 145 | 113m | 721m |
+| OpenAI | ai | 146 | 113m | 752m |
 | Sentry | observability | 354 | 84m | 354m |
 | Snowflake | data | 216 | 121m | 598m |
 | Supabase | paas | 467 | 148m | 1240m |
-| Twilio | comms | 11333 | 272m | 1132m |
-| Vercel | paas | 397 | 72m | 362m |
-| Zoom | comms | 213 | 109m | 1438m |
+| Twilio | comms | 11339 | 272m | 1134m |
+| Vercel | paas | 398 | 72m | 361m |
+| Zoom | comms | 215 | 106m | 1434m |
 
-## New since last run (21)
+## New since last run (22)
 
-- **Cloudflare** — R2 Downloads Stalling in Japan (`minor`)
-- **Cloudflare** — Network Performance Issues in North America (`minor`)
-- **Cloudflare** — Network disruption across multiple colocations in India (`minor`)
-- **Cloudflare** — Network Performance Issues in Paris (`minor`)
-- **Cloudflare** — Elevated 5xx error rates and latency in Mumbai (`minor`)
+- **Cloudflare** — Observability ingestion delay and query failures (`minor`)
+- **Cloudflare** — Durable Objects and D1 – Increased Errors (`minor`)
 - **Cloudflare** — Cloudflare Access Issue (`minor`)
-- **Cloudflare** — Issues with Durable Objects and Dependent Services (`minor`)
-- **Cloudflare** — R2 elevated errors and timeouts for requests from South America (`minor`)
-- **GitHub** — Degraded Availability for MAI Code 2 Flash in Copilot (`minor`)
-- **Confluent Cloud** — New Confluent Cloud account sign-ups temporarily unavailable (`maintenance`)
-- **Supabase** — Edge Function Issues in ap-northeast-1 (`minor`)
-- **OpenAI** — Elevated conversation errors for Free and Go users (`minor`)
-- **Twilio** — Transactional Email Delays in AP (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Bell and Bell Aliant Canada (`minor`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio phone numbers in Brasil (`minor`)
-- **Twilio** — Speech Recognition and Real-Time Transcription Failures in US1 (`minor`)
-- **Twilio** — Programmable Messaging API Errors (`minor`)
-- **Twilio** — SMS Delivery Delays and Failures from a Subset of Twilio Short Codes to AT&T Mexico (`minor`)
-- **Twilio** — Voice Call Signing Issues (`minor`)
-- **Zoom** — Service Degradation Affecting Subset of Users using Zoom Phone Calls in Europe Region. (`none`)
-- **Zoom** — Service degradation affected a subset of users attempting to approve attendees for Webinar Registrations in the North America region. (`none`)
+- **Cloudflare** — Degraded connectivity between Europe and Asia Pacific (`minor`)
+- **Cloudflare** — Increased latency on Analytics API (GraphQL) queries (`minor`)
+- **GitHub** — Disruption with some GitHub services (`minor`)
+- **GitHub** — Degraded availability for GPT-6 Luna in Copilot (`minor`)
+- **DigitalOcean** — Increased Error Rates in SFO3 (`minor`)
+- **HashiCorp Cloud** — HCP Terraform - Elevated error rates and latency (`critical`)
+- **CircleCI** — Delays and intermittent failures running Smarter Testing (`minor`)
+- **Grafana Cloud** — Increased Read Latency In prod-us-central-0 Region (`minor`)
+- **Grafana Cloud** — Data Source Permission Errors (`minor`)
+- **Vercel** — Delays in observability data (`major`)
+- **OpenAI** — Elevated error rates for gpt-6 Luna API requests (`major`)
+- **Twilio** — Automated Alert: No Customer Impact (`none`)
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Argentina (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to ISP Telecom United States (`minor`)
+- **Twilio** — SMS Delivery Failures from a Subset of Twilio Phone Numbers to Zong Pakistan (`minor`)
+- **Twilio** — Text to Speech Timeouts (`minor`)
+- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers (`minor`)
+- **Zoom** — Service degradation affecting multiple services in the US region (`none`)
+- **Zoom** — Service Degradation Affecting Zoom MyNotes in the US region. (`none`)
 
-## Updated since last run (9)
+## Updated since last run (7)
 
-- **Cloudflare** — Errors and stalled predictions on some models → `resolved`
 - **Cloudflare** — Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized → `resolved`
-- **OpenAI** — Costs API data is delayed → `monitoring`
-- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Mobile Numbers → `resolved`
-- **Twilio** — SMS Delivery Failures Between a Subset of Twilio Short Codes and Claro in Brazil → `resolved`
-- **Twilio** — SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil → `resolved`
-- **Twilio** — Voice Call Audio Quality Degradation and Post Dial Delay and Silent and One-Way Audio Between Twilio and Brazil → `identified`
-- **Twilio** — Voice Call Audio Quality Degradation between Twilio Phone Numbers and Multiple Networks in United Kingdom → `monitoring`
+- **GitHub** — Disruption with GitHub services → `resolved`
+- **Confluent Cloud** — New Confluent Cloud account sign-ups temporarily unavailable → `resolved`
+- **Grafana Cloud** — Phone call notifications to numbers in Russia and Kazakhstan are blocked → `resolved`
+- **OpenAI** — Costs API data is delayed → `resolved`
+- **Twilio** — Voice Call Audio Quality Degradation and Silent and One-Way Audio between Twilio and Multiple Networks in Brazil → `resolved`
+- **Twilio** — Voice Call Audio Quality Degradation Between Twilio and Multiple Networks in United Kingdom → `resolved`
 
 ---
 
