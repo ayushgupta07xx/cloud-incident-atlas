@@ -31,22 +31,20 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-19 19:38 UTC` &nbsp;·&nbsp; **22 new** and **7 updated** incidents &nbsp;·&nbsp; 24,128 total
+**Last ingest** &nbsp;`2026-11-20 16:18 UTC` &nbsp;·&nbsp; **6 new** and **5 updated** incidents &nbsp;·&nbsp; 24,134 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 8 |
-| Cloudflare | 6 |
-| GitHub | 3 |
-| Grafana Cloud | 3 |
-| OpenAI | 2 |
-| Zoom | 2 |
+| Twilio | 4 |
+| Cloudflare | 3 |
+| HashiCorp Cloud | 1 |
+| Grafana Cloud | 1 |
+| Sentry | 1 |
+| Snowflake | 1 |
 
 Most severe this run:
 
-- `critical` **HashiCorp Cloud** — HCP Terraform - Elevated error rates and latency
-- `critical` **GitHub** — Disruption with GitHub services
-- `major` **Vercel** — Delays in observability data
+- `major` **HashiCorp Cloud** — Elevated Errors in HCP Terraform
 
 <!-- STATUS:END -->
 

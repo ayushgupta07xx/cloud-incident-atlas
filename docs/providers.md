@@ -4,14 +4,14 @@
 
 | Provider | Category | Incidents | Median MTTR | p90 MTTR | Longest |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Twilio | comms | 11339 | 4.5h | 18.9h | 1174.9h |
-| Cloudflare | cdn | 6893 | 4.0h | 8.5h | 5350.4h |
-| Grafana Cloud | observability | 807 | 1.5h | 18.9h | 2571.2h |
+| Twilio | comms | 11340 | 4.5h | 18.9h | 1174.9h |
+| Cloudflare | cdn | 6895 | 4.0h | 8.5h | 5350.4h |
+| Grafana Cloud | observability | 808 | 1.5h | 18.9h | 2571.2h |
 | GitHub | devtools | 677 | 1.1h | 4.7h | 62.0h |
 | DigitalOcean | cloud | 513 | 2.4h | 9.6h | 304.2h |
 | Supabase | paas | 467 | 2.5h | 20.7h | 2129.0h |
 | Vercel | paas | 398 | 1.2h | 6.0h | 339.2h |
-| Sentry | observability | 354 | 1.4h | 5.9h | 668.4h |
+| Sentry | observability | 355 | 1.4h | 5.9h | 668.4h |
 | CircleCI | devtools | 325 | 1.2h | 8.0h | 96.0h |
 | MongoDB Atlas | data | 279 | 2.0h | 23.4h | 4467.0h |
 | Confluent Cloud | data | 269 | 3.2h | 26.4h | 2821.4h |
@@ -25,7 +25,7 @@
 | New Relic | observability | 112 | 1.0h | 5.1h | 52.3h |
 | Amazon Web Services | cloud | 97 | — | — | — |
 | npm | devtools | 69 | 1.8h | 5.7h | 20.9h |
-| HashiCorp Cloud | devtools | 48 | 2.5h | 24.8h | 126.1h |
+| HashiCorp Cloud | devtools | 49 | 2.5h | 24.8h | 126.1h |
 | Atlassian | devtools | 39 | 2.0h | 37.4h | 261.0h |
 | Google Cloud Platform | cloud | 8 | 8.4h | — | 516.0h |
 | Microsoft Azure | cloud | 1 | — | — | — |
@@ -35,10 +35,10 @@
 | Category | Providers | Incidents | Major or worse |
 | --- | ---: | ---: | ---: |
 | ai | 1 | 146 | 19 |
-| cdn | 1 | 6893 | 143 |
+| cdn | 1 | 6895 | 143 |
 | cloud | 4 | 619 | 37 |
-| comms | 3 | 11782 | 123 |
+| comms | 3 | 11783 | 123 |
 | data | 3 | 764 | 280 |
-| devtools | 5 | 1158 | 249 |
-| observability | 5 | 1666 | 596 |
+| devtools | 5 | 1159 | 250 |
+| observability | 5 | 1668 | 596 |
 | paas | 3 | 1100 | 251 |

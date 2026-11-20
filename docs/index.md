@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **24,128 incidents**. Updated 2026-11-19.
+Cross-vendor incident data for 25 providers. Corpus: **24,134 incidents**. Updated 2026-11-20.
 
 ## Last 30 days
 
-- Incidents recorded: **523**
-- Major or worse: **54**
+- Incidents recorded: **508**
+- Major or worse: **50**
 
 ## Reliability by provider (all time)
 
@@ -15,7 +15,7 @@ Cross-vendor incident data for 25 providers. Corpus: **24,128 incidents**. Updat
 | Amazon Web Services | cloud | 97 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 325 | 70m | 481m |
-| Cloudflare | cdn | 6893 | 239m | 508m |
+| Cloudflare | cdn | 6895 | 239m | 509m |
 | Confluent Cloud | data | 269 | 195m | 1585m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 513 | 145m | 575m |
@@ -23,54 +23,36 @@ Cross-vendor incident data for 25 providers. Corpus: **24,128 incidents**. Updat
 | Elastic Cloud | observability | 265 | 192m | 1462m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
 | GitHub | devtools | 677 | 67m | 281m |
-| Grafana Cloud | observability | 807 | 92m | 1135m |
-| HashiCorp Cloud | devtools | 48 | 150m | 1488m |
+| Grafana Cloud | observability | 808 | 92m | 1135m |
+| HashiCorp Cloud | devtools | 49 | 150m | 1488m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 235 | 41m | 236m |
 | New Relic | observability | 112 | 63m | 306m |
 | npm | devtools | 69 | 107m | 340m |
 | OpenAI | ai | 146 | 113m | 752m |
-| Sentry | observability | 354 | 84m | 354m |
+| Sentry | observability | 355 | 84m | 353m |
 | Snowflake | data | 216 | 121m | 598m |
 | Supabase | paas | 467 | 148m | 1240m |
-| Twilio | comms | 11339 | 272m | 1134m |
+| Twilio | comms | 11340 | 272m | 1135m |
 | Vercel | paas | 398 | 72m | 361m |
 | Zoom | comms | 215 | 106m | 1434m |
 
-## New since last run (22)
+## New since last run (6)
 
-- **Cloudflare** — Observability ingestion delay and query failures (`minor`)
-- **Cloudflare** — Durable Objects and D1 – Increased Errors (`minor`)
-- **Cloudflare** — Cloudflare Access Issue (`minor`)
-- **Cloudflare** — Degraded connectivity between Europe and Asia Pacific (`minor`)
-- **Cloudflare** — Increased latency on Analytics API (GraphQL) queries (`minor`)
-- **GitHub** — Disruption with some GitHub services (`minor`)
-- **GitHub** — Degraded availability for GPT-6 Luna in Copilot (`minor`)
-- **DigitalOcean** — Increased Error Rates in SFO3 (`minor`)
-- **HashiCorp Cloud** — HCP Terraform - Elevated error rates and latency (`critical`)
-- **CircleCI** — Delays and intermittent failures running Smarter Testing (`minor`)
-- **Grafana Cloud** — Increased Read Latency In prod-us-central-0 Region (`minor`)
-- **Grafana Cloud** — Data Source Permission Errors (`minor`)
-- **Vercel** — Delays in observability data (`major`)
-- **OpenAI** — Elevated error rates for gpt-6 Luna API requests (`major`)
-- **Twilio** — Automated Alert: No Customer Impact (`none`)
-- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Argentina (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to ISP Telecom United States (`minor`)
-- **Twilio** — SMS Delivery Failures from a Subset of Twilio Phone Numbers to Zong Pakistan (`minor`)
-- **Twilio** — Text to Speech Timeouts (`minor`)
-- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers (`minor`)
-- **Zoom** — Service degradation affecting multiple services in the US region (`none`)
-- **Zoom** — Service Degradation Affecting Zoom MyNotes in the US region. (`none`)
+- **Cloudflare** — Network Performance Issues in Miami (`minor`)
+- **Cloudflare** — R2 and Durable Objects availability issues (`minor`)
+- **HashiCorp Cloud** — Elevated Errors in HCP Terraform (`major`)
+- **Grafana Cloud** — Plugin installs and updates from the plugin catalog may fail (`minor`)
+- **Sentry** — Event latency in our EU region (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Proximus Belgium (`minor`)
 
-## Updated since last run (7)
+## Updated since last run (5)
 
-- **Cloudflare** — Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized → `resolved`
-- **GitHub** — Disruption with GitHub services → `resolved`
-- **Confluent Cloud** — New Confluent Cloud account sign-ups temporarily unavailable → `resolved`
-- **Grafana Cloud** — Phone call notifications to numbers in Russia and Kazakhstan are blocked → `resolved`
-- **OpenAI** — Costs API data is delayed → `resolved`
-- **Twilio** — Voice Call Audio Quality Degradation and Silent and One-Way Audio between Twilio and Multiple Networks in Brazil → `resolved`
-- **Twilio** — Voice Call Audio Quality Degradation Between Twilio and Multiple Networks in United Kingdom → `resolved`
+- **Cloudflare** — Observability ingestion delay and query failures → `resolved`
+- **Snowflake** — INC20000347 → `postmortem`
+- **Twilio** — Voice Call Failures from a Subset of Twilio Phone Numbers to Argentina → `resolved`
+- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile → `resolved`
+- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers → `monitoring`
 
 ---
 
