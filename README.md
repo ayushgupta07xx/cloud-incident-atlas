@@ -31,20 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-20 16:18 UTC` &nbsp;·&nbsp; **6 new** and **5 updated** incidents &nbsp;·&nbsp; 24,134 total
+**Last ingest** &nbsp;`2026-11-21 20:09 UTC` &nbsp;·&nbsp; **13 new** and **9 updated** incidents &nbsp;·&nbsp; 24,147 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 4 |
-| Cloudflare | 3 |
-| HashiCorp Cloud | 1 |
-| Grafana Cloud | 1 |
-| Sentry | 1 |
-| Snowflake | 1 |
+| Cloudflare | 5 |
+| Twilio | 5 |
+| HashiCorp Cloud | 3 |
+| GitHub | 3 |
+| Snowflake | 2 |
+| CircleCI | 2 |
 
 Most severe this run:
 
-- `major` **HashiCorp Cloud** — Elevated Errors in HCP Terraform
+- `critical` **Snowflake** — INC20000369
+- `critical` **GitHub** — Impact across multiple GitHub products including Actions, Pages, and Copilot products.
+- `major` **Cloudflare** — Cloudflare Dashboard and Cloudflare API service issues in EU region
 
 <!-- STATUS:END -->
 
