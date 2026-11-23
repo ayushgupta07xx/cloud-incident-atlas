@@ -31,22 +31,15 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-21 20:09 UTC` &nbsp;·&nbsp; **13 new** and **9 updated** incidents &nbsp;·&nbsp; 24,147 total
+**Last ingest** &nbsp;`2026-11-23 14:55 UTC` &nbsp;·&nbsp; **13 new** and **2 updated** incidents &nbsp;·&nbsp; 24,160 total
 
 | Provider | Incidents |
 | --- | ---: |
 | Cloudflare | 5 |
 | Twilio | 5 |
-| HashiCorp Cloud | 3 |
-| GitHub | 3 |
-| Snowflake | 2 |
-| CircleCI | 2 |
-
-Most severe this run:
-
-- `critical` **Snowflake** — INC20000369
-- `critical` **GitHub** — Impact across multiple GitHub products including Actions, Pages, and Copilot products.
-- `major` **Cloudflare** — Cloudflare Dashboard and Cloudflare API service issues in EU region
+| Zoom | 3 |
+| CircleCI | 1 |
+| Supabase | 1 |
 
 <!-- STATUS:END -->
 

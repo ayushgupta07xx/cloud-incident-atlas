@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **24,147 incidents**. Updated 2026-11-21.
+Cross-vendor incident data for 25 providers. Corpus: **24,160 incidents**. Updated 2026-11-23.
 
 ## Last 30 days
 
-- Incidents recorded: **480**
-- Major or worse: **42**
+- Incidents recorded: **460**
+- Major or worse: **39**
 
 ## Reliability by provider (all time)
 
@@ -14,8 +14,8 @@ Cross-vendor incident data for 25 providers. Corpus: **24,147 incidents**. Updat
 | Atlassian | devtools | 39 | 120m | 2244m |
 | Amazon Web Services | cloud | 97 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
-| CircleCI | devtools | 326 | 70m | 480m |
-| Cloudflare | cdn | 6899 | 239m | 510m |
+| CircleCI | devtools | 327 | 70m | 480m |
+| Cloudflare | cdn | 6904 | 239m | 510m |
 | Confluent Cloud | data | 269 | 195m | 1585m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 513 | 145m | 575m |
@@ -32,38 +32,31 @@ Cross-vendor incident data for 25 providers. Corpus: **24,147 incidents**. Updat
 | OpenAI | ai | 146 | 113m | 752m |
 | Sentry | observability | 355 | 84m | 353m |
 | Snowflake | data | 217 | 122m | 598m |
-| Supabase | paas | 468 | 148m | 1240m |
-| Twilio | comms | 11343 | 272m | 1135m |
+| Supabase | paas | 469 | 148m | 1239m |
+| Twilio | comms | 11347 | 272m | 1135m |
 | Vercel | paas | 398 | 72m | 361m |
-| Zoom | comms | 216 | 105m | 1432m |
+| Zoom | comms | 218 | 105m | 1429m |
 
 ## New since last run (13)
 
-- **Cloudflare** — Network Performance Issues in Washington, DC datacenter (IAD) (`minor`)
-- **Cloudflare** — Cache Purging Delays in Milan (`none`)
-- **Cloudflare** — Cache Purging Delays in Amsterdam (`minor`)
-- **Cloudflare** — Cloudflare Dashboard and Cloudflare API service issues in EU region (`major`)
-- **Snowflake** — INC20000369 (`critical`)
-- **HashiCorp Cloud** — New email and password account creation is no longer supported (`minor`)
-- **HashiCorp Cloud** — Temporary limitations for users on Free Subscription (`minor`)
-- **CircleCI** — Jobs using IP ranges failing with infrastructure errors (`minor`)
-- **Supabase** — Gateway availability disruption (`minor`)
-- **Twilio** — SMS Delivery Receipt Delays from a Subset of Twilio Phone Numbers to CTBC Brazil (`minor`)
-- **Twilio** — Twilio Help Center Chat Creation and Retrieval Failures (`minor`)
-- **Twilio** — Subset of API Requests Blocked with 403 Response (`minor`)
-- **Zoom** — Service Degradation for a subset of users affecting outbound Zoom Phone calls in Australia. (`none`)
+- **Cloudflare** — Cloudflare Workers API – Delayed or Inconsistent Responses (`minor`)
+- **Cloudflare** — Elevated latency in Frankfurt (`none`)
+- **Cloudflare** — Increased HTTP 5xx Errors in Brussels (`minor`)
+- **Cloudflare** — Single-File Cache Purge Delays (`none`)
+- **Cloudflare** — Network Performance Issues in Chicago datacenter (ORD) (`minor`)
+- **CircleCI** — Issues logging in for BitBucket users (`minor`)
+- **Supabase** — Some invoices are not marked as paid after successful payment (`none`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Long Codes to Cell C South Africa (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Telekom Srbija Serbia (`minor`)
+- **Twilio** — SMS Delivery Delays and Failures from Twilio to Telekom Germany (`minor`)
+- **Twilio** — Gateway API (Lookup API) Failure Increase in Canada (`minor`)
+- **Zoom** — Service Degradation Affecting Zoom AI Companion Web in US Region (`none`)
+- **Zoom** — Service Degradation Affecting Zoom Phone tab on desktop clients (`minor`)
 
-## Updated since last run (9)
+## Updated since last run (2)
 
-- **Cloudflare** — Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized → `resolved`
-- **GitHub** — Disruption with some GitHub services → `resolved`
-- **GitHub** — Incident with Pull Requests → `resolved`
-- **GitHub** — Impact across multiple GitHub products including Actions, Pages, and Copilot products. → `resolved`
-- **Snowflake** — INC20000350 → `postmortem`
-- **HashiCorp Cloud** — Elevated Errors in HCP Terraform → `resolved`
-- **CircleCI** — Delays and intermittent failures running Smarter Testing → `postmortem`
-- **Twilio** — SMS Delivery Delays from Twilio to Proximus Belgium → `resolved`
-- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers → `monitoring`
+- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers → `identified`
+- **Zoom** — Service degradation affecting multiple services in the US region → `resolved`
 
 ---
 
