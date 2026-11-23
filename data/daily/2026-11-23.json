@@ -1,0 +1,300 @@
+{
+  "changed": [
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-11-18T15:56:21.187000+00:00",
+      "duration_minutes": null,
+      "incident_id": "5zr9yh0c6f8g",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/kckjlns5dw48",
+      "status": "identified",
+      "title": "Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers",
+      "update_count": 14,
+      "updated_at": "2026-11-23T14:15:48.946000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Whiteboard",
+        "Web Portal",
+        "Web Client",
+        "Zoom AI"
+      ],
+      "created_at": "2026-11-19T11:55:57.926000+00:00",
+      "duration_minutes": 37.7,
+      "incident_id": "sqkvklmrf6j3",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-11-19T12:33:38.242000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/9kfmcm788fwb",
+      "status": "resolved",
+      "title": "Service degradation affecting multiple services in the US region",
+      "update_count": 2,
+      "updated_at": "2026-11-19T12:33:38.265000+00:00"
+    }
+  ],
+  "date": "2026-11-23",
+  "new": [
+    {
+      "category": "devtools",
+      "components": [
+        "CircleCI UI"
+      ],
+      "created_at": "2026-11-23T14:51:28.648000+00:00",
+      "duration_minutes": null,
+      "incident_id": "shx3q3z0y3g1",
+      "provider_id": "circleci",
+      "provider_name": "CircleCI",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/lsklslsk9s9h",
+      "status": "investigating",
+      "title": "Issues logging in for BitBucket users",
+      "update_count": 1,
+      "updated_at": "2026-11-23T14:51:28.749000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Workers"
+      ],
+      "created_at": "2026-11-23T13:52:11.144000+00:00",
+      "duration_minutes": null,
+      "incident_id": "00dp7cliyqqt",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/00dp7cliyqqt",
+      "status": "investigating",
+      "title": "Cloudflare Workers API \u2013 Delayed or Inconsistent Responses",
+      "update_count": 1,
+      "updated_at": "2026-11-23T13:52:34.093000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "CDN Cache Purge"
+      ],
+      "created_at": "2026-11-22T21:00:02.753000+00:00",
+      "duration_minutes": null,
+      "incident_id": "5siv904vn94q",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-22T20:21:00+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/5siv904vn94q",
+      "status": "resolved",
+      "title": "Single-File Cache Purge Delays",
+      "update_count": 1,
+      "updated_at": "2026-11-22T21:00:27.572000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Durable Objects",
+        "D1",
+        "Chicago, United States - (ORD)",
+        "R2"
+      ],
+      "created_at": "2026-11-22T00:32:59.264000+00:00",
+      "duration_minutes": 39.0,
+      "incident_id": "d2m4kw94ut4f",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-22T01:11:58.075000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/d2m4kw94ut4f",
+      "status": "resolved",
+      "title": "Network Performance Issues in Chicago datacenter (ORD)",
+      "update_count": 3,
+      "updated_at": "2026-11-22T01:11:58.075000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Network",
+        "Frankfurt, Germany - (FRA)"
+      ],
+      "created_at": "2026-11-23T04:52:22.293000+00:00",
+      "duration_minutes": null,
+      "incident_id": "nosp2iizzvc7",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-23T04:28:00+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/nosp2iizzvc7",
+      "status": "resolved",
+      "title": "Elevated latency in Frankfurt",
+      "update_count": 1,
+      "updated_at": "2026-11-23T04:52:39.814000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Network",
+        "Brussels, Belgium - (BRU)"
+      ],
+      "created_at": "2026-11-23T02:34:56.549000+00:00",
+      "duration_minutes": 11.3,
+      "incident_id": "pnfv9wfy2q4y",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-23T02:46:14.797000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/pnfv9wfy2q4y",
+      "status": "resolved",
+      "title": "Increased HTTP 5xx Errors in Brussels",
+      "update_count": 3,
+      "updated_at": "2026-11-23T02:46:14.797000+00:00"
+    },
+    {
+      "category": "paas",
+      "components": [],
+      "created_at": "2026-11-23T11:41:54+00:00",
+      "duration_minutes": 133.7,
+      "incident_id": "01M843CVR1J1RD508Y1PTFYFSJ",
+      "provider_id": "supabase",
+      "provider_name": "Supabase",
+      "resolved_at": "2026-11-23T13:55:36+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "Some invoices are not marked as paid after successful payment",
+      "update_count": 2,
+      "updated_at": "2026-11-23T13:55:36+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-11-23T07:04:31.149000+00:00",
+      "duration_minutes": 445.0,
+      "incident_id": "bmn4zx64y60q",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-23T14:29:32.618000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/zj30ygk0tt90",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from a Subset of Twilio Long Codes to Cell C South Africa",
+      "update_count": 5,
+      "updated_at": "2026-11-23T14:29:32.649000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-11-22T15:55:48.937000+00:00",
+      "duration_minutes": 380.5,
+      "incident_id": "w9sbvqq9sdw0",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-22T22:16:16.586000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/n2v7hjb36sg2",
+      "status": "resolved",
+      "title": "SMS Delivery Delays and Failures from Twilio to Telekom Germany",
+      "update_count": 5,
+      "updated_at": "2026-11-22T22:16:16.613000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-11-22T22:10:38.711000+00:00",
+      "duration_minutes": 259.7,
+      "incident_id": "wp5h8ggpfh2k",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-23T02:30:20.925000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/ftmn1nwjd3f9",
+      "status": "resolved",
+      "title": "SMS Delivery Delays from Twilio to Telekom Srbija Serbia",
+      "update_count": 5,
+      "updated_at": "2026-11-23T02:30:20.955000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Lookup Line Type Intelligence [Legacy API]"
+      ],
+      "created_at": "2026-11-22T03:50:54.606000+00:00",
+      "duration_minutes": null,
+      "incident_id": "ytyy9mbkhchr",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tsp4vmj649hp",
+      "status": "investigating",
+      "title": "Gateway API (Lookup API) Failure Increase in Canada",
+      "update_count": 6,
+      "updated_at": "2026-11-23T11:12:23.401000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom Phone"
+      ],
+      "created_at": "2026-11-23T00:22:55.727000+00:00",
+      "duration_minutes": 153.5,
+      "incident_id": "h4wq81g6whn4",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-11-23T02:56:24.566000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/dqmw1j2fr2wy",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Phone tab on desktop clients",
+      "update_count": 4,
+      "updated_at": "2026-11-23T02:56:24.591000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Zoom AI",
+        "Zoom AI"
+      ],
+      "created_at": "2026-11-23T10:47:20.357000+00:00",
+      "duration_minutes": 13.5,
+      "incident_id": "qgp8bvxhl8g0",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-11-23T11:00:49.470000+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://stspg.io/cpwwrn251g9v",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom AI Companion Web in US Region",
+      "update_count": 2,
+      "updated_at": "2026-11-23T11:00:49.502000+00:00"
+    }
+  ],
+  "runs": 1
+}
