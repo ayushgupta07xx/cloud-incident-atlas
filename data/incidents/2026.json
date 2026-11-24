@@ -124068,7 +124068,7 @@
     "status": "resolved",
     "title": "Incident with Pull Requests",
     "update_count": 8,
-    "updated_at": "2026-11-13T18:29:31.655000+00:00"
+    "updated_at": "2026-11-23T21:45:51.484000+00:00"
   },
   {
     "category": "ai",
@@ -124673,10 +124673,10 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/c9sy8fzqrpy8",
-    "status": "resolved",
+    "status": "postmortem",
     "title": "INC20000351",
-    "update_count": 4,
-    "updated_at": "2026-11-16T22:09:09.258000+00:00"
+    "update_count": 5,
+    "updated_at": "2026-11-24T13:45:16.384000+00:00"
   },
   {
     "category": "comms",
@@ -125535,7 +125535,7 @@
     "status": "resolved",
     "title": "Degraded Availability for MAI Code 2 Flash in Copilot",
     "update_count": 6,
-    "updated_at": "2026-11-18T09:34:15.907000+00:00"
+    "updated_at": "2026-11-23T17:00:25.976000+00:00"
   },
   {
     "category": "comms",
@@ -125684,8 +125684,8 @@
     "shortlink": "https://stspg.io/kckjlns5dw48",
     "status": "identified",
     "title": "Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers",
-    "update_count": 14,
-    "updated_at": "2026-11-23T14:15:48.946000+00:00"
+    "update_count": 18,
+    "updated_at": "2026-11-24T05:30:55.949000+00:00"
   },
   {
     "category": "devtools",
@@ -125975,7 +125975,7 @@
     "status": "resolved",
     "title": "Degraded availability for GPT-6 Luna in Copilot",
     "update_count": 4,
-    "updated_at": "2026-11-19T16:37:00.895000+00:00"
+    "updated_at": "2026-11-24T15:37:20.121000+00:00"
   },
   {
     "category": "ai",
@@ -126307,18 +126307,18 @@
     "category": "devtools",
     "components": [],
     "created_at": "2026-11-20T19:31:52+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 4105.6,
     "incident_id": "01M7X737V78QFG2XXE9HVHEH5G",
     "provider_id": "hashicorp",
     "provider_name": "HashiCorp Cloud",
-    "resolved_at": null,
+    "resolved_at": "2026-11-23T15:57:28+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": null,
-    "status": "monitoring",
+    "status": "resolved",
     "title": "New email and password account creation is no longer supported",
-    "update_count": 4,
-    "updated_at": "2026-11-20T23:09:18+00:00"
+    "update_count": 5,
+    "updated_at": "2026-11-23T15:57:28+00:00"
   },
   {
     "category": "comms",
@@ -126528,9 +126528,9 @@
     "severity_rank": 1,
     "shortlink": "https://stspg.io/tsp4vmj649hp",
     "status": "investigating",
-    "title": "Gateway API (Lookup API) Failure Increase in Canada",
-    "update_count": 6,
-    "updated_at": "2026-11-23T11:12:23.401000+00:00"
+    "title": "Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada",
+    "update_count": 8,
+    "updated_at": "2026-11-24T11:14:04.631000+00:00"
   },
   {
     "category": "comms",
@@ -126718,28 +126718,353 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://www.cloudflarestatus.com/incidents/00dp7cliyqqt",
-    "status": "investigating",
+    "status": "monitoring",
     "title": "Cloudflare Workers API \u2013 Delayed or Inconsistent Responses",
-    "update_count": 1,
-    "updated_at": "2026-11-23T13:52:34.093000+00:00"
+    "update_count": 3,
+    "updated_at": "2026-11-24T19:25:51.327000+00:00"
   },
   {
     "category": "devtools",
     "components": [
-      "CircleCI UI"
+      "Atlassian Bitbucket API"
     ],
     "created_at": "2026-11-23T14:51:28.648000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 32.8,
     "incident_id": "shx3q3z0y3g1",
     "provider_id": "circleci",
     "provider_name": "CircleCI",
-    "resolved_at": null,
+    "resolved_at": "2026-11-23T15:24:13.943000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/lsklslsk9s9h",
-    "status": "investigating",
+    "status": "resolved",
     "title": "Issues logging in for BitBucket users",
+    "update_count": 3,
+    "updated_at": "2026-11-23T15:24:13.978000+00:00"
+  },
+  {
+    "category": "ai",
+    "components": [],
+    "created_at": "2026-11-23T15:50:14+00:00",
+    "duration_minutes": 48.5,
+    "incident_id": "01M84HKHX73RF7HTVZQ2A9GFXP",
+    "provider_id": "openai",
+    "provider_name": "OpenAI",
+    "resolved_at": "2026-11-23T16:38:46+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "resolved",
+    "title": "Elevated errors with GPT-6 conversations on paid ChatGPT plans",
+    "update_count": 4,
+    "updated_at": "2026-11-23T16:38:46+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Console"
+    ],
+    "created_at": "2026-11-23T16:28:12.726000+00:00",
+    "duration_minutes": null,
+    "incident_id": "llqf69fxcqvm",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/cvjkwmkmx7d3",
+    "status": "identified",
+    "title": "SIP Domain Emergency Caller ID Configuration Issues",
+    "update_count": 3,
+    "updated_at": "2026-11-23T17:38:23.549000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Middle East & Africa"
+    ],
+    "created_at": "2026-11-23T17:37:31.830000+00:00",
+    "duration_minutes": 1257.8,
+    "incident_id": "40yqdkh8kxj6",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-11-24T14:35:19.076000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/91mvmds8qz4y",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from a Subset of Twilio Long Codes to Vodacom South Africa",
+    "update_count": 8,
+    "updated_at": "2026-11-24T14:35:19.110000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "API v3"
+    ],
+    "created_at": "2026-11-23T18:16:45+00:00",
+    "duration_minutes": 150.6,
+    "incident_id": "ss96fj960ls6",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-11-23T20:47:22.517000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/m0r4pj2z77m1",
+    "status": "resolved",
+    "title": "Email Authentication Errors Affecting Mail Send",
+    "update_count": 5,
+    "updated_at": "2026-11-23T20:47:22.547000+00:00"
+  },
+  {
+    "category": "observability",
+    "components": [
+      "EU Error Ingestion",
+      "EU Transaction Ingestion",
+      "EU Errors Alerting",
+      "EU Attachment Ingestion",
+      "EU Transactions Alerting",
+      "EU Spans Alerting"
+    ],
+    "created_at": "2026-11-23T19:52:12.526000+00:00",
+    "duration_minutes": 29.1,
+    "incident_id": "9zyn7f748jg5",
+    "provider_id": "sentry",
+    "provider_name": "Sentry",
+    "resolved_at": "2026-11-23T20:21:19.484000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/j8nwt149t86x",
+    "status": "resolved",
+    "title": "Delay in task execution",
+    "update_count": 3,
+    "updated_at": "2026-11-23T20:21:19.510000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "API v3",
+      "Programmable Messaging API",
+      "SendGrid API"
+    ],
+    "created_at": "2026-11-23T22:17:34.910000+00:00",
+    "duration_minutes": 125.2,
+    "incident_id": "13bsyxhr1v1l",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-11-24T00:22:45.635000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/zmn4n7p9kjtg",
+    "status": "resolved",
+    "title": "Intermittent 403 Errors at the Email and Programmable Messaging APIs",
+    "update_count": 5,
+    "updated_at": "2026-11-24T00:22:45.665000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [
+      "Build Pipeline"
+    ],
+    "created_at": "2026-11-23T22:20:18.297000+00:00",
+    "duration_minutes": 10.4,
+    "incident_id": "gp2vrj0fls9x",
+    "provider_id": "netlify",
+    "provider_name": "Netlify",
+    "resolved_at": "2026-11-23T22:30:41.229000+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/5t1xrtx1x9d9",
+    "status": "resolved",
+    "title": "Elevated errors for builds",
+    "update_count": 3,
+    "updated_at": "2026-11-23T22:30:42.005000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-11-23T22:58:49+00:00",
+    "duration_minutes": null,
+    "incident_id": "01M85A4AS1YN8A7ZZEFED974TR",
+    "provider_id": "supabase",
+    "provider_name": "Supabase",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": null,
+    "status": "monitoring",
+    "title": "API endpoint degradation observed Nov 13-16",
     "update_count": 1,
-    "updated_at": "2026-11-23T14:51:28.749000+00:00"
+    "updated_at": "2026-11-23T22:58:49+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, APAC"
+    ],
+    "created_at": "2026-11-23T23:12:33.757000+00:00",
+    "duration_minutes": 254.0,
+    "incident_id": "zv1172k6tkkq",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-11-24T03:26:34.876000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/3b33tn8vdlk0",
+    "status": "resolved",
+    "title": "SMS Delivery Receipt Delays from a Subset of Twilio Phone Numbers to Telstra Australia",
+    "update_count": 6,
+    "updated_at": "2026-11-24T03:26:34.903000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Durable Objects",
+      "Seattle, United States - (SEA)"
+    ],
+    "created_at": "2026-11-24T07:25:34.236000+00:00",
+    "duration_minutes": 60.8,
+    "incident_id": "idlaxmxz4unz",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-11-24T08:26:20.047000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/idlaxmxz4unz",
+    "status": "resolved",
+    "title": "Increased Errors for Durable Objects in Seattle",
+    "update_count": 4,
+    "updated_at": "2026-11-24T08:26:20.047000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-11-24T10:24:03.091000+00:00",
+    "duration_minutes": 289.8,
+    "incident_id": "drcczltslqdc",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-11-24T15:13:50.400000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/038c3lcnyw43",
+    "status": "resolved",
+    "title": "SMS Delivery Delays and Failures from Twilio to Telekom Germany",
+    "update_count": 5,
+    "updated_at": "2026-11-24T15:13:50.430000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Magic Transit"
+    ],
+    "created_at": "2026-11-24T11:29:22.902000+00:00",
+    "duration_minutes": null,
+    "incident_id": "no721jcnlrbh",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": null,
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/no721jcnlrbh",
+    "status": "identified",
+    "title": "Magic Transit Degraded Performance",
+    "update_count": 2,
+    "updated_at": "2026-11-24T14:58:40.337000+00:00"
+  },
+  {
+    "category": "paas",
+    "components": [],
+    "created_at": "2026-11-24T13:00:00+00:00",
+    "duration_minutes": 0.0,
+    "incident_id": "l0msz49j1f81",
+    "provider_id": "vercel",
+    "provider_name": "Vercel",
+    "resolved_at": "2026-11-24T13:00:00+00:00",
+    "severity": "major",
+    "severity_rank": 2,
+    "shortlink": "https://stspg.io/txm5qwd8t2p0",
+    "status": "resolved",
+    "title": "Errors when starting Sandboxes from private Container Registry images",
+    "update_count": 1,
+    "updated_at": "2026-11-24T14:13:20.570000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [
+      "Email Routing"
+    ],
+    "created_at": "2026-11-24T13:38:40.144000+00:00",
+    "duration_minutes": null,
+    "incident_id": "x5ma22sji8wi",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/x5ma22sji8wi",
+    "status": "identified",
+    "title": "Issues with Email Routing in France",
+    "update_count": 2,
+    "updated_at": "2026-11-24T14:50:35.525000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Copilot AI Model Providers"
+    ],
+    "created_at": "2026-11-24T13:44:07.213000+00:00",
+    "duration_minutes": 30.0,
+    "incident_id": "d56dzxzzlw0b",
+    "provider_id": "github",
+    "provider_name": "GitHub",
+    "resolved_at": "2026-11-24T14:14:05.736000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/d5wbprv122kh",
+    "status": "resolved",
+    "title": "Degraded Availability for MAI Code 2 in Copilot",
+    "update_count": 6,
+    "updated_at": "2026-11-24T14:14:05.762000+00:00"
+  },
+  {
+    "category": "devtools",
+    "components": [
+      "Docker Jobs"
+    ],
+    "created_at": "2026-11-24T16:01:56.706000+00:00",
+    "duration_minutes": 24.0,
+    "incident_id": "v6cg1xq1wtq1",
+    "provider_id": "circleci",
+    "provider_name": "CircleCI",
+    "resolved_at": "2026-11-24T16:25:56.149000+00:00",
+    "severity": "critical",
+    "severity_rank": 3,
+    "shortlink": "https://stspg.io/x01wmr3nq5ft",
+    "status": "resolved",
+    "title": "Delays in starting Docker jobs",
+    "update_count": 3,
+    "updated_at": "2026-11-24T16:25:56.170000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "Voice, Europe"
+    ],
+    "created_at": "2026-11-24T18:41:18.421000+00:00",
+    "duration_minutes": null,
+    "incident_id": "cblwj02x20d6",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/pcr7x9y24trq",
+    "status": "identified",
+    "title": "Voice Call Failures from Twilio Phone Numbers to Ireland",
+    "update_count": 3,
+    "updated_at": "2026-11-24T20:02:36.562000+00:00"
   }
 ]
