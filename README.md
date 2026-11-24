@@ -31,15 +31,22 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-23 14:55 UTC` &nbsp;·&nbsp; **13 new** and **2 updated** incidents &nbsp;·&nbsp; 24,160 total
+**Last ingest** &nbsp;`2026-11-24 20:20 UTC` &nbsp;·&nbsp; **17 new** and **9 updated** incidents &nbsp;·&nbsp; 24,177 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Cloudflare | 5 |
-| Twilio | 5 |
-| Zoom | 3 |
-| CircleCI | 1 |
-| Supabase | 1 |
+| Twilio | 9 |
+| Cloudflare | 4 |
+| GitHub | 4 |
+| CircleCI | 2 |
+| Sentry | 1 |
+| Netlify | 1 |
+
+Most severe this run:
+
+- `critical` **CircleCI** — Delays in starting Docker jobs
+- `major` **Cloudflare** — Magic Transit Degraded Performance
+- `major` **Netlify** — Elevated errors for builds
 
 <!-- STATUS:END -->
 
