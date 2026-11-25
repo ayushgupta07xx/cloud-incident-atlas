@@ -1,0 +1,446 @@
+{
+  "changed": [
+    {
+      "category": "cdn",
+      "components": [
+        "Workers"
+      ],
+      "created_at": "2026-11-23T13:52:11.144000+00:00",
+      "duration_minutes": 1903.5,
+      "incident_id": "00dp7cliyqqt",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-24T21:35:41.514000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/00dp7cliyqqt",
+      "status": "resolved",
+      "title": "Cloudflare Workers API \u2013 Delayed or Inconsistent Responses",
+      "update_count": 4,
+      "updated_at": "2026-11-24T21:35:41.514000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Magic Transit"
+      ],
+      "created_at": "2026-11-24T11:29:22.902000+00:00",
+      "duration_minutes": 1247.1,
+      "incident_id": "no721jcnlrbh",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-25T08:16:26.220000+00:00",
+      "severity": "major",
+      "severity_rank": 2,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/no721jcnlrbh",
+      "status": "resolved",
+      "title": "Magic Transit Degraded Performance",
+      "update_count": 3,
+      "updated_at": "2026-11-25T08:16:26.220000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Email Routing"
+      ],
+      "created_at": "2026-11-24T13:38:40.144000+00:00",
+      "duration_minutes": 544.1,
+      "incident_id": "x5ma22sji8wi",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-24T22:42:43.265000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/x5ma22sji8wi",
+      "status": "resolved",
+      "title": "Issues with Email Routing in France",
+      "update_count": 4,
+      "updated_at": "2026-11-24T22:42:43.265000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Latin America"
+      ],
+      "created_at": "2026-11-18T15:56:21.187000+00:00",
+      "duration_minutes": null,
+      "incident_id": "5zr9yh0c6f8g",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/kckjlns5dw48",
+      "status": "identified",
+      "title": "Voice Call Silent and One-Way Audio From Colombia to a Subset of Twilio Phone Numbers",
+      "update_count": 19,
+      "updated_at": "2026-11-24T21:31:48.434000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Voice, Europe"
+      ],
+      "created_at": "2026-11-24T18:41:18.421000+00:00",
+      "duration_minutes": 565.1,
+      "incident_id": "cblwj02x20d6",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-25T04:06:21.937000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/pcr7x9y24trq",
+      "status": "resolved",
+      "title": "Voice Call Failures from Twilio Phone Numbers to Ireland",
+      "update_count": 6,
+      "updated_at": "2026-11-25T04:06:21.962000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Lookup Line Type Intelligence [Legacy API]"
+      ],
+      "created_at": "2026-11-22T03:50:54.606000+00:00",
+      "duration_minutes": null,
+      "incident_id": "ytyy9mbkhchr",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/tsp4vmj649hp",
+      "status": "investigating",
+      "title": "Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada",
+      "update_count": 9,
+      "updated_at": "2026-11-25T11:14:28.593000+00:00"
+    }
+  ],
+  "date": "2026-11-25",
+  "new": [
+    {
+      "category": "cdn",
+      "components": [
+        "R2"
+      ],
+      "created_at": "2026-11-25T16:50:45.239000+00:00",
+      "duration_minutes": null,
+      "incident_id": "2quqh864hxdi",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/2quqh864hxdi",
+      "status": "investigating",
+      "title": "Elevated R2 errors for buckets in APAC region",
+      "update_count": 1,
+      "updated_at": "2026-11-25T16:51:21.579000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "R2"
+      ],
+      "created_at": "2026-11-24T21:54:25.621000+00:00",
+      "duration_minutes": 137.8,
+      "incident_id": "k8utv1c3ubf2",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-25T00:12:11.962000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/k8utv1c3ubf2",
+      "status": "resolved",
+      "title": "R2 elevated errors and timeouts for requests from South America",
+      "update_count": 2,
+      "updated_at": "2026-11-25T00:12:11.962000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [],
+      "created_at": "2026-11-24T22:55:21.774000+00:00",
+      "duration_minutes": null,
+      "incident_id": "kwqke6nmketa",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-24T14:39:00+00:00",
+      "severity": "none",
+      "severity_rank": 0,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/kwqke6nmketa",
+      "status": "resolved",
+      "title": "Increased HTTP 530 Errors in Seattle",
+      "update_count": 1,
+      "updated_at": "2026-11-24T22:55:37.970000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Network",
+        "Frankfurt, Germany - (FRA)"
+      ],
+      "created_at": "2026-11-25T03:03:35.203000+00:00",
+      "duration_minutes": null,
+      "incident_id": "lqojvojhdcjv",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-25T02:45:00+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/lqojvojhdcjv",
+      "status": "resolved",
+      "title": "Elevated number of 5xx errors in Frankfurt",
+      "update_count": 1,
+      "updated_at": "2026-11-25T03:03:50.496000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Notifications"
+      ],
+      "created_at": "2026-11-25T16:42:03.442000+00:00",
+      "duration_minutes": null,
+      "incident_id": "vk87u9j2g6if",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/vk87u9j2g6if",
+      "status": "investigating",
+      "title": "Some customers cannot create monitors",
+      "update_count": 1,
+      "updated_at": "2026-11-25T16:44:10.147000+00:00"
+    },
+    {
+      "category": "cdn",
+      "components": [
+        "Network",
+        "Firewall"
+      ],
+      "created_at": "2026-11-25T07:24:35.866000+00:00",
+      "duration_minutes": 107.1,
+      "incident_id": "xufkpdtfdglk",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare",
+      "resolved_at": "2026-11-25T09:11:39.926000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://www.cloudflarestatus.com/incidents/xufkpdtfdglk",
+      "status": "resolved",
+      "title": "Firewall Configuration Delay",
+      "update_count": 4,
+      "updated_at": "2026-11-25T09:11:39.926000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Copilot AI Model Providers"
+      ],
+      "created_at": "2026-11-25T11:58:36.151000+00:00",
+      "duration_minutes": 5.3,
+      "incident_id": "189rrqcfhc75",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-25T12:03:55.253000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/djn1brd9cmzj",
+      "status": "resolved",
+      "title": "MAI Code 2 Degredation",
+      "update_count": 3,
+      "updated_at": "2026-11-25T12:03:55.281000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [],
+      "created_at": "2026-11-25T00:08:17.974000+00:00",
+      "duration_minutes": 67.0,
+      "incident_id": "m0wx9qml7yjh",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-25T01:15:18.733000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/bk5200jsb13k",
+      "status": "resolved",
+      "title": "Disruption with Code Completions and Next Edit Suggestions",
+      "update_count": 4,
+      "updated_at": "2026-11-25T01:15:18.762000+00:00"
+    },
+    {
+      "category": "devtools",
+      "components": [
+        "Git Operations",
+        "Webhooks",
+        "API Requests",
+        "Issues",
+        "Pull Requests",
+        "Actions",
+        "Packages",
+        "Pages"
+      ],
+      "created_at": "2026-11-25T15:55:19.609000+00:00",
+      "duration_minutes": 56.9,
+      "incident_id": "qn8mfv6q5hlx",
+      "provider_id": "github",
+      "provider_name": "GitHub",
+      "resolved_at": "2026-11-25T16:52:16.287000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/5qj9j0p5g4cr",
+      "status": "resolved",
+      "title": "Investigating degraded experiences across GitHub products",
+      "update_count": 28,
+      "updated_at": "2026-11-25T16:52:16.321000+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-11-25T11:48:13+00:00",
+      "duration_minutes": 264.1,
+      "incident_id": "01M898HVZGXFV2XC4775CG9GF8",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": "2026-11-25T16:12:21+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "resolved",
+      "title": "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors",
+      "update_count": 5,
+      "updated_at": "2026-11-25T16:12:21+00:00"
+    },
+    {
+      "category": "ai",
+      "components": [],
+      "created_at": "2026-11-25T16:27:02+00:00",
+      "duration_minutes": null,
+      "incident_id": "01M89RGC3STKK2MT53TXHFMY4H",
+      "provider_id": "openai",
+      "provider_name": "OpenAI",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": null,
+      "status": "monitoring",
+      "title": "Elevated errors with Codex GitHub reviews and pull request merges",
+      "update_count": 2,
+      "updated_at": "2026-11-25T16:58:51+00:00"
+    },
+    {
+      "category": "data",
+      "components": [
+        "Snowpark Container Services"
+      ],
+      "created_at": "2026-11-24T20:43:24.893000+00:00",
+      "duration_minutes": 89.4,
+      "incident_id": "yhdf5phs87rv",
+      "provider_id": "snowflake",
+      "provider_name": "Snowflake",
+      "resolved_at": "2026-11-24T22:12:48.893000+00:00",
+      "severity": "critical",
+      "severity_rank": 3,
+      "shortlink": "https://stspg.io/jwd3wzfb5phs",
+      "status": "resolved",
+      "title": "INC20000372",
+      "update_count": 5,
+      "updated_at": "2026-11-24T22:12:48.920000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-11-25T14:49:12.539000+00:00",
+      "duration_minutes": null,
+      "incident_id": "4vs0xrtv0qs4",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/rp96f6745g5j",
+      "status": "investigating",
+      "title": "SMS Delivery Delays from Twilio to Multiple Networks in Italy",
+      "update_count": 3,
+      "updated_at": "2026-11-25T15:52:24.223000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "PHONE NUMBERS"
+      ],
+      "created_at": "2026-11-24T21:03:06.218000+00:00",
+      "duration_minutes": 165.4,
+      "incident_id": "bt3k6hkjlh01",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": "2026-11-24T23:48:27.500000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/fpn8qm3pmhry",
+      "status": "resolved",
+      "title": "KYC Onboarding Issues Affecting Voice Call Branding and Spam Labeling",
+      "update_count": 4,
+      "updated_at": "2026-11-24T23:48:27.531000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Middle East & Africa"
+      ],
+      "created_at": "2026-11-25T06:31:58.774000+00:00",
+      "duration_minutes": null,
+      "incident_id": "gjc25j51yq37",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/72lmzlvqj3bm",
+      "status": "investigating",
+      "title": "SMS Delivery Failures from Twilio to Econet Telecom Lesotho",
+      "update_count": 4,
+      "updated_at": "2026-11-25T13:43:13.238000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "SMS, Europe"
+      ],
+      "created_at": "2026-11-25T10:13:57.463000+00:00",
+      "duration_minutes": null,
+      "incident_id": "kmqsql9zjkm3",
+      "provider_id": "twilio",
+      "provider_name": "Twilio",
+      "resolved_at": null,
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/6wckhw8p3c7q",
+      "status": "monitoring",
+      "title": "SMS Delivery Delays from Twilio to Bouygues Telecom France",
+      "update_count": 6,
+      "updated_at": "2026-11-25T15:36:04.085000+00:00"
+    },
+    {
+      "category": "comms",
+      "components": [
+        "Calling (Inbound/Outbound)"
+      ],
+      "created_at": "2026-11-25T07:31:08.855000+00:00",
+      "duration_minutes": 61.0,
+      "incident_id": "wltt2z6h9m71",
+      "provider_id": "zoom",
+      "provider_name": "Zoom",
+      "resolved_at": "2026-11-25T08:32:10.385000+00:00",
+      "severity": "minor",
+      "severity_rank": 1,
+      "shortlink": "https://stspg.io/0ksyj3jq48yb",
+      "status": "resolved",
+      "title": "Service Degradation Affecting Zoom Phone Inbound Calls for Subset of Jio subscribers in India",
+      "update_count": 4,
+      "updated_at": "2026-11-25T08:32:10.413000+00:00"
+    }
+  ],
+  "runs": 1
+}
