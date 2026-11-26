@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **24,194 incidents**. Updated 2026-11-25.
+Cross-vendor incident data for 25 providers. Corpus: **24,208 incidents**. Updated 2026-11-26.
 
 ## Last 30 days
 
-- Incidents recorded: **477**
-- Major or worse: **45**
+- Incidents recorded: **464**
+- Major or worse: **43**
 
 ## Reliability by provider (all time)
 
@@ -15,56 +15,57 @@ Cross-vendor incident data for 25 providers. Corpus: **24,194 incidents**. Updat
 | Amazon Web Services | cloud | 97 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 328 | 69m | 480m |
-| Cloudflare | cdn | 6913 | 239m | 510m |
+| Cloudflare | cdn | 6919 | 239m | 510m |
 | Confluent Cloud | data | 269 | 195m | 1585m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 513 | 145m | 575m |
 | Discord | comms | 228 | 56m | 295m |
 | Elastic Cloud | observability | 265 | 192m | 1462m |
 | Google Cloud Platform | cloud | 8 | 504m | — |
-| GitHub | devtools | 681 | 67m | 277m |
-| Grafana Cloud | observability | 808 | 92m | 1135m |
+| GitHub | devtools | 682 | 67m | 277m |
+| Grafana Cloud | observability | 809 | 93m | 1134m |
 | HashiCorp Cloud | devtools | 51 | 162m | 1647m |
 | MongoDB Atlas | data | 279 | 120m | 1403m |
 | Netlify | paas | 236 | 41m | 236m |
 | New Relic | observability | 112 | 63m | 306m |
 | npm | devtools | 69 | 107m | 340m |
-| OpenAI | ai | 149 | 113m | 745m |
+| OpenAI | ai | 149 | 114m | 773m |
 | Sentry | observability | 356 | 83m | 353m |
 | Snowflake | data | 218 | 121m | 598m |
-| Supabase | paas | 470 | 148m | 1239m |
-| Twilio | comms | 11358 | 272m | 1135m |
+| Supabase | paas | 471 | 148m | 1280m |
+| Twilio | comms | 11363 | 272m | 1134m |
 | Vercel | paas | 399 | 72m | 360m |
 | Zoom | comms | 219 | 104m | 1427m |
 
-## New since last run (17)
+## New since last run (14)
 
-- **Cloudflare** — Elevated R2 errors for buckets in APAC region (`minor`)
-- **Cloudflare** — Some customers cannot create monitors (`minor`)
-- **Cloudflare** — Firewall Configuration Delay (`minor`)
-- **Cloudflare** — Elevated number of 5xx errors in Frankfurt (`minor`)
-- **Cloudflare** — R2 elevated errors and timeouts for requests from South America (`minor`)
-- **Cloudflare** — Increased HTTP 530 Errors in Seattle (`none`)
-- **GitHub** — Investigating degraded experiences across GitHub products (`critical`)
-- **GitHub** — MAI Code 2 Degredation (`minor`)
-- **GitHub** — Disruption with Code Completions and Next Edit Suggestions (`critical`)
-- **Snowflake** — INC20000372 (`critical`)
-- **OpenAI** — Elevated errors with Codex GitHub reviews and pull request merges (`minor`)
-- **OpenAI** — ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Italy (`minor`)
+- **Cloudflare** — Cloudflare Dashboard and Cloudflare API service issues (`major`)
+- **Cloudflare** — AI Gateway – Elevated errors for Gemini 4 models using Unified Billing (`minor`)
+- **Cloudflare** — Workers AI - Deepseek Flash increased errors (`minor`)
+- **Cloudflare** — RealTimeKit Recording Delays (`minor`)
+- **Cloudflare** — Cloudflare Billing Issues (`minor`)
+- **Cloudflare** — Elevated R2 Latency (`minor`)
+- **GitHub** — LFS degradation for some customers (`minor`)
+- **Grafana Cloud** — Stack Creation Failing for Grafana Cloud Users in Europe (`major`)
+- **Supabase** — Delays and Errors in Project Creation, Upgrades and Management API (`none`)
+- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Bahrain (`minor`)
+- **Twilio** — Voice Call Post Dial Delay and Failures Between a Subset of Twilio South Africa Phone Numbers and Network Subscribers (`minor`)
 - **Twilio** — SMS Delivery Delays from Twilio to Bouygues Telecom France (`minor`)
-- **Twilio** — SMS Delivery Failures from Twilio to Econet Telecom Lesotho (`minor`)
-- **Twilio** — KYC Onboarding Issues Affecting Voice Call Branding and Spam Labeling (`minor`)
-- **Zoom** — Service Degradation Affecting Zoom Phone Inbound Calls for Subset of Jio subscribers in India (`minor`)
+- **Twilio** — Delay in Outbound SMS Send (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Spusu United Kingdom (`minor`)
 
-## Updated since last run (6)
+## Updated since last run (10)
 
-- **Cloudflare** — Magic Transit Degraded Performance → `resolved`
-- **Cloudflare** — Issues with Email Routing in France → `resolved`
-- **Cloudflare** — Cloudflare Workers API – Delayed or Inconsistent Responses → `resolved`
-- **Twilio** — Voice Call Failures from Twilio Phone Numbers to Ireland → `resolved`
-- **Twilio** — Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada → `investigating`
-- **Twilio** — Voice Call Silent and One-Way Audio From Colombia to a Subset of Twilio Phone Numbers → `identified`
+- **Cloudflare** — Elevated R2 errors for buckets in APAC region → `resolved`
+- **Cloudflare** — Some customers cannot create monitors → `resolved`
+- **Snowflake** — INC20000150 → `postmortem`
+- **Supabase** — API endpoint degradation observed Nov 13-16 → `resolved`
+- **OpenAI** — Elevated errors with Codex GitHub reviews and pull request merges → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Bouygues Telecom France → `resolved`
+- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Italy → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio to Econet Telecom Lesotho → `identified`
+- **Twilio** — Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada → `identified`
+- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers → `identified`
 
 ---
 

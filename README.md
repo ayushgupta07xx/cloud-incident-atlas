@@ -31,22 +31,21 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-25 17:05 UTC` &nbsp;·&nbsp; **17 new** and **6 updated** incidents &nbsp;·&nbsp; 24,194 total
+**Last ingest** &nbsp;`2026-11-26 20:34 UTC` &nbsp;·&nbsp; **14 new** and **10 updated** incidents &nbsp;·&nbsp; 24,208 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Cloudflare | 9 |
-| Twilio | 7 |
-| GitHub | 3 |
-| OpenAI | 2 |
+| Twilio | 10 |
+| Cloudflare | 8 |
+| Supabase | 2 |
+| GitHub | 1 |
+| Grafana Cloud | 1 |
 | Snowflake | 1 |
-| Zoom | 1 |
 
 Most severe this run:
 
-- `critical` **GitHub** — Investigating degraded experiences across GitHub products
-- `critical` **GitHub** — Disruption with Code Completions and Next Edit Suggestions
-- `critical` **Snowflake** — INC20000372
+- `major` **Cloudflare** — Cloudflare Dashboard and Cloudflare API service issues
+- `major` **Grafana Cloud** — Stack Creation Failing for Grafana Cloud Users in Europe
 
 <!-- STATUS:END -->
 
