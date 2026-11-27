@@ -125110,8 +125110,8 @@
   {
     "category": "cdn",
     "components": [
-      "Data Localization Suite",
       "Zero Trust",
+      "Data Localization Suite",
       "Cloudflare One Client"
     ],
     "created_at": "2026-11-17T13:54:19.030000+00:00",
@@ -125682,10 +125682,10 @@
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/kckjlns5dw48",
-    "status": "identified",
-    "title": "Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers",
-    "update_count": 20,
-    "updated_at": "2026-11-25T21:32:22.445000+00:00"
+    "status": "monitoring",
+    "title": "Voice Call Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Multiple Networks in Colombia",
+    "update_count": 24,
+    "updated_at": "2026-11-27T11:43:05.587000+00:00"
   },
   {
     "category": "devtools",
@@ -126519,18 +126519,18 @@
       "Lookup Line Type Intelligence [Legacy API]"
     ],
     "created_at": "2026-11-22T03:50:54.606000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 7189.9,
     "incident_id": "ytyy9mbkhchr",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-11-27T03:40:49.602000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/tsp4vmj649hp",
-    "status": "identified",
+    "status": "resolved",
     "title": "Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada",
-    "update_count": 13,
-    "updated_at": "2026-11-26T13:45:34.792000+00:00"
+    "update_count": 17,
+    "updated_at": "2026-11-27T03:40:49.630000+00:00"
   },
   {
     "category": "comms",
@@ -126765,18 +126765,18 @@
       "Console"
     ],
     "created_at": "2026-11-23T16:28:12.726000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 4566.8,
     "incident_id": "llqf69fxcqvm",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-11-26T20:35:02.321000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/cvjkwmkmx7d3",
-    "status": "identified",
-    "title": "SIP Domain Emergency Caller ID Configuration Issues",
-    "update_count": 3,
-    "updated_at": "2026-11-23T17:38:23.549000+00:00"
+    "status": "resolved",
+    "title": "Emergency Calling Configuration Issues for SIP Domains",
+    "update_count": 5,
+    "updated_at": "2026-11-26T20:35:02.357000+00:00"
   },
   {
     "category": "comms",
@@ -127184,18 +127184,18 @@
       "SMS, Middle East & Africa"
     ],
     "created_at": "2026-11-25T06:31:58.774000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 3414.7,
     "incident_id": "gjc25j51yq37",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-11-27T15:26:38.682000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/72lmzlvqj3bm",
-    "status": "identified",
+    "status": "resolved",
     "title": "SMS Delivery Failures from Twilio to Econet Telecom Lesotho",
-    "update_count": 9,
-    "updated_at": "2026-11-26T12:54:24.007000+00:00"
+    "update_count": 12,
+    "updated_at": "2026-11-27T15:26:38.708000+00:00"
   },
   {
     "category": "cdn",
@@ -127492,18 +127492,18 @@
       "SMS, Europe"
     ],
     "created_at": "2026-11-26T07:58:11.604000+00:00",
-    "duration_minutes": null,
+    "duration_minutes": 1878.0,
     "incident_id": "sv0gq9wsgmvl",
     "provider_id": "twilio",
     "provider_name": "Twilio",
-    "resolved_at": null,
+    "resolved_at": "2026-11-27T15:16:14.415000+00:00",
     "severity": "minor",
     "severity_rank": 1,
     "shortlink": "https://stspg.io/rwdp0wm7mlfx",
-    "status": "monitoring",
+    "status": "resolved",
     "title": "SMS Delivery Delays from Twilio to Bouygues Telecom France",
-    "update_count": 7,
-    "updated_at": "2026-11-26T19:47:12.337000+00:00"
+    "update_count": 11,
+    "updated_at": "2026-11-27T15:16:14.444000+00:00"
   },
   {
     "category": "cdn",
@@ -127656,5 +127656,211 @@
     "title": "Stack Creation Failing for Grafana Cloud Users in Europe",
     "update_count": 5,
     "updated_at": "2026-11-26T18:42:28.282000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-11-26T22:16:45.838000+00:00",
+    "duration_minutes": 306.4,
+    "incident_id": "ksgz9lqsdqmp",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-11-27T03:23:09.624000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/x6c34mr50tbd",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to AT&T Mexico",
+    "update_count": 5,
+    "updated_at": "2026-11-27T03:23:09.654000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, APAC"
+    ],
+    "created_at": "2026-11-27T01:15:26.329000+00:00",
+    "duration_minutes": 608.5,
+    "incident_id": "9f6xy0pvfy9r",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-11-27T11:23:59.079000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/bk5cbp5q1s8j",
+    "status": "resolved",
+    "title": "SMS Delivery Delays from Twilio to OneNZ New Zealand",
+    "update_count": 7,
+    "updated_at": "2026-11-27T11:23:59.115000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "MMS Long Code, North America",
+      "MMS Long Code, North America"
+    ],
+    "created_at": "2026-11-27T02:20:41.299000+00:00",
+    "duration_minutes": 748.3,
+    "incident_id": "kv5wqlt4n24z",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": "2026-11-27T14:49:01.067000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/7hkn8yf0vc8x",
+    "status": "resolved",
+    "title": "MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States",
+    "update_count": 8,
+    "updated_at": "2026-11-27T14:49:01.094000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Europe"
+    ],
+    "created_at": "2026-11-27T11:23:46.654000+00:00",
+    "duration_minutes": null,
+    "incident_id": "whgtzwvx619t",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/9q03b85kpbc1",
+    "status": "monitoring",
+    "title": "SMS Delivery Delays from Twilio to Vodafone and Tismi United Kingdom",
+    "update_count": 6,
+    "updated_at": "2026-11-27T16:43:58.013000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS, Latin America"
+    ],
+    "created_at": "2026-11-27T12:10:31.907000+00:00",
+    "duration_minutes": null,
+    "incident_id": "5px4q9my59kq",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/xkkw0lh2ttmb",
+    "status": "monitoring",
+    "title": "SMS Delivery Delays from Twilio to Izzi Mexico",
+    "update_count": 5,
+    "updated_at": "2026-11-27T17:27:49.388000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [],
+    "created_at": "2026-11-27T13:00:40.766000+00:00",
+    "duration_minutes": null,
+    "incident_id": "yd4mkydzk7dt",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "none",
+    "severity_rank": 0,
+    "shortlink": "https://stspg.io/v1kl9d0j12hb",
+    "status": "investigating",
+    "title": "Black Friday and Cyber Monday (November 27\u201330, 2026)",
+    "update_count": 1,
+    "updated_at": "2026-11-27T13:00:40.859000+00:00"
+  },
+  {
+    "category": "cdn",
+    "components": [],
+    "created_at": "2026-11-27T14:49:03.546000+00:00",
+    "duration_minutes": 16.5,
+    "incident_id": "955xa7dtx0ca",
+    "provider_id": "cloudflare",
+    "provider_name": "Cloudflare",
+    "resolved_at": "2026-11-27T15:05:32.622000+00:00",
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://www.cloudflarestatus.com/incidents/955xa7dtx0ca",
+    "status": "resolved",
+    "title": "Cloudflare University website unavailable",
+    "update_count": 3,
+    "updated_at": "2026-11-27T15:05:32.622000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "MMS Toll-Free, North America"
+    ],
+    "created_at": "2026-11-27T16:53:22.483000+00:00",
+    "duration_minutes": null,
+    "incident_id": "93c38rcb25dz",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/jbf2vqmwn628",
+    "status": "investigating",
+    "title": "MMS Delivery Status From Twilio Toll-Free to US",
+    "update_count": 1,
+    "updated_at": "2026-11-27T16:58:44.934000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "MMS Short Code, North America"
+    ],
+    "created_at": "2026-11-27T16:57:50.744000+00:00",
+    "duration_minutes": null,
+    "incident_id": "22slxfqncqr7",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/4ytn0nz8xcgp",
+    "status": "investigating",
+    "title": "MMS Delivery Status From Twilio Short-Code to US",
+    "update_count": 1,
+    "updated_at": "2026-11-27T16:57:50.871000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "SMS Toll-Free, North America"
+    ],
+    "created_at": "2026-11-27T17:07:46.858000+00:00",
+    "duration_minutes": null,
+    "incident_id": "540h10h47l48",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/gyrgw2z3kzpz",
+    "status": "investigating",
+    "title": "SMS Delivery Status From Twilio Toll-Free to US/CA",
+    "update_count": 2,
+    "updated_at": "2026-11-27T17:22:49.726000+00:00"
+  },
+  {
+    "category": "comms",
+    "components": [
+      "RCS Messaging"
+    ],
+    "created_at": "2026-11-27T17:18:34.621000+00:00",
+    "duration_minutes": null,
+    "incident_id": "wr55v3qb6hjp",
+    "provider_id": "twilio",
+    "provider_name": "Twilio",
+    "resolved_at": null,
+    "severity": "minor",
+    "severity_rank": 1,
+    "shortlink": "https://stspg.io/fqzbq2wdh05w",
+    "status": "investigating",
+    "title": "RCS Message Delivery Failures",
+    "update_count": 1,
+    "updated_at": "2026-11-27T17:18:34.766000+00:00"
   }
 ]
