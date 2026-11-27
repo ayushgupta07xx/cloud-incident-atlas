@@ -31,21 +31,12 @@
 
 <!-- STATUS:START -->
 
-**Last ingest** &nbsp;`2026-11-26 20:34 UTC` &nbsp;·&nbsp; **14 new** and **10 updated** incidents &nbsp;·&nbsp; 24,208 total
+**Last ingest** &nbsp;`2026-11-27 17:36 UTC` &nbsp;·&nbsp; **11 new** and **6 updated** incidents &nbsp;·&nbsp; 24,219 total
 
 | Provider | Incidents |
 | --- | ---: |
-| Twilio | 10 |
-| Cloudflare | 8 |
-| Supabase | 2 |
-| GitHub | 1 |
-| Grafana Cloud | 1 |
-| Snowflake | 1 |
-
-Most severe this run:
-
-- `major` **Cloudflare** — Cloudflare Dashboard and Cloudflare API service issues
-- `major` **Grafana Cloud** — Stack Creation Failing for Grafana Cloud Users in Europe
+| Twilio | 15 |
+| Cloudflare | 2 |
 
 <!-- STATUS:END -->
 

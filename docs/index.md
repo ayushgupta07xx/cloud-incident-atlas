@@ -1,11 +1,11 @@
 # Cloud Incident Atlas
 
-Cross-vendor incident data for 25 providers. Corpus: **24,208 incidents**. Updated 2026-11-26.
+Cross-vendor incident data for 25 providers. Corpus: **24,219 incidents**. Updated 2026-11-27.
 
 ## Last 30 days
 
-- Incidents recorded: **464**
-- Major or worse: **43**
+- Incidents recorded: **453**
+- Major or worse: **40**
 
 ## Reliability by provider (all time)
 
@@ -15,7 +15,7 @@ Cross-vendor incident data for 25 providers. Corpus: **24,208 incidents**. Updat
 | Amazon Web Services | cloud | 97 | — | — |
 | Microsoft Azure | cloud | 1 | — | — |
 | CircleCI | devtools | 328 | 69m | 480m |
-| Cloudflare | cdn | 6919 | 239m | 510m |
+| Cloudflare | cdn | 6920 | 239m | 510m |
 | Confluent Cloud | data | 269 | 195m | 1585m |
 | Datadog | observability | 128 | 72m | 224m |
 | DigitalOcean | cloud | 513 | 145m | 575m |
@@ -33,39 +33,32 @@ Cross-vendor incident data for 25 providers. Corpus: **24,208 incidents**. Updat
 | Sentry | observability | 356 | 83m | 353m |
 | Snowflake | data | 218 | 121m | 598m |
 | Supabase | paas | 471 | 148m | 1280m |
-| Twilio | comms | 11363 | 272m | 1134m |
+| Twilio | comms | 11373 | 272m | 1137m |
 | Vercel | paas | 399 | 72m | 360m |
 | Zoom | comms | 219 | 104m | 1427m |
 
-## New since last run (14)
+## New since last run (11)
 
-- **Cloudflare** — Cloudflare Dashboard and Cloudflare API service issues (`major`)
-- **Cloudflare** — AI Gateway – Elevated errors for Gemini 4 models using Unified Billing (`minor`)
-- **Cloudflare** — Workers AI - Deepseek Flash increased errors (`minor`)
-- **Cloudflare** — RealTimeKit Recording Delays (`minor`)
-- **Cloudflare** — Cloudflare Billing Issues (`minor`)
-- **Cloudflare** — Elevated R2 Latency (`minor`)
-- **GitHub** — LFS degradation for some customers (`minor`)
-- **Grafana Cloud** — Stack Creation Failing for Grafana Cloud Users in Europe (`major`)
-- **Supabase** — Delays and Errors in Project Creation, Upgrades and Management API (`none`)
-- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Bahrain (`minor`)
-- **Twilio** — Voice Call Post Dial Delay and Failures Between a Subset of Twilio South Africa Phone Numbers and Network Subscribers (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Bouygues Telecom France (`minor`)
-- **Twilio** — Delay in Outbound SMS Send (`minor`)
-- **Twilio** — SMS Delivery Delays from Twilio to Spusu United Kingdom (`minor`)
+- **Cloudflare** — Cloudflare University website unavailable (`minor`)
+- **Twilio** — RCS Message Delivery Failures (`minor`)
+- **Twilio** — SMS Delivery Status From Twilio Toll-Free to US/CA (`minor`)
+- **Twilio** — MMS Delivery Status From Twilio Short-Code to US (`minor`)
+- **Twilio** — MMS Delivery Status From Twilio Toll-Free to US (`minor`)
+- **Twilio** — MMS Delivery Delays from a Subset of Twilio Long Codes to GCI United States (`minor`)
+- **Twilio** — Black Friday and Cyber Monday (November 27–30, 2026) (`none`)
+- **Twilio** — SMS Delivery Delays from Twilio to Izzi Mexico (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to OneNZ New Zealand (`minor`)
+- **Twilio** — SMS Delivery Delays from Twilio to Vodafone and Tismi United Kingdom (`minor`)
+- **Twilio** — SMS Delivery Delays from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to AT&T Mexico (`minor`)
 
-## Updated since last run (10)
+## Updated since last run (6)
 
-- **Cloudflare** — Elevated R2 errors for buckets in APAC region → `resolved`
-- **Cloudflare** — Some customers cannot create monitors → `resolved`
-- **Snowflake** — INC20000150 → `postmortem`
-- **Supabase** — API endpoint degradation observed Nov 13-16 → `resolved`
-- **OpenAI** — Elevated errors with Codex GitHub reviews and pull request merges → `resolved`
+- **Cloudflare** — Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized → `resolved`
+- **Twilio** — SMS Delivery Failures from Twilio to Econet Telecom Lesotho → `resolved`
 - **Twilio** — SMS Delivery Delays from Twilio to Bouygues Telecom France → `resolved`
-- **Twilio** — SMS Delivery Delays from Twilio to Multiple Networks in Italy → `resolved`
-- **Twilio** — SMS Delivery Failures from Twilio to Econet Telecom Lesotho → `identified`
-- **Twilio** — Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada → `identified`
-- **Twilio** — Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers → `identified`
+- **Twilio** — Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada → `resolved`
+- **Twilio** — Emergency Calling Configuration Issues for SIP Domains → `resolved`
+- **Twilio** — Voice Call Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Multiple Networks in Colombia → `monitoring`
 
 ---
 
